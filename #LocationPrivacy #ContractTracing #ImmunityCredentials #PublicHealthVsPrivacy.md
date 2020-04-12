@@ -1,26 +1,26 @@
 ---
 created: 2020-04-11T08:43:06-07:00
 modified: 2020-04-11T08:49:14-07:00
-title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPrivacy'
+title: '[#LocationPrivacy](https://twitter.com/hashtag/LocationPrivacy) #ContractTracing [#ImmunityCredentials](https://twitter.com/hashtag/ImmunityCredentials) [#PublicHealthVsPrivacy](https://twitter.com/hashtag/PublicHealthVsPrivacy)'
+
 ---
 
-# #LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPrivacy
+# [#LocationPrivacy](https://twitter.com/hashtag/LocationPrivacy) [#ContactTracing](https://twitter.com/hashtag/ContactTracing)  [#ImmunityCredentials](https://twitter.com/hashtag/ImmunityCredentials) [#PublicHealthVsPrivacy](https://twitter.com/hashtag/PublicHealthVsPrivacy)
 
 ## My Personal POV & High-Level Concerns 
 
-**This is my most recent presentation on the topic of why I'm I'm involved in the Self-Sovereign Identity movement, as part of a #Foremembrance this March at an SSI Meetup. I talk about some important history, and how it is relevant to the impact and risk of COVID-19 for privacy and identity systems:**
+**This is my most recent presentation on the topic of why I'm I'm involved in the Self-Sovereign Identity movement, as part of a [#Foremembrance](https://twitter.com/hashtag/Foremembrance) this March during an SSI Meetup virtual event. I talk about some important historical context from WWII in the Netherlands, and how it is relevant to the impact and risk of COVID-19 for privacy and identity systems:**
 
-* Allen, Christopher (2020, 27 March). How to avoid another identity tragedy with SSI. [#SSI #Foremembrance #Opinion #Presentation, SSI Meetup].
+* Allen, Christopher (2020, 27 March). How to avoid another identity tragedy with SSI. [#SSI [#Foremembrance](https://twitter.com/hashtag/Foremembrance) #Opinion #Presentation, SSI Meetup].
 
   * Presentation retrieved from https://docs.google.com/presentation/d/1lO6vik7UkXQEhAWtVsaF3Bn_KUAUhZsTflTPjeF3aSw
   * Video retrieved from https://www.youtube.com/watch?v=isanNSDoSnE.
-  
+
   > KEYQUOTE: Some of these things we've been fighting for a long time...in this crisis there is the opportunity to identify some best practices that are do-able now, and put some appropriate energy into better solutions that we can implement for maybe not this crisis, but for the next one.
 
-## News & Opinion
-*(Most Recent First)*
+## News & Opinion (Most Recent First)
 
-**Two of the biggest mobile app platfroms, Apple & Google, are partnering on contact-tracing technology. Early analysis **
+**Two of the biggest mobile app platfroms, Apple & Google, are partnering on contact-tracing technology. Early analysis is positive, but it still has some centralization issues. However, I am skeptical about both the efficacy (because it is too late and only works if large adoption) & the [#PrivacyByDesign](https://twitter.com/hashtag/PrivacyByDesign) (too centralized) of this first generation of [#ContactTracing](https://twitter.com/hashtag/ContactTracing) apps (see [Implementation & Analysis](#Implementation-&-Analysis) section below). That being said, I think it is worth the effort to learn best practices and make better choices for the next generation of apps.**
 
 * McSweeney, Michael (2020, April 10). Apple, Google partner on COVID-19 contact tracing tech initiative. [#News #Opinion, The Block]. Retrieved from https://www.theblockcrypto.com/linked/61556/apple-google-partner-on-covid-19-contact-tracing-tech-initiative.
 
@@ -32,7 +32,7 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 
   > KEYQUOTE via @mikarv: How exactly can #DP3T privacy-preserving Bluetooth COVID-19 alerts work if identifiable personal data never leaves your device? It's actually not so complicated, and even less so now @ncasenmare has made a fantastic, public domain, comic explaining it.
 
-**A pretty good update on what is happening on the telcom side of #LocationPrivacy. It does have me concerned that various efforts for privacy enhanced bluetooth #ContactTracing and other such approaches are a moot point given what the cell phone already allow to be correlated.**
+**A pretty good update on what is happening on the telcom side of [#LocationPrivacy](https://twitter.com/hashtag/LocationPrivacy). It does have me concerned that various efforts for privacy enhanced bluetooth [#ContactTracing](https://twitter.com/hashtag/ContactTracing) and other such approaches are a moot point given what the cell phone already allow to be correlated.**
 
 * Espinoza, Javier and Fildes, Nic (2020, April 7). Tracking coronavirus: big data and the challenge to privacy. [#News #Opinion, Financial Times; Free to Read]. Retrieved from https://www.ft.com/content/7cfad020-78c4-11ea-9840-1b8019d9a987.
 
@@ -156,8 +156,8 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 
   > ABSTRACT/KEYQUOTE: The guidelines address the privacy implications of handling location data by public administrations and identify potential risks related to the processing of personal location data. 
 
-## Implementation & Review
-*(Most Recent First)*
+## Implementation & Analysis
+*(Most recent first)*
 
 **Papers on DP3T (refer to earlier comic):**
 
@@ -194,7 +194,7 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 
 * Allen, Christopher (2020, March 29). AGENDA W3C Credentials CG Call. [#Review, W3C]. Retrieved from https://lists.w3.org/Archives/Public/public-credentials/2020Mar/0125.html
 
-  > KEYQUOTE: Despite that I agree with those that a key of the problem is that the task of #LocationPrivacy and anonymity is extremely difficult, I do believe that in the short term we can be pragmatic & not suffer “the perfect is the enemy of the good”. We can share best practices, salute those doing the right thing, shame those who do not, and demonstrate our commitment to both the common good as well as to preventing individual harm. An effective Honor System is not the worst short-term outcome.
+  > KEYQUOTE: Despite that I agree with those that a key of the problem is that the task of [#LocationPrivacy](https://twitter.com/hashtag/LocationPrivacy) and anonymity is extremely difficult, I do believe that in the short term we can be pragmatic & not suffer “the perfect is the enemy of the good”. We can share best practices, salute those doing the right thing, shame those who do not, and demonstrate our commitment to both the common good as well as to preventing individual harm. An effective Honor System is not the worst short-term outcome.
 
   > We also need to set the stage so that in the long term we can invest in the much more difficult problems of solving these problems more idealistically correctly. We need to fund things like deep requirements engineering, great user centric design including nudge/incentive/mechanism/ approaches, as well implementing the latest secure code practices, privacy protocols, zk-proofs and other modern cryptographic security approaches, etc.
 
