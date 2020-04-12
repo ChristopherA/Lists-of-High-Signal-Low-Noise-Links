@@ -1,7 +1,7 @@
 ---
 created: 2020-04-11T08:43:06-07:00
 modified: 2020-04-11T08:49:14-07:00
-title: '[#LocationPrivacy](https://twitter.com/hashtag/LocationPrivacy) #ContractTracing [#ImmunityCredentials](https://twitter.com/hashtag/ImmunityCredentials) [#PublicHealthVsPrivacy](https://twitter.com/hashtag/PublicHealthVsPrivacy)'
+title: '#LocationPrivacy #ContractTracing ImmunityCredentials #PublicHealthVsPrivacy'
 
 ---
 
@@ -20,7 +20,7 @@ title: '[#LocationPrivacy](https://twitter.com/hashtag/LocationPrivacy) #Contrac
 
 ## News & Opinion (Most Recent First)
 
-**Two of the biggest mobile app platfroms, Apple & Google, are partnering on contact-tracing technology. Early analysis is positive, but it still has some centralization issues. However, I am skeptical about both the efficacy (because it is too late and only works if large adoption) & the [#PrivacyByDesign](https://twitter.com/hashtag/PrivacyByDesign) (too centralized) of this first generation of [#ContactTracing](https://twitter.com/hashtag/ContactTracing) apps (see [Implementation & Analysis](#Implementation-&-Analysis) section below). That being said, I think it is worth the effort to learn best practices and make better choices for the next generation of apps.**
+**Two of the biggest mobile app platfroms, Apple & Google, are partnering on contact-tracing technology. Early privacy analysis is positive, but it still has centralization issues (see [Implementation & Analysis](#Implementation-&-Analysis) section below for more details).
 
 * McSweeney, Michael (2020, April 10). Apple, Google partner on COVID-19 contact tracing tech initiative. [#News #Opinion, The Block]. Retrieved from https://www.theblockcrypto.com/linked/61556/apple-google-partner-on-covid-19-contact-tracing-tech-initiative.
 
@@ -158,6 +158,14 @@ title: '[#LocationPrivacy](https://twitter.com/hashtag/LocationPrivacy) #Contrac
 
 ## Implementation & Analysis
 *(Most recent first)*
+
+## Implementations of #ContactTracing
+
+**[#ContactTracing](https://twitter.com/hashtag/ContactTracing) were among the first Covid-19 tech solutions proposed, basically informing people that they may have been in recent contact with someone with an active infection. There are huge privacy, concent and human rights risks in this area, as [#LocationPrivacy](https://twitter.com/hashtag/LocationPrivacy) is very difficult.**
+
+**There are some emerging solutions that are better than other, however, I still am skeptical about both the efficacy of [#ContactTracing](https://twitter.com/hashtag/ContactTracing) (because in many case is probably too late, and it only works if there is large adoption) & and issues of [#PrivacyByDesign](https://twitter.com/hashtag/PrivacyByDesign) (many open issues on incentive design, consent & active adversary issues, and all proposed solutions are too centralized) of this first generation of [#ContactTracing](https://twitter.com/hashtag/ContactTracing) apps.**
+
+**That being said, I beleive it is worth the effort to learn best practices of this generation of apps and make better choices for the next generation.**
 
 **Papers on DP3T (refer to earlier comic):**
 
