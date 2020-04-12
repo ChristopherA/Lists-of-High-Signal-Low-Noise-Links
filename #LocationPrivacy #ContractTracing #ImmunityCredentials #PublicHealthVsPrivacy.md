@@ -17,7 +17,8 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
   
   > KEYQUOTE: Some of these things we've been fighting for a long time...in this crisis there is the opportunity to identify some best practices that are do-able now, and put some appropriate energy into better solutions that we can implement for maybe not this crisis, but for the next one.
 
-## News & Opinion (Most Recent First)
+## News & Opinion
+*(Most Recent First)*
 
 **Two of the biggest mobile app platfroms, Apple & Google, are partnering on contact-tracing technology. Early analysis **
 
@@ -155,7 +156,8 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 
   > ABSTRACT/KEYQUOTE: The guidelines address the privacy implications of handling location data by public administrations and identify potential risks related to the processing of personal location data. 
 
-****Implementation & Review (Recent, First)**
+## Implementation & Review
+*(Most Recent First)*
 
 **Papers on DP3T (refer to earlier comic):**
 
