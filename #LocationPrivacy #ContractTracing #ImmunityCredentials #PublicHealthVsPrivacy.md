@@ -1,6 +1,6 @@
 ---
 created: 2020-04-11T08:43:06-07:00
-modified: 2020-04-12T16:34:00-07:00
+modified: 2020-04-12T16:45:00-07:00
 title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPrivacy'
 
 ---
@@ -22,14 +22,14 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
   * [Table of Contents](#table-of-contents)
   * [My Personal POV & High-Level Concerns](#my-personal-pov---high-level-concerns)
   * [General News & Opinion](#general-news---opinion)
-  * [Events](#events)
-  * [Law & Regulatory](#law---regulatory)
+  * [Law, Policy & Regulations](#law--policy---regulations)
   * [Implementations & Analysis](#implementations---analysis)
     + [Implementations of Contact Tracing](#implementations-of-contact-tracing)
     + [Analysis of Specific Contact Tracing Implemenations](#analysis-of-specific-contact-tracing-implemenations)
     + [General Criticism of Contact Tracing & Location Privacy Technology Solutions](#general-criticism-of-contact-tracing---location-privacy-technology-solutions)
   * [Immunity Credentials](#immunity-credentials)
   * [Other Related Privacy Technologies](#other-related-privacy-technologies)
+  * [Related Events & Meetings](#related-events---meetings)
   * [New & Unsorted](#new---unsorted)
 
 ## My Personal POV & High-Level Concerns 
@@ -78,11 +78,6 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
   > KEYQUOTE: Apps taking advantage of ‘bluetooth handshakes’ registered between two smartphone users when coming into close proximity with one another have received publicity recently following the establishment of a European project dubbed Pan-European Privacy-Preserving Proximity Tracing (PEPP-PT).
 
   > The technology borrows from various initiatives worldwide, including Singapore’s TraceTogether application, which has influenced other national projects in the West seeking to clamp down on the spread of the virus.
-
-* Johnston, Anna (2020, March 31). Privacy in a pandemic: Keep calm, and remember first principles [#News #Opinion, Salinger Privacy].
-  * Retrieved from https://www.salingerprivacy.com.au/2020/03/31/privacy-in-a-pandemic/.
-
-  > KEYQUOTE: Indeed a national committee of all the Australian privacy regulators has been formed to respond to COVID-related proposals with national implications (such as development of a contact tracing tool), and they have reiterated the value of conducting short-form Privacy Impact Assessments on proposed solutions to public health and economic problems, to make sure privacy is considered in the design process. 
 
 * McDonald, Sean (2020, March 30). The Digital Response to the Outbreak of COVID-19 [#Opinion, Centre for International Governance Innovation].
   * Retrieved from https://www.cigionline.org/articles/digital-response-outbreak-covid-19
@@ -170,22 +165,8 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
   * Retrieved from https://www.nature.com/articles/s41467-019-10933-3.
 
   > KEYQUOTE: Moving forward, they question whether current de-identification practices satisfy the anonymization standards of modern data protection laws such as GDPR and CCPA and emphasize the need to move, from a legal and regulatory perspective, beyond the de-identification release-and-forget model.
-  
-## Events
-
-**Human Rights Foundation holds Oslo Freedom Forum, and this year is holding virtual event COVIDcon April 13-14th:**
-
-* COVIDCON https://covidcon.org/
-
-* > ABSTRACT: This two-day event, open to global audiences, will feature presentations and panels about the current pandemic and its relationship to state censorship, disinformation, surveillance, and civil liberties. COVIDCon sessions will showcase the difference in the responses of authoritarian regimes and democratic governments to the outbreak of the novel coronavirus.”
-
-** Rebooting The Web of Trust https://www.WebOfTrust.info
-
-**I have been hosting this twice a year design workshop that brings together experts in the decentralized digital identity and privacy community in a collaborative "design workshop" that has published 50+ collaborative white papers. It is where the W3C Decentralized Identifier specification was originally incubated, which is on its way to becoming an international standard.
-
-**Unfortunately our last event in Buenos Aires where we planned to discussion #LocationPrivacy and other relatied Covid-19 privacy topics was cancelled. We are working now on plans for an event in the Fall in the EU, and expect many privacy tech, policy and regulatory experts coming specifially to work on the next generation of these technologies.**
-
-## Law & Regulatory
+ 
+## Law, Policy & Regulations
 *(Most recent first)*
 
 **Human Rights, Privacy Law & GPDR expert Elizabeth Renieres ([@hackylawyer](https://twitter.com/hackylawyer) always has great insights on the intersection of privacy technology, the law, and is always one of the first people I go to on these topics:**
@@ -212,6 +193,11 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 * GMSA Public Policy: COVID-19 Privacy Guidelines April 2020 https://www.gsma.com/publicpolicy/resources/covid-19-privacy-guidelines
 
   > ABSTRACT: The mobile industry recognises the urgency with which governments must act to slow the spread of COVID-19 and the desire of some governments to seek help regarding those efforts. At the same time, the mobile industry recognises that the use of mobile network operator data by governments or agencies raises serious privacy concerns. These guidelines reflect recommendations on how the mobile industry may maintain trust while responding to those governments and public health agencies that have sought assistance in the fight against COVID-19.
+
+* Johnston, Anna (2020, March 31). Privacy in a pandemic: Keep calm, and remember first principles [#News #Opinion, Salinger Privacy].
+  * Retrieved from https://www.salingerprivacy.com.au/2020/03/31/privacy-in-a-pandemic/.
+
+  > KEYQUOTE: Indeed a national committee of all the Australian privacy regulators has been formed to respond to COVID-related proposals with national implications (such as development of a contact tracing tool), and they have reiterated the value of conducting short-form Privacy Impact Assessments on proposed solutions to public health and economic problems, to make sure privacy is considered in the design process. 
 
 * Hernandez, Lorena (2020, January 27). Report: Guidelines for public administrations on location privacy - Version 2 [#Law #Regulatory, European Location Interoperability Solutions for e-Government].
   * Retrieved from https://joinup.ec.europa.eu/collection/elise-european-location-interoperability-solutions-e-government/document/report-guidelines-public-administrations-location-privacy-version-2.
@@ -401,7 +387,25 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 * Various of Christopher's links on Hilbert Curves
   https://pinboard.in/search/u:ChristopherA?query=hilbert
   
+## Related Events & Meetings
 
+**Human Rights Foundation holds Oslo Freedom Forum, and this year is holding virtual event COVIDcon April 13-14th:**
+
+* COVIDCON https://covidcon.org/
+
+* > ABSTRACT: This two-day event, open to global audiences, will feature presentations and panels about the current pandemic and its relationship to state censorship, disinformation, surveillance, and civil liberties. COVIDCon sessions will showcase the difference in the responses of authoritarian regimes and democratic governments to the outbreak of the novel coronavirus.”
+
+* Rebooting The Web of Trust https://www.WebOfTrust.info
+
+**I have been hosting this twice a year design workshop that brings together experts in the decentralized digital identity and privacy community in a collaborative "design workshop" that has published 50+ collaborative white papers. It is where the W3C Decentralized Identifier specification was originally incubated, which is on its way to becoming an international standard.
+
+**Unfortunately our last event in Buenos Aires where we planned to discussion #LocationPrivacy and other relatied Covid-19 privacy topics was cancelled. We are working now on plans for an event in the Fall in the EU, and expect many privacy tech, policy and regulatory experts coming specifially to work on the next generation of these technologies.**
+
+* W3C Credentials Community Gruop https://w3c-ccg.github.io/
+
+** I am co-chair of this World-Wide-Web Consortium (#W3C) community group, where a number of important credentials and identity specifications were nurtured to the point where they could be formalized into internation standards. Most notably, the Verifiable Credentials specification is now a full standard, and the Decentralized Identity specification is well on its way.**
+
+** Both of these standards are key architectures toward privacy design, in particular in the short term for #ImmunityCertificates. We meet online weekly via voice and IRC on Tuesdays at 12noon ET, 9am PT, and 5pm CET. At several recent meetings we have had discussion on COVID-19 related privacy topics, and it looks like some standards around #ImmunityCredentials and #LocationPrivacy in particular will become official work items. Our meetings are open to the public, and are annonced on our public mailing list.
 
 ## New & Unsorted
 
