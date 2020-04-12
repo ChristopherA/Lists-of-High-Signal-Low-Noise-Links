@@ -1,6 +1,6 @@
 ---
 created: 2020-04-11T08:43:06-07:00
-modified: 2020-04-12T16:45:00-07:00
+modified: 2020-04-12T16:53:00-07:00
 title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPrivacy'
 
 ---
@@ -22,6 +22,8 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
   * [Table of Contents](#table-of-contents)
   * [My Personal POV & High-Level Concerns](#my-personal-pov---high-level-concerns)
   * [General News & Opinion](#general-news---opinion)
+    + [Contact Tracing News](#contact-tracing-news)
+    + [Immunity Certificate News](#immunity-certificate-news)
   * [Law, Policy & Regulations](#law--policy---regulations)
   * [Implementations & Analysis](#implementations---analysis)
     + [Implementations of Contact Tracing](#implementations-of-contact-tracing)
