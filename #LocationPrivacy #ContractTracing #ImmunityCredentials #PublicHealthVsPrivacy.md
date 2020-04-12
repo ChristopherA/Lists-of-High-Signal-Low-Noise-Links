@@ -9,7 +9,7 @@ title: '#LocationPrivacy #ContractTracing ImmunityCredentials #PublicHealthVsPri
 
 ## My Personal POV & High-Level Concerns 
 
-**This is my most recent presentation on the topic of why I'm I'm involved in the Self-Sovereign Identity movement, as part of a [#Foremembrance](https://twitter.com/hashtag/Foremembrance) this March during an SSI Meetup virtual event. I talk about some important historical context from WWII in the Netherlands, and how it is relevant to the impact and risk of COVID-19 for privacy and identity systems:**
+**This is my most recent presentation on the topic of why I'm involved in the Self-Sovereign Identity movement, as part of a [#Foremembrance](https://twitter.com/hashtag/Foremembrance) this March during an SSI Meetup virtual event. I talk about some important historical context from WWII in the Netherlands, and how it is relevant to the impact and risk of COVID-19 for privacy and identity systems:**
 
 * Allen, Christopher (2020, 27 March). How to avoid another identity tragedy with SSI. [#SSI [#Foremembrance](https://twitter.com/hashtag/Foremembrance) #Opinion #Presentation, SSI Meetup].
 
@@ -20,7 +20,7 @@ title: '#LocationPrivacy #ContractTracing ImmunityCredentials #PublicHealthVsPri
 
 ## News & Opinion (Most Recent First)
 
-**Two of the biggest mobile app platfroms, Apple & Google, are partnering on contact-tracing technology. Early privacy analysis is positive, but it still has centralization issues (see [Implementation & Analysis](./#implementation--analysis) section below for more details).
+**Two of the biggest mobile app platfroms, Apple & Google, are partnering on contact-tracing technology. Early privacy analysis is positive, but it still has centralization issues (see [Implementation & Analysis](#implementation--analysis) section below for more details).**
 
 * McSweeney, Michael (2020, April 10). Apple, Google partner on COVID-19 contact tracing tech initiative. [#News #Opinion, The Block]. Retrieved from https://www.theblockcrypto.com/linked/61556/apple-google-partner-on-covid-19-contact-tracing-tech-initiative.
 
