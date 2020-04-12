@@ -124,13 +124,6 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 
   > ABSTRACT/KEYQUOTE: Too often, history shows, temporary measures imposed by governments to meet a crisis have become permanent...Limits must be placed on what data is collected, how it is used, and how long it is kept. Focusing on voluntary participation and anonymizing data could address some privacy concerns. Requiring secure deletion of information after a certain period of time is also important.
 
-**@SarahJamieLewis’s Twitter thread is a must read:**
-
-* Jamie Lewis, Sarah (2020, March 23). Twitter Thread, 12/12 [#Opinion, Twitter].
-  * Retrieved from https://twitter.com/sarahjamielewis/status/1242142313192644608?s=2.
-
-  > KEYQUOTE: There is no such thing as a robust privacy preserving contact tracing tool because social graphs and location graphs are impossible to anonymity because anonymity is fundamentally about  removing social and location context - once you do that all that is left is the honour system.
-
 * Scott, Mark; Cerulus, Laurens; Kayali, Laura (2020, March 23). Commission tells carriers to hand over mobile data in coronavirus fight [#News #Opinion, Politico].
   * Retrieved from https://www.politico.eu/article/european-commission-mobile-phone-data-thierry-breton-coronavirus-covid19/
 
@@ -198,12 +191,16 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
   * Retrieved from https://edpb.europa.eu/news/news/2020/statement-edpb-chair-processing-personal-data-context-covid-19-outbreak_en.
 
   > ABSTRACT/KEYQUOTE: The national laws implementing the ePrivacy Directive provide for the principle that the location data can only be used by the operator when they are made anonymous, or with the consent of the individuals...When it is not possible to only process anonymous data, Art. 15 of the ePrivacy Directive enables the member states to introduce legislative measures pursuing national security and public security.
+  
+* GMSA Public Policy: COVID-19 Privacy Guidelines April 2020 https://www.gsma.com/publicpolicy/resources/covid-19-privacy-guidelines
+
+  > ABSTRACT: The mobile industry recognises the urgency with which governments must act to slow the spread of COVID-19 and the desire of some governments to seek help regarding those efforts. At the same time, the mobile industry recognises that the use of mobile network operator data by governments or agencies raises serious privacy concerns. These guidelines reflect recommendations on how the mobile industry may maintain trust while responding to those governments and public health agencies that have sought assistance in the fight against COVID-19.
 
 * Hernandez, Lorena (2020, January 27). Report: Guidelines for public administrations on location privacy - Version 2 [#Law #Regulatory, European Location Interoperability Solutions for e-Government].
   * Retrieved from https://joinup.ec.europa.eu/collection/elise-european-location-interoperability-solutions-e-government/document/report-guidelines-public-administrations-location-privacy-version-2.
 
   > ABSTRACT/KEYQUOTE: The guidelines address the privacy implications of handling location data by public administrations and identify potential risks related to the processing of personal location data. 
-
+  
 ## Implementations & Analysis
 
 *(Most recent first)*
@@ -215,60 +212,6 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 **There are some emerging solutions that are better than other, however, I still am skeptical about both the efficacy of [#ContactTracing](https://twitter.com/hashtag/ContactTracing) (because in many case is probably too late, and it only works if there is large adoption) & and issues of [#PrivacyByDesign](https://twitter.com/hashtag/PrivacyByDesign) (many open issues on incentive design, consent & active adversary issues, and all proposed solutions are too centralized) of this first generation of [#ContactTracing](https://twitter.com/hashtag/ContactTracing) apps.**
 
 **That being said, I beleive it is worth the effort to learn best practices of this generation of apps and make better choices for the next generation.**
-
-**Papers on DP3T (refer to earlier comic):**
-
-* Troncoso, Carmela; et al (2020, April 10). Decentralized Privacy-Preserving Proximity Tracing: Simplified Overview. [#Review #Implementation, GitHub Whitepaper].
-  * Retrieved from https://github.com/DP-3T/documents/blob/master/DP3T%20White%20Paper.pdf.
-
-  > ABSTRACT: This document proposes a system for secure and privacy-preserving proximity tracing (aka contact tracing) at large scale. This system provides a technological foundation to help slow the spread of SARS-CoV-2 virus by simplifying and accelerating the process of notifying people who have been in contact with an infected person. The system design aims to minimise privacy and security risks for individuals and communities and guarantee the highest level of data protection.
-
-* Troncoso, Carmela (2020, April 3). Decentralized Privacy-Preserving Proximity Tracing: Simplified Overview. [#Review #Implementation, GitHub Whitepaper].
-  * Retrieved from https://github.com/DP-3T/documents/blob/master/DP3T%20-%20Simplified%20Three%20Page%20Brief.pdf.
-
-  > KEYQUOTE: Given the concerns about the effectiveness of legal safeguards, the impossibility of anonymization, and the intrinsic vulnerabilities of centralized data minimization models, we focus on decentralized designs for privacy preserving proximity tracing. 
-  
-**Important laypersons' introduction to Bayesian math and the massive difference between a 5% and a 3% margin of error for serological testing/passporting:**
-
-* Chivers, Tom (2020, April 7). How far away are ‘immunity passports’? [#News #Opinion, Unherd].
-
-  * Retrieved from https://unherd.com/2020/04/how-far-away-are-immunity-passports/.
-
-  > KEYQUOTE: If you issue immunity passports on this basis, barely a third of the people you give them to will actually be immune. “There’s nothing peculiar about this statistically,” Kevin McConway, an emeritus professor of statistics at the Open University, told me. “It’s just Bayes’ theorem.” The likelihood of you having had Covid-19, if you’ve had a positive test, depends not just on the accuracy of the test but on the prevalence in the population you’re looking at.
-
-**Questionnaire for people designing or evaluating contact tracers:**
-
-* de Montjoye, Yves-Alexandre; Houssiau, Florimond; Gadotti, Andrea and Florent Guepin (2020, April 2). Evaluating COVID-19 contact tracing apps? Here are 8 privacy questions we think you should ask. [#Opinion #Implementation, Computational Privacy Group].
-  * Retrieved from https://cpg.doc.ic.ac.uk/blog/evaluating-contact-tracing-apps-here-are-8-privacy-questions-we-think-you-should-ask/
-
-  > KEYQUOTE: In-depth formal analysis of the protocol is necessary before deployment and should be published. Protecting privacy should rely on mathematical proofs of correctness, with mitigation strategies considered only when necessary. Our questions focus on privacy aspects, but ensuring security is similarly crucial. This means, for example, supervising the integrity and authenticity of the crowdsourced data, evaluating how mobile malware could affect the app’s behavior, or assessing the resilience of the authority’s servers against intrusions.
-
-  > Building a contact tracing app that allows all of us to participate in the fight against COVID19 is possible, but it will require us to go beyond shallow reassurances that privacy is protected. 
-
-**W3C Credentials CG, where I am co-chair, regularly discusses privacy, and recently location privacy:**
-
-* Andrieu, Joe; Hamilton Duffy, Kim; Allen; Christopher (2020, March 24). Credentials CG Telecon. [#Review #Meeting, W3C Credentials CG].
-  * Retrieved from https://w3c-ccg.github.io/meetings/2020-03-24/. 
-
-* Replies in the CCG worth reading:
-  https://lists.w3.org/Archives/Public/public-credentials/2020Mar/0094.html
-  https://lists.w3.org/Archives/Public/public-credentials/2020Mar/0108.html
-  https://lists.w3.org/Archives/Public/public-credentials/2020Mar/0112.html
-  https://lists.w3.org/Archives/Public/public-credentials/2020Mar/0113.html
-  https://lists.w3.org/Archives/Public/public-credentials/2020Mar/0120.html
-  https://lists.w3.org/Archives/Public/public-credentials/2020Mar/0124.html
-  https://lists.w3.org/Archives/Public/public-credentials/2020Apr/0017.html
-
-**Excerpt of email from me:** 
-
-* Allen, Christopher (2020, March 29). AGENDA W3C Credentials CG Call. [#Review, W3C].
-  * Retrieved from https://lists.w3.org/Archives/Public/public-credentials/2020Mar/0125.html
-
-  > KEYQUOTE: Despite that I agree with those that a key of the problem is that the task of [#LocationPrivacy](https://twitter.com/hashtag/LocationPrivacy) and anonymity is extremely difficult, I do believe that in the short term we can be pragmatic & not suffer “the perfect is the enemy of the good”. We can share best practices, salute those doing the right thing, shame those who do not, and demonstrate our commitment to both the common good as well as to preventing individual harm. An effective Honor System is not the worst short-term outcome.
-
-  > We also need to set the stage so that in the long term we can invest in the much more difficult problems of solving these problems more idealistically correctly. We need to fund things like deep requirements engineering, great user centric design including nudge/incentive/mechanism/ approaches, as well implementing the latest secure code practices, privacy protocols, zk-proofs and other modern cryptographic security approaches, etc.
-
-  > For if we do not be somewhat pragmatic now, and set a stage to be able to invest in a more ideal future, we risk that everything we are currently doing on the privacy front now will fail because in the end, everyone will being tracked at another layer."
 
 **Some contact tracing implementations related, projects:**
 
@@ -336,11 +279,89 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 
   > Our reference implementation is available under the Mozilla License Agreement.
 
-* GMSA Public Policy: COVID-19 Privacy Guidelines April 2020 https://www.gsma.com/publicpolicy/resources/covid-19-privacy-guidelines
-
-  > ABSTRACT: The mobile industry recognises the urgency with which governments must act to slow the spread of COVID-19 and the desire of some governments to seek help regarding those efforts. At the same time, the mobile industry recognises that the use of mobile network operator data by governments or agencies raises serious privacy concerns. These guidelines reflect recommendations on how the mobile industry may maintain trust while responding to those governments and public health agencies that have sought assistance in the fight against COVID-19.
   
-## Other Location Privacy Related Technologies
+## Criticism & Review of #ContactTracing Technology Solutions
+(Most recent first)
+
+**A real problems in the current crop of #ContactTracing approaches are not the precisely the technology, but social incentive design and adversarial resistance to attacks**
+
+* Anderson, Ross (2020, April 12). "Contact Tracing in the Real World"
+    * Retrieved from https://www.lightbluetouchpaper.org/2020/04/12/contact-tracing-in-the-real-world/
+
+>ABSTRACT: “Here are some problems with private contact tracing. We should not give policymakers the false hope that they can avoid hard choices"
+>
+>KEYQUOTE: “The performance art people will tie a phone to a dog and let it run around the park; the Russians will use the app to run service-denial attacks and spread panic; & little Johnny will self-report symptoms to get the whole school sent home.”
+
+**Digital privacy expert, anonmyity researcher, and author of book "Queer Privacy" [@SarahJamieLewis](https://twitter.com/SarahJamieLewis)’s Twitter thread on the perils of #LocationPrivacy is a must read:**
+
+* Jamie Lewis, Sarah (2020, March 23). Twitter Thread, 12/12 [#Opinion, Twitter].
+  * Retrieved from https://twitter.com/sarahjamielewis/status/1242142313192644608?s=2.
+
+  > KEYQUOTE: There is no such thing as a robust privacy preserving contact tracing tool because social graphs and location graphs are impossible to anonymity because anonymity is fundamentally about  removing social and location context - once you do that all that is left is the honour system.
+  
+**My Twitter RT in to her thread**
+
+* Allen, Christopher (2020, March 23). Twitter Thread, 12/12 [#Opinion, Twitter].
+  * Retrieved from https://twitter.com/ChristopherA/status/1244346104054865920.
+  > KEYQUOTE: “Despite that I agree with those like @SarahJamieLewis that a key problem is that the task of #LocationPrivacy & real anonymity is extremely difficult, I do believe that in the short term we can be pragmatic & not suffer “the perfect is the enemy of the good. Regarding #LocationPrivacy we can share best practices, salute those doing the right thing, shame those who do not, and demonstrate our commitment to both the common good as well as to preventing individual harm. An effective Honor System is not the worst short-term outcome. We also need to set the stage to invest in the much more difficult problems of solving these problems long-term. We need to fund things like deep requirements engineering, great user centric design including nudge/incentive/mechanism/ approaches, as well as implementing the latest secure code practices, privacy protocols, zk-proofs and other modern cryptographic security approaches, etc. For if we do not be somewhat pragmatic now & thus fail to set a stage for investment in a more ideal future, we risk that everything we are currently doing on the privacy front now. It will fail because in the end, no matter what we do everyone will be tracked at another layer."
+
+
+
+**Papers on DP3T (refer to earlier comic):**
+
+* Troncoso, Carmela; et al (2020, April 10). Decentralized Privacy-Preserving Proximity Tracing: Simplified Overview. [#Review #Implementation, GitHub Whitepaper].
+  * Retrieved from https://github.com/DP-3T/documents/blob/master/DP3T%20White%20Paper.pdf.
+
+  > ABSTRACT: This document proposes a system for secure and privacy-preserving proximity tracing (aka contact tracing) at large scale. This system provides a technological foundation to help slow the spread of SARS-CoV-2 virus by simplifying and accelerating the process of notifying people who have been in contact with an infected person. The system design aims to minimise privacy and security risks for individuals and communities and guarantee the highest level of data protection.
+
+* Troncoso, Carmela (2020, April 3). Decentralized Privacy-Preserving Proximity Tracing: Simplified Overview. [#Review #Implementation, GitHub Whitepaper].
+  * Retrieved from https://github.com/DP-3T/documents/blob/master/DP3T%20-%20Simplified%20Three%20Page%20Brief.pdf.
+
+  > KEYQUOTE: Given the concerns about the effectiveness of legal safeguards, the impossibility of anonymization, and the intrinsic vulnerabilities of centralized data minimization models, we focus on decentralized designs for privacy preserving proximity tracing. 
+  
+**Important laypersons' introduction to Bayesian math and the massive difference between a 5% and a 3% margin of error for serological testing/passporting:**
+
+* Chivers, Tom (2020, April 7). How far away are ‘immunity passports’? [#News #Opinion, Unherd].
+
+  * Retrieved from https://unherd.com/2020/04/how-far-away-are-immunity-passports/.
+
+  > KEYQUOTE: If you issue immunity passports on this basis, barely a third of the people you give them to will actually be immune. “There’s nothing peculiar about this statistically,” Kevin McConway, an emeritus professor of statistics at the Open University, told me. “It’s just Bayes’ theorem.” The likelihood of you having had Covid-19, if you’ve had a positive test, depends not just on the accuracy of the test but on the prevalence in the population you’re looking at.
+
+**Questionnaire for people designing or evaluating contact tracers:**
+
+* de Montjoye, Yves-Alexandre; Houssiau, Florimond; Gadotti, Andrea and Florent Guepin (2020, April 2). Evaluating COVID-19 contact tracing apps? Here are 8 privacy questions we think you should ask. [#Opinion #Implementation, Computational Privacy Group].
+  * Retrieved from https://cpg.doc.ic.ac.uk/blog/evaluating-contact-tracing-apps-here-are-8-privacy-questions-we-think-you-should-ask/
+
+  > KEYQUOTE: In-depth formal analysis of the protocol is necessary before deployment and should be published. Protecting privacy should rely on mathematical proofs of correctness, with mitigation strategies considered only when necessary. Our questions focus on privacy aspects, but ensuring security is similarly crucial. This means, for example, supervising the integrity and authenticity of the crowdsourced data, evaluating how mobile malware could affect the app’s behavior, or assessing the resilience of the authority’s servers against intrusions.
+
+  > Building a contact tracing app that allows all of us to participate in the fight against COVID19 is possible, but it will require us to go beyond shallow reassurances that privacy is protected. 
+
+**W3C Credentials CG, where I am co-chair, regularly discusses privacy, and recently location privacy:**
+
+* Andrieu, Joe; Hamilton Duffy, Kim; Allen; Christopher (2020, March 24). Credentials CG Telecon. [#Review #Meeting, W3C Credentials CG].
+  * Retrieved from https://w3c-ccg.github.io/meetings/2020-03-24/. 
+
+* Replies in the CCG worth reading:
+  https://lists.w3.org/Archives/Public/public-credentials/2020Mar/0094.html
+  https://lists.w3.org/Archives/Public/public-credentials/2020Mar/0108.html
+  https://lists.w3.org/Archives/Public/public-credentials/2020Mar/0112.html
+  https://lists.w3.org/Archives/Public/public-credentials/2020Mar/0113.html
+  https://lists.w3.org/Archives/Public/public-credentials/2020Mar/0120.html
+  https://lists.w3.org/Archives/Public/public-credentials/2020Mar/0124.html
+  https://lists.w3.org/Archives/Public/public-credentials/2020Apr/0017.html
+
+**Excerpt of email from me:** 
+
+* Allen, Christopher (2020, March 29). AGENDA W3C Credentials CG Call. [#Review, W3C].
+  * Retrieved from https://lists.w3.org/Archives/Public/public-credentials/2020Mar/0125.html
+
+  > KEYQUOTE: Despite that I agree with those that a key of the problem is that the task of [#LocationPrivacy](https://twitter.com/hashtag/LocationPrivacy) and anonymity is extremely difficult, I do believe that in the short term we can be pragmatic & not suffer “the perfect is the enemy of the good”. We can share best practices, salute those doing the right thing, shame those who do not, and demonstrate our commitment to both the common good as well as to preventing individual harm. An effective Honor System is not the worst short-term outcome.
+
+  > We also need to set the stage so that in the long term we can invest in the much more difficult problems of solving these problems more idealistically correctly. We need to fund things like deep requirements engineering, great user centric design including nudge/incentive/mechanism/ approaches, as well implementing the latest secure code practices, privacy protocols, zk-proofs and other modern cryptographic security approaches, etc.
+
+  > For if we do not be somewhat pragmatic now, and set a stage to be able to invest in a more ideal future, we risk that everything we are currently doing on the privacy front now will fail because in the end, everyone will being tracked at another layer."
+
+## Other Related Privacy Technologies
 
 * Christopher Allen on Hilbert Curves and utility for zk range proofs for privacy
   https://twitter.com/ChristopherA/status/1243413128378892293?s=20
