@@ -17,6 +17,21 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 >
 > -- Christopher Allen <ChristopherA@LifeWithAlacrity.com\>, Github: [@ChristopherA](https://github.com/ChristopherA), Twitter: [@ChristopherA](https://twitter.com/ChristopherA)
 
+## Table of Contents
+
+  * [Table of Contents](#table-of-contents)
+  * [My Personal POV & High-Level Concerns](#my-personal-pov---high-level-concerns)
+  * [General News & Opinion](#general-news---opinion)
+  * [Events](#events)
+  * [Law & Regulatory](#law---regulatory)
+  * [Implementations & Analysis](#implementations---analysis)
+    + [Implementations of Contact Tracing](#implementations-of-contact-tracing)
+    + [Analysis of Specific Contact Tracing Implemenations](#analysis-of-specific-contact-tracing-implemenations)
+    + [General Criticism of Contact Tracing & Location Privacy Technology Solutions](#general-criticism-of-contact-tracing---location-privacy-technology-solutions)
+  * [Immunity Credentials](#immunity-credentials)
+  * [Other Related Privacy Technologies](#other-related-privacy-technologies)
+  * [New & Unsorted](#new---unsorted)
+
 ## My Personal POV & High-Level Concerns 
 
 **This is my most recent presentation on the topic of why I'm involved in the Self-Sovereign Identity movement, as part of a [#Foremembrance](https://twitter.com/hashtag/Foremembrance) this March during an SSI Meetup virtual event. I talk about some important historical context from WWII in the Netherlands, and how it is relevant to the impact and risk of COVID-19 for privacy and identity systems:**
@@ -28,7 +43,8 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 
   > KEYQUOTE: Some of these things we've been fighting for a long time...in this crisis there is the opportunity to identify some best practices that are do-able now, and put some appropriate energy into better solutions that we can implement for maybe not this crisis, but for the next one.
 
-## News & Opinion (Most Recent First)
+## General News & Opinion
+*(Most recent first)*
 
 **Two of the biggest mobile app platfroms, Apple & Google, are partnering on contact-tracing technology. Early privacy analysis is positive, but it still has centralization issues (see [Implementations & Analysis](#implementations--analysis) section below for more details).**
 
@@ -182,6 +198,11 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
   > Before we concede that a measure is necessary and begin to assess its proportionality, we question that underlying assumption — especially when it’s coming from private companies who stand to gain from it or governments who fear being perceived as lacking control over the situation. We apply the age-old tests of legality, necessity, and proportionality — in that order. We require concrete evidence that a measure will further specific aims or achieve certain measurable outcomes.
 
   > If privacy advocates don’t step up and do this, who will?
+  
+* Scott, Mark; Cerulus, Laurens; Kayali, Laura (2020, March 23) Article: Commission tells carriers to hand over mobile data in coronavirus fight
+  * Retrieved from https://www.politico.eu/article/european-commission-mobile-phone-data-thierry-breton-coronavirus-covid19/
+
+  > KEYQUOTE: The European Commission on Monday urged Europe's telecoms giants including Deutsche Telekom and Orange to share reams of people's mobile data from across the region to help predict the spread of the coronavirus…called on the companies to hand over anonymized and aggregated data from people’s mobile phones to track how the virus was spreading…The draft plans would allow the Commission — and not the carriers — to manage how the data was used, and give EU officials control over so-called metadata on hundreds of millions of people’s mobile phones. That represents a significant step for Brussels as it would make the EU executive liable for any hefty fines if the digital information was hacked or misused.
 
 * Unknown (2020, March 16). Statement by the EDPB Chair on the processing of personal data in the context of the COVID-19 outbreak [#Law #Regulatory, European Data Protection Board].
   * Retrieved from https://edpb.europa.eu/news/news/2020/statement-edpb-chair-processing-personal-data-context-covid-19-outbreak_en.
@@ -197,11 +218,12 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 
   > ABSTRACT/KEYQUOTE: The guidelines address the privacy implications of handling location data by public administrations and identify potential risks related to the processing of personal location data. 
   
+  
 ## Implementations & Analysis
 
 *(Most recent first)*
 
-## Implementations of #ContactTracing
+### Implementations of Contact Tracing
 
 **[#ContactTracing](https://twitter.com/hashtag/ContactTracing) were among the first Covid-19 tech solutions proposed, basically informing people that they may have been in recent contact with someone with an active infection. There are huge privacy, concent and human rights risks in this area, as [#LocationPrivacy](https://twitter.com/hashtag/LocationPrivacy) is very difficult.**
 
@@ -282,7 +304,26 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 
   > KEYQUOTE: Given the concerns about the effectiveness of legal safeguards, the impossibility of anonymization, and the intrinsic vulnerabilities of centralized data minimization models, we focus on decentralized designs for privacy preserving proximity tracing. 
   
-## General Criticism of Contact Tracing & Location Privacy Technology Solutions
+### Analysis of Specific Contact Tracing Implemenations
+
+**Two early reivew of Singapore's Trace Together app and the BlueTrace protocol**
+
+* L, Frank (2020, March 23). Trace Together Under the HooD [#Implementation #Review, Medium].
+  * Retrieved from https://medium.com/@frankvolkel/tracetogether-under-the-hood-7d5e509aeb5d. 
+
+* Typic, Zero (2020, March 23). Reversing Trace Together.
+  * Retrieved from https://medium.com/@zerotypic/reversing-tracetogether-initial-analysis-edc940e86aa8.
+
+**Questionnaire for people designing or evaluating contact tracers:**
+
+* de Montjoye, Yves-Alexandre; Houssiau, Florimond; Gadotti, Andrea and Florent Guepin (2020, April 2). Evaluating COVID-19 contact tracing apps? Here are 8 privacy questions we think you should ask. [#Opinion #Implementation, Computational Privacy Group].
+  * Retrieved from https://cpg.doc.ic.ac.uk/blog/evaluating-contact-tracing-apps-here-are-8-privacy-questions-we-think-you-should-ask/
+
+  > KEYQUOTE: In-depth formal analysis of the protocol is necessary before deployment and should be published. Protecting privacy should rely on mathematical proofs of correctness, with mitigation strategies considered only when necessary. Our questions focus on privacy aspects, but ensuring security is similarly crucial. This means, for example, supervising the integrity and authenticity of the crowdsourced data, evaluating how mobile malware could affect the app’s behavior, or assessing the resilience of the authority’s servers against intrusions.
+
+  > Building a contact tracing app that allows all of us to participate in the fight against COVID19 is possible, but it will require us to go beyond shallow reassurances that privacy is protected. 
+  
+### General Criticism of Contact Tracing & Location Privacy Technology Solutions
 (Most recent first)
 
 **A real problems in the current crop of #ContactTracing approaches are not the precisely the technology, but social incentive design and adversarial resistance to attacks**
@@ -315,26 +356,6 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
   * Retrieved from https://twitter.com/ChristopherA/status/1244346104054865920.
   > KEYQUOTE: Despite that I agree with those like @SarahJamieLewis that a key problem is that the task of #LocationPrivacy & real anonymity is extremely difficult, I do believe that in the short term we can be pragmatic & not suffer “the perfect is the enemy of the good. Regarding #LocationPrivacy we can share best practices, salute those doing the right thing, shame those who do not, and demonstrate our commitment to both the common good as well as to preventing individual harm. An effective Honor System is not the worst short-term outcome. We also need to set the stage to invest in the much more difficult problems of solving these problems long-term. We need to fund things like deep requirements engineering, great user centric design including nudge/incentive/mechanism/ approaches, as well as implementing the latest secure code practices, privacy protocols, zk-proofs and other modern cryptographic security approaches, etc. For if we do not be somewhat pragmatic now & thus fail to set a stage for investment in a more ideal future, we risk that everything we are currently doing on the privacy front now. It will fail because in the end, no matter what we do everyone will be tracked at another layer.
   
-### Analysis of Specific Implemenations
-
-** Two early reivew of Singapore's Trace Together app and the BlueTrace protocol**
-
-* L, Frank (2020, March 23). Trace Together Under the HooD [#Implementation #Review, Medium].
-  * Retrieved from https://medium.com/@frankvolkel/tracetogether-under-the-hood-7d5e509aeb5d. 
-
-* Typic, Zero (2020, March 23). Reversing Trace Together.
-  * Retrieved from https://medium.com/@zerotypic/reversing-tracetogether-initial-analysis-edc940e86aa8.
-
-
-**Questionnaire for people designing or evaluating contact tracers:**
-
-* de Montjoye, Yves-Alexandre; Houssiau, Florimond; Gadotti, Andrea and Florent Guepin (2020, April 2). Evaluating COVID-19 contact tracing apps? Here are 8 privacy questions we think you should ask. [#Opinion #Implementation, Computational Privacy Group].
-  * Retrieved from https://cpg.doc.ic.ac.uk/blog/evaluating-contact-tracing-apps-here-are-8-privacy-questions-we-think-you-should-ask/
-
-  > KEYQUOTE: In-depth formal analysis of the protocol is necessary before deployment and should be published. Protecting privacy should rely on mathematical proofs of correctness, with mitigation strategies considered only when necessary. Our questions focus on privacy aspects, but ensuring security is similarly crucial. This means, for example, supervising the integrity and authenticity of the crowdsourced data, evaluating how mobile malware could affect the app’s behavior, or assessing the resilience of the authority’s servers against intrusions.
-
-  > Building a contact tracing app that allows all of us to participate in the fight against COVID19 is possible, but it will require us to go beyond shallow reassurances that privacy is protected. 
-
 **W3C Credentials CG, where I am co-chair, regularly discusses privacy, and recently location privacy:**
 
 * Andrieu, Joe; Hamilton Duffy, Kim; Allen; Christopher (2020, March 24). Credentials CG Telecon. [#Review #Meeting, W3C Credentials CG].
@@ -372,7 +393,6 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 
   > KEYQUOTE: If you issue immunity passports on this basis, barely a third of the people you give them to will actually be immune. “There’s nothing peculiar about this statistically,” Kevin McConway, an emeritus professor of statistics at the Open University, told me. “It’s just Bayes’ theorem.” The likelihood of you having had Covid-19, if you’ve had a positive test, depends not just on the accuracy of the test but on the prevalence in the population you’re looking at.
 
-
 ## Other Related Privacy Technologies
 
 * Christopher Allen on Hilbert Curves and utility for zk range proofs for privacy
@@ -381,11 +401,7 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 * Various of Christopher's links on Hilbert Curves
   https://pinboard.in/search/u:ChristopherA?query=hilbert
   
-**CANNOT ACCESS DUE TO PAYWALL**
-
-* Dutch privacy regulators say it is not possible to anonymzie telecom location data
-  https://www.politico.eu/pro/dutch-privacy-regulator-says-not-possible-to-anonymize-telecom-location-data/
 
 
-### New & Unsorted
+## New & Unsorted
 
