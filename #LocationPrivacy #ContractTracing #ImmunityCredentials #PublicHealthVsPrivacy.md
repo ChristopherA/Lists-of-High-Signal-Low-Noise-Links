@@ -56,10 +56,6 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 
   > Some researchers are not convinced by the claim that such data sets are completely anonymous. A 2019 study by researchers at Imperial College London and Belgium’s Catholic University of Louvain revealed there is a way to re-identify 99.98 per cent of individuals with just 15 demographic characteristics using location data. Other studies have come to similar conclusions that individuals can be identified based on aggregate data sets with relative ease.
 
-* Franceschi-Bicchierai, Lorenzo (2020, April 2). We Saw NSO's Covid-19 Software in Action, and Privacy Experts Are Worried. [#News #Opinion, Vice]. Retrieved from https://www.vice.com/en_us/article/epg9jm/nso-covid-19-surveillance-tech-software-tracking-infected-privacy-experts-worried
-
-  > KEYQUOTE: Every citizen of the world wants to go back to normal as soon as possible. The gold rush to surveillance technology could easily mean that there is a normal expectation of privacy that we will have a hard time going back to.
-
 * Stolton, Samuel (2020, April 6). EU data watchdog pitches pan-European COVID-19 app. [#News #Opinion, Euractiv].
   * Retrieved from https://www.euractiv.com/section/digital/news/eu-data-watchdog-pitches-pan-european-covid-19-app/
 
@@ -222,11 +218,6 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 
   > BlueTrace is a privacy-preserving protocol for community-driven contact tracing using Bluetooth devices, that allows for global inter-operability.
   * Retrieved from https://bluetrace.io/.
-  >
-  > > L, Frank (2020, March 23). Trace Together Under the HooD [#Implementation #Review, Medium].
-  * Retrieved from https://medium.com/@frankvolkel/tracetogether-under-the-hood-7d5e509aeb5d. 
-  > > Typic, Zero (2020, March 23). Reversing Trace Together.
-  * Retrieved from https://medium.com/@zerotypic/reversing-tracetogether-initial-analysis-edc940e86aa8.
 
 * MIT: SafePaths:
 
@@ -279,34 +270,6 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 
   > Our reference implementation is available under the Mozilla License Agreement.
 
-  
-## Criticism & Review of #ContactTracing Technology Solutions
-(Most recent first)
-
-**A real problems in the current crop of #ContactTracing approaches are not the precisely the technology, but social incentive design and adversarial resistance to attacks**
-
-* Anderson, Ross (2020, April 12). "Contact Tracing in the Real World"
-    * Retrieved from https://www.lightbluetouchpaper.org/2020/04/12/contact-tracing-in-the-real-world/
-
->ABSTRACT: “Here are some problems with private contact tracing. We should not give policymakers the false hope that they can avoid hard choices"
->
->KEYQUOTE: “The performance art people will tie a phone to a dog and let it run around the park; the Russians will use the app to run service-denial attacks and spread panic; & little Johnny will self-report symptoms to get the whole school sent home.”
-
-**Digital privacy expert, anonmyity researcher, and author of book "Queer Privacy" [@SarahJamieLewis](https://twitter.com/SarahJamieLewis)’s Twitter thread on the perils of #LocationPrivacy is a must read:**
-
-* Jamie Lewis, Sarah (2020, March 23). Twitter Thread, 12/12 [#Opinion, Twitter].
-  * Retrieved from https://twitter.com/sarahjamielewis/status/1242142313192644608?s=2.
-
-  > KEYQUOTE: There is no such thing as a robust privacy preserving contact tracing tool because social graphs and location graphs are impossible to anonymity because anonymity is fundamentally about  removing social and location context - once you do that all that is left is the honour system.
-  
-**My Twitter RT in to her thread**
-
-* Allen, Christopher (2020, March 23). Twitter Thread, 12/12 [#Opinion, Twitter].
-  * Retrieved from https://twitter.com/ChristopherA/status/1244346104054865920.
-  > KEYQUOTE: “Despite that I agree with those like @SarahJamieLewis that a key problem is that the task of #LocationPrivacy & real anonymity is extremely difficult, I do believe that in the short term we can be pragmatic & not suffer “the perfect is the enemy of the good. Regarding #LocationPrivacy we can share best practices, salute those doing the right thing, shame those who do not, and demonstrate our commitment to both the common good as well as to preventing individual harm. An effective Honor System is not the worst short-term outcome. We also need to set the stage to invest in the much more difficult problems of solving these problems long-term. We need to fund things like deep requirements engineering, great user centric design including nudge/incentive/mechanism/ approaches, as well as implementing the latest secure code practices, privacy protocols, zk-proofs and other modern cryptographic security approaches, etc. For if we do not be somewhat pragmatic now & thus fail to set a stage for investment in a more ideal future, we risk that everything we are currently doing on the privacy front now. It will fail because in the end, no matter what we do everyone will be tracked at another layer."
-
-
-
 **Papers on DP3T (refer to earlier comic):**
 
 * Troncoso, Carmela; et al (2020, April 10). Decentralized Privacy-Preserving Proximity Tracing: Simplified Overview. [#Review #Implementation, GitHub Whitepaper].
@@ -319,13 +282,49 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 
   > KEYQUOTE: Given the concerns about the effectiveness of legal safeguards, the impossibility of anonymization, and the intrinsic vulnerabilities of centralized data minimization models, we focus on decentralized designs for privacy preserving proximity tracing. 
   
-**Important laypersons' introduction to Bayesian math and the massive difference between a 5% and a 3% margin of error for serological testing/passporting:**
+## General Criticism of Contact Tracing & Location Privacy Technology Solutions
+(Most recent first)
 
-* Chivers, Tom (2020, April 7). How far away are ‘immunity passports’? [#News #Opinion, Unherd].
+**A real problems in the current crop of #ContactTracing approaches are not the precisely the technology, but social incentive design and adversarial resistance to attacks**
 
-  * Retrieved from https://unherd.com/2020/04/how-far-away-are-immunity-passports/.
+* Anderson, Ross (2020, April 12). "Contact Tracing in the Real World"
+    * Retrieved from https://www.lightbluetouchpaper.org/2020/04/12/contact-tracing-in-the-real-world/
 
-  > KEYQUOTE: If you issue immunity passports on this basis, barely a third of the people you give them to will actually be immune. “There’s nothing peculiar about this statistically,” Kevin McConway, an emeritus professor of statistics at the Open University, told me. “It’s just Bayes’ theorem.” The likelihood of you having had Covid-19, if you’ve had a positive test, depends not just on the accuracy of the test but on the prevalence in the population you’re looking at.
+>ABSTRACT: “Here are some problems with private contact tracing. We should not give policymakers the false hope that they can avoid hard choices"
+>
+>KEYQUOTE: “The performance art people will tie a phone to a dog and let it run around the park; the Russians will use the app to run service-denial attacks and spread panic; & little Johnny will self-report symptoms to get the whole school sent home.”
+
+** Criticism isn't always about the implementation of these technolgies, but also the concerns about the parties doing the implementations**
+
+* Franceschi-Bicchierai, Lorenzo (2020, April 2). We Saw NSO's Covid-19 Software in Action, and Privacy Experts Are Worried. [#News #Opinion, Vice]. Retrieved from https://www.vice.com/en_us/article/epg9jm/nso-covid-19-surveillance-tech-software-tracking-infected-privacy-experts-worried
+
+  > ABSTRACT: Every citizen of the world wants to go back to normal as soon as possible. The gold rush to surveillance technology could easily mean that there is a normal expectation of privacy that we will have a hard time going back to.
+  > 
+  > KEYQUOTE: In the spirit of never letting a good crisis go to waste, several companies around the world— some already notorious and some less public—are pitching and developing surveillance tools to help governments track citizens with the goal of stopping the spread of coronavirus. For critics, however, this is an unnecessary escalation justified by a tragic health crisis.
+
+**Digital privacy expert, anonmyity researcher, and author of book "Queer Privacy" [@SarahJamieLewis](https://twitter.com/SarahJamieLewis)’s Twitter thread on the perils of #LocationPrivacy is a must read:**
+
+* Jamie Lewis, Sarah (2020, March 23). Twitter Thread, 12/12 [#Opinion, Twitter].
+  * Retrieved from https://twitter.com/sarahjamielewis/status/1242142313192644608?s=2.
+
+  > KEYQUOTE: There is no such thing as a robust privacy preserving contact tracing tool because social graphs and location graphs are impossible to anonymity because anonymity is fundamentally about  removing social and location context - once you do that all that is left is the honour system.
+  
+**My Twitter RT in to her thread**
+
+* Allen, Christopher (2020, March 23). Twitter Thread, 12/12 [#Opinion, Twitter].
+  * Retrieved from https://twitter.com/ChristopherA/status/1244346104054865920.
+  > KEYQUOTE: Despite that I agree with those like @SarahJamieLewis that a key problem is that the task of #LocationPrivacy & real anonymity is extremely difficult, I do believe that in the short term we can be pragmatic & not suffer “the perfect is the enemy of the good. Regarding #LocationPrivacy we can share best practices, salute those doing the right thing, shame those who do not, and demonstrate our commitment to both the common good as well as to preventing individual harm. An effective Honor System is not the worst short-term outcome. We also need to set the stage to invest in the much more difficult problems of solving these problems long-term. We need to fund things like deep requirements engineering, great user centric design including nudge/incentive/mechanism/ approaches, as well as implementing the latest secure code practices, privacy protocols, zk-proofs and other modern cryptographic security approaches, etc. For if we do not be somewhat pragmatic now & thus fail to set a stage for investment in a more ideal future, we risk that everything we are currently doing on the privacy front now. It will fail because in the end, no matter what we do everyone will be tracked at another layer.
+  
+### Analysis of Specific Implemenations
+
+** Two early reivew of Singapore's Trace Together app and the BlueTrace protocol**
+
+* L, Frank (2020, March 23). Trace Together Under the HooD [#Implementation #Review, Medium].
+  * Retrieved from https://medium.com/@frankvolkel/tracetogether-under-the-hood-7d5e509aeb5d. 
+
+* Typic, Zero (2020, March 23). Reversing Trace Together.
+  * Retrieved from https://medium.com/@zerotypic/reversing-tracetogether-initial-analysis-edc940e86aa8.
+
 
 **Questionnaire for people designing or evaluating contact tracers:**
 
@@ -360,6 +359,19 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
   > We also need to set the stage so that in the long term we can invest in the much more difficult problems of solving these problems more idealistically correctly. We need to fund things like deep requirements engineering, great user centric design including nudge/incentive/mechanism/ approaches, as well implementing the latest secure code practices, privacy protocols, zk-proofs and other modern cryptographic security approaches, etc.
 
   > For if we do not be somewhat pragmatic now, and set a stage to be able to invest in a more ideal future, we risk that everything we are currently doing on the privacy front now will fail because in the end, everyone will being tracked at another layer."
+  
+## Immunity Credentials
+
+** Most of the news has been about governments using cell phones & mobile apps to do #ContractTracing, but another important topic area is how we can create digital "Immunity Certificates" to allow people who have recovered from Covid-19 to leave quarantine, participate in the economic recovery, and to travel for work or family.
+
+**Important laypersons' introduction to Bayesian math and the massive difference between a 5% and a 3% margin of error for serological testing/passporting:**
+
+* Chivers, Tom (2020, April 7). How far away are ‘immunity passports’? [#News #Opinion, Unherd].
+
+  * Retrieved from https://unherd.com/2020/04/how-far-away-are-immunity-passports/.
+
+  > KEYQUOTE: If you issue immunity passports on this basis, barely a third of the people you give them to will actually be immune. “There’s nothing peculiar about this statistically,” Kevin McConway, an emeritus professor of statistics at the Open University, told me. “It’s just Bayes’ theorem.” The likelihood of you having had Covid-19, if you’ve had a positive test, depends not just on the accuracy of the test but on the prevalence in the population you’re looking at.
+
 
 ## Other Related Privacy Technologies
 
