@@ -1,11 +1,19 @@
 ---
 created: 2020-04-11T08:43:06-07:00
-modified: 2020-04-11T08:49:14-07:00
+modified: 2020-04-12 15:02:00 -0700
 title: '#LocationPrivacy #ContractTracing ImmunityCredentials #PublicHealthVsPrivacy'
 
 ---
 
 # [#LocationPrivacy](https://twitter.com/hashtag/LocationPrivacy) [#ContactTracing](https://twitter.com/hashtag/ContactTracing)  [#ImmunityCredentials](https://twitter.com/hashtag/ImmunityCredentials) [#PublicHealthVsPrivacy](https://twitter.com/hashtag/PublicHealthVsPrivacy)
+
+> This is one of my [series of lists](https://github.com/ChristopherA/High-Signal-Low-Noise-Link-Lists) of opinionated, high-signal but low-noise links on topics I care about.
+>
+> If you like my advocacy, my point-of-view, my writing, my travel, my talks, and my work with organizations such as [Blockchain Commons](https://www.BlockchainCommons.com), [Rebooting the Web of Trust](https://www.WebOfTrust.info) and the [W3C Credentials CG](https://w3c-ccg.github.io), I invite you to sponsor me by becoming a monthly patron on my [GitHub Sponsor Page](https://github.com/sponsors/ChristopherA) for as little as $5 a month, as they are matching the first $5,000!
+>
+> Alternatively can also support my efforts by sponsoring [Blockchain Commons](https://www.BlockchainCommons.com) and our vision of the open web via a monthly [GitHub Sponsorship](https://github.com/sponsors/BlockchainCommons) or with Bitcoin via our BTCPay contribution page. [Bitcoin contribution](https://btcpay.blockchaincommons.com).
+>
+>But please don’t think of this as a transaction. It’s an opportunity to advance the open web, digital civil liberties and human rights together. You get to plug into my various projects, and hopefully will find a way to actively contribute to the digital commons yourself. Let’s collaborate!
 
 ## My Personal POV & High-Level Concerns 
 
@@ -157,6 +165,7 @@ title: '#LocationPrivacy #ContractTracing ImmunityCredentials #PublicHealthVsPri
   > ABSTRACT/KEYQUOTE: The guidelines address the privacy implications of handling location data by public administrations and identify potential risks related to the processing of personal location data. 
 
 ## Implementation & Analysis
+
 *(Most recent first)*
 
 ## Implementations of #ContactTracing
