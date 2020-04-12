@@ -72,13 +72,6 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 
   > Some researchers are not convinced by the claim that such data sets are completely anonymous. A 2019 study by researchers at Imperial College London and Belgium’s Catholic University of Louvain revealed there is a way to re-identify 99.98 per cent of individuals with just 15 demographic characteristics using location data. Other studies have come to similar conclusions that individuals can be identified based on aggregate data sets with relative ease.
 
-* Stolton, Samuel (2020, April 6). EU data watchdog pitches pan-European COVID-19 app. [#News #Opinion, Euractiv].
-  * Retrieved from https://www.euractiv.com/section/digital/news/eu-data-watchdog-pitches-pan-european-covid-19-app/
-
-  > KEYQUOTE: Apps taking advantage of ‘bluetooth handshakes’ registered between two smartphone users when coming into close proximity with one another have received publicity recently following the establishment of a European project dubbed Pan-European Privacy-Preserving Proximity Tracing (PEPP-PT).
-
-  > The technology borrows from various initiatives worldwide, including Singapore’s TraceTogether application, which has influenced other national projects in the West seeking to clamp down on the spread of the virus.
-
 * McDonald, Sean (2020, March 30). The Digital Response to the Outbreak of COVID-19 [#Opinion, Centre for International Governance Innovation].
   * Retrieved from https://www.cigionline.org/articles/digital-response-outbreak-covid-19
 
@@ -230,6 +223,13 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 * MIT: SafePaths:
 
   > https://www.media.mit.edu/projects/safepaths/overview/ - Safe Paths is an MIT-led, free, open source technology that enables jurisdictions and individuals to maximize privacy, while also maximizing the effectiveness of contact tracing in the case of a positive diagnosis. The Safe Paths platform, currently in beta, comprises both a smartphone application, PrivateKit, and a web application, Safe Places.
+  
+* EU: PEPP-PT (Pan-European Privacy-Preserving Proximity Tracing):
+
+  * Stolton, Samuel (2020, April 6). EU data watchdog pitches pan-European COVID-19 app. [#News #Opinion, Euractiv].
+    * Retrieved from https://www.euractiv.com/section/digital/news/eu-data-watchdog-pitches-pan-european-covid-19-app/
+
+    > KEYQUOTE: Apps taking advantage of ‘bluetooth handshakes’ registered between two smartphone users when coming into close proximity with one another have received publicity recently following the establishment of a European project dubbed Pan-European Privacy-Preserving Proximity Tracing (PEPP-PT)…The technology borrows from various initiatives worldwide, including Singapore’s TraceTogether application, which has influenced other national projects in the West seeking to clamp down on the spread of the virus.
 
 * Israel: The Shield
   https://translate.google.com/translate?sl=auto&tl=en&u=https%3A%2F%2Fwww.haaretz.co.il%2Fcaptain%2Fsoftware%2F1.8700078
