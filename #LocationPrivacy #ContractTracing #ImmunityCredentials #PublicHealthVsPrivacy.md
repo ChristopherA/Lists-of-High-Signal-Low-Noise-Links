@@ -20,7 +20,7 @@ title: '#LocationPrivacy #ContractTracing ImmunityCredentials #PublicHealthVsPri
 
 ## News & Opinion (Most Recent First)
 
-**Two of the biggest mobile app platfroms, Apple & Google, are partnering on contact-tracing technology. Early privacy analysis is positive, but it still has centralization issues (see [Implementation & Analysis](#Implementation-&-Analysis) section below for more details).
+**Two of the biggest mobile app platfroms, Apple & Google, are partnering on contact-tracing technology. Early privacy analysis is positive, but it still has centralization issues (see [Implementation & Analysis](./#implementation--analysis) section below for more details).
 
 * McSweeney, Michael (2020, April 10). Apple, Google partner on COVID-19 contact tracing tech initiative. [#News #Opinion, The Block]. Retrieved from https://www.theblockcrypto.com/linked/61556/apple-google-partner-on-covid-19-contact-tracing-tech-initiative.
 
