@@ -13,6 +13,8 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 > Alternatively can also support my efforts by sponsoring [Blockchain Commons](https://www.BlockchainCommons.com) and our vision of the open web via a monthly [GitHub Sponsorship](https://github.com/sponsors/BlockchainCommons) or with Bitcoin via our BTCPay contribution page. [Bitcoin contribution](https://btcpay.blockchaincommons.com).
 >
 >But please don’t think of this as a transaction. It’s an opportunity to advance the open web, digital civil liberties and human rights together. You get to plug into my various projects, and hopefully will find a way to actively contribute to the digital commons yourself. Let’s collaborate!
+>
+>-- Christopher Allen <ChristopherA@LifeWithAlacrity.com\>, Github: [@ChristopherA](https://github.com/ChristopherA), Twitter: [@ChristopherA](https://twitter.com/ChristopherA)
 
 ## My Personal POV & High-Level Concerns 
 
