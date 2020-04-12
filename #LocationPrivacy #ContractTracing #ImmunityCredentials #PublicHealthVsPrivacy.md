@@ -30,7 +30,7 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 
 ## News & Opinion (Most Recent First)
 
-**Two of the biggest mobile app platfroms, Apple & Google, are partnering on contact-tracing technology. Early privacy analysis is positive, but it still has centralization issues (see [Implementation & Analysis](#implementation--analysis) section below for more details).**
+**Two of the biggest mobile app platfroms, Apple & Google, are partnering on contact-tracing technology. Early privacy analysis is positive, but it still has centralization issues (see [Implementations & Analysis](#implementations--analysis) section below for more details).**
 
 * McSweeney, Michael (2020, April 10). Apple, Google partner on COVID-19 contact tracing tech initiative. [#News #Opinion, The Block].
 
@@ -55,14 +55,6 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
   > KEYQUOTE: Still, assurances from officials and industry executives have done little to appease anxiety that privacy rights could be brushed aside as governments seek to use tools of mass surveillance in their efforts to combat the virus. The concerns about political use of data have been aggravated by the fact that the European Commission wants the telecoms companies to provide the actual aggregated data, not just access to insights from that information.
 
   > Some researchers are not convinced by the claim that such data sets are completely anonymous. A 2019 study by researchers at Imperial College London and Belgium’s Catholic University of Louvain revealed there is a way to re-identify 99.98 per cent of individuals with just 15 demographic characteristics using location data. Other studies have come to similar conclusions that individuals can be identified based on aggregate data sets with relative ease.
-
-**Important laypersons' introduction to Bayesian math and the massive difference between a 5% and a 3% margin of error for serological testing/passporting:**
-
-* Chivers, Tom (2020, April 7). How far away are ‘immunity passports’? [#News #Opinion, Unherd].
-
-  * Retrieved from https://unherd.com/2020/04/how-far-away-are-immunity-passports/.
-
-  > KEYQUOTE: If you issue immunity passports on this basis, barely a third of the people you give them to will actually be immune. “There’s nothing peculiar about this statistically,” Kevin McConway, an emeritus professor of statistics at the Open University, told me. “It’s just Bayes’ theorem.” The likelihood of you having had Covid-19, if you’ve had a positive test, depends not just on the accuracy of the test but on the prevalence in the population you’re looking at.
 
 * Franceschi-Bicchierai, Lorenzo (2020, April 2). We Saw NSO's Covid-19 Software in Action, and Privacy Experts Are Worried. [#News #Opinion, Vice]. Retrieved from https://www.vice.com/en_us/article/epg9jm/nso-covid-19-surveillance-tech-software-tracking-infected-privacy-experts-worried
 
@@ -132,17 +124,6 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 
   > ABSTRACT/KEYQUOTE: Too often, history shows, temporary measures imposed by governments to meet a crisis have become permanent...Limits must be placed on what data is collected, how it is used, and how long it is kept. Focusing on voluntary participation and anonymizing data could address some privacy concerns. Requiring secure deletion of information after a certain period of time is also important.
 
-**Elizabeth Renieres @hackylawyer’s article:**
-
-* Renieris, Elizabeth M. (2020, March 23). When Privacy Meets a Pandemic. [#Opinion, Medium].
-  * Retrieved from https://onezero.medium.com/when-privacy-meets-pandemic-fbf9154f80b3.
-
-  > KEYQUOTE: So, where does this leave us as a privacy community and what is our role in the time of Corona? It means that before we debate the particulars of a specific technology or application, before we tweak certain features or functionality to better protect individual privacy, or before we impose certain transparency or accountability measures, we take a step back.
-
-  > Before we concede that a measure is necessary and begin to assess its proportionality, we question that underlying assumption — especially when it’s coming from private companies who stand to gain from it or governments who fear being perceived as lacking control over the situation. We apply the age-old tests of legality, necessity, and proportionality — in that order. We require concrete evidence that a measure will further specific aims or achieve certain measurable outcomes.
-
-  > If privacy advocates don’t step up and do this, who will?
-
 **@SarahJamieLewis’s Twitter thread is a must read:**
 
 * Jamie Lewis, Sarah (2020, March 23). Twitter Thread, 12/12 [#Opinion, Twitter].
@@ -184,8 +165,34 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
   * Retrieved from https://www.nature.com/articles/s41467-019-10933-3.
 
   > KEYQUOTE: Moving forward, they question whether current de-identification practices satisfy the anonymization standards of modern data protection laws such as GDPR and CCPA and emphasize the need to move, from a legal and regulatory perspective, beyond the de-identification release-and-forget model.
+  
+## Events
 
-****Law & Regulatory (Recent, First)**
+**Human Rights Foundation holds Oslo Freedom Forum, and this year is holding virtual event COVIDcon April 13-14th:**
+
+* COVIDCON https://covidcon.org/
+
+* > ABSTRACT: This two-day event, open to global audiences, will feature presentations and panels about the current pandemic and its relationship to state censorship, disinformation, surveillance, and civil liberties. COVIDCon sessions will showcase the difference in the responses of authoritarian regimes and democratic governments to the outbreak of the novel coronavirus.”
+
+** Rebooting The Web of Trust https://www.WebOfTrust.info
+
+**I have been hosting this twice a year design workshop that brings together experts in the decentralized digital identity and privacy community in a collaborative "design workshop" that has published 50+ collaborative white papers. It is where the W3C Decentralized Identifier specification was originally incubated, which is on its way to becoming an international standard.
+
+**Unfortunately our last event in Buenos Aires where we planned to discussion #LocationPrivacy and other relatied Covid-19 privacy topics was cancelled. We are working now on plans for an event in the Fall in the EU, and expect many privacy tech, policy and regulatory experts coming specifially to work on the next generation of these technologies.**
+
+## Law & Regulatory
+*(Most recent first)*
+
+**Human Rights, Privacy Law & GPDR expert Elizabeth Renieres ([@hackylawyer](https://twitter.com/hackylawyer) always has great insights on the intersection of privacy technology, the law, and is always one of the first people I go to on these topics:**
+
+* Renieris, Elizabeth M. (2020, March 23). When Privacy Meets a Pandemic. [#Opinion, Medium].
+  * Retrieved from https://onezero.medium.com/when-privacy-meets-pandemic-fbf9154f80b3.
+
+  > KEYQUOTE: So, where does this leave us as a privacy community and what is our role in the time of Corona? It means that before we debate the particulars of a specific technology or application, before we tweak certain features or functionality to better protect individual privacy, or before we impose certain transparency or accountability measures, we take a step back.
+
+  > Before we concede that a measure is necessary and begin to assess its proportionality, we question that underlying assumption — especially when it’s coming from private companies who stand to gain from it or governments who fear being perceived as lacking control over the situation. We apply the age-old tests of legality, necessity, and proportionality — in that order. We require concrete evidence that a measure will further specific aims or achieve certain measurable outcomes.
+
+  > If privacy advocates don’t step up and do this, who will?
 
 * Unknown (2020, March 16). Statement by the EDPB Chair on the processing of personal data in the context of the COVID-19 outbreak [#Law #Regulatory, European Data Protection Board].
   * Retrieved from https://edpb.europa.eu/news/news/2020/statement-edpb-chair-processing-personal-data-context-covid-19-outbreak_en.
@@ -197,7 +204,7 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 
   > ABSTRACT/KEYQUOTE: The guidelines address the privacy implications of handling location data by public administrations and identify potential risks related to the processing of personal location data. 
 
-## Implementation & Analysis
+## Implementations & Analysis
 
 *(Most recent first)*
 
@@ -220,6 +227,14 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
   * Retrieved from https://github.com/DP-3T/documents/blob/master/DP3T%20-%20Simplified%20Three%20Page%20Brief.pdf.
 
   > KEYQUOTE: Given the concerns about the effectiveness of legal safeguards, the impossibility of anonymization, and the intrinsic vulnerabilities of centralized data minimization models, we focus on decentralized designs for privacy preserving proximity tracing. 
+  
+**Important laypersons' introduction to Bayesian math and the massive difference between a 5% and a 3% margin of error for serological testing/passporting:**
+
+* Chivers, Tom (2020, April 7). How far away are ‘immunity passports’? [#News #Opinion, Unherd].
+
+  * Retrieved from https://unherd.com/2020/04/how-far-away-are-immunity-passports/.
+
+  > KEYQUOTE: If you issue immunity passports on this basis, barely a third of the people you give them to will actually be immune. “There’s nothing peculiar about this statistically,” Kevin McConway, an emeritus professor of statistics at the Open University, told me. “It’s just Bayes’ theorem.” The likelihood of you having had Covid-19, if you’ve had a positive test, depends not just on the accuracy of the test but on the prevalence in the population you’re looking at.
 
 **Questionnaire for people designing or evaluating contact tracers:**
 
@@ -255,7 +270,7 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 
   > For if we do not be somewhat pragmatic now, and set a stage to be able to invest in a more ideal future, we risk that everything we are currently doing on the privacy front now will fail because in the end, everyone will being tracked at another layer."
 
-**Some contact tracing, and related, projects:**
+**Some contact tracing implementations related, projects:**
 
 * Singapore: 
 
@@ -289,7 +304,7 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 * NextTrace
   https://nexttrace.org/about/
 
-* Mose's project overview:
+* Covid-Devender project overview (from Moses Ma's FutureLab):
   https://www.dropbox.com/s/lg05fp5f2d2qxry/COVID-defender%20OVERVIEW.pdf?dl=0
 
 * Trustee Universal Healthcare Records
@@ -304,11 +319,6 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 * Christopher Allen's Psuedoanonymous Ephemeral Locality Service API (circa 2008)
   https://github.com/ChristopherA/Ephemeral-Locality-API
 
-* Christopher Allen on Hilbert Curves and utility for zk range proofs for privacy
-  https://twitter.com/ChristopherA/status/1243413128378892293?s=20
-
-* Various of Christopher's links on Hilbert Curves
-  https://pinboard.in/search/u:ChristopherA?query=hilbert
 
 * Pan-European Privacy-Preserving Proximity Tracing https://www.pepp-pt.org
 
@@ -329,18 +339,19 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 * GMSA Public Policy: COVID-19 Privacy Guidelines April 2020 https://www.gsma.com/publicpolicy/resources/covid-19-privacy-guidelines
 
   > ABSTRACT: The mobile industry recognises the urgency with which governments must act to slow the spread of COVID-19 and the desire of some governments to seek help regarding those efforts. At the same time, the mobile industry recognises that the use of mobile network operator data by governments or agencies raises serious privacy concerns. These guidelines reflect recommendations on how the mobile industry may maintain trust while responding to those governments and public health agencies that have sought assistance in the fight against COVID-19.
+  
+## Other Location Privacy Related Technologies
 
-**Human Rights Foundation holds Oslo Freedom Forum, and this year is holding virtual event COVIDcon April 13-14th:**
+* Christopher Allen on Hilbert Curves and utility for zk range proofs for privacy
+  https://twitter.com/ChristopherA/status/1243413128378892293?s=20
 
-* COVIDCON https://covidcon.org/
-
-* > ABSTRACT: This two-day event, open to global audiences, will feature presentations and panels about the current pandemic and its relationship to state censorship, disinformation, surveillance, and civil liberties. COVIDCon sessions will showcase the difference in the responses of authoritarian regimes and democratic governments to the outbreak of the novel coronavirus.”
-
+* Various of Christopher's links on Hilbert Curves
+  https://pinboard.in/search/u:ChristopherA?query=hilbert
+  
 **CANNOT ACCESS DUE TO PAYWALL**
 
 * Dutch privacy regulators say it is not possible to anonymzie telecom location data
   https://www.politico.eu/pro/dutch-privacy-regulator-says-not-possible-to-anonymize-telecom-location-data/
-
 
 
 ### New & Unsorted
