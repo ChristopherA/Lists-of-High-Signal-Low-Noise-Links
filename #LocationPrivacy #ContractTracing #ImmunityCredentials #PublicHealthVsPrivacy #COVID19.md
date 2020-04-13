@@ -1,6 +1,6 @@
 ---
 created: 2020-04-11T08:43:06-07:00
-modified: 2020-04-12T19:56:00-07:00
+modified: 2020-04-12T20:14:00-07:00
 title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPrivacy #COVID19'
 
 ---
@@ -22,6 +22,7 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 - [Table of Contents](#table-of-contents)
 - [My Personal POV & High-Level Concerns](#my-personal-pov---high-level-concerns)
 - [General News & Opinion](#general-news---opinion)
+  * [COVID-19, Politics & Tyranny](#covid-19--politics---tyranny)
   * [Contact Tracing News](#contact-tracing-news)
   * [Immunity Credential News](#immunity-credential-news)
 - [Law, Policy & Regulations](#law--policy---regulations)
@@ -51,6 +52,13 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 
 # General News & Opinion
 *(Most recent first)*
+
+## COVID-19, Politics & Tyranny
+
+**My concerns about the risks of government misuse of technology continue to be justified:**
+* Mackinnon, Mark; Venderklippe, Nathan. (2020, April 6) How the coronavirus pandemic is making strongmen stronger, from Hungary to Serbia to the Philippines [The Globe and Mail]
+  * Retreived from https://www.theglobeandmail.com/world/article-how-the-coronavirus-pandemic-is-making-strongmen-stronger-from/
+  > KEYQUOTE: With governments around the world adopting extraordinary measures amid the pandemic, ostensibly to protect their citizens – but often in directions that have little or nothing to do with public health – one of the most potent legacies of this era may prove to be a global erosion of democratic freedoms. The power grabs have been dubbed “coronavirus coups” in some countries, and three months into the crisis, with no end in sight, there are concerns that leaders such as Hungary’s Viktor Orban are capitalizing on COVID-19 to seize powers they may never relinquish.
 
 ## Contact Tracing News
 
@@ -151,6 +159,8 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 
 # Law, Policy & Regulations
 *(Most recent first)*
+
+**Governments today are taking legitimate emergency measures to track & manage #COVID19. We need to balance this public good vs. risks of loss of human rights in the future. We can do this!**
 
 ** Given EU GDPR and California CPRA, it is very hard to meet those privacy laws and regulatory standards for #LocationPrivacy.**
 * Gray, Stacey; et al (2020, March 25). A Closer Look at Location Data: Privacy and Pandemics. [#News #Opinion, Future of Privacy Forum].
