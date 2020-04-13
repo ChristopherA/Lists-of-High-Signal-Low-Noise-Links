@@ -62,11 +62,18 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 
 **NSO makes spyware and mass-surveillance tools, why should we trust the privacy of their software?**
 * Franceschi-Biccierai, Lorenzo (2020, April 2nd). We Saw NSO's Covid-19 Software in Action, and Privacy Experts Are Worried [#News #Opinion, Vice].
-  * Retrieved from
-https://www.vice.com/en_us/article/epg9jm/nso-covid-19-surveillance-tech-software-tracking-infected-privacy-experts-worried.
+  * Retrieved from https://www.vice.com/en_us/article/epg9jm/nso-covid-19-surveillance-tech-software-tracking-infected-privacy-experts-worried.
   > KEYQUOTE: Researchers who have studied and exposed several cases where NSO Group’s customers abused its products to spy on activists and journalists are skeptical that governments should be adopting such an invasive surveillance product, made by a company known to have worked with governments that routinely abuse human rights.
   > On Monday, Israel's Defense Minister Naftali Bennett tweeted that the Israeli government is working on "world-leading" AI system that will give every citizen a grade between 1 and 10 to determine how likely they are to spread the coronavirus and if they need to be tested
+
+**Looks like there's 12 regional apps and one national app. Interestingly, the patchwork of tracking apps across China seems to show that there is actually v little co-ordination between localities and the central government**
+
+* Yang, Yuan; Liu, Nian; Wong, Sue-Lin and Liu, Qianer (2020, April 1). China, coronavirus and surveillance: the messy reality of personal data [#News #Opinion, Financial Times; Paywall].
+  * Retrieved from https://www.ft.com/content/760142e6-740e-11ea-95fe-fcd274e920ca
+  > KEYQUOTE: Pandemic-tracking apps are now proliferating as local governments have started trying to gain access to phone GPS location data through the apps, which are more accurate than carrier location data. The test version of the national government’s online services platform links to at least 12 provincial- or major city-level governments’ own health code apps, as well as providing a national-level app.
   
+  > As is often the case when multiple bureaucracies collide, the health apps have overlapping coverage. On arriving back in Beijing from a trip out of the city, one FT reporter was told by their district authority to ignore the Beijing municipal government’s app and register on another health app used by the district. “One person, six codes”, ran the headline of a local media feature lamenting the multiplication of district- and municipal-level apps.
+
  * Marjan, Branka (2020, March 24). A delicate balance: Responding to a crisis with surveillance tech. [#News #Opinion, Project Ploughshares].
   * Retrieved from https://ploughshares.ca/2020/03/a-delicate-balance-responding-to-a-crisis-with-surveillance-tech/.
   > ABSTRACT/KEYQUOTE: Too often, history shows, temporary measures imposed by governments to meet a crisis have become permanent...Limits must be placed on what data is collected, how it is used, and how long it is kept. Focusing on voluntary participation and anonymizing data could address some privacy concerns. Requiring secure deletion of information after a certain period of time is also important.
