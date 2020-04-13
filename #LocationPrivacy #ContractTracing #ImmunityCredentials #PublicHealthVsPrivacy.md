@@ -1,6 +1,6 @@
 ---
 created: 2020-04-11T08:43:06-07:00
-modified: 2020-04-12T10:29:00-07:00
+modified: 2020-04-12T19:41:00-07:00
 title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPrivacy'
 
 ---
@@ -55,6 +55,10 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 ### Contact Tracing News
 
 **Two of the biggest mobile app platfroms, Apple & Google, are partnering on contact-tracing technology. Early privacy analysis is positive, but it still has centralization issues (see [Implementations & Analysis](#implementations--analysis) section below for more details).**
+
+* Doffman, Zak (2020, April 12). Forget Apple And Google—Here’s The Real Challenge For COVID-19 Contact-Tracing
+  * Retreived from https://www.forbes.com/sites/zakdoffman/2020/04/12/forget-apple-and-google-heres-the-real-challenge-for-covid-19-contact-tracing/#5d66bf7f2709
+  > KEYQUOTE: Unless and until governments can either develop or mandate a system that deploys this across the majority of its population, and then backs it up with the rigorous testing regime that is stitched into the core concept of operation, such apps will be helpful but not game-changing. 
 
 * McSweeney, Michael (2020, April 10). Apple, Google partner on COVID-19 contact tracing tech initiative. [#News #Opinion, The Block].
   * Retrieved from https://www.theblockcrypto.com/linked/61556/apple-google-partner-on-covid-19-contact-tracing-tech-initiative.
@@ -195,6 +199,16 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 *(Those with most detail first, then by date order)*
 
 **Some contact tracing implementations related, projects:**
+
+* Apple/Google Privacy Contact Tracing (2020, April 10)
+  * Announcement: Apple and Google partner on COVID-19 contact tracing technology
+    * Retreived from https://www.apple.com/newsroom/2020/04/apple-and-google-partner-on-covid-19-contact-tracing-technology/
+  * Bluetooth Specification (2020, April 10)
+    * Retreived from https://covid19-static.cdn-apple.com/applications/covid19/current/static/contact-tracing/pdf/ContactTracing-BluetoothSpecificationv1.1.pdf
+  * Cryptography Specification (2020, April 10)
+    * Retreived from https://covid19-static.cdn-apple.com/applications/covid19/current/static/contact-tracing/pdf/ContactTracing-CryptographySpecification.pdf
+  * Framework API (2020, April 10)
+    * Retreived from https://covid19-static.cdn-apple.com/applications/covid19/current/static/contact-tracing/pdf/ContactTracing-FrameworkDocumentation.pdf
 
 * EU: PEPP-PT (Pan-European Privacy-Preserving Proximity Tracing):
   * Pan-European Privacy-Preserving Proximity Tracing
