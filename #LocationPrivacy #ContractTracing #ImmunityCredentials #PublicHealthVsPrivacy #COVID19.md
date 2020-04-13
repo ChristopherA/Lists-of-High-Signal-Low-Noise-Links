@@ -1,11 +1,11 @@
 ---
 created: 2020-04-11T08:43:06-07:00
-modified: 2020-04-12T19:41:00-07:00
-title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPrivacy'
+modified: 2020-04-12T19:42:00-07:00
+title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPrivacy #COVID19'
 
 ---
 
-# [#LocationPrivacy](https://twitter.com/hashtag/LocationPrivacy) [#ContactTracing](https://twitter.com/hashtag/ContactTracing)  [#ImmunityCredentials](https://twitter.com/hashtag/ImmunityCredentials) [#PublicHealthVsPrivacy](https://twitter.com/hashtag/PublicHealthVsPrivacy)
+# [#LocationPrivacy](https://twitter.com/hashtag/LocationPrivacy) [#ContactTracing](https://twitter.com/hashtag/ContactTracing)  [#ImmunityCredentials](https://twitter.com/hashtag/ImmunityCredentials) [#PublicHealthVsPrivacy](https://twitter.com/hashtag/PublicHealthVsPrivacy) [#COVID19](https://twitter.com/hashtag/COVID19)
 
 > This is one of my [series of lists](https://github.com/ChristopherA/High-Signal-Low-Noise-Link-Lists) of opinionated, high-signal but low-noise links on topics I care about.
 >
