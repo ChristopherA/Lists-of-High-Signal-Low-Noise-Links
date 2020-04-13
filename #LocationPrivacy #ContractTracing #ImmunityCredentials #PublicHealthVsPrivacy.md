@@ -1,6 +1,6 @@
 ---
 created: 2020-04-11T08:43:06-07:00
-modified: 2020-04-12T17:31:00-07:00
+modified: 2020-04-12T18:03:00-07:00
 title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPrivacy'
 
 ---
@@ -26,11 +26,15 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
     + [Immunity Certificate News](#immunity-certificate-news)
   * [Law, Policy & Regulations](#law--policy---regulations)
   * [Implementations & Analysis](#implementations---analysis)
-    + [Implementations of Contact Tracing](#implementations-of-contact-tracing)
-      - [Analysis of Specific Contact Tracing Implemenations](#analysis-of-specific-contact-tracing-implemenations)
-    + [General Contact Tracing Analysis and Technology](#general-contact-tracing-analysis-and-technology)
-    + [General Criticism of Contact Tracing & Location Privacy Technology Solutions](#general-criticism-of-contact-tracing---location-privacy-technology-solutions)
-  * [Immunity Credentials](#immunity-credentials)
+    + [Contact Tracing Technology](#contact-tracing-technology)
+      - [Implementations of Contact Tracing](#implementations-of-contact-tracing)
+        * [Analysis of Specific Contact Tracing Implemenations](#analysis-of-specific-contact-tracing-implemenations)
+      - [General Contact Tracing Analysis and Technology](#general-contact-tracing-analysis-and-technology)
+      - [General Criticism of Contact Tracing & Location Privacy Technology Solutions](#general-criticism-of-contact-tracing---location-privacy-technology-solutions)
+  * [Immunity Credential Technology](#immunity-credential-technology)
+    + [Implementations of Immunity Credentials](#implementations-of-immunity-credentials)
+      - [W3C Verifiable Claims](#w3c-verifiable-claims)
+    + [General Immunity Credentials Analysis & Technology](#general-immunity-credentials-analysis---technology)
   * [Other Related Privacy Technologies](#other-related-privacy-technologies)
   * [Related Events & Meetings](#related-events---meetings)
   * [New & Unsorted](#new---unsorted)
@@ -184,15 +188,17 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
  
 ## Implementations & Analysis
 
-*(Most recent first)*
-
-### Implementations of Contact Tracing
+### Contact Tracing Technology
 
 **[#ContactTracing](https://twitter.com/hashtag/ContactTracing) were among the first Covid-19 tech solutions proposed, basically informing people that they may have been in recent contact with someone with an active infection. There are huge privacy, concent and human rights risks in this area, as [#LocationPrivacy](https://twitter.com/hashtag/LocationPrivacy) is very difficult.**
 
 **There are some emerging solutions that are better than other, however, I still am skeptical about both the efficacy of [#ContactTracing](https://twitter.com/hashtag/ContactTracing) (because in many case is probably too late, and it only works if there is large adoption) & and issues of [#PrivacyByDesign](https://twitter.com/hashtag/PrivacyByDesign) (many open issues on incentive design, consent & active adversary issues, and all proposed solutions are too centralized) of this first generation of [#ContactTracing](https://twitter.com/hashtag/ContactTracing) apps.**
 
 **That being said, I beleive it is worth the effort to learn best practices of this generation of apps and make better choices for the next generation.**
+
+#### Implementations of Contact Tracing
+*(Most recent first)*
+
 
 **Some contact tracing implementations related, projects:**
 
@@ -273,7 +279,7 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 
   > KEYQUOTE: Given the concerns about the effectiveness of legal safeguards, the impossibility of anonymization, and the intrinsic vulnerabilities of centralized data minimization models, we focus on decentralized designs for privacy preserving proximity tracing. 
   
-#### Analysis of Specific Contact Tracing Implemenations
+##### Analysis of Specific Contact Tracing Implemenations
 
 **Brief "first look" by Signal app's creator Moxie Marlinspike (Twitter: [@moxie](https://twitter.com/moxie)) on the Apple/Google #ContactPrivacy framework**
 * Marlinspike, Moxie (2020, April 10). Twitter thread. [#Implementation #Analysis, Twitter]
@@ -286,7 +292,7 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 * Typic, Zero (2020, March 23). Reversing Trace Together.
   * Retrieved from https://medium.com/@zerotypic/reversing-tracetogether-initial-analysis-edc940e86aa8.
   
-### General Contact Tracing Analysis and Technology
+#### General Contact Tracing Analysis and Technology
 (Most recent first)
 
 **A good reply from W3C Credentials CG, where I am co-chair, to de Montjoye questionaire below:**
@@ -321,7 +327,7 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
   https://lists.w3.org/Archives/Public/public-credentials/2020Mar/0120.html
   https://lists.w3.org/Archives/Public/public-credentials/2020Mar/0124.html
 
-### General Criticism of Contact Tracing & Location Privacy Technology Solutions
+#### General Criticism of Contact Tracing & Location Privacy Technology Solutions
 (Order of importance)
 
 **A real problems in the current crop of #ContactTracing approaches are not the precisely the technology, but social incentive design and adversarial resistance to attacks**
@@ -360,17 +366,30 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
   * Retrieved from https://www.nature.com/articles/s41467-019-10933-3.
   > KEYQUOTE: Moving forward, they question whether current de-identification practices satisfy the anonymization standards of modern data protection laws such as GDPR and CCPA and emphasize the need to move, from a legal and regulatory perspective, beyond the de-identification release-and-forget model.
   
-## Immunity Credentials
+## Immunity Credential Technology
+  
+### Implementations of Immunity Credentials
 
-** Most of the news has been about governments using cell phones & mobile apps to do #ContractTracing, but another important topic area is how we can create digital "Immunity Certificates" to allow people who have recovered from Covid-19 to leave quarantine, participate in the economic recovery, and to travel for work or family.
+** Most of the news has been about governments using cell phones & mobile apps to do #ContractTracing, but another important topic area is how we can create digital #ImmunityCertificates to allow people who have recovered from Covid-19 to leave quarantine, participate in the economic recovery, and to travel for work or family.**
+
+#### W3C Verifiable Claims
+
+**There has some some discussion & collaboration in the #W3C Credentials CG on what a #Covid19 Immunity Credential might look like using the #VerifiableCredentials standard.**
+  * Example Immunity Passport Credential: https://github.com/w3c-ccg/vc-examples/tree/master/docs/covid-19
+  * Thread (long) starts at: https://lists.w3.org/Archives/Public/public-credentials/2020Apr/0052.html
+  * Thread (long) starts at: https://lists.w3.org/Archives/Public/public-credentials/2020Apr/0119.html
+
+### General Immunity Credentials Analysis & Technology
 
 **Important laypersons' introduction to Bayesian math and the massive difference between a 5% and a 3% margin of error for serological testing/passporting:**
-
 * Chivers, Tom (2020, April 7). How far away are ‘immunity passports’? [#News #Opinion, Unherd].
-
   * Retrieved from https://unherd.com/2020/04/how-far-away-are-immunity-passports/.
-
   > KEYQUOTE: If you issue immunity passports on this basis, barely a third of the people you give them to will actually be immune. “There’s nothing peculiar about this statistically,” Kevin McConway, an emeritus professor of statistics at the Open University, told me. “It’s just Bayes’ theorem.” The likelihood of you having had Covid-19, if you’ve had a positive test, depends not just on the accuracy of the test but on the prevalence in the population you’re looking at.
+  
+**Beyond issues of immunology, Peter Story argues that we need to be design toward "co-immunology":**
+* Story, Henry (2020, March 29) Co-Immunology and the Web For a Healthier World [#Opinion, #Society, #Immunology, Medium]
+  * Retrieved from https://medium.com/@bblfish/co-immunology-and-the-web-43379b46688e
+  > KEYQUOTE: We thus have three levels of immunities: biological, psychological and social. One should perhaps add hyper-social for the relations between states, that have over the last century put in place institutions to reduce the calamities of war. Each of these depends on the other. The body’s immunity is improved by individuals learning to adopt hygienic practices; those are helped by quarantining policies at the local and international level. At each level communication is restricted but cannot be stopped: trade, especially for medical goods and food, must continue, while new processes are put in place further to limit the spread of this microscopically small virus.
 
 ## Other Related Privacy Technologies
 
@@ -396,9 +415,9 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 
 * W3C Credentials Community Gruop https://w3c-ccg.github.io/
 
-** I am co-chair of this World-Wide-Web Consortium (#W3C) community group, where a number of important credentials and identity specifications were nurtured to the point where they could be formalized into internation standards. Most notably, the Verifiable Credentials specification is now a full standard, and the Decentralized Identity specification is well on its way.**
+**I am co-chair of this World-Wide-Web Consortium (#W3C) community group, where a number of important credentials and identity specifications were nurtured to the point where they could be formalized into internation standards. Most notably, the Verifiable Credentials specification is now a full standard, and the Decentralized Identity specification is well on its way.**
 
-** Both of these standards are key architectures toward privacy design, in particular in the short term for #ImmunityCertificates. We meet online weekly via voice and IRC on Tuesdays at 12noon ET, 9am PT, and 5pm CET. At several recent meetings we have had discussion on COVID-19 related privacy topics, and it looks like some standards around #ImmunityCredentials and #LocationPrivacy in particular will become official work items. Our meetings are open to the public, and are annonced on our public mailing list.
+**Both of these standards are key architectures toward privacy design, in particular in the short term for #ImmunityCertificates. We meet online weekly via voice and IRC on Tuesdays at 12noon ET, 9am PT, and 5pm CET. At several recent meetings we have had discussion on COVID-19 related privacy topics, and it looks like some standards around #ImmunityCredentials and #LocationPrivacy in particular will become official work items. Our meetings are open to the public, and are annonced on our public mailing list.
 
 ## New & Unsorted
 
