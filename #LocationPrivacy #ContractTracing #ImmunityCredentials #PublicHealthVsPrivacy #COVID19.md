@@ -146,6 +146,9 @@ https://www.vice.com/en_us/article/epg9jm/nso-covid-19-surveillance-tech-softwar
   > ABSTRACT/KEYQUOTE: The companies that collect all this information on your movements justify their business on the basis of three claims: People consent to be tracked, the data is anonymous and the data is secure. None of those claims hold up, based on the file we’ve obtained and our review of company practices. Yes, the location data contains billions of data points with no identifiable information like names or email addresses. But it’s child’s play to connect real names to the dots that appear on the maps.
 
 ## Immunity Credential News
+* Allion, Ian (2020, April 13) COVID-19 ‘Immunity Passport’ Unites 60 Firms on Self-Sovereign ID Project. [#News #Opinion, CoinDesk]
+  * Retrieved https://www.coindesk.com/covid-19-immunity-passport-unites-60-firms-on-self-sovereign-id-project 
+  > KEYQUOTE: These digital certificates would be issued by health care institutions but controlled by the user and shared in a peer-to-peer manner…A common misconception is that self-sovereign means self-attested, which removes the need for governments and other authorities; trust in the issuer of the credential is critical"
 
 * Wighton, Daniel and Chazan, David (2020, March 29). Germany will issue coronavirus antibody certificates to allow quarantined to re-enter society. [#News #Opinion, The Telegraph].
   * Retrieved from https://www.telegraph.co.uk/news/2020/03/29/germany-will-issue-coronavirus-antibody-certificates-allow-quarantined/. 
@@ -222,7 +225,11 @@ Tanaka, Nina (Last Updated: 2020, April 11). Background Research on mobile appli
     * Link https://covid19-static.cdn-apple.com/applications/covid19/current/static/contact-tracing/pdf/ContactTracing-CryptographySpecification.pdf
   * Framework API (2020, April 10)
     * Link https://covid19-static.cdn-apple.com/applications/covid19/current/static/contact-tracing/pdf/ContactTracing-FrameworkDocumentation.pdf
-    
+
+* Community Credentials
+  * Global, cross-sector community of organizations using digital identity as a way to mitigate the spread of COVID-19 and reboot public trust
+    * Link https://www.covidcreds.com
+
 * EU: PEPP-PT (Pan-European Privacy-Preserving Proximity Tracing):
   * Website
     * Link https://www.pepp-pt.org
