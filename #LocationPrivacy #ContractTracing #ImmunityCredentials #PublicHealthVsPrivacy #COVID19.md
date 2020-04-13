@@ -74,7 +74,7 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
   
   > As is often the case when multiple bureaucracies collide, the health apps have overlapping coverage. On arriving back in Beijing from a trip out of the city, one FT reporter was told by their district authority to ignore the Beijing municipal government’s app and register on another health app used by the district. “One person, six codes”, ran the headline of a local media feature lamenting the multiplication of district- and municipal-level apps.
 
- * Marjan, Branka (2020, March 24). A delicate balance: Responding to a crisis with surveillance tech. [#News #Opinion, Project Ploughshares].
+* Marjan, Branka (2020, March 24). A delicate balance: Responding to a crisis with surveillance tech. [#News #Opinion, Project Ploughshares].
   * Retrieved from https://ploughshares.ca/2020/03/a-delicate-balance-responding-to-a-crisis-with-surveillance-tech/.
   > ABSTRACT/KEYQUOTE: Too often, history shows, temporary measures imposed by governments to meet a crisis have become permanent...Limits must be placed on what data is collected, how it is used, and how long it is kept. Focusing on voluntary participation and anonymizing data could address some privacy concerns. Requiring secure deletion of information after a certain period of time is also important.
 
@@ -153,27 +153,33 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
   > ABSTRACT/KEYQUOTE: The companies that collect all this information on your movements justify their business on the basis of three claims: People consent to be tracked, the data is anonymous and the data is secure. None of those claims hold up, based on the file we’ve obtained and our review of company practices. Yes, the location data contains billions of data points with no identifiable information like names or email addresses. But it’s child’s play to connect real names to the dots that appear on the maps.
 
 ## Immunity Credential News
-* Allion, Ian (2020, April 13) COVID-19 ‘Immunity Passport’ Unites 60 Firms on Self-Sovereign ID Project. [#News #Opinion, CoinDesk]
+* Allison, Ian (2020, April 13) COVID-19 Immunity Passport Unites 60 Firms on Self-Sovereign ID Project [#News #Opinion, CoinDesk].
   * Retrieved https://www.coindesk.com/covid-19-immunity-passport-unites-60-firms-on-self-sovereign-id-project 
   > KEYQUOTE: These digital certificates would be issued by health care institutions but controlled by the user and shared in a peer-to-peer manner…A common misconception is that self-sovereign means self-attested, which removes the need for governments and other authorities; trust in the issuer of the credential is critical"
 
-* Wighton, Daniel and Chazan, David (2020, March 29). Germany will issue coronavirus antibody certificates to allow quarantined to re-enter society. [#News #Opinion, The Telegraph].
+* Wighton, Daniel and Chazan, David (2020, March 29). Germany will issue coronavirus antibody certificates to allow quarantined to re-enter society [#News #Opinion, The Telegraph].
   * Retrieved from https://www.telegraph.co.uk/news/2020/03/29/germany-will-issue-coronavirus-antibody-certificates-allow-quarantined/. 
   > KEYQUOTE: German researchers plan to introduce coronavirus ‘immunity certificates’ to facilitate a proper transition into post-lockdown life, as Chancellor Angela Merkel’s handling of the crisis has led to a boost in the polls.
 
+**This white paper suggests 20-30 year olds could re-enter the economy. If such a move takes place it's inevitable that this population would need some sort of immunity credential to further particpate/support elderly populations still under lockdown:
+
+* Oswald, Andrew; Powdthavee, Nattavudh (2020, April). The Case for Releasing the Young from Lockdown: A Briefing Paper for Policymakers [#Regulations, Whitepaper].
+  * Retrieved from https://www.andrewoswald.com/docs/newFinalCOVIDpaper-on-releasing-the-young-OswaldPowdthavee2020(1).pdf.
+  > KEYQUOTE: The paper argues that a youngworkforce release of this kind would lead to substantial economic and societal benefits without enormous health costs to the country. In this way, the nation might begin to move forward in the footsteps of the young. The paper’s key concept could in principle be implemented in other countries.
+ 
 # Law, Policy & Regulations
 *(Most recent first)*
 
 **Governments today are taking legitimate emergency measures to track & manage public heath, in particular in this #COVID19 crisis. We need to balance this public good vs. risks of loss of human rights in the future. We can do this!**
 
 * McDonald, Sean (2020, March 30). The Digital Response to the Outbreak of COVID-19 [#Opinion, Centre for International Governance Innovation].
-  * Retrieved from https://www.cigionline.org/articles/digital-response-outbreak-covid-19
+  * Retrieved from https://www.cigionline.org/articles/digital-response-outbreak-covid-19.
   > KEYQUOTE: Undeniably, we need to use technology as part of disaster response, but the regulatory immaturity of the industry makes technology companies risky allies, even in the best of circumstances
   > The way that we enable, administer and check the exceptional surveillance and social powers that each government exerts to contain COVID-19…will frame an important part of the future of state power in a world with increasing emergencies.
   >While the risks and harms associated with digital surveillance are often framed as related to privacy, there are significantly larger issues that apply during a pandemic, such as the escalation of government powers. "
 
 **Given EU GDPR and California CPRA, it is very hard to meet those privacy laws and regulatory standards for #LocationPrivacy.**
-* Gray, Stacey; et al (2020, March 25). A Closer Look at Location Data: Privacy and Pandemics. [#News #Opinion, Future of Privacy Forum].
+* Gray, Stacey; et al (2020, March 25). A Closer Look at Location Data: Privacy and Pandemics [#News #Opinion, Future of Privacy Forum].
   * Retrieved from https://fpf.org/2020/03/25/a-closer-look-at-location-data-privacy-and-pandemics/.
   > ABSTRACT/KEY QUOTE: Typically, we think of location data as having privacy implications when it is precise enough to single out an individual with reasonable specificity...Measuring precise location depends in part on context, such as population density...Recent legislative proposals have attempted to create strict cut-offs (such as an 1,640 foot radius under the U.S. House and Commerce Discussion Draft, or an 1,850 foot radius under the California Privacy Rights Act ballot initiative of 2020).
   
@@ -217,13 +223,13 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 
 ### Implementations of Contact Tracing
 
-**Here is a comprehensive summary of contact tracing implementations in the US, and 40+ countries around the world, from USC:
+**This is a comprehensive summary of contact tracing implementations in the US, and 40+ countries around the world, from USC:**
 
-Tanaka, Nina (Last Updated: 2020, April 11). Background Research on mobile applications focused on COVID-19  [#Implementation #Review, USC Viterbi School of Engineering].
+* Tanaka, Nina (Last Updated: 2020, April 11). Background Research on mobile applications focused on COVID-19  [#Implementation #Review, USC Viterbi School of Engineering].
   * Retrieved from https://docs.google.com/document/d/1bgsNjPcvoz8fpOutEYiqCJpu2PWYHnGqPI3pcK9mUio/edit.
   > KEYQUOTE: Based on news stories and other online sources, with a focus on February 2020 to present.
 
-**Some additional notable projects or specific links, not yet in the USC list:**
+**Some additional notable projects or specific links, not yet in the USC list (listed in alphabetical order):**
 
 * Apple/Google Privacy Contact Tracing (2020, April 10)
   * Bluetooth Specification (2020, April 10)
@@ -233,33 +239,33 @@ Tanaka, Nina (Last Updated: 2020, April 11). Background Research on mobile appli
   * Framework API (2020, April 10)
     * Link https://covid19-static.cdn-apple.com/applications/covid19/current/static/contact-tracing/pdf/ContactTracing-FrameworkDocumentation.pdf
 
-* EU: PEPP-PT (Pan-European Privacy-Preserving Proximity Tracing):
-  * Website
+* Bluetrace (underlying tech used by Singapore):
+  * BlueTrace is designed for decentralised proximity logging and supplements centralised contact tracing by public health authorities. Proximity logging using Bluetooth addresses a key limitation of manual contact tracing: that it is dependent on a person’s memory and is therefore limited to contacts that a person is acquainted with and remembers having met. BlueTrace therefore enables contact tracing to be more scalable and less resource-intensive.
+    * Link https://bluetrace.io/
+      
+* COVID-Defender:
+  * Intelligent contact tracing using a deployment model better suited to the US market proposed by Moses Ma's FutureLab.
+    * Link https://www.dropbox.com/s/lg05fp5f2d2qxry/COVID-defender%20OVERVIEW.pdf?dl=0
+
+* EU PEPP-PT (Pan-European Privacy-Preserving Proximity Tracing):
+  * PEPP-PT was created to assist national initiatives by supplying ready-to-use, well-tested, and properly assessed mechanisms and standards, as well as support for interoperability, outreach, and operation when needed.
     * Link https://www.pepp-pt.org
 
-* Bluetrace: underlying tech used by Singapore
-  * Website
-    * Link https://bluetrace.io/
-    
-* Czech Republic's Smart Quaratine deployment in the Prague region:
-  * The Czech Republic will start testing the new “smart quarantine system” to track the movements of infected citizens in South Moravia.
-    * Retrieved from https://www.praguemorning.cz/czech-republic-smart-quarantine/
-    
-* Italy Human Interaction Tracking System (HITS) project proposed by Cy4Gate, a cyber defence and intelligence solutions provider:
-  * CY4GATE Solutions for Government aims to delivers products and services that meets the cyber electronic defence & intelligence requirements expressed by Government Bodies and Armed Forces.
-    * Retrieved from Tweet https://twitter.com/elettronicagrp/status/1242462328362237959?s=21  
-  
-* COVID-Defender project by Moses Ma's FutureLab:
-  * Intelligent contact tracing using a deployment model better suited to the US market.
-    * Project link https://www.dropbox.com/s/lg05fp5f2d2qxry/COVID-defender%20OVERVIEW.pdf?dl=0
-    
 * FOAM project:
   * FOAM is a spatial protocol for the Ethereum blockchain that provides secure Proof of Location services.
-    * Project link https://blog.foam.space/introduction-to-proof-of-location-6b4c77928022
+    * Link https://blog.foam.space/introduction-to-proof-of-location-6b4c77928022
 
 * GIDEON project:
   * GIDEON (Global Infectious Diseases and Epidemiology Online Network) is the world’s premier Global Infectious Disease knowledge management tool. 
-    * Project Website: https://www.gideononline.com/about/gideon/
+    * Link https://www.gideononline.com/about/gideon/
+    
+* HITS project:
+  * Human Interaction Tracking System proposed by Cy4Gate, a cyber defence and intelligence solutions provider in Italy.
+    * Link to Tweet https://twitter.com/elettronicagrp/status/1242462328362237959?s=21  
+
+* Smart Quaratine:
+  * The Czech Republic will start testing the new “smart quarantine system” to track the movements of infected citizens in South Moravia (Prague region).
+    * Link https://www.praguemorning.cz/czech-republic-smart-quarantine/
 
 **Papers on DP3T (refer to earlier comic):**
 
@@ -274,19 +280,19 @@ Tanaka, Nina (Last Updated: 2020, April 11). Background Research on mobile appli
 #### Analysis of Specific Contact Tracing Implemenations
 
 **Brief "first look" by Signal app's creator Moxie Marlinspike (Twitter: [@moxie](https://twitter.com/moxie)) on the Apple/Google #ContactPrivacy framework**
-* Marlinspike, Moxie (2020, April 10). Twitter thread. [#Implementation #Analysis, Twitter]
+* Marlinspike, Moxie (2020, April 10). Twitter thread. [#Implementation #Analysis, Twitter].
   * Retrieved from https://twitter.com/moxie/status/1248707315626201088
   KEYQUOTE: So first obvious caveat is that this is "private" (or at least not worse than BTLE), *until* the moment you test positive. At that point all of your BTLE mac addrs over the previous period become linkable… Second caveat is that it seems likely location data would have to be combined with what the device framework gives you.…Third caveat is that it seems likely some kind of PII would have to be combined with what the device framework gives you. Keys published by a device have to then be in turn "published" to *all* devices in the world. That's a major DoS vector!…All that aside, these APIs are novel in terms of what becomes possible from the app layer. I'm not super optimistic about opt-in contact tracing becoming a major factor, but I do kind of anticipate that someone will end up using this for some other interesting thing.
   
 **Another "first look" by Zcash cryptography researcher Henry de Valence [@hdevalence](https://twitter.com/hdevalence) on Apple/Google #ContactPrivacy:**
-* de Valence, Henry (2020, April 10) Twitter thread. 
+* de Valence, Henry (2020, April 10) Twitter thread [#Implementation #Analysis, Twitter].
   * Retrieved from https://twitter.com/hdevalence/status/1248661056622186496
   > KEYQUOTE: Revealing a daily tracing key reveals all of the RPIs derived from that daily tracing key, meaning that a passive adversary can correlate past RPI broadcasts from a user who reports infection.  This is a tradeoff between reporter privacy and bandwidth, also made by TCN and DP-3T. But in the Apple/Google protocol, the tradeoff isn't an adjustable knob, it's hardcoded into the protocol, so there's only one choice. And this choice might not be the optimal one. For instance, if an entire day's RPIs are revealed in one block, they may end up being linkable *across* days, because people have regular patterns of life, and a passive adversary can e.g., notice that two reports appeared at the same place each day. Figuring out the optimal tradeoff here is challenging, but if it's hardcoded into the protocol, it's not possible to change it at all.
   > …it's not totally clear to me that this actually ensures unlinkability of RPIs and MAC addresses, because the RPIs are dependent only on the time interval (also hardcoded into the protocol), rather than having a "next RPI" ratchet (as in the TCN design).
   > The other big problem with the protocol is that because there's no information attached to reports, just an implicit "tested positive" bit, the protocol assumes the existence of a single, centralized entity who can determine whether a COVID19 test happened. But this isn't the way that testing actually works! It's a huge patchwork of different agencies doing different tests, and it's already even a challenge just to collect statistics, let alone authenticate tests.
 
 **Two early reivew of Singapore's Trace Together app and the BlueTrace protocol**
-* L, Frank (2020, March 23). Trace Together Under the Hood [#Implementation #Analyisi, Medium].
+* L, Frank (2020, March 23). Trace Together Under the Hood [#Implementation #Analysis, Medium].
   * Retrieved from https://medium.com/@frankvolkel/tracetogether-under-the-hood-7d5e509aeb5d. 
 * Typic, Zero (2020, March 23). Reversing Trace Together.
   * Retrieved from https://medium.com/@zerotypic/reversing-tracetogether-initial-analysis-edc940e86aa8.
@@ -296,7 +302,7 @@ Tanaka, Nina (Last Updated: 2020, April 11). Background Research on mobile appli
 
 **A good reply from W3C Credentials CG, where I am co-chair, to de Montjoye questionaire below:**
 
-  * Booth, David (2020, April 02) W3C-CCG Mailing List: https://lists.w3.org/Archives/Public/public-credentials/2020Apr/0017.html
+  * Booth, David (2020, April 02) W3C-CCG Mailing List [#Implementation #Analysis, W3C CCG]: https://lists.w3.org/Archives/Public/public-credentials/2020Apr/0017.html
   > KEYQUOTE: That document raises excellent questions, but I think the range of protocols (designs) for consideration should be broadened even more. All three of the toy protocols that they discuss involved a central authority -- presumably a public health agency -- that would receive information about infected or exposed individuals.  I think it would be good to also consider (list follows
 
 **Excellent questionnaire for people designing or evaluating should ask about #ContactTracing implementations**
@@ -334,23 +340,24 @@ Tanaka, Nina (Last Updated: 2020, April 11). Background Research on mobile appli
 *(Most recent first)*
 
 **A real problems in the current crop of #ContactTracing approaches are not the precisely the technology, but social incentive design and adversarial resistance to attacks**
-* Anderson, Ross (2020, April 12). "Contact Tracing in the Real World"
-    * Retrieved from https://www.lightbluetouchpaper.org/2020/04/12/contact-tracing-in-the-real-world/
->ABSTRACT: “Here are some problems with private contact tracing. We should not give policymakers the false hope that they can avoid hard choices"
->KEYQUOTE: “The performance art people will tie a phone to a dog and let it run around the park; the Russians will use the app to run service-denial attacks and spread panic; & little Johnny will self-report symptoms to get the whole school sent home.”
+* Anderson, Ross (2020, April 12). Contact Tracing in the Real World [#Opinion #Analysis, Security Research at the University of Cambridge]
+    * Retrieved from https://www.lightbluetouchpaper.org/2020/04/12/contact-tracing-in-the-real-world/.
+>ABSTRACT: Here are some problems with private contact tracing. We should not give policymakers the false hope that they can avoid hard choices
+>KEYQUOTE: The performance art people will tie a phone to a dog and let it run around the park; the Russians will use the app to run service-denial attacks and spread panic; & little Johnny will self-report symptoms to get the whole school sent home.
 
 **Former FDA Commissioner Dr. Scott Gotlieb ([@ScottGottliebMD](https://twitter.com/ScottGottliebMD)) calls for far greater public health surveillance to help stem COVID, but is skeptical of #ContactTracing apps.**
-* McLellan, Mark; Gottlieb, Scott; Mostashari, Farzad; Rivers, Caitlin; Silvis, Lauren (2020, April 7) A National COVID-19 Survellance System: Achieving Containment [Duke-Margolis Center for Health Policy]
-  * Retrieved from https://healthpolicy.duke.edu/sites/default/files/atoms/files/covid-19_surveillance_roadmap_final.pdf
+* McLellan, Mark; Gottlieb, Scott; Mostashari, Farzad; Rivers, Caitlin; Silvis, Lauren (2020, April 7) A National COVID-19 Survellance System: Achieving Containment [#Opinion #Implementation, Duke-Margolis Center for Health Policy]
+  * Retrieved from https://healthpolicy.duke.edu/sites/default/files/atoms/files/covid-19_surveillance_roadmap_final.pdf.
   > KEYQUOTE: Cell phone-based apps recording proximity events between individuals are unlikely to have adequate discriminating ability or adoption to achieve public health utility, while introducing serious privacy, security, and logistical concerns. Instead, timely contact tracing can be achieved through strengthened public health case investigation augmented by technology and community-level collaborations.
 
 **A key concern of #ContactTracing apps is the huge adoption required for them to be effecive. Other than coercive use in China, Singapore has the largest % acceptance of these apps (6% maybe), but many academics question the efficacy:**
-* Ferritti, Luca, et al. (2020, March 31) Quantifying SARS-CoV-2 transmission suggests epidemic control with digital contact tracing [Science]
-  * Retrieved from: https://science.sciencemag.org/content/early/2020/04/09/science.abb6936
-  > KEYQUOTE If this is an accurate picture of viral spread in Europe and not an artefact of early growth, epidemic control with only case isolation and quarantining of traced contacts appears implausible in this case, requiring near-universal App usage and near-perfect compliance. The App should be one tool among many general preventative population measures such as physical distancing, enhanced hand and respiratory hygiene, and regular decontamination.
+* Ferritti, Luca, et al. (2020, March 31) Quantifying SARS-CoV-2 transmission suggests epidemic control with digital contact tracing [#News #Opinion, Science Magazine].
+  * Retrieved from https://science.sciencemag.org/content/early/2020/04/09/science.abb6936
+  > KEYQUOTE: If this is an accurate picture of viral spread in Europe and not an artefact of early growth, epidemic control with only case isolation and quarantining of traced contacts appears implausible in this case, requiring near-universal App usage and near-perfect compliance. The App should be one tool among many general preventative population measures such as physical distancing, enhanced hand and respiratory hygiene, and regular decontamination.
 
 **Criticism isn't always about the implementation of these technolgies, but also the concerns about the parties doing the implementations**
-* Franceschi-Bicchierai, Lorenzo (2020, April 2). We Saw NSO's Covid-19 Software in Action, and Privacy Experts Are Worried. [#News #Opinion, Vice]. Retrieved from https://www.vice.com/en_us/article/epg9jm/nso-covid-19-surveillance-tech-software-tracking-infected-privacy-experts-worried
+* Franceschi-Bicchierai, Lorenzo (2020, April 2). We Saw NSO's Covid-19 Software in Action, and Privacy Experts Are Worried. [#News #Opinion, Vice]. 
+  * Retrieved from https://www.vice.com/en_us/article/epg9jm/nso-covid-19-surveillance-tech-software-tracking-infected-privacy-experts-worried.
   > ABSTRACT: Every citizen of the world wants to go back to normal as soon as possible. The gold rush to surveillance technology could easily mean that there is a normal expectation of privacy that we will have a hard time going back to.
   > KEYQUOTE: In the spirit of never letting a good crisis go to waste, several companies around the world— some already notorious and some less public—are pitching and developing surveillance tools to help governments track citizens with the goal of stopping the spread of coronavirus. For critics, however, this is an unnecessary escalation justified by a tragic health crisis.
 
@@ -375,7 +382,7 @@ Tanaka, Nina (Last Updated: 2020, April 11). Background Research on mobile appli
   
 **Important academic paper on how easy it is to be able to de-anonymize supposedly anonomized location data.
   
-* Luc Rocher, Julien M. Hendrickx & Yves-Alexandre de Montjoye (2019, Jul 23). Estimating the success of re-identifications in incomplete datasets using generative models. [#Opinion #Review, Nature Communications].
+* Luc Rocher, Julien M. Hendrickx & Yves-Alexandre de Montjoye (2019, Jul 23). Estimating the success of re-identifications in incomplete datasets using generative models [#Opinion #Review, Nature Communications].
   * Retrieved from https://www.nature.com/articles/s41467-019-10933-3.
   > KEYQUOTE: Moving forward, they question whether current de-identification practices satisfy the anonymization standards of modern data protection laws such as GDPR and CCPA and emphasize the need to move, from a legal and regulatory perspective, beyond the de-identification release-and-forget model.
   
@@ -395,7 +402,7 @@ Tanaka, Nina (Last Updated: 2020, April 11). Background Research on mobile appli
 ### General Immunity Credentials Analysis & Technology
 
 **COVID Credentials Initiative**
-  * Global, cross-sector community of organizations using digital identity as a way to mitigate the spread of COVID-19 and reboot public trust
+  * Global, cross-sector community of organizations using digital identity as a way to mitigate the spread of COVID-19 and reboot public trust [#Implementation, Covid Credentials].
     * Retrieved from https://www.covidcreds.com
     
 **Important laypersons' introduction to Bayesian math and the massive difference between a 5% and a 3% margin of error for serological testing/passporting:**
@@ -404,7 +411,7 @@ Tanaka, Nina (Last Updated: 2020, April 11). Background Research on mobile appli
   > KEYQUOTE: If you issue immunity passports on this basis, barely a third of the people you give them to will actually be immune. “There’s nothing peculiar about this statistically,” Kevin McConway, an emeritus professor of statistics at the Open University, told me. “It’s just Bayes’ theorem.” The likelihood of you having had Covid-19, if you’ve had a positive test, depends not just on the accuracy of the test but on the prevalence in the population you’re looking at.
   
 **Beyond issues of immunology, Peter Story argues that we need to be design toward "co-immunology":**
-* Story, Henry (2020, March 29) Co-Immunology and the Web For a Healthier World [#Opinion, #Society, #Immunology, Medium]
+* Story, Henry (2020, March 29) Co-Immunology and the Web For a Healthier World [#Opinion, #Society, #Immunology, Medium].
   * Retrieved from https://medium.com/@bblfish/co-immunology-and-the-web-43379b46688e
   > KEYQUOTE: We thus have three levels of immunities: biological, psychological and social. One should perhaps add hyper-social for the relations between states, that have over the last century put in place institutions to reduce the calamities of war. Each of these depends on the other. The body’s immunity is improved by individuals learning to adopt hygienic practices; those are helped by quarantining policies at the local and international level. At each level communication is restricted but cannot be stopped: trade, especially for medical goods and food, must continue, while new processes are put in place further to limit the spread of this microscopically small virus.
 
@@ -429,8 +436,7 @@ Tanaka, Nina (Last Updated: 2020, April 11). Background Research on mobile appli
 **Human Rights Foundation holds Oslo Freedom Forum, and this year is holding virtual event COVIDcon April 13-14th:**
 
 * COVIDCON https://covidcon.org/
-
-* > ABSTRACT: This two-day event, open to global audiences, will feature presentations and panels about the current pandemic and its relationship to state censorship, disinformation, surveillance, and civil liberties. COVIDCon sessions will showcase the difference in the responses of authoritarian regimes and democratic governments to the outbreak of the novel coronavirus.”
+  > ABSTRACT: This two-day event, open to global audiences, will feature presentations and panels about the current pandemic and its relationship to state censorship, disinformation, surveillance, and civil liberties. COVIDCon sessions will showcase the difference in the responses of authoritarian regimes and democratic governments to the outbreak of the novel coronavirus.”
 
 * Rebooting The Web of Trust https://www.WebOfTrust.info
 
