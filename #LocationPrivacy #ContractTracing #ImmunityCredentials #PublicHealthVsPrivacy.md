@@ -1,6 +1,6 @@
 ---
 created: 2020-04-11T08:43:06-07:00
-modified: 2020-04-12T18:22:00-07:00
+modified: 2020-04-12T18:45:00-07:00
 title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPrivacy'
 
 ---
@@ -76,6 +76,8 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 * McDonald, Sean (2020, March 30). The Digital Response to the Outbreak of COVID-19 [#Opinion, Centre for International Governance Innovation].
   * Retrieved from https://www.cigionline.org/articles/digital-response-outbreak-covid-19
   > KEYQUOTE: Undeniably, we need to use technology as part of disaster response, but the regulatory immaturity of the industry makes technology companies risky allies, even in the best of circumstances
+  > The way that we enable, administer and check the exceptional surveillance and social powers that each government exerts to contain COVID-19…will frame an important part of the future of state power in a world with increasing emergencies.
+  >While the risks and harms associated with digital surveillance are often framed as related to privacy, there are significantly larger issues that apply during a pandemic, such as the escalation of government powers. "
 
 * Thalen, Mikael (2020, March 27). Terrifying cellphone ‘heat map’ shows just how much people are still traveling [#News #Opinion, daily dot].
   * Retrieved from https://www.dailydot.com/debug/cellphone-heat-map-coronavirus/.
@@ -309,7 +311,7 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
   https://lists.w3.org/Archives/Public/public-credentials/2020Mar/0124.html
 
 #### General Criticism of Contact Tracing & Location Privacy Technology Solutions
-(Order of importance)
+*(Most recent first)*
 
 **A real problems in the current crop of #ContactTracing approaches are not the precisely the technology, but social incentive design and adversarial resistance to attacks**
 * Anderson, Ross (2020, April 12). "Contact Tracing in the Real World"
@@ -317,7 +319,12 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 >ABSTRACT: “Here are some problems with private contact tracing. We should not give policymakers the false hope that they can avoid hard choices"
 >KEYQUOTE: “The performance art people will tie a phone to a dog and let it run around the park; the Russians will use the app to run service-denial attacks and spread panic; & little Johnny will self-report symptoms to get the whole school sent home.”
 
-** Criticism isn't always about the implementation of these technolgies, but also the concerns about the parties doing the implementations**
+**A key concern of #ContactTracing apps is the huge adoption required for them to be effecive. Other than coercive use in China, Singapore has the largest % acceptance of these apps, but many academics question the efficacy:**
+* Ferritti, Luca, et al. (2020, March 31) Quantifying SARS-CoV-2 transmission suggests epidemic control with digital contact tracing [Science]
+  * Retreived from: https://science.sciencemag.org/content/early/2020/04/09/science.abb6936
+  > KEYQUOTE If this is an accurate picture of viral spread in Europe and not an artefact of early growth, epidemic control with only case isolation and quarantining of traced contacts appears implausible in this case, requiring near-universal App usage and near-perfect compliance. The App should be one tool among many general preventative population measures such as physical distancing, enhanced hand and respiratory hygiene, and regular decontamination.
+
+**Criticism isn't always about the implementation of these technolgies, but also the concerns about the parties doing the implementations**
 * Franceschi-Bicchierai, Lorenzo (2020, April 2). We Saw NSO's Covid-19 Software in Action, and Privacy Experts Are Worried. [#News #Opinion, Vice]. Retrieved from https://www.vice.com/en_us/article/epg9jm/nso-covid-19-surveillance-tech-software-tracking-infected-privacy-experts-worried
   > ABSTRACT: Every citizen of the world wants to go back to normal as soon as possible. The gold rush to surveillance technology could easily mean that there is a normal expectation of privacy that we will have a hard time going back to.
   > KEYQUOTE: In the spirit of never letting a good crisis go to waste, several companies around the world— some already notorious and some less public—are pitching and developing surveillance tools to help governments track citizens with the goal of stopping the spread of coronavirus. For critics, however, this is an unnecessary escalation justified by a tragic health crisis.
@@ -386,6 +393,7 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 
 * Allen, Christopher (2007-2020) Various links on Hilbert Curves
   https://pinboard.in/search/u:ChristopherA?query=hilbert
+
   
 ## Related Events & Meetings
 
@@ -408,4 +416,8 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 **Both of these standards are key architectures toward privacy design, in particular in the short term for #ImmunityCertificates. We meet online weekly via voice and IRC on Tuesdays at 12noon ET, 9am PT, and 5pm CET. At several recent meetings we have had discussion on COVID-19 related privacy topics, and it looks like some standards around #ImmunityCredentials and #LocationPrivacy in particular will become official work items. Our meetings are open to the public, and are annonced on our public mailing list.
 
 ## New & Unsorted
+
+**My Twitter list of technologists, advocates, policymakers, lawyers, regulators, etc. w/ a particular focus on privacy.**
+* Allen, Christopher (2002-2020) Twitter "Privacy Tech & Advocacy" List [#SocialMedia #Influencers]
+  * Retrieved from: https://twitter.com/i/lists/1068260260555579393
 
