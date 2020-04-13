@@ -1,6 +1,6 @@
 ---
 created: 2020-04-11T08:43:06-07:00
-modified: 2020-04-12T18:03:00-07:00
+modified: 2020-04-12T18:22:00-07:00
 title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPrivacy'
 
 ---
@@ -23,7 +23,7 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
   * [My Personal POV & High-Level Concerns](#my-personal-pov---high-level-concerns)
   * [General News & Opinion](#general-news---opinion)
     + [Contact Tracing News](#contact-tracing-news)
-    + [Immunity Certificate News](#immunity-certificate-news)
+    + [Immunity Credential News](#immunity-credential-news)
   * [Law, Policy & Regulations](#law--policy---regulations)
   * [Implementations & Analysis](#implementations---analysis)
     + [Contact Tracing Technology](#contact-tracing-technology)
@@ -36,6 +36,7 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
       - [W3C Verifiable Claims](#w3c-verifiable-claims)
     + [General Immunity Credentials Analysis & Technology](#general-immunity-credentials-analysis---technology)
   * [Other Related Privacy Technologies](#other-related-privacy-technologies)
+    + [Psuedoanonymous Ephemeral Locality](#psuedoanonymous-ephemeral-locality)
   * [Related Events & Meetings](#related-events---meetings)
   * [New & Unsorted](#new---unsorted)
 
@@ -135,8 +136,7 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 
   > ABSTRACT/KEYQUOTE: The companies that collect all this information on your movements justify their business on the basis of three claims: People consent to be tracked, the data is anonymous and the data is secure. None of those claims hold up, based on the file we’ve obtained and our review of company practices. Yes, the location data contains billions of data points with no identifiable information like names or email addresses. But it’s child’s play to connect real names to the dots that appear on the maps.
 
-
-### Immunity Certificate News
+### Immunity Credential News
 
 * Wighton, Daniel and Chazan, David (2020, March 29). Germany will issue coronavirus antibody certificates to allow quarantined to re-enter society. [#News #Opinion, The Telegraph].
   * Retrieved from https://www.telegraph.co.uk/news/2020/03/29/germany-will-issue-coronavirus-antibody-certificates-allow-quarantined/. 
@@ -146,39 +146,32 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 ## Law, Policy & Regulations
 *(Most recent first)*
 
+** Given EU GDPR and California CPRA, it is very hard to meet those privacy laws and regulatory standards for #LocationPrivacy.**
 * Gray, Stacey; et al (2020, March 25). A Closer Look at Location Data: Privacy and Pandemics. [#News #Opinion, Future of Privacy Forum].
   * Retrieved from https://fpf.org/2020/03/25/a-closer-look-at-location-data-privacy-and-pandemics/.
-
   > ABSTRACT/KEY QUOTE: Typically, we think of location data as having privacy implications when it is precise enough to single out an individual with reasonable specificity...Measuring precise location depends in part on context, such as population density...Recent legislative proposals have attempted to create strict cut-offs (such as an 1,640 foot radius under the U.S. House and Commerce Discussion Draft, or an 1,850 foot radius under the California Privacy Rights Act ballot initiative of 2020).
   
 **Human Rights, Privacy Law & GPDR expert Elizabeth Renieres ([@hackylawyer](https://twitter.com/hackylawyer) always has great insights on the intersection of privacy technology, the law, and is always one of the first people I go to on these topics:**
 
 * Renieris, Elizabeth M. (2020, March 23). When Privacy Meets a Pandemic. [#Opinion, Medium].
   * Retrieved from https://onezero.medium.com/when-privacy-meets-pandemic-fbf9154f80b3.
-
   > KEYQUOTE: So, where does this leave us as a privacy community and what is our role in the time of Corona? It means that before we debate the particulars of a specific technology or application, before we tweak certain features or functionality to better protect individual privacy, or before we impose certain transparency or accountability measures, we take a step back.
-
   > Before we concede that a measure is necessary and begin to assess its proportionality, we question that underlying assumption — especially when it’s coming from private companies who stand to gain from it or governments who fear being perceived as lacking control over the situation. We apply the age-old tests of legality, necessity, and proportionality — in that order. We require concrete evidence that a measure will further specific aims or achieve certain measurable outcomes.
-
   > If privacy advocates don’t step up and do this, who will?
   
 * Scott, Mark; Cerulus, Laurens; Kayali, Laura (2020, March 23) Article: Commission tells carriers to hand over mobile data in coronavirus fight
   * Retrieved from https://www.politico.eu/article/european-commission-mobile-phone-data-thierry-breton-coronavirus-covid19/
-
   > KEYQUOTE: The European Commission on Monday urged Europe's telecoms giants including Deutsche Telekom and Orange to share reams of people's mobile data from across the region to help predict the spread of the coronavirus…called on the companies to hand over anonymized and aggregated data from people’s mobile phones to track how the virus was spreading…The draft plans would allow the Commission — and not the carriers — to manage how the data was used, and give EU officials control over so-called metadata on hundreds of millions of people’s mobile phones. That represents a significant step for Brussels as it would make the EU executive liable for any hefty fines if the digital information was hacked or misused.
 
 * Unknown (2020, March 16). Statement by the EDPB Chair on the processing of personal data in the context of the COVID-19 outbreak [#Law #Regulatory, European Data Protection Board].
   * Retrieved from https://edpb.europa.eu/news/news/2020/statement-edpb-chair-processing-personal-data-context-covid-19-outbreak_en.
-
   > ABSTRACT/KEYQUOTE: The national laws implementing the ePrivacy Directive provide for the principle that the location data can only be used by the operator when they are made anonymous, or with the consent of the individuals...When it is not possible to only process anonymous data, Art. 15 of the ePrivacy Directive enables the member states to introduce legislative measures pursuing national security and public security.
   
 * GMSA Public Policy: COVID-19 Privacy Guidelines April 2020 https://www.gsma.com/publicpolicy/resources/covid-19-privacy-guidelines
-
   > ABSTRACT: The mobile industry recognises the urgency with which governments must act to slow the spread of COVID-19 and the desire of some governments to seek help regarding those efforts. At the same time, the mobile industry recognises that the use of mobile network operator data by governments or agencies raises serious privacy concerns. These guidelines reflect recommendations on how the mobile industry may maintain trust while responding to those governments and public health agencies that have sought assistance in the fight against COVID-19.
 
 * Johnston, Anna (2020, March 31). Privacy in a pandemic: Keep calm, and remember first principles [#News #Opinion, Salinger Privacy].
   * Retrieved from https://www.salingerprivacy.com.au/2020/03/31/privacy-in-a-pandemic/.
-
   > KEYQUOTE: Indeed a national committee of all the Australian privacy regulators has been formed to respond to COVID-related proposals with national implications (such as development of a contact tracing tool), and they have reiterated the value of conducting short-form Privacy Impact Assessments on proposed solutions to public health and economic problems, to make sure privacy is considered in the design process. 
 
 * Hernandez, Lorena (2020, January 27). Report: Guidelines for public administrations on location privacy - Version 2 [#Law #Regulatory, European Location Interoperability Solutions for e-Government].
@@ -197,10 +190,23 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 **That being said, I beleive it is worth the effort to learn best practices of this generation of apps and make better choices for the next generation.**
 
 #### Implementations of Contact Tracing
-*(Most recent first)*
-
+*(Those with most detail first, then by date order)*
 
 **Some contact tracing implementations related, projects:**
+
+* EU: PEPP-PT (Pan-European Privacy-Preserving Proximity Tracing):
+  * Pan-European Privacy-Preserving Proximity Tracing
+    * Retreived from https://www.pepp-pt.org
+    > ABSTRACT: PEPP-PT was created to assist national initiatives by supplying ready-to-use, well-tested, and properly assessed mechanisms and standards, as well as support for interoperability, outreach, and operation when needed. The PEPP-PT mechanisms will have these core features:
+  > Well-tested and established procedures for proximity measurement on popular mobile operating systems and devices. 
+  > Enforcement of data protection, anonymization, GDPR compliance, and security.
+  > International interoperability to support tracing local infection chains even if a chain spans multiple PEPP-PT participating countries.
+  > Scalable backend architecture and technology that can be deployed with local IT infrastructure.
+  > Certification service to test and ensure local implementations use the PEPP-PT mechanisms in a secure and interoperable manner.
+  > Our reference implementation is available under the Mozilla License Agreement.
+  * Stolton, Samuel (2020, April 6). EU data watchdog pitches pan-European COVID-19 app. [#News #Opinion, Euractiv].
+    * Retrieved from https://www.euractiv.com/section/digital/news/eu-data-watchdog-pitches-pan-european-covid-19-app
+    > KEYQUOTE: Apps taking advantage of ‘bluetooth handshakes’ registered between two smartphone users when coming into close proximity with one another have received publicity recently following the establishment of a European project dubbed Pan-European Privacy-Preserving Proximity Tracing (PEPP-PT)…The technology borrows from various initiatives worldwide, including Singapore’s TraceTogether application, which has influenced other national projects in the West seeking to clamp down on the spread of the virus.
 
 * Singapore: 
 
@@ -214,13 +220,6 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 
   > https://www.media.mit.edu/projects/safepaths/overview/ - Safe Paths is an MIT-led, free, open source technology that enables jurisdictions and individuals to maximize privacy, while also maximizing the effectiveness of contact tracing in the case of a positive diagnosis. The Safe Paths platform, currently in beta, comprises both a smartphone application, PrivateKit, and a web application, Safe Places.
   
-* EU: PEPP-PT (Pan-European Privacy-Preserving Proximity Tracing):
-
-  * Stolton, Samuel (2020, April 6). EU data watchdog pitches pan-European COVID-19 app. [#News #Opinion, Euractiv].
-    * Retrieved from https://www.euractiv.com/section/digital/news/eu-data-watchdog-pitches-pan-european-covid-19-app/
-
-    > KEYQUOTE: Apps taking advantage of ‘bluetooth handshakes’ registered between two smartphone users when coming into close proximity with one another have received publicity recently following the establishment of a European project dubbed Pan-European Privacy-Preserving Proximity Tracing (PEPP-PT)…The technology borrows from various initiatives worldwide, including Singapore’s TraceTogether application, which has influenced other national projects in the West seeking to clamp down on the spread of the virus.
-
 * Israel: The Shield
   https://translate.google.com/translate?sl=auto&tl=en&u=https%3A%2F%2Fwww.haaretz.co.il%2Fcaptain%2Fsoftware%2F1.8700078
 
@@ -248,24 +247,6 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 * GIDEON:
   https://www.gideononline.com/about/gideon/
 
-* Christopher Allen's Psuedoanonymous Ephemeral Locality Service API (circa 2008)
-  https://github.com/ChristopherA/Ephemeral-Locality-API
-
-* Pan-European Privacy-Preserving Proximity Tracing https://www.pepp-pt.org
-
-  > ABSTRACT: PEPP-PT was created to assist national initiatives by supplying ready-to-use, well-tested, and properly assessed mechanisms and standards, as well as support for interoperability, outreach, and operation when needed. The PEPP-PT mechanisms will have these core features:
-
-  > Well-tested and established procedures for proximity measurement on popular mobile operating systems and devices. 
-
-  > Enforcement of data protection, anonymization, GDPR compliance, and security.
-
-  > International interoperability to support tracing local infection chains even if a chain spans multiple PEPP-PT participating countries.
-
-  > Scalable backend architecture and technology that can be deployed with local IT infrastructure.
-
-  > Certification service to test and ensure local implementations use the PEPP-PT mechanisms in a secure and interoperable manner.
-
-  > Our reference implementation is available under the Mozilla License Agreement.
 
 **Papers on DP3T (refer to earlier comic):**
 
@@ -393,10 +374,17 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 
 ## Other Related Privacy Technologies
 
-* Christopher Allen on Hilbert Curves and utility for zk range proofs for privacy
-  https://twitter.com/ChristopherA/status/1243413128378892293?s=20
+### Psuedoanonymous Ephemeral Locality
 
-* Various of Christopher's links on Hilbert Curves
+**I worked on some #LocationPrivacy approaches after year 1 of the iPhone. The target advocacy was not about health care but personal safety while travelling. Here they are for the record:**
+
+* Allen, Christopher (circa 2008) Psuedoanonymous Ephemeral Locality Service API
+  * Retreived from https://github.com/ChristopherA/Ephemeral-Locality-API
+
+* Allen, Christopher (2020, 26 March) Hilbert Curves and utility for zk range proofs for privacy
+  * https://twitter.com/ChristopherA/status/1243413128378892293
+
+* Allen, Christopher (2007-2020) Various links on Hilbert Curves
   https://pinboard.in/search/u:ChristopherA?query=hilbert
   
 ## Related Events & Meetings
