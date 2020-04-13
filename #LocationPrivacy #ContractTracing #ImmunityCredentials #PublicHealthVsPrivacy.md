@@ -1,6 +1,6 @@
 ---
 created: 2020-04-11T08:43:06-07:00
-modified: 2020-04-12T17:23:00-07:00
+modified: 2020-04-12T17:31:00-07:00
 title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPrivacy'
 
 ---
@@ -275,11 +275,14 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
   
 #### Analysis of Specific Contact Tracing Implemenations
 
+**Brief "first look" by Signal app's creator Moxie Marlinspike (Twitter: [@moxie](https://twitter.com/moxie)) on the Apple/Google #ContactPrivacy framework**
+* Marlinspike, Moxie (2020, April 10). Twitter thread. [#Implementation #Analysis, Twitter]
+  * Retreived from https://twitter.com/moxie/status/1248707315626201088
+  KEYQUOTE: So first obvious caveat is that this is "private" (or at least not worse than BTLE), *until* the moment you test positive. At that point all of your BTLE mac addrs over the previous period become linkable… Second caveat is that it seems likely location data would have to be combined with what the device framework gives you.…Third caveat is that it seems likely some kind of PII would have to be combined with what the device framework gives you. Keys published by a device have to then be in turn "published" to *all* devices in the world. That's a major DoS vector!…All that aside, these APIs are novel in terms of what becomes possible from the app layer. I'm not super optimistic about opt-in contact tracing becoming a major factor, but I do kind of anticipate that someone will end up using this for some other interesting thing.
+
 **Two early reivew of Singapore's Trace Together app and the BlueTrace protocol**
-
-* L, Frank (2020, March 23). Trace Together Under the HooD [#Implementation #Review, Medium].
+* L, Frank (2020, March 23). Trace Together Under the Hood [#Implementation #Analyisi, Medium].
   * Retrieved from https://medium.com/@frankvolkel/tracetogether-under-the-hood-7d5e509aeb5d. 
-
 * Typic, Zero (2020, March 23). Reversing Trace Together.
   * Retrieved from https://medium.com/@zerotypic/reversing-tracetogether-initial-analysis-edc940e86aa8.
   
