@@ -11,7 +11,7 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 >
 > If you like my advocacy, my point-of-view, my writing, my travel, my talks, and my work with organizations such as [Blockchain Commons](https://www.BlockchainCommons.com), [Rebooting the Web of Trust](https://www.WebOfTrust.info) and the [W3C Credentials CG](https://w3c-ccg.github.io), I invite you to sponsor me by becoming a monthly patron on my [GitHub Sponsor Page](https://github.com/sponsors/ChristopherA) for as little as $5 a month, as they are matching the first $5,000!
 >
-> Alternatively can also support my efforts by sponsoring [Blockchain Commons](https://www.BlockchainCommons.com) and our vision of the open web via a monthly [GitHub Sponsorship](https://github.com/sponsors/BlockchainCommons) or with Bitcoin via our [Bitcoin](https://btcpay.blockchaincommons.com)contribution page.
+> Alternatively can also support my efforts by sponsoring [Blockchain Commons](https://www.BlockchainCommons.com) and our vision of the open web via a monthly [GitHub Sponsorship](https://github.com/sponsors/BlockchainCommons) or with Bitcoin via our [Bitcoin](https://btcpay.blockchaincommons.com) contribution page.
 >
 > But please don’t think of this as a transaction. It’s an opportunity to advance the open web, digital civil liberties and human rights together. You get to plug into my various projects, and hopefully will find a way to actively contribute to the digital commons yourself. Let’s collaborate!
 >
@@ -56,14 +56,14 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 ## COVID-19, Politics & Tyranny
 
 **My concerns about the risks of government misuse of technology continue to be justified:**
-* Mackinnon, Mark; Venderklippe, Nathan. (2020, April 6) How the coronavirus pandemic is making strongmen stronger, from Hungary to Serbia to the Philippines [The Globe and Mail]
-  * Retreived from https://www.theglobeandmail.com/world/article-how-the-coronavirus-pandemic-is-making-strongmen-stronger-from/
+* Mackinnon, Mark; Venderklippe, Nathan. (2020, April 6). How the coronavirus pandemic is making strongmen stronger, from Hungary to Serbia to the Philippines [# News #Opinion, The Globe and Mail].
+  * Retreived from https://www.theglobeandmail.com/world/article-how-the-coronavirus-pandemic-is-making-strongmen-stronger-from/.
   > KEYQUOTE: With governments around the world adopting extraordinary measures amid the pandemic, ostensibly to protect their citizens – but often in directions that have little or nothing to do with public health – one of the most potent legacies of this era may prove to be a global erosion of democratic freedoms. The power grabs have been dubbed “coronavirus coups” in some countries, and three months into the crisis, with no end in sight, there are concerns that leaders such as Hungary’s Viktor Orban are capitalizing on COVID-19 to seize powers they may never relinquish.
 
 **NSO makes spyware and mass-surveillance tools, why should we trust the privacy of their software?**
-* Franceschi-Biccierai, Lorenzo (2020, April 2nd) We Saw NSO's Covid-19 Software in Action, and Privacy Experts Are Worried
+* Franceschi-Biccierai, Lorenzo (2020, April 2nd). We Saw NSO's Covid-19 Software in Action, and Privacy Experts Are Worried [#News #Opinion, Vice].
   * Retrieved from
-https://www.vice.com/en_us/article/epg9jm/nso-covid-19-surveillance-tech-software-tracking-infected-privacy-experts-worried
+https://www.vice.com/en_us/article/epg9jm/nso-covid-19-surveillance-tech-software-tracking-infected-privacy-experts-worried.
   > KEYQUOTE: Researchers who have studied and exposed several cases where NSO Group’s customers abused its products to spy on activists and journalists are skeptical that governments should be adopting such an invasive surveillance product, made by a company known to have worked with governments that routinely abuse human rights.
   > On Monday, Israel's Defense Minister Naftali Bennett tweeted that the Israeli government is working on "world-leading" AI system that will give every citizen a grade between 1 and 10 to determine how likely they are to spread the coronavirus and if they need to be tested
   
@@ -75,8 +75,8 @@ https://www.vice.com/en_us/article/epg9jm/nso-covid-19-surveillance-tech-softwar
 
 **Two of the biggest mobile app platfroms, Apple & Google, are partnering on contact-tracing technology. Early privacy analysis is positive, but it still has centralization issues (see [Implementations & Analysis](#implementations--analysis) section below for more details).**
 
-* Doffman, Zak (2020, April 12). Forget Apple And Google—Here’s The Real Challenge For COVID-19 Contact-Tracing
-  * Retreived from https://www.forbes.com/sites/zakdoffman/2020/04/12/forget-apple-and-google-heres-the-real-challenge-for-covid-19-contact-tracing/#5d66bf7f2709
+* Doffman, Zak (2020, April 12). Forget Apple And Google—Here’s The Real Challenge For COVID-19 Contact-Tracing [#News #Opinion, Forbes].
+  * Retrieved from https://www.forbes.com/sites/zakdoffman/2020/04/12/forget-apple-and-google-heres-the-real-challenge-for-covid-19-contact-tracing/#5d66bf7f2709
   > KEYQUOTE: Unless and until governments can either develop or mandate a system that deploys this across the majority of its population, and then backs it up with the rigorous testing regime that is stitched into the core concept of operation, such apps will be helpful but not game-changing. 
 
 * McSweeney, Michael (2020, April 10). Apple, Google partner on COVID-19 contact tracing tech initiative. [#News #Opinion, The Block].
@@ -89,12 +89,22 @@ https://www.vice.com/en_us/article/epg9jm/nso-covid-19-surveillance-tech-softwar
   * Retrieved from https://twitter.com/ncasenmare/status/1248271370368114688; https://ncase.me/contact-tracing/. 
   > KEYQUOTE via @mikarv: How exactly can #DP3T privacy-preserving Bluetooth COVID-19 alerts work if identifiable personal data never leaves your device? It's actually not so complicated, and even less so now @ncasenmare has made a fantastic, public domain, comic explaining it.
 
+**Good summary of three approachs/designs for privacy-preserving contact-tracing apps: Bluetooth Contact Tracing, Redacted Location Tracing, Hashing Servers and Mix Nets**
+
+* Greenberg, Andy (2020, April 8). Clever Cryptography Could Protect Privacy in Covid-19 Contact-Tracing Apps [#News #Opinion, Wired].
+  * Retrieved from https://www.wired.com/story/covid-19-contact-tracing-apps-cryptography/.
+  > KEYQUOTE: Users may appreciate privacy, but health care workers and governments don't necessarily want to build a system that prevents them from, say, proactively notifying users who have been potentially exposed to Covid-19, or even actively tracking the location of infected or potentially exposed people.  
+
 **A pretty good update on what is happening on the telcom side of [#LocationPrivacy](https://twitter.com/hashtag/LocationPrivacy). It does have me concerned that various efforts for privacy enhanced bluetooth [#ContactTracing](https://twitter.com/hashtag/ContactTracing) and other such approaches are a moot point given what the cell phone already allow to be correlated.**
 
 * Espinoza, Javier and Fildes, Nic (2020, April 7). Tracking coronavirus: big data and the challenge to privacy. [#News #Opinion, Financial Times; Free to Read].
   * Retrieved from https://www.ft.com/content/7cfad020-78c4-11ea-9840-1b8019d9a987.
   > KEYQUOTE: Still, assurances from officials and industry executives have done little to appease anxiety that privacy rights could be brushed aside as governments seek to use tools of mass surveillance in their efforts to combat the virus. The concerns about political use of data have been aggravated by the fact that the European Commission wants the telecoms companies to provide the actual aggregated data, not just access to insights from that information.
   > Some researchers are not convinced by the claim that such data sets are completely anonymous. A 2019 study by researchers at Imperial College London and Belgium’s Catholic University of Louvain revealed there is a way to re-identify 99.98 per cent of individuals with just 15 demographic characteristics using location data. Other studies have come to similar conclusions that individuals can be identified based on aggregate data sets with relative ease.
+
+* Stolton, Samuel (2020, April 6). EU data watchdog pitches pan-European COVID-19 app. [#News #Opinion, Euractiv].
+   * Retrieved from https://www.euractiv.com/section/digital/news/eu-data-watchdog-pitches-pan-european-covid-19-app
+   > KEYQUOTE: Apps taking advantage of ‘bluetooth handshakes’ registered between two smartphone users when coming into close proximity with one another have received publicity recently following the establishment of a European project dubbed Pan-European Privacy-Preserving Proximity Tracing (PEPP-PT)…The technology borrows from various initiatives worldwide, including Singapore’s TraceTogether application, which has influenced other national projects in the West seeking to clamp down on the spread of the virus.
 
 * Thalen, Mikael (2020, March 27). Terrifying cellphone ‘heat map’ shows just how much people are still traveling [#News #Opinion, daily dot].
   * Retrieved from https://www.dailydot.com/debug/cellphone-heat-map-coronavirus/.
@@ -164,8 +174,8 @@ https://www.vice.com/en_us/article/epg9jm/nso-covid-19-surveillance-tech-softwar
   > Before we concede that a measure is necessary and begin to assess its proportionality, we question that underlying assumption — especially when it’s coming from private companies who stand to gain from it or governments who fear being perceived as lacking control over the situation. We apply the age-old tests of legality, necessity, and proportionality — in that order. We require concrete evidence that a measure will further specific aims or achieve certain measurable outcomes.
   > If privacy advocates don’t step up and do this, who will?
   
-* Scott, Mark; Cerulus, Laurens; Kayali, Laura (2020, March 23) Article: Commission tells carriers to hand over mobile data in coronavirus fight
-  * Retrieved from https://www.politico.eu/article/european-commission-mobile-phone-data-thierry-breton-coronavirus-covid19/
+* Scott, Mark; Cerulus, Laurens; Kayali, Laura (2020, March 23). Commission tells carriers to hand over mobile data in coronavirus fight [#News #Opinion, Politico EU].
+  * Retrieved from https://www.politico.eu/article/european-commission-mobile-phone-data-thierry-breton-coronavirus-covid19/.
   > KEYQUOTE: The European Commission on Monday urged Europe's telecoms giants including Deutsche Telekom and Orange to share reams of people's mobile data from across the region to help predict the spread of the coronavirus…called on the companies to hand over anonymized and aggregated data from people’s mobile phones to track how the virus was spreading…The draft plans would allow the Commission — and not the carriers — to manage how the data was used, and give EU officials control over so-called metadata on hundreds of millions of people’s mobile phones. That represents a significant step for Brussels as it would make the EU executive liable for any hefty fines if the digital information was hacked or misused.
   > Researchers, academics and telecoms executives say that as the coronavirus crisis has spread so quickly, the usefulness of such anonymized mobile phone metadata is quickly coming to an end. As people enter lockdown, often not able to travel beyond their neighborhoods, such digital information does not offer much insight because it is not granular enough to track people's localized movements.
 
@@ -173,7 +183,7 @@ https://www.vice.com/en_us/article/epg9jm/nso-covid-19-surveillance-tech-softwar
   * Retrieved from https://edpb.europa.eu/news/news/2020/statement-edpb-chair-processing-personal-data-context-covid-19-outbreak_en.
   > ABSTRACT/KEYQUOTE: The national laws implementing the ePrivacy Directive provide for the principle that the location data can only be used by the operator when they are made anonymous, or with the consent of the individuals...When it is not possible to only process anonymous data, Art. 15 of the ePrivacy Directive enables the member states to introduce legislative measures pursuing national security and public security.
   
-* GMSA Public Policy: COVID-19 Privacy Guidelines April 2020 https://www.gsma.com/publicpolicy/resources/covid-19-privacy-guidelines
+* GMSA Public Policy (2020, April). COVID-19 Privacy Guidelines April 2020 [#Regulatory, Global System for Mobile Communications]. https://www.gsma.com/publicpolicy/resources/covid-19-privacy-guidelines.
   > ABSTRACT: The mobile industry recognises the urgency with which governments must act to slow the spread of COVID-19 and the desire of some governments to seek help regarding those efforts. At the same time, the mobile industry recognises that the use of mobile network operator data by governments or agencies raises serious privacy concerns. These guidelines reflect recommendations on how the mobile industry may maintain trust while responding to those governments and public health agencies that have sought assistance in the fight against COVID-19.
 
 * Johnston, Anna (2020, March 31). Privacy in a pandemic: Keep calm, and remember first principles [#News #Opinion, Salinger Privacy].
@@ -189,79 +199,57 @@ https://www.vice.com/en_us/article/epg9jm/nso-covid-19-surveillance-tech-softwar
 
 ## Contact Tracing Technology
 
-**[#ContactTracing](https://twitter.com/hashtag/ContactTracing) were among the first Covid-19 tech solutions proposed, basically informing people that they may have been in recent contact with someone with an active infection. There are huge privacy, concent and human rights risks in this area, as [#LocationPrivacy](https://twitter.com/hashtag/LocationPrivacy) is very difficult.**
+**[#ContactTracing](https://twitter.com/hashtag/ContactTracing) were among the first Covid-19 tech solutions proposed, basically informing people that they may have been in recent contact with someone with an active infection. There are huge privacy, consent and human rights risks in this area, as [#LocationPrivacy](https://twitter.com/hashtag/LocationPrivacy) is very difficult.**
 
-**There are some emerging solutions that are better than other, however, I still am skeptical about both the efficacy of [#ContactTracing](https://twitter.com/hashtag/ContactTracing) (because in many case is probably too late, and it only works if there is large adoption) & and issues of [#PrivacyByDesign](https://twitter.com/hashtag/PrivacyByDesign) (many open issues on incentive design, consent & active adversary issues, and all proposed solutions are too centralized) of this first generation of [#ContactTracing](https://twitter.com/hashtag/ContactTracing) apps.**
+**There are some emerging solutions that are better than other, however, I still am skeptical about both the efficacy of [#ContactTracing](https://twitter.com/hashtag/ContactTracing) (because in many cases it is probably too late, and it only works if there is large adoption) & and issues of [#PrivacyByDesign](https://twitter.com/hashtag/PrivacyByDesign) (many open issues on incentive design, consent & active adversary issues, and all proposed solutions are too centralized) of this first generation of [#ContactTracing](https://twitter.com/hashtag/ContactTracing) apps.**
 
-**That being said, I beleive it is worth the effort to learn best practices of this generation of apps and make better choices for the next generation.**
+**That being said, I believe it is worth the effort to learn best practices of this generation of apps and make better choices for the next generation.**
 
 ### Implementations of Contact Tracing
-*(Those with most detail first, then by date order)*
 
-**Some contact tracing implementations related, projects:**
+**Here is a comprehensive summary of contact tracing implementations in the US, and 40+ countries around the world, from USC:
+
+Tanaka, Nina (Last Updated: 2020, April 11). Background Research on mobile applications focused on COVID-19  [#Implementation #Review, USC Viterbi School of Engineering].
+  * Retrieved from https://docs.google.com/document/d/1bgsNjPcvoz8fpOutEYiqCJpu2PWYHnGqPI3pcK9mUio/edit.
+  > KEYQUOTE: Based on news stories and other online sources, with a focus on February 2020 to present.
+
+**Some additional notable projects or specific links, not yet in the USC list:**
 
 * Apple/Google Privacy Contact Tracing (2020, April 10)
-  * Announcement: Apple and Google partner on COVID-19 contact tracing technology
-    * Retreived from https://www.apple.com/newsroom/2020/04/apple-and-google-partner-on-covid-19-contact-tracing-technology/
   * Bluetooth Specification (2020, April 10)
-    * Retreived from https://covid19-static.cdn-apple.com/applications/covid19/current/static/contact-tracing/pdf/ContactTracing-BluetoothSpecificationv1.1.pdf
+    * Link https://covid19-static.cdn-apple.com/applications/covid19/current/static/contact-tracing/pdf/ContactTracing-BluetoothSpecificationv1.1.pdf
   * Cryptography Specification (2020, April 10)
-    * Retreived from https://covid19-static.cdn-apple.com/applications/covid19/current/static/contact-tracing/pdf/ContactTracing-CryptographySpecification.pdf
+    * Link https://covid19-static.cdn-apple.com/applications/covid19/current/static/contact-tracing/pdf/ContactTracing-CryptographySpecification.pdf
   * Framework API (2020, April 10)
-    * Retreived from https://covid19-static.cdn-apple.com/applications/covid19/current/static/contact-tracing/pdf/ContactTracing-FrameworkDocumentation.pdf
-
+    * Link https://covid19-static.cdn-apple.com/applications/covid19/current/static/contact-tracing/pdf/ContactTracing-FrameworkDocumentation.pdf
+    
 * EU: PEPP-PT (Pan-European Privacy-Preserving Proximity Tracing):
-  * Pan-European Privacy-Preserving Proximity Tracing
-    * Retreived from https://www.pepp-pt.org
-    > ABSTRACT: PEPP-PT was created to assist national initiatives by supplying ready-to-use, well-tested, and properly assessed mechanisms and standards, as well as support for interoperability, outreach, and operation when needed. The PEPP-PT mechanisms will have these core features:
-  > Well-tested and established procedures for proximity measurement on popular mobile operating systems and devices. 
-  > Enforcement of data protection, anonymization, GDPR compliance, and security.
-  > International interoperability to support tracing local infection chains even if a chain spans multiple PEPP-PT participating countries.
-  > Scalable backend architecture and technology that can be deployed with local IT infrastructure.
-  > Certification service to test and ensure local implementations use the PEPP-PT mechanisms in a secure and interoperable manner.
-  > Our reference implementation is available under the Mozilla License Agreement.
-  * Stolton, Samuel (2020, April 6). EU data watchdog pitches pan-European COVID-19 app. [#News #Opinion, Euractiv].
-    * Retrieved from https://www.euractiv.com/section/digital/news/eu-data-watchdog-pitches-pan-european-covid-19-app
-    > KEYQUOTE: Apps taking advantage of ‘bluetooth handshakes’ registered between two smartphone users when coming into close proximity with one another have received publicity recently following the establishment of a European project dubbed Pan-European Privacy-Preserving Proximity Tracing (PEPP-PT)…The technology borrows from various initiatives worldwide, including Singapore’s TraceTogether application, which has influenced other national projects in the West seeking to clamp down on the spread of the virus.
+  * Website
+    * Link https://www.pepp-pt.org
 
-* Singapore: 
-
-  > TraceTogether is a mobile application developed to support existing nationwide efforts to combat COVID-19, by enabling community-driven contact tracing.
-  * Retrieved from https://www.tracetogether.gov.sg/.
-
-  > BlueTrace is a privacy-preserving protocol for community-driven contact tracing using Bluetooth devices, that allows for global inter-operability.
-  * Retrieved from https://bluetrace.io/.
-
-* MIT: SafePaths:
-
-  > https://www.media.mit.edu/projects/safepaths/overview/ - Safe Paths is an MIT-led, free, open source technology that enables jurisdictions and individuals to maximize privacy, while also maximizing the effectiveness of contact tracing in the case of a positive diagnosis. The Safe Paths platform, currently in beta, comprises both a smartphone application, PrivateKit, and a web application, Safe Places.
+* Bluetrace: underlying tech used by Singapore
+  * Website
+    * Link https://bluetrace.io/
+    
+* Czech Republic's Smart Quaratine deployment in the Prague region:
+  * The Czech Republic will start testing the new “smart quarantine system” to track the movements of infected citizens in South Moravia.
+    * Retrieved from https://www.praguemorning.cz/czech-republic-smart-quarantine/
+    
+* Italy Human Interaction Tracking System (HITS) project proposed by Cy4Gate, a cyber defence and intelligence solutions provider:
+  * CY4GATE Solutions for Government aims to delivers products and services that meets the cyber electronic defence & intelligence requirements expressed by Government Bodies and Armed Forces.
+    * Retrieved from Tweet https://twitter.com/elettronicagrp/status/1242462328362237959?s=21  
   
-* Israel: The Shield
-  https://translate.google.com/translate?sl=auto&tl=en&u=https%3A%2F%2Fwww.haaretz.co.il%2Fcaptain%2Fsoftware%2F1.8700078
+* COVID-Defender project by Moses Ma's FutureLab:
+  * Intelligent contact tracing using a deployment model better suited to the US market.
+    * Project link https://www.dropbox.com/s/lg05fp5f2d2qxry/COVID-defender%20OVERVIEW.pdf?dl=0
+    
+* FOAM project:
+  * FOAM is a spatial protocol for the Ethereum blockchain that provides secure Proof of Location services.
+    * Project link https://blog.foam.space/introduction-to-proof-of-location-6b4c77928022
 
-* Prague Smart Quarantine
-  https://www.praguemorning.cz/czech-republic-smart-quarantine/
-
-* Poland ProteGO
-  https://github.com/ProteGO-app/specs/blob/master/ENGLISH.md
-
-* Italy HITS by Cy4Gate
-  https://twitter.com/elettronicagrp/status/1242462328362237959?s=21
-
-* NextTrace
-  https://nexttrace.org/about/
-
-* Covid-Devender project overview (from Moses Ma's FutureLab):
-  https://www.dropbox.com/s/lg05fp5f2d2qxry/COVID-defender%20OVERVIEW.pdf?dl=0
-
-* Trustee Universal Healthcare Records
-  https://docs.google.com/document/d/1LSWYNeHNYfU99UtUlvo-GXE6I6uTmzZjzaEtSRsecGM/edit?usp=sharing
-
-* FOAM:
-  https://blog.foam.space/introduction-to-proof-of-location-6b4c77928022
-
-* GIDEON:
-  https://www.gideononline.com/about/gideon/
+* GIDEON project:
+  * GIDEON (Global Infectious Diseases and Epidemiology Online Network) is the world’s premier Global Infectious Disease knowledge management tool. 
+    * Project Website: https://www.gideononline.com/about/gideon/
 
 **Papers on DP3T (refer to earlier comic):**
 
@@ -277,12 +265,12 @@ https://www.vice.com/en_us/article/epg9jm/nso-covid-19-surveillance-tech-softwar
 
 **Brief "first look" by Signal app's creator Moxie Marlinspike (Twitter: [@moxie](https://twitter.com/moxie)) on the Apple/Google #ContactPrivacy framework**
 * Marlinspike, Moxie (2020, April 10). Twitter thread. [#Implementation #Analysis, Twitter]
-  * Retreived from https://twitter.com/moxie/status/1248707315626201088
+  * Retrieved from https://twitter.com/moxie/status/1248707315626201088
   KEYQUOTE: So first obvious caveat is that this is "private" (or at least not worse than BTLE), *until* the moment you test positive. At that point all of your BTLE mac addrs over the previous period become linkable… Second caveat is that it seems likely location data would have to be combined with what the device framework gives you.…Third caveat is that it seems likely some kind of PII would have to be combined with what the device framework gives you. Keys published by a device have to then be in turn "published" to *all* devices in the world. That's a major DoS vector!…All that aside, these APIs are novel in terms of what becomes possible from the app layer. I'm not super optimistic about opt-in contact tracing becoming a major factor, but I do kind of anticipate that someone will end up using this for some other interesting thing.
   
 **Another "first look" by Zcash cryptography researcher Henry de Valence [@hdevalence](https://twitter.com/hdevalence) on Apple/Google #ContactPrivacy:**
 * de Valence, Henry (2020, April 10) Twitter thread. 
-  * Retreived from https://twitter.com/hdevalence/status/1248661056622186496
+  * Retrieved from https://twitter.com/hdevalence/status/1248661056622186496
   > KEYQUOTE: Revealing a daily tracing key reveals all of the RPIs derived from that daily tracing key, meaning that a passive adversary can correlate past RPI broadcasts from a user who reports infection.  This is a tradeoff between reporter privacy and bandwidth, also made by TCN and DP-3T. But in the Apple/Google protocol, the tradeoff isn't an adjustable knob, it's hardcoded into the protocol, so there's only one choice. And this choice might not be the optimal one. For instance, if an entire day's RPIs are revealed in one block, they may end up being linkable *across* days, because people have regular patterns of life, and a passive adversary can e.g., notice that two reports appeared at the same place each day. Figuring out the optimal tradeoff here is challenging, but if it's hardcoded into the protocol, it's not possible to change it at all.
   > …it's not totally clear to me that this actually ensures unlinkability of RPIs and MAC addresses, because the RPIs are dependent only on the time interval (also hardcoded into the protocol), rather than having a "next RPI" ratchet (as in the TCN design).
   > The other big problem with the protocol is that because there's no information attached to reports, just an implicit "tested positive" bit, the protocol assumes the existence of a single, centralized entity who can determine whether a COVID19 test happened. But this isn't the way that testing actually works! It's a huge patchwork of different agencies doing different tests, and it's already even a challenge just to collect statistics, let alone authenticate tests.
@@ -348,7 +336,7 @@ https://www.vice.com/en_us/article/epg9jm/nso-covid-19-surveillance-tech-softwar
 
 **A key concern of #ContactTracing apps is the huge adoption required for them to be effecive. Other than coercive use in China, Singapore has the largest % acceptance of these apps (6% maybe), but many academics question the efficacy:**
 * Ferritti, Luca, et al. (2020, March 31) Quantifying SARS-CoV-2 transmission suggests epidemic control with digital contact tracing [Science]
-  * Retreived from: https://science.sciencemag.org/content/early/2020/04/09/science.abb6936
+  * Retrieved from: https://science.sciencemag.org/content/early/2020/04/09/science.abb6936
   > KEYQUOTE If this is an accurate picture of viral spread in Europe and not an artefact of early growth, epidemic control with only case isolation and quarantining of traced contacts appears implausible in this case, requiring near-universal App usage and near-perfect compliance. The App should be one tool among many general preventative population measures such as physical distancing, enhanced hand and respiratory hygiene, and regular decontamination.
 
 **Criticism isn't always about the implementation of these technolgies, but also the concerns about the parties doing the implementations**
@@ -413,7 +401,7 @@ https://www.vice.com/en_us/article/epg9jm/nso-covid-19-surveillance-tech-softwar
 **I worked on some #LocationPrivacy approaches after year 1 of the iPhone. The target advocacy was not about health care but personal safety while travelling. Here they are for the record:**
 
 * Allen, Christopher (circa 2008) Psuedoanonymous Ephemeral Locality Service API
-  * Retreived from https://github.com/ChristopherA/Ephemeral-Locality-API
+  * Retrieved from https://github.com/ChristopherA/Ephemeral-Locality-API
 
 * Allen, Christopher (2020, 26 March) Hilbert Curves and utility for zk range proofs for privacy
   * https://twitter.com/ChristopherA/status/1243413128378892293
