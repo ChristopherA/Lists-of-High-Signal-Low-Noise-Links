@@ -1,6 +1,6 @@
 ---
 created: 2020-04-12T13:44:45-07:00
-modified: 2020-04-12T15:10:54-07:00
+modified: 2020-04-12T20:38:09-07:00
 title: README
 ---
 
@@ -11,3 +11,7 @@ A series of lists of opinionated, high-signal but low-noise links on topics I ca
 > Alternatively can also support my efforts by sponsoring [Blockchain Commons](https://www.BlockchainCommons.com) and our vision of the open web via a monthly [GitHub Sponsorship](https://github.com/sponsors/BlockchainCommons) or with Bitcoin via our BTCPay contribution page. [Bitcoin contribution](https://btcpay.blockchaincommons.com).
 >
 >But please don’t think of this as a transaction. It’s an opportunity to advance the open web, digital civil liberties and human rights together. You get to plug into my various projects, and hopefully will find a way to actively contribute to the digital commons yourself. Let’s collaborate!
+
+## Lists
+
+* [#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPrivacy #COVID19](https://github.com/ChristopherA/High-Signal-Low-Noise-Link-Lists/blob/master/%23LocationPrivacy%20%23ContractTracing%20%23ImmunityCredentials%20%23PublicHealthVsPrivacy%20%23COVID19.md)
