@@ -17,4 +17,4 @@ title: README
 
 ## Lists
 
-* [#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPrivacy #COVID19](https://github.com/ChristopherA/High-Signal-Low-Noise-Link-Lists/blob/master/%23LocationPrivacy%20%23ContractTracing%20%23ImmunityCredentials%20%23PublicHealthVsPrivacy%20%23COVID19.md)
+* [#LocationPrivacy #ContractTracing #PublicHealthVsPrivacy #COVID19](https://github.com/ChristopherA/High-Signal-Low-Noise-Link-Lists/blob/master/%23LocationPrivacy%20%23ContractTracing%20%23PublicHealthVsPrivacy%20%23COVID19.md)
