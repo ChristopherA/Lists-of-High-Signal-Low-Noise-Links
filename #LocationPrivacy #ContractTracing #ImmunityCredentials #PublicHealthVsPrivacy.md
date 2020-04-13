@@ -1,6 +1,6 @@
 ---
 created: 2020-04-11T08:43:06-07:00
-modified: 2020-04-12T18:45:00-07:00
+modified: 2020-04-12T10:29:00-07:00
 title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPrivacy'
 
 ---
@@ -319,7 +319,12 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 >ABSTRACT: “Here are some problems with private contact tracing. We should not give policymakers the false hope that they can avoid hard choices"
 >KEYQUOTE: “The performance art people will tie a phone to a dog and let it run around the park; the Russians will use the app to run service-denial attacks and spread panic; & little Johnny will self-report symptoms to get the whole school sent home.”
 
-**A key concern of #ContactTracing apps is the huge adoption required for them to be effecive. Other than coercive use in China, Singapore has the largest % acceptance of these apps, but many academics question the efficacy:**
+**Former FDA Commissioner Dr. Scott Gotlieb ([@ScottGottliebMD](https://twitter.com/ScottGottliebMD)) calls for far greater public health surveillance to help stem COVID, but is skeptical of #ContactTracing apps.**
+* McLellan, Mark; Gottlieb, Scott; Mostashari, Farzad; Rivers, Caitlin; Silvis, Lauren (2020, April 7) A National COVID-19 Survellance System: Achieving Containment [Duke-Margolis Center for Health Policy]
+  * Retrieved from https://healthpolicy.duke.edu/sites/default/files/atoms/files/covid-19_surveillance_roadmap_final.pdf
+  > KEYQUOTE: Cell phone-based apps recording proximity events between individuals are unlikely to have adequate discriminating ability or adoption to achieve public health utility, while introducing serious privacy, security, and logistical concerns. Instead, timely contact tracing can be achieved through strengthened public health case investigation augmented by technology and community-level collaborations.
+
+**A key concern of #ContactTracing apps is the huge adoption required for them to be effecive. Other than coercive use in China, Singapore has the largest % acceptance of these apps (6% maybe), but many academics question the efficacy:**
 * Ferritti, Luca, et al. (2020, March 31) Quantifying SARS-CoV-2 transmission suggests epidemic control with digital contact tracing [Science]
   * Retreived from: https://science.sciencemag.org/content/early/2020/04/09/science.abb6936
   > KEYQUOTE If this is an accurate picture of viral spread in Europe and not an artefact of early growth, epidemic control with only case isolation and quarantining of traced contacts appears implausible in this case, requiring near-universal App usage and near-perfect compliance. The App should be one tool among many general preventative population measures such as physical distancing, enhanced hand and respiratory hygiene, and regular decontamination.
