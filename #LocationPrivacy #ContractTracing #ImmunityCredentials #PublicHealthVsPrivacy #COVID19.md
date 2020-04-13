@@ -226,10 +226,6 @@ Tanaka, Nina (Last Updated: 2020, April 11). Background Research on mobile appli
   * Framework API (2020, April 10)
     * Link https://covid19-static.cdn-apple.com/applications/covid19/current/static/contact-tracing/pdf/ContactTracing-FrameworkDocumentation.pdf
 
-* Community Credentials
-  * Global, cross-sector community of organizations using digital identity as a way to mitigate the spread of COVID-19 and reboot public trust
-    * Link https://www.covidcreds.com
-
 * EU: PEPP-PT (Pan-European Privacy-Preserving Proximity Tracing):
   * Website
     * Link https://www.pepp-pt.org
@@ -391,6 +387,10 @@ Tanaka, Nina (Last Updated: 2020, April 11). Background Research on mobile appli
 
 ### General Immunity Credentials Analysis & Technology
 
+**Community Credentials**
+  * Global, cross-sector community of organizations using digital identity as a way to mitigate the spread of COVID-19 and reboot public trust
+    * Retrieved from https://www.covidcreds.com
+    
 **Important laypersons' introduction to Bayesian math and the massive difference between a 5% and a 3% margin of error for serological testing/passporting:**
 * Chivers, Tom (2020, April 7). How far away are ‘immunity passports’? [#News #Opinion, Unherd].
   * Retrieved from https://unherd.com/2020/04/how-far-away-are-immunity-passports/.
