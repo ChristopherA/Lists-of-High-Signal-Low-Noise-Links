@@ -387,7 +387,7 @@ Tanaka, Nina (Last Updated: 2020, April 11). Background Research on mobile appli
 
 ### General Immunity Credentials Analysis & Technology
 
-**Community Credentials**
+**COVID Credentials Initiative**
   * Global, cross-sector community of organizations using digital identity as a way to mitigate the spread of COVID-19 and reboot public trust
     * Retrieved from https://www.covidcreds.com
     
