@@ -1,6 +1,6 @@
 ---
 created: 2020-04-11T08:43:06-07:00
-modified: 2020-04-12T20:14:00-07:00
+modified: 2020-04-12T20:31:00-07:00
 title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPrivacy #COVID19'
 
 ---
@@ -60,6 +60,17 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
   * Retreived from https://www.theglobeandmail.com/world/article-how-the-coronavirus-pandemic-is-making-strongmen-stronger-from/
   > KEYQUOTE: With governments around the world adopting extraordinary measures amid the pandemic, ostensibly to protect their citizens – but often in directions that have little or nothing to do with public health – one of the most potent legacies of this era may prove to be a global erosion of democratic freedoms. The power grabs have been dubbed “coronavirus coups” in some countries, and three months into the crisis, with no end in sight, there are concerns that leaders such as Hungary’s Viktor Orban are capitalizing on COVID-19 to seize powers they may never relinquish.
 
+**NSO makes spyware and mass-surveillance tools, why should we trust the privacy of their software?**
+* Franceschi-Biccierai, Lorenzo (2020, April 2nd) We Saw NSO's Covid-19 Software in Action, and Privacy Experts Are Worried
+  * Retrieved from
+https://www.vice.com/en_us/article/epg9jm/nso-covid-19-surveillance-tech-software-tracking-infected-privacy-experts-worried
+  > KEYQUOTE: Researchers who have studied and exposed several cases where NSO Group’s customers abused its products to spy on activists and journalists are skeptical that governments should be adopting such an invasive surveillance product, made by a company known to have worked with governments that routinely abuse human rights.
+  > On Monday, Israel's Defense Minister Naftali Bennett tweeted that the Israeli government is working on "world-leading" AI system that will give every citizen a grade between 1 and 10 to determine how likely they are to spread the coronavirus and if they need to be tested
+  
+ * Marjan, Branka (2020, March 24). A delicate balance: Responding to a crisis with surveillance tech. [#News #Opinion, Project Ploughshares].
+  * Retrieved from https://ploughshares.ca/2020/03/a-delicate-balance-responding-to-a-crisis-with-surveillance-tech/.
+  > ABSTRACT/KEYQUOTE: Too often, history shows, temporary measures imposed by governments to meet a crisis have become permanent...Limits must be placed on what data is collected, how it is used, and how long it is kept. Focusing on voluntary participation and anonymizing data could address some privacy concerns. Requiring secure deletion of information after a certain period of time is also important.
+
 ## Contact Tracing News
 
 **Two of the biggest mobile app platfroms, Apple & Google, are partnering on contact-tracing technology. Early privacy analysis is positive, but it still has centralization issues (see [Implementations & Analysis](#implementations--analysis) section below for more details).**
@@ -85,12 +96,6 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
   > KEYQUOTE: Still, assurances from officials and industry executives have done little to appease anxiety that privacy rights could be brushed aside as governments seek to use tools of mass surveillance in their efforts to combat the virus. The concerns about political use of data have been aggravated by the fact that the European Commission wants the telecoms companies to provide the actual aggregated data, not just access to insights from that information.
   > Some researchers are not convinced by the claim that such data sets are completely anonymous. A 2019 study by researchers at Imperial College London and Belgium’s Catholic University of Louvain revealed there is a way to re-identify 99.98 per cent of individuals with just 15 demographic characteristics using location data. Other studies have come to similar conclusions that individuals can be identified based on aggregate data sets with relative ease.
 
-* McDonald, Sean (2020, March 30). The Digital Response to the Outbreak of COVID-19 [#Opinion, Centre for International Governance Innovation].
-  * Retrieved from https://www.cigionline.org/articles/digital-response-outbreak-covid-19
-  > KEYQUOTE: Undeniably, we need to use technology as part of disaster response, but the regulatory immaturity of the industry makes technology companies risky allies, even in the best of circumstances
-  > The way that we enable, administer and check the exceptional surveillance and social powers that each government exerts to contain COVID-19…will frame an important part of the future of state power in a world with increasing emergencies.
-  >While the risks and harms associated with digital surveillance are often framed as related to privacy, there are significantly larger issues that apply during a pandemic, such as the escalation of government powers. "
-
 * Thalen, Mikael (2020, March 27). Terrifying cellphone ‘heat map’ shows just how much people are still traveling [#News #Opinion, daily dot].
   * Retrieved from https://www.dailydot.com/debug/cellphone-heat-map-coronavirus/.
   > ABSTRACT/KEYQUOTE: X-Mode states that its “data is aggregated at the advertising ID level and associated to the device and not a physical person.” An advertising ID is assigned to devices and allows companies to tailor specific content to users based on their browsing history and activity...And while X-Mode and many other companies in the industry point to the fact their data is anonymized, researchers have found that such data can easily be linked to its owner’s identity.
@@ -105,49 +110,29 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
   * Retrieved from https://www.statnews.com/2020/03/25/coronavirus-experts-craft-strategies-to-relax-lockdowns/.
   > KEYQUOTE: ...how to do it right, or at least better. There is reason to hope that will be possible. An emerging consensus points to aggressive tracing of contacts of sick people, much broader testing, targeted quarantines, and new online tracking technology as strategies that would facilitate the easing of social distancing measures.
 
-* Harrison, Sara (2020, 24 March). When Is Anonymous Not Really Anonymous?. [#News #Opinion, Ask The Markup].
-  * Retrieved from https://themarkup.org/ask-the-markup/2020/03/24/when-is-anonymous-not-really-anonymous.
-
-  > KEYQUOTE: Differential privacy protects individuals in the data set by intentionally introducing mathematical randomness, also called noise, into the data set. The amount of noise can be shared publicly, just like an error rate, but no one can know which statistics are the noise and which are real people. This solution gives researchers access to the database, but it also protects the privacy of the individuals in the set.
-
 * Swire, Peter (2020, March 24). Security, Privacy and the Coronavirus: Lessons From 9/11. [#Opinion, LawFare].
   * Retrieved from https://www.lawfareblog.com/security-privacy-and-coronavirus-lessons-911.
 
   > KEYQUOTE: ...it may become tempting for government agencies in the U.S. to seek access to location databases as a claimed way to battle the coronavirus. The usefulness of databases for tracking contacts, however, is open to serious doubt. The underlying data is often inexact. Even where two dots on the map appear close to each other, they may be on different floors of an apartment building or on opposite sides of a wall. In addition, there are innumerable other reasons why contagion may not occur between the owners of two phones in apparent proximity to each other. In short, absent an empirical showing of accuracy and actionability that does not exist to date, calls for such location tracking quite possibly are security theater rather than actual security.
 
-* Marjan, Branka (2020, March 24). A delicate balance: Responding to a crisis with surveillance tech. [#News #Opinion, Project Ploughshares].
-  * Retrieved from https://ploughshares.ca/2020/03/a-delicate-balance-responding-to-a-crisis-with-surveillance-tech/.
-
-  > ABSTRACT/KEYQUOTE: Too often, history shows, temporary measures imposed by governments to meet a crisis have become permanent...Limits must be placed on what data is collected, how it is used, and how long it is kept. Focusing on voluntary participation and anonymizing data could address some privacy concerns. Requiring secure deletion of information after a certain period of time is also important.
-
-* Scott, Mark; Cerulus, Laurens; Kayali, Laura (2020, March 23). Commission tells carriers to hand over mobile data in coronavirus fight [#News #Opinion, Politico].
-  * Retrieved from https://www.politico.eu/article/european-commission-mobile-phone-data-thierry-breton-coronavirus-covid19/
-
-  > ABSTRACT/KEYQUOTE: Researchers, academics and telecoms executives say that as the coronavirus crisis has spread so quickly, the usefulness of such anonymized mobile phone metadata is quickly coming to an end. As people enter lockdown, often not able to travel beyond their neighborhoods, such digital information does not offer much insight because it is not granular enough to track people's localized movements.
-
 * Servick, Kelly (2020, March 22). Cellphone tracking could help stem the spread of coronavirus. Is privacy the price? [#News #Opinion, Science Magazine].
   * Retrieved from https://www.sciencemag.org/news/2020/03/cellphone-tracking-could-help-stem-spread-coronavirus-privacy-price#.
-
   > KEYQUOTE: Several emerging projects aim to set up voluntary, privacy-conscious phone tracking systems. This week, a team led by computer scientist Ramesh Raskar at the Massachusetts Institute of Technology released a prototype of an app called Private Kit: Safe Paths. The app stores up to 28 days of a user’s GPS location data, logged every 5 minutes. If the user tests positive for coronavirus, they can choose to share their recent data with health officials to identify and publicize the places where others may have been at risk of infection.
 
 * Estrin, Daniel (2020, March 19). Israel Begins Tracking And Texting Those Possibly Exposed To The Coronavirus. [#News #Opinion, NPR].
   * Retrieved from https://www.npr.org/2020/03/19/818327945/israel-begins-tracking-and-texting-those-possibly-exposed-to-the-coronavirus.
-
   > KEYQUOTE: It's likely that Israelis who were not within 2 meters (6 feet) of distance from a virus carrier will still be identified for quarantine. Sharon Perry, a cellular tracing expert, said the GPS technology of civilian mobiles can pinpoint a person's location only within 5 to 6 meters' accuracy if the cellphone is outdoors, or 10 to 20 meters if the phone is indoors. But he argued the breach of privacy was justified.
 
 * Williams, Jamie (2020, March 18). Unchecked Smart Cities are Surveillance Cities. What We Need are Smart Enough Cities. [#News #Opinion, Electronic Frontier Foundation].
   * Retrieved from https://www.eff.org/deeplinks/2020/03/unchecked-smart-cities-are-surveillance-cities-what-we-need-are-smart-enough.
-
   > ABSTRACT/KEYQUOTE: Local transportation planning agencies across the country are currently demanding that operators of shared mobility devices turn over individual trip data as a condition of getting a permit to operate within their jurisdictions.
 
 * Byers, Dylan (2020, March 18). The U.S. wants smartphone location data to fight coronavirus. Privacy advocates are worried [#News #Opinion, NBC News].
   * Retrieved from https://www.nbcnews.com/tech/tech-news/u-s-wants-smartphone-location-data-fight-coronavirus-privacy-advocates-n1162821.
-
   > ABSTRACT/KEYQUOTE: Federal health officials say they could use anonymous, aggregated user data collected by the tech companies to map the spread of the virus — a practice known as ["syndromic surveillance"](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC353021/) — and prevent further infections. They could also use the data to see whether people were practicing "social distancing."
 
 * Thompson, Stuart A.; Warzel, Charlie (2019, December 19). Twelve Million Phones, One Dataset, Zero Privacy [#News #Opinion, New York Times].
   * Retrieved from https://www.nytimes.com/interactive/2019/12/19/opinion/location-tracking-cell-phone.html. 
-
   > ABSTRACT/KEYQUOTE: The companies that collect all this information on your movements justify their business on the basis of three claims: People consent to be tracked, the data is anonymous and the data is secure. None of those claims hold up, based on the file we’ve obtained and our review of company practices. Yes, the location data contains billions of data points with no identifiable information like names or email addresses. But it’s child’s play to connect real names to the dots that appear on the maps.
 
 ## Immunity Credential News
@@ -156,19 +141,23 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
   * Retrieved from https://www.telegraph.co.uk/news/2020/03/29/germany-will-issue-coronavirus-antibody-certificates-allow-quarantined/. 
   > KEYQUOTE: German researchers plan to introduce coronavirus ‘immunity certificates’ to facilitate a proper transition into post-lockdown life, as Chancellor Angela Merkel’s handling of the crisis has led to a boost in the polls.
 
-
 # Law, Policy & Regulations
 *(Most recent first)*
 
-**Governments today are taking legitimate emergency measures to track & manage #COVID19. We need to balance this public good vs. risks of loss of human rights in the future. We can do this!**
+**Governments today are taking legitimate emergency measures to track & manage public heath, in particular in this #COVID19 crisis. We need to balance this public good vs. risks of loss of human rights in the future. We can do this!**
 
-** Given EU GDPR and California CPRA, it is very hard to meet those privacy laws and regulatory standards for #LocationPrivacy.**
+* McDonald, Sean (2020, March 30). The Digital Response to the Outbreak of COVID-19 [#Opinion, Centre for International Governance Innovation].
+  * Retrieved from https://www.cigionline.org/articles/digital-response-outbreak-covid-19
+  > KEYQUOTE: Undeniably, we need to use technology as part of disaster response, but the regulatory immaturity of the industry makes technology companies risky allies, even in the best of circumstances
+  > The way that we enable, administer and check the exceptional surveillance and social powers that each government exerts to contain COVID-19…will frame an important part of the future of state power in a world with increasing emergencies.
+  >While the risks and harms associated with digital surveillance are often framed as related to privacy, there are significantly larger issues that apply during a pandemic, such as the escalation of government powers. "
+
+**Given EU GDPR and California CPRA, it is very hard to meet those privacy laws and regulatory standards for #LocationPrivacy.**
 * Gray, Stacey; et al (2020, March 25). A Closer Look at Location Data: Privacy and Pandemics. [#News #Opinion, Future of Privacy Forum].
   * Retrieved from https://fpf.org/2020/03/25/a-closer-look-at-location-data-privacy-and-pandemics/.
   > ABSTRACT/KEY QUOTE: Typically, we think of location data as having privacy implications when it is precise enough to single out an individual with reasonable specificity...Measuring precise location depends in part on context, such as population density...Recent legislative proposals have attempted to create strict cut-offs (such as an 1,640 foot radius under the U.S. House and Commerce Discussion Draft, or an 1,850 foot radius under the California Privacy Rights Act ballot initiative of 2020).
   
 **Human Rights, Privacy Law & GPDR expert Elizabeth Renieres ([@hackylawyer](https://twitter.com/hackylawyer) always has great insights on the intersection of privacy technology, the law, and is always one of the first people I go to on these topics:**
-
 * Renieris, Elizabeth M. (2020, March 23). When Privacy Meets a Pandemic. [#Opinion, Medium].
   * Retrieved from https://onezero.medium.com/when-privacy-meets-pandemic-fbf9154f80b3.
   > KEYQUOTE: So, where does this leave us as a privacy community and what is our role in the time of Corona? It means that before we debate the particulars of a specific technology or application, before we tweak certain features or functionality to better protect individual privacy, or before we impose certain transparency or accountability measures, we take a step back.
@@ -178,6 +167,7 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 * Scott, Mark; Cerulus, Laurens; Kayali, Laura (2020, March 23) Article: Commission tells carriers to hand over mobile data in coronavirus fight
   * Retrieved from https://www.politico.eu/article/european-commission-mobile-phone-data-thierry-breton-coronavirus-covid19/
   > KEYQUOTE: The European Commission on Monday urged Europe's telecoms giants including Deutsche Telekom and Orange to share reams of people's mobile data from across the region to help predict the spread of the coronavirus…called on the companies to hand over anonymized and aggregated data from people’s mobile phones to track how the virus was spreading…The draft plans would allow the Commission — and not the carriers — to manage how the data was used, and give EU officials control over so-called metadata on hundreds of millions of people’s mobile phones. That represents a significant step for Brussels as it would make the EU executive liable for any hefty fines if the digital information was hacked or misused.
+  > Researchers, academics and telecoms executives say that as the coronavirus crisis has spread so quickly, the usefulness of such anonymized mobile phone metadata is quickly coming to an end. As people enter lockdown, often not able to travel beyond their neighborhoods, such digital information does not offer much insight because it is not granular enough to track people's localized movements.
 
 * Unknown (2020, March 16). Statement by the EDPB Chair on the processing of personal data in the context of the COVID-19 outbreak [#Law #Regulatory, European Data Protection Board].
   * Retrieved from https://edpb.europa.eu/news/news/2020/statement-edpb-chair-processing-personal-data-context-covid-19-outbreak_en.
@@ -324,7 +314,11 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
   * Retrieved from https://blog.xot.nl/2020/03/25/hansel-and-gretel-and-the-virus-privacy-conscious-contact-tracing/
 
   > KEYQUOTE: Inspired by Apple’s protocol, we could create a system where devices leave a trail of breadcrumbs (like Hansel and Gretel in their fairy tale) consisting of their location and identity. The system can be made privacy conscious by ensuring that this trail is not maintained in any central database (like the NHS proposal outlined above does), and making sure the breadcrumbs disappear after some time.
-  
+
+* Harrison, Sara (2020, 24 March). When Is Anonymous Not Really Anonymous?. [#News #Opinion, Ask The Markup].
+  * Retrieved from https://themarkup.org/ask-the-markup/2020/03/24/when-is-anonymous-not-really-anonymous.
+  > KEYQUOTE: Differential privacy protects individuals in the data set by intentionally introducing mathematical randomness, also called noise, into the data set. The amount of noise can be shared publicly, just like an error rate, but no one can know which statistics are the noise and which are real people. This solution gives researchers access to the database, but it also protects the privacy of the individuals in the set.
+
 **W3C Credentials CG, where I am co-chair, regularly discusses identity & privacy, and recently #LocationPrivacy:**
 
 * Andrieu, Joe; Hamilton Duffy, Kim; Allen; Christopher (2020, March 24). Credentials CG Telecon. [#Review #Meeting, W3C Credentials CG].
