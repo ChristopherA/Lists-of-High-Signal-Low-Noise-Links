@@ -1,6 +1,6 @@
 ---
 created: 2020-04-11T08:43:06-07:00
-modified: 2020-04-12T17:14:00-07:00
+modified: 2020-04-12T17:23:00-07:00
 title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPrivacy'
 
 ---
@@ -24,7 +24,6 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
   * [General News & Opinion](#general-news---opinion)
     + [Contact Tracing News](#contact-tracing-news)
     + [Immunity Certificate News](#immunity-certificate-news)
-  * [Privacy After Lockdown](#privacy-after-lockdown)
   * [Law, Policy & Regulations](#law--policy---regulations)
   * [Implementations & Analysis](#implementations---analysis)
     + [Implementations of Contact Tracing](#implementations-of-contact-tracing)
@@ -81,13 +80,7 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
   * Retrieved from https://www.economist.com/briefing/2020/03/26/countries-are-using-apps-and-data-networks-to-keep-tabs-on-the-pandemic.
   > ABSTRACT/KEYQUOTE: The use of data becomes most fraught when it moves beyond modelling and informing policy to the direct tracking of individuals in order to see from whom they got the disease. Such contact-tracing can be an important public-health tool. It also has a resemblance to modern counter-terrorism tactics.
 
-### Immunity Certificate News
-
-* Wighton, Daniel and Chazan, David (2020, March 29). Germany will issue coronavirus antibody certificates to allow quarantined to re-enter society. [#News #Opinion, The Telegraph].
-  * Retrieved from https://www.telegraph.co.uk/news/2020/03/29/germany-will-issue-coronavirus-antibody-certificates-allow-quarantined/. 
-  > KEYQUOTE: German researchers plan to introduce coronavirus ‘immunity certificates’ to facilitate a proper transition into post-lockdown life, as Chancellor Angela Merkel’s handling of the crisis has led to a boost in the polls.
-
-## Privacy After Lockdown
+**Privacy After Lockdown**
 
 * Begley, Sharon (2020, March 25). When can we let up? Health experts craft strategies to safely relax coronavirus lockdowns. [#News #Opinion, Stat News].
   * Retrieved from https://www.statnews.com/2020/03/25/coronavirus-experts-craft-strategies-to-relax-lockdowns/.
@@ -138,11 +131,14 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 
   > ABSTRACT/KEYQUOTE: The companies that collect all this information on your movements justify their business on the basis of three claims: People consent to be tracked, the data is anonymous and the data is secure. None of those claims hold up, based on the file we’ve obtained and our review of company practices. Yes, the location data contains billions of data points with no identifiable information like names or email addresses. But it’s child’s play to connect real names to the dots that appear on the maps.
 
-* Luc Rocher, Julien M. Hendrickx & Yves-Alexandre de Montjoye (2019, Jul 23). Estimating the success of re-identifications in incomplete datasets using generative models. [#Opinion #Review, Nature Communications].
-  * Retrieved from https://www.nature.com/articles/s41467-019-10933-3.
 
-  > KEYQUOTE: Moving forward, they question whether current de-identification practices satisfy the anonymization standards of modern data protection laws such as GDPR and CCPA and emphasize the need to move, from a legal and regulatory perspective, beyond the de-identification release-and-forget model.
- 
+### Immunity Certificate News
+
+* Wighton, Daniel and Chazan, David (2020, March 29). Germany will issue coronavirus antibody certificates to allow quarantined to re-enter society. [#News #Opinion, The Telegraph].
+  * Retrieved from https://www.telegraph.co.uk/news/2020/03/29/germany-will-issue-coronavirus-antibody-certificates-allow-quarantined/. 
+  > KEYQUOTE: German researchers plan to introduce coronavirus ‘immunity certificates’ to facilitate a proper transition into post-lockdown life, as Chancellor Angela Merkel’s handling of the crisis has led to a boost in the polls.
+
+
 ## Law, Policy & Regulations
 *(Most recent first)*
 
@@ -309,39 +305,7 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 
   > KEYQUOTE: Inspired by Apple’s protocol, we could create a system where devices leave a trail of breadcrumbs (like Hansel and Gretel in their fairy tale) consisting of their location and identity. The system can be made privacy conscious by ensuring that this trail is not maintained in any central database (like the NHS proposal outlined above does), and making sure the breadcrumbs disappear after some time.
   
-### General Criticism of Contact Tracing & Location Privacy Technology Solutions
-(Most recent first)
-
-**A real problems in the current crop of #ContactTracing approaches are not the precisely the technology, but social incentive design and adversarial resistance to attacks**
-
-* Anderson, Ross (2020, April 12). "Contact Tracing in the Real World"
-    * Retrieved from https://www.lightbluetouchpaper.org/2020/04/12/contact-tracing-in-the-real-world/
-
->ABSTRACT: “Here are some problems with private contact tracing. We should not give policymakers the false hope that they can avoid hard choices"
->
->KEYQUOTE: “The performance art people will tie a phone to a dog and let it run around the park; the Russians will use the app to run service-denial attacks and spread panic; & little Johnny will self-report symptoms to get the whole school sent home.”
-
-** Criticism isn't always about the implementation of these technolgies, but also the concerns about the parties doing the implementations**
-
-* Franceschi-Bicchierai, Lorenzo (2020, April 2). We Saw NSO's Covid-19 Software in Action, and Privacy Experts Are Worried. [#News #Opinion, Vice]. Retrieved from https://www.vice.com/en_us/article/epg9jm/nso-covid-19-surveillance-tech-software-tracking-infected-privacy-experts-worried
-
-  > ABSTRACT: Every citizen of the world wants to go back to normal as soon as possible. The gold rush to surveillance technology could easily mean that there is a normal expectation of privacy that we will have a hard time going back to.
-  > 
-  > KEYQUOTE: In the spirit of never letting a good crisis go to waste, several companies around the world— some already notorious and some less public—are pitching and developing surveillance tools to help governments track citizens with the goal of stopping the spread of coronavirus. For critics, however, this is an unnecessary escalation justified by a tragic health crisis.
-
-**Digital privacy expert, anonmyity researcher, and author of book "Queer Privacy" [@SarahJamieLewis](https://twitter.com/SarahJamieLewis)’s Twitter thread on the perils of #LocationPrivacy is a must read:**
-
-* Jamie Lewis, Sarah (2020, March 23). Twitter Thread, 12/12 [#Opinion, Twitter].
-  * Retrieved from https://twitter.com/sarahjamielewis/status/1242142313192644608?s=2.
-  > KEYQUOTE: There is no such thing as a robust privacy preserving contact tracing tool because social graphs and location graphs are impossible to anonymity because anonymity is fundamentally about  removing social and location context - once you do that all that is left is the honour system.
-  
-**My Twitter RT in to her thread**
-
-* Allen, Christopher (2020, March 23). Twitter Thread, 12/12 [#Opinion, Twitter].
-  * Retrieved from https://twitter.com/ChristopherA/status/1244346104054865920.
-  > KEYQUOTE: Despite that I agree with those like @SarahJamieLewis that a key problem is that the task of #LocationPrivacy & real anonymity is extremely difficult, I do believe that in the short term we can be pragmatic & not suffer “the perfect is the enemy of the good… An effective Honor System is not the worst short-term outcome. We also need to set the stage to invest in the much more difficult problems of solving these problems long-term.
-  
-**W3C Credentials CG, where I am co-chair, regularly discusses privacy, and recently location privacy:**
+**W3C Credentials CG, where I am co-chair, regularly discusses identity & privacy, and recently #LocationPrivacy:**
 
 * Andrieu, Joe; Hamilton Duffy, Kim; Allen; Christopher (2020, March 24). Credentials CG Telecon. [#Review #Meeting, W3C Credentials CG].
   * Retrieved from https://w3c-ccg.github.io/meetings/2020-03-24/. 
@@ -354,17 +318,44 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
   https://lists.w3.org/Archives/Public/public-credentials/2020Mar/0120.html
   https://lists.w3.org/Archives/Public/public-credentials/2020Mar/0124.html
 
+### General Criticism of Contact Tracing & Location Privacy Technology Solutions
+(Order of importance)
 
-**Excerpt of email from me:** 
+**A real problems in the current crop of #ContactTracing approaches are not the precisely the technology, but social incentive design and adversarial resistance to attacks**
+* Anderson, Ross (2020, April 12). "Contact Tracing in the Real World"
+    * Retrieved from https://www.lightbluetouchpaper.org/2020/04/12/contact-tracing-in-the-real-world/
+>ABSTRACT: “Here are some problems with private contact tracing. We should not give policymakers the false hope that they can avoid hard choices"
+>KEYQUOTE: “The performance art people will tie a phone to a dog and let it run around the park; the Russians will use the app to run service-denial attacks and spread panic; & little Johnny will self-report symptoms to get the whole school sent home.”
+
+** Criticism isn't always about the implementation of these technolgies, but also the concerns about the parties doing the implementations**
+* Franceschi-Bicchierai, Lorenzo (2020, April 2). We Saw NSO's Covid-19 Software in Action, and Privacy Experts Are Worried. [#News #Opinion, Vice]. Retrieved from https://www.vice.com/en_us/article/epg9jm/nso-covid-19-surveillance-tech-software-tracking-infected-privacy-experts-worried
+  > ABSTRACT: Every citizen of the world wants to go back to normal as soon as possible. The gold rush to surveillance technology could easily mean that there is a normal expectation of privacy that we will have a hard time going back to.
+  > KEYQUOTE: In the spirit of never letting a good crisis go to waste, several companies around the world— some already notorious and some less public—are pitching and developing surveillance tools to help governments track citizens with the goal of stopping the spread of coronavirus. For critics, however, this is an unnecessary escalation justified by a tragic health crisis.
+
+**Digital privacy expert, anonmyity researcher, and author of book "Queer Privacy" [@SarahJamieLewis](https://twitter.com/SarahJamieLewis)’s Twitter thread on the perils of #LocationPrivacy is a must read:**
+* Jamie Lewis, Sarah (2020, March 23). Twitter Thread, 12/12 [#Opinion, Twitter].
+  * Retrieved from https://twitter.com/sarahjamielewis/status/1242142313192644608?s=2.
+  > KEYQUOTE: There is no such thing as a robust privacy preserving contact tracing tool because social graphs and location graphs are impossible to anonymity because anonymity is fundamentally about  removing social and location context - once you do that all that is left is the honour system.
+  
+**My Twitter RT about her thread**
+
+* Allen, Christopher (2020, March 23). Twitter Thread, 12/12 [#Opinion, Twitter].
+  * Retrieved from https://twitter.com/ChristopherA/status/1244346104054865920.
+  > KEYQUOTE: Despite that I agree with those like @SarahJamieLewis that a key problem is that the task of #LocationPrivacy & real anonymity is extremely difficult, I do believe that in the short term we can be pragmatic & not suffer “the perfect is the enemy of the good… An effective Honor System is not the worst short-term outcome. We also need to set the stage to invest in the much more difficult problems of solving these problems long-term.
+
+**Excerpt of one particular email from me to W3C-CCG list, about despite the challenge we must work this privacy tech:** 
 
 * Allen, Christopher (2020, March 29). AGENDA W3C Credentials CG Call. [#Review, W3C].
   * Retrieved from https://lists.w3.org/Archives/Public/public-credentials/2020Mar/0125.html
-
   > KEYQUOTE: Despite that I agree with those that a key of the problem is that the task of [#LocationPrivacy](https://twitter.com/hashtag/LocationPrivacy) and anonymity is extremely difficult, I do believe that in the short term we can be pragmatic & not suffer “the perfect is the enemy of the good”. We can share best practices, salute those doing the right thing, shame those who do not, and demonstrate our commitment to both the common good as well as to preventing individual harm. An effective Honor System is not the worst short-term outcome.
-
   > We also need to set the stage so that in the long term we can invest in the much more difficult problems of solving these problems more idealistically correctly. We need to fund things like deep requirements engineering, great user centric design including nudge/incentive/mechanism/ approaches, as well implementing the latest secure code practices, privacy protocols, zk-proofs and other modern cryptographic security approaches, etc.
-
   > For if we do not be somewhat pragmatic now, and set a stage to be able to invest in a more ideal future, we risk that everything we are currently doing on the privacy front now will fail because in the end, everyone will being tracked at another layer."
+  
+**Important academic paper on how easy it is to be able to de-anonymize supposedly anonomized location data.
+  
+* Luc Rocher, Julien M. Hendrickx & Yves-Alexandre de Montjoye (2019, Jul 23). Estimating the success of re-identifications in incomplete datasets using generative models. [#Opinion #Review, Nature Communications].
+  * Retrieved from https://www.nature.com/articles/s41467-019-10933-3.
+  > KEYQUOTE: Moving forward, they question whether current de-identification practices satisfy the anonymization standards of modern data protection laws such as GDPR and CCPA and emphasize the need to move, from a legal and regulatory perspective, beyond the de-identification release-and-forget model.
   
 ## Immunity Credentials
 
