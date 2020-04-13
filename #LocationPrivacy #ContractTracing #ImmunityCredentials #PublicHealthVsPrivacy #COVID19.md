@@ -1,6 +1,6 @@
 ---
 created: 2020-04-11T08:43:06-07:00
-modified: 2020-04-12T19:54:00-07:00
+modified: 2020-04-12T19:56:00-07:00
 title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPrivacy #COVID19'
 
 ---
@@ -31,10 +31,10 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
       - [Analysis of Specific Contact Tracing Implemenations](#analysis-of-specific-contact-tracing-implemenations)
     + [General Contact Tracing Analysis and Technology](#general-contact-tracing-analysis-and-technology)
     + [General Criticism of Contact Tracing & Location Privacy Technology Solutions](#general-criticism-of-contact-tracing---location-privacy-technology-solutions)
-- [Immunity Credential Technology](#immunity-credential-technology)
-  * [Implementations of Immunity Credentials](#implementations-of-immunity-credentials)
-    + [W3C Verifiable Claims](#w3c-verifiable-claims)
-  * [General Immunity Credentials Analysis & Technology](#general-immunity-credentials-analysis---technology)
+  * [Immunity Credential Technology](#immunity-credential-technology)
+    + [Implementations of Immunity Credentials](#implementations-of-immunity-credentials)
+      - [W3C Verifiable Claims](#w3c-verifiable-claims)
+    + [General Immunity Credentials Analysis & Technology](#general-immunity-credentials-analysis---technology)
 - [Other Related Privacy Technologies](#other-related-privacy-technologies)
   * [Psuedoanonymous Ephemeral Locality](#psuedoanonymous-ephemeral-locality)
 - [Related Events & Meetings](#related-events---meetings)
@@ -377,20 +377,20 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
   * Retrieved from https://www.nature.com/articles/s41467-019-10933-3.
   > KEYQUOTE: Moving forward, they question whether current de-identification practices satisfy the anonymization standards of modern data protection laws such as GDPR and CCPA and emphasize the need to move, from a legal and regulatory perspective, beyond the de-identification release-and-forget model.
   
-# Immunity Credential Technology
+## Immunity Credential Technology
   
-## Implementations of Immunity Credentials
+### Implementations of Immunity Credentials
 
 ** Most of the news has been about governments using cell phones & mobile apps to do #ContractTracing, but another important topic area is how we can create digital #ImmunityCertificates to allow people who have recovered from Covid-19 to leave quarantine, participate in the economic recovery, and to travel for work or family.**
 
-### W3C Verifiable Claims
+#### W3C Verifiable Claims
 
 **There has some some discussion & collaboration in the #W3C Credentials CG on what a #Covid19 Immunity Credential might look like using the #VerifiableCredentials standard.**
   * Example Immunity Passport Credential: https://github.com/w3c-ccg/vc-examples/tree/master/docs/covid-19
   * Thread (long) starts at: https://lists.w3.org/Archives/Public/public-credentials/2020Apr/0052.html
   * Thread (long) starts at: https://lists.w3.org/Archives/Public/public-credentials/2020Apr/0119.html
 
-## General Immunity Credentials Analysis & Technology
+### General Immunity Credentials Analysis & Technology
 
 **Important laypersons' introduction to Bayesian math and the massive difference between a 5% and a 3% margin of error for serological testing/passporting:**
 * Chivers, Tom (2020, April 7). How far away are ‘immunity passports’? [#News #Opinion, Unherd].
