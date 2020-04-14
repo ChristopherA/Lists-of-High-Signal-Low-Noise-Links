@@ -1,6 +1,6 @@
 ---
 created: 2020-04-12T13:44:45-07:00
-modified: 2020-04-13T21:23:00-07:00
+modified: 2020-04-14T00:13:00-07:00
 title: README
 
 ---
@@ -27,8 +27,8 @@ title: README
 
 ## Lists
 
-* [#LocationPrivacy #ContractTracing #PublicHealthVsPrivacy #COVID19](./%23LocationPrivacy%20%23ContractTracing%20%23PublicHealthVsPrivacy%20%23COVID19.md)
-* [#Verifiable Claims #Immunity Credentials](./%23VerifiableClaims%20%23ImmunityCredentials.md)
+* [#LocationPrivacy #ContractTracing #PublicHealthVsPrivacy #COVID19](./%23LocationPrivacy%20%23ContractTracing%20%23PublicHealthVsPrivacy%20%23COVID19.md) Version 0.1.0 (2020, April 14)
+* [#Verifiable Claims #Immunity Credentials](./%23VerifiableClaims%20%23ImmunityCredentials.md) Version 0.0.1 (2020, April 14)
 
 ## Copyright & License
 
