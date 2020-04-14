@@ -23,6 +23,18 @@
 - [Related Events & Meetings](#related-events---meetings)
 - [New & Unsorted](#new---unsorted)
 
+# Status & Copyright
+
+- Version 0.0.1 (2020, April 14) This list is still fairly raw. I'm focused on adding to, recorganizing, and filtering this list down this week.
+
+For information on this versioning scheme, see [Status & Versioning](./README.md#status--versioning).
+
+Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source license. See this repo's [README.md](./README.md#copyright--license) for more details.
+
+# Related Lists
+
+* [#LocationPrivacy #ContractTracing #PublicHealthVsPrivacy #COVID19](./%23LocationPrivacy%20%23ContractTracing%20%23PublicHealthVsPrivacy%20%23COVID19.md)
+
 # My Personal POV
 
 **Most of the news has been about governments using cell phones & mobile apps to do #ContractTracing, but another important topic area is how we can create digital #ImmunityCertificates to allow people who have recovered from Covid-19 to leave quarantine, participate in the economic recovery, and to travel for work or family.**
