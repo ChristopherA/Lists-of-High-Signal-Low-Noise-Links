@@ -67,7 +67,7 @@
 
 * Oswald, Andrew; Powdthavee, Nattavudh (2020, April). The Case for Releasing the Young from Lockdown: A Briefing Paper for Policymakers [#Regulations, Whitepaper].
   * Retrieved from https://www.andrewoswald.com/docs/newFinalCOVIDpaper-on-releasing-the-young-OswaldPowdthavee2020(1).pdf.
-  > KEYQUOTE: The paper argues that a youngworkforce release of this kind would lead to substantial economic and societal benefits without enormous health costs to the country. In this way, the nation might begin to move forward in the footsteps of the young. The paper’s key concept could in principle be implemented in other countries.
+  > KEYQUOTE: The paper argues that a young workforce release of this kind would lead to substantial economic and societal benefits without enormous health costs to the country. In this way, the nation might begin to move forward in the footsteps of the young. The paper’s key concept could in principle be implemented in other countries.
 
 * Proctor, Kate; Sample, Ian; Oltermann, Philip (2020, March 30). 'Immunity passports' could speed up return to work after Covid-19 [#News #Opinion, The Guardian].
   * Retrieved from https://www.theguardian.com/world/2020/mar/30/immunity-passports-could-speed-up-return-to-work-after-covid-19
@@ -106,7 +106,7 @@
   * Thread (long) starts at: https://lists.w3.org/Archives/Public/public-credentials/2020Apr/0052.html
   * Thread (long) starts at: https://lists.w3.org/Archives/Public/public-credentials/2020Apr/0119.html
 
-We meet online weekly via voice and IRC on Tuesdays at 12noon ET, 9am PT, and 5pm CET. At several recent meetings we have had discussion on COVID-19 related privacy topics, and it looks like some standards around #ImmunityCredentials and #LocationPrivacy in particular will become official work items. Our meetings are open to the public, and are annonced on our public mailing list.
+We meet online weekly via voice and IRC on Tuesdays at 12noon ET, 9am PT, and 5pm CET. At several recent meetings we have had discussion on COVID-19 related privacy topics, and it looks like some standards around #ImmunityCredentials and #LocationPrivacy in particular will become official work items. Our meetings are open to the public, and are announced on our public mailing list.
 
 ## Immunity Credential Technology
 
@@ -149,7 +149,7 @@ We meet online weekly via voice and IRC on Tuesdays at 12noon ET, 9am PT, and 5p
 
 * Duffy, Kim Hamilton; Pongratz, Hans; Schmidt, J. Philipp (2020, February). Building the digital credential infrastructure for the future [#Implementation, Digital Credentials Consortium].
   * Retrieved from https://digitalcredentials.mit.edu/wp-content/uploads/2020/02/white-paper-building-digital-credential-infrastructure-future.pdf. 
-  > KEYQUOTE:  The system we are designing can be used to issue and verify many different types of academic credentials, ranging from university degrees and diplomas, to individual course credits, to alternative credentials (including microcredentials) for online courses or face-toface workshops. Issuers decide the information they must include in the credential. Our system will not change the way universities provide instruction, assess learning, or make decisions about awarding credentials. It simply offers a more powerful and convenient way to share, manage, and verify the credentials.
+  > KEYQUOTE:  The system we are designing can be used to issue and verify many different types of academic credentials, ranging from university degrees and diplomas, to individual course credits, to alternative credentials (including microcredentials) for online courses or face-to-face workshops. Issuers decide the information they must include in the credential. Our system will not change the way universities provide instruction, assess learning, or make decisions about awarding credentials. It simply offers a more powerful and convenient way to share, manage, and verify the credentials.
 
 * Hawk, Sandro, et al. (2020, February 24). Reviewed Credibility Signals [#Review, credweb.org].
   * Retrieved from https://credweb.org/reviewed-signals-20200224/. 
@@ -168,7 +168,7 @@ We meet online weekly via voice and IRC on Tuesdays at 12noon ET, 9am PT, and 5p
 * Rebooting The Web of Trust
   * Retrieved from  https://www.WebOfTrust.info
 
-  > KEY COMMENT: Unfortunately our last event in Buenos Aires where we planned to discussion #LocationPrivacy and other relatied Covid-19 privacy topics was cancelled. We are working now on plans for an event in the Fall in the EU, and expect many privacy tech, policy and regulatory experts coming specifially to work on the next generation of these technologies.**
+  > KEY COMMENT: Unfortunately our last event in Buenos Aires where we planned to discussion #LocationPrivacy and other related Covid-19 privacy topics was cancelled. We are working now on plans for an event in the Fall in the EU, and expect many privacy tech, policy and regulatory experts coming specifically to work on the next generation of these technologies.**
 
 # New & Unsorted
 
