@@ -1,4 +1,11 @@
-# [#VerifiableClaims](https://twitter.com/hashtag/VerifiableClaims) [#ImmunityCredentials](https://twitter.com/hashtag/ImmunityCredentials)  [#COVID19](https://twitter.com/hashtag/COVID19)
+---
+created: 2020-04-13T18:21:00-07:00
+modified: 2020-04-14T00:30:00-07:00
+title: #ImmunityCredentials #VerifiableClaims
+
+---
+
+# [#ImmunityCredentials](https://twitter.com/hashtag/ImmunityCredentials) [#VerifiableClaims](https://twitter.com/hashtag/VerifiableClaims) 
 
 > This is one of my [series of lists](https://github.com/ChristopherA/High-Signal-Low-Noise-Link-Lists) of opinionated, high-signal but low-noise links on topics I care about.
 >
