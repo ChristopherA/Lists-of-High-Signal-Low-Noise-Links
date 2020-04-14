@@ -359,7 +359,7 @@ title: '#LocationPrivacy #ContractTracing #PublicHealthVsPrivacy #COVID19'
   > We also need to set the stage so that in the long term we can invest in the much more difficult problems of solving these problems more idealistically correctly. We need to fund things like deep requirements engineering, great user centric design including nudge/incentive/mechanism/ approaches, as well implementing the latest secure code practices, privacy protocols, zk-proofs and other modern cryptographic security approaches, etc.
   > For if we do not be somewhat pragmatic now, and set a stage to be able to invest in a more ideal future, we risk that everything we are currently doing on the privacy front now will fail because in the end, everyone will being tracked at another layer."
   
-**Important academic paper on how easy it is to be able to de-anonymize supposedly anonymized location data.
+**Important academic paper on how easy it is to be able to de-anonymize supposedly anonymized location data.**
   
 * Luc Rocher, Julien M. Hendrickx & Yves-Alexandre de Montjoye (2019, Jul 23). Estimating the success of re-identifications in incomplete datasets using generative models [#Opinion #Review, Nature Communications].
   * Retrieved from https://www.nature.com/articles/s41467-019-10933-3.
@@ -400,7 +400,7 @@ title: '#LocationPrivacy #ContractTracing #PublicHealthVsPrivacy #COVID19'
 
 **We meet online weekly via voice and IRC on Tuesdays at 12noon ET, 9am PT, and 5pm CET. At several recent meetings we have had discussion on COVID-19 related privacy topics, and it looks like some standards around #ImmunityCredentials and #LocationPrivacy in particular will become official work items. Our meetings are open to the public, and are announced on our public mailing list.**
 
-**Both of these standards are key architectures toward privacy design, in particular in the short term for #ImmunityCertificates (see my other High Signal Low Noise series on #VerifiableClaims #ImmunityCredentials(https://github.com/ChristopherA/High-Signal-Low-Noise-Link-Lists/blob/master/%23VerifiableClaims%20%23ImmunityCredentials.md).**
+**Both of these standards are key architectures toward privacy design, in particular in the short term for #ImmunityCertificates (see my other High Signal Low Noise series on [#VerifiableClaims #ImmunityCredentials](https://github.com/ChristopherA/High-Signal-Low-Noise-Link-Lists/blob/master/%23VerifiableClaims%20%23ImmunityCredentials.md).**
 
 # New & Unsorted
 
