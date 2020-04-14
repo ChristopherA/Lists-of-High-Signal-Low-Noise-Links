@@ -1,6 +1,6 @@
 ---
 created: 2020-04-12T13:44:45-07:00
-modified: 2020-04-14T01:05:28-07:00
+modified: 2020-04-14T04:28:28-07:00
 title: '@ChristopherA’s Lists of High-Signal, Low Noise Links'
 
 ---
@@ -31,7 +31,7 @@ title: '@ChristopherA’s Lists of High-Signal, Low Noise Links'
 | ------------------------------------------------------------ | ------------------------------ |
 | [#COVID19](./%23COVID19.md)                                  | Stub                           |
 | [#LocationPrivacy #ContractTracing #PublicHealthVsPrivacy #COVID19](./%23LocationPrivacy%20%23ContractTracing%20%23PublicHealthVsPrivacy%20%23COVID19.md) | Version 0.1.0 (2020, April 14) |
-| [#Immunity Credentials #Verifiable Claims #COVID19](./%23ImmunityCredentials%20%23VerifiableClaims%20%23COVID19.md) | Version 0.0.1 (2020, April 14) |
+| [#ImmunityCredentials #Verifiable Claims #COVID19](./%23ImmunityCredentials%20%23VerifiableClaims%20%23COVID19.md) | Version 0.0.1 (2020, April 14) |
 
 ## Copyright & License
 
