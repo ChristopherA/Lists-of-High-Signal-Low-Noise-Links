@@ -70,7 +70,18 @@
   * Retrieved from https://www.telegraph.co.uk/news/2020/03/29/germany-will-issue-coronavirus-antibody-certificates-allow-quarantined/. 
   > KEYQUOTE: German researchers plan to introduce coronavirus ‘immunity certificates’ to facilitate a proper transition into post-lockdown life, as Chancellor Angela Merkel’s handling of the crisis has led to a boost in the polls.
 
-**Though the antibody testing and immunity science is yet to be solved for, the technological architecture to make credentials, passports or such certificates work in practice is a reality today.**
+# Law, Policy & Regulations
+*(Most recent first)*
+
+**Even if the antibody tests and immunity science are solved for, numerous legal impediments exist for such implementations between haves vs have-nots:**
+
+* Greely, Henry T. (2020, April 10) Covid-19 ‘immunity certificates’: practical and ethical conundrums [#News #Opinion, StatNews].
+  * Retrieved from https://www.statnews.com/2020/04/10/immunity-certificates-covid-19-practical-ethical-conundrums/. 
+  > KEYQUOTE: The legal issues aren’t clear. The Americans with Disabilities Act (ADA) may be the most relevant federal statute, but it is triggered only by a disability. Having a Covid-19 infection can be a disability, but can having a normal immune system, one without evidence of a prior infection, count as a disability? If so, how would the act’s “direct threat” exception apply? The Equal Employment Opportunity Commission has issued some guidance for employers, saying that Covid-19 qualifies for the “direct threat” exception, but that deals with people who are infected or symptomatic, not those who might become infected.
+ 
+  > Other federal and state statutory and constitutional rights might also be invoked, such as the Federal Rehabilitation Act, state statutes similar to the ADA or broad state anti-discrimination legislation, and federal and state due process, equal protection, and possibly right to travel guarantees.
+
+**Though the antibody testing and immunity science is yet to be solved for, along with the legal implications, the technological architecture to make credentials, passports or such certificates work in practice is a reality today.**
 
 # Implementations & Analysis
 
@@ -116,17 +127,6 @@ We meet online weekly via voice and IRC on Tuesdays at 12noon ET, 9am PT, and 5p
   * GitHub source https://github.com/hellobloom/vc/blob/vc-network-update/dev/packages/vc-data/src/data/medical.ts
   > KEYQUOTE: Issuing Verified Immunity Credentials (VIC) to those who are immune would also help people quickly find new jobs by being able to digitally show proof of immunity to employers.
  
-# Law, Policy & Regulations
-*(Most recent first)*
-
-**Even if the antibody tests and immunity science are solved for, numerous legal impediments exist for such implementations between haves vs have-nots:**
-
-* Greely, Henry T. (2020, April 10) Covid-19 ‘immunity certificates’: practical and ethical conundrums [#News #Opinion, StatNews].
-  * Retrieved from https://www.statnews.com/2020/04/10/immunity-certificates-covid-19-practical-ethical-conundrums/. 
-  > KEYQUOTE: The legal issues aren’t clear. The Americans with Disabilities Act (ADA) may be the most relevant federal statute, but it is triggered only by a disability. Having a Covid-19 infection can be a disability, but can having a normal immune system, one without evidence of a prior infection, count as a disability? If so, how would the act’s “direct threat” exception apply? The Equal Employment Opportunity Commission has issued some guidance for employers, saying that Covid-19 qualifies for the “direct threat” exception, but that deals with people who are infected or symptomatic, not those who might become infected.
- 
-  > Other federal and state statutory and constitutional rights might also be invoked, such as the Federal Rehabilitation Act, state statutes similar to the ADA or broad state anti-discrimination legislation, and federal and state due process, equal protection, and possibly right to travel guarantees.
-
 ### General Immunity Credentials Analysis & Technology
 
 **COVID Credentials Initiative**
