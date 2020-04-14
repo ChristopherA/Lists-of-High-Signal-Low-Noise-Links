@@ -1,9 +1,7 @@
 ---
 created: 2020-04-12T13:44:45-07:00
-modified: 2020-04-14T00:13:00-07:00
+modified: 2020-04-14T00:50:28-07:00
 title: README
-
-
 ---
 
 # @ChristopherA’s High-Signal, Low Noise Links Lists      
@@ -31,11 +29,11 @@ title: README
 | Key Hashtags in List                                         | Version                        |
 | ------------------------------------------------------------ | ------------------------------ |
 | [#LocationPrivacy #ContractTracing #PublicHealthVsPrivacy #COVID19](./%23LocationPrivacy%20%23ContractTracing%20%23PublicHealthVsPrivacy%20%23COVID19.md) | Version 0.1.0 (2020, April 14) |
-| [#Immunity Credentials #Verifiable Claims](./%23ImmunityCredentials%20%23VerifiableClaims.md) | Version 0.0.1 (2020, April 14) |
+| [#Immunity Credentials #Verifiable Claims](./%23ImmunityCredentials%20%23VerifiableClaims%20%23COVID19.md) | Version 0.0.1 (2020, April 14) |
 
 ## Copyright & License
 
-Unless otherwise noted (either in this /README.md or in a file's header comments) the contents of this repository are Copyright ©2020 by Christopher Allen, and are shared under [spdx:Creative Commons Attribution Share Alike 4.0 International (CC-BY-SA-4.)](https://spdx.org/licenses/CC-BY-SA-4.0.html) open-source license.
+Unless otherwise noted (either in this /README.md or in a file's header comments) the contents of this repository are Copyright :copyright:2020 by Christopher Allen, and are shared under [spdx:Creative Commons Attribution Share Alike 4.0 International (CC-BY-SA-4.)](https://spdx.org/licenses/CC-BY-SA-4.0.html) open-source license.
 
 I do not make any claims to the copyright of links or the list of links of themselves, only to my expression, organization, and annotations of them. However, if you use these significantly for your own work, I'd appreciate the attribution and link to my original list and that you would share your own annotated list under a similar license.
 
