@@ -1,4 +1,4 @@
-# [#ImmunityCredentials](https://twitter.com/hashtag/ImmunityCredentials)  [#COVID19](https://twitter.com/hashtag/COVID19)
+# [#VerifiableClaims](https://twitter.com/hashtag/VerifiableClaims) [#ImmunityCredentials](https://twitter.com/hashtag/ImmunityCredentials)  [#COVID19](https://twitter.com/hashtag/COVID19)
 
 > This is one of my [series of lists](https://github.com/ChristopherA/High-Signal-Low-Noise-Link-Lists) of opinionated, high-signal but low-noise links on topics I care about.
 >
@@ -12,11 +12,13 @@
 
 # Table of Contents
 
-- [Table of Contents](#table-of-contents)
 - [My Personal POV](#my-personal-pov)
 - [General News & Opinion](#general-news---opinion)
 - [Law, Policy & Regulations](#law--policy---regulations)
 - [Implementations & Analysis](#implementations---analysis)
+  * [Immunity Credential Technology](#immunity-credential-technology)
+    + [Implementations of Immunity Credentials](#implementations-of-immunity-credentials)
+    + [Immunity Credentials Analysis & Technology](#immunity-credentials-analysis---technology)
 - [Other Related Credentials Technologies](#other-related-credentials-technologies)
 - [Related Events & Meetings](#related-events---meetings)
 - [New & Unsorted](#new---unsorted)
