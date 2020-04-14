@@ -1,12 +1,10 @@
 ---
 created: 2020-04-13T18:21:00-07:00
-modified: 2020-04-14T00:30:00-07:00
-title: '#ImmunityCredentials #VerifiableClaims'
-
+modified: 2020-04-14T00:48:28-07:00
+title: '#ImmunityCredentials #VerifiableClaims #COVID19'
 ---
 
-# [#ImmunityCredentials](https://twitter.com/hashtag/ImmunityCredentials) [#VerifiableClaims](https://twitter.com/hashtag/VerifiableClaims) 
-
+# [#ImmunityCredentials](https://twitter.com/hashtag/ImmunityCredentials)  [#VerifiableClaims](https://twitter.com/hashtag/VerifiableClaims) [#COVID19](https://twitter.com/hashtag/COVID19) 
 > This is one of my [series of lists](https://github.com/ChristopherA/High-Signal-Low-Noise-Link-Lists) of opinionated, high-signal but low-noise links on topics I care about.
 >
 > If you like my advocacy, my point-of-view, my writing, my travel, my talks, and my work with organizations such as [Blockchain Commons](https://www.BlockchainCommons.com), [Rebooting the Web of Trust](https://www.WebOfTrust.info) and the [W3C Credentials CG](https://w3c-ccg.github.io), I invite you to sponsor me by becoming a monthly patron on my [GitHub Sponsor Page](https://github.com/sponsors/ChristopherA) for as little as $5 a month, as they are matching the first $5,000!
@@ -36,7 +34,7 @@ title: '#ImmunityCredentials #VerifiableClaims'
 
 For information on this versioning scheme, see [Status & Versioning](./README.md#status--versioning).
 
-Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source license. See this repo's [README.md](./README.md#copyright--license) for more details.
+Copyright :copyright:2020 by Christopher Allen, and is shared under CC-BY-SA open-source license. See this repo's [README.md](./README.md#copyright--license) for more details.
 
 # Related Lists
 
