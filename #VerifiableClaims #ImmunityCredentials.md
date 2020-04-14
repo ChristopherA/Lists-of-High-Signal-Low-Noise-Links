@@ -52,6 +52,11 @@
   * Retrieved from https://www.technologyreview.com/2020/04/09/998974/immunity-passports-cornavirus-antibody-test-outside/
   > KEYQUOTE: Coronavirus antibody testing needs to get a lot better, and so does our understanding of immunity, before people can start circulating freely.
 
+**Important laypersons' introduction to Bayesian math and the massive difference between a 5% and a 3% margin of error for serological testing/passporting:**
+* Chivers, Tom (2020, April 7). How far away are ‘immunity passports’? [#News #Opinion, Unherd].
+  * Retrieved from https://unherd.com/2020/04/how-far-away-are-immunity-passports/.
+  > KEYQUOTE: If you issue immunity passports on this basis, barely a third of the people you give them to will actually be immune. “There’s nothing peculiar about this statistically,” Kevin McConway, an emeritus professor of statistics at the Open University, told me. “It’s just Bayes’ theorem.” The likelihood of you having had Covid-19, if you’ve had a positive test, depends not just on the accuracy of the test but on the prevalence in the population you’re looking at.
+
 * Smith-Spark, Laura (2020, April 3). Is an 'immunity certificate' the way to get out of coronavirus lockdown? [#News #Opinion, CNN Health]
   * Retrieved from https://www.cnn.com/2020/04/03/health/immunity-passport-coronavirus-lockdown-intl/index.html
   > KEYQUOTE: The idea of immunity certificates is "a really smart one," he said. "But as yet we're not going to bring them in because we don't know yet that the immunity is strong enough and there's still more science that needs to be done about the levels of immunity in people after they've had the disease.
@@ -70,6 +75,11 @@
   * Retrieved from https://www.telegraph.co.uk/news/2020/03/29/germany-will-issue-coronavirus-antibody-certificates-allow-quarantined/. 
   > KEYQUOTE: German researchers plan to introduce coronavirus ‘immunity certificates’ to facilitate a proper transition into post-lockdown life, as Chancellor Angela Merkel’s handling of the crisis has led to a boost in the polls.
 
+**Beyond issues of immunology, Peter Story argues that we need to be design toward "co-immunology":**
+* Story, Henry (2020, March 29) Co-Immunology and the Web For a Healthier World [#Opinion, #Society, #Immunology, Medium].
+  * Retrieved from https://medium.com/@bblfish/co-immunology-and-the-web-43379b46688e
+  > KEYQUOTE: We thus have three levels of immunities: biological, psychological and social. One should perhaps add hyper-social for the relations between states, that have over the last century put in place institutions to reduce the calamities of war. Each of these depends on the other. The body’s immunity is improved by individuals learning to adopt hygienic practices; those are helped by quarantining policies at the local and international level. At each level communication is restricted but cannot be stopped: trade, especially for medical goods and food, must continue, while new processes are put in place further to limit the spread of this microscopically small virus.
+
 # Law, Policy & Regulations
 *(Most recent first)*
 
@@ -85,7 +95,7 @@
 
 # Implementations & Analysis
 
-**I am co-chair of World-Wide-Web Consortium Credentials Community Group ([#W3C CCG](https://w3c-ccg.github.io/)), where a number of important credentials and identity specifications were nurtured to the point where they could be formalized into internation standards. Most notably, the Verifiable Credentials specification is now a full standard, and the Decentralized Identity specification is well on its way. Both of these standards are key architectures toward privacy design, in particular in the short term for #ImmunityCertificates.**
+**I am co-chair of World-Wide-Web Consortium Credentials Community Group ([#W3C CCG](https://w3c-ccg.github.io/)), where a number of important credentials and identity specifications were nurtured to the point where they could be formalized into international standards. Most notably, the Verifiable Credentials specification is now a full standard, and the Decentralized Identity specification is well on its way. Both of these standards are key architectures toward privacy design, in particular in the short term for #ImmunityCertificates.**
 
 * W3C Credentials Community Group https://w3c-ccg.github.io/
 
@@ -132,17 +142,7 @@ We meet online weekly via voice and IRC on Tuesdays at 12noon ET, 9am PT, and 5p
 **COVID Credentials Initiative**
   * Global, cross-sector community of organizations using digital identity as a way to mitigate the spread of COVID-19 and reboot public trust [#Implementation, Covid Credentials].
     * Retrieved from https://www.covidcreds.com
-    
-**Important laypersons' introduction to Bayesian math and the massive difference between a 5% and a 3% margin of error for serological testing/passporting:**
-* Chivers, Tom (2020, April 7). How far away are ‘immunity passports’? [#News #Opinion, Unherd].
-  * Retrieved from https://unherd.com/2020/04/how-far-away-are-immunity-passports/.
-  > KEYQUOTE: If you issue immunity passports on this basis, barely a third of the people you give them to will actually be immune. “There’s nothing peculiar about this statistically,” Kevin McConway, an emeritus professor of statistics at the Open University, told me. “It’s just Bayes’ theorem.” The likelihood of you having had Covid-19, if you’ve had a positive test, depends not just on the accuracy of the test but on the prevalence in the population you’re looking at.
-  
-**Beyond issues of immunology, Peter Story argues that we need to be design toward "co-immunology":**
-* Story, Henry (2020, March 29) Co-Immunology and the Web For a Healthier World [#Opinion, #Society, #Immunology, Medium].
-  * Retrieved from https://medium.com/@bblfish/co-immunology-and-the-web-43379b46688e
-  > KEYQUOTE: We thus have three levels of immunities: biological, psychological and social. One should perhaps add hyper-social for the relations between states, that have over the last century put in place institutions to reduce the calamities of war. Each of these depends on the other. The body’s immunity is improved by individuals learning to adopt hygienic practices; those are helped by quarantining policies at the local and international level. At each level communication is restricted but cannot be stopped: trade, especially for medical goods and food, must continue, while new processes are put in place further to limit the spread of this microscopically small virus.
-
+      
 # Other Related Credentials Technologies
 
 * Duffy, Kim Hamilton; Pongratz, Hans; Schmidt, J. Philipp (2020, February). Building the digital credential infrastructure for the future [Report, Digital Credentials Consortium].
