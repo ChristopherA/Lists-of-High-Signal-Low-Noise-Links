@@ -1,6 +1,6 @@
 ---
 created: 2020-04-11T08:43:06-07:00
-modified: 2020-04-14T00:11:00-07:00
+modified: 2020-04-14T00:39:00-07:00
 title: '#LocationPrivacy #ContractTracing #PublicHealthVsPrivacy #COVID19'
 
 ---
@@ -48,7 +48,7 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
 
 # Related Lists
 
-- [#VerifiableClaims #ImmunityCredentials](./%23VerifiableClaims%20%23ImmunityCredentials.md)
+- [#VerifiableClaims #ImmunityCredentials](./%23ImmunityCredentials%20%23VerifiableClaims.md)
 
 # My Personal POV
 
