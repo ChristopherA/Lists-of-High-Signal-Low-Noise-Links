@@ -5,7 +5,7 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 
 ---
 
-# [#LocationPrivacy](https://twitter.com/hashtag/LocationPrivacy) [#ContactTracing](https://twitter.com/hashtag/ContactTracing)  [#ImmunityCredentials](https://twitter.com/hashtag/ImmunityCredentials) [#PublicHealthVsPrivacy](https://twitter.com/hashtag/PublicHealthVsPrivacy) [#COVID19](https://twitter.com/hashtag/COVID19)
+# [#LocationPrivacy](https://twitter.com/hashtag/LocationPrivacy) [#ContactTracing](https://twitter.com/hashtag/ContactTracing)  [#PublicHealthVsPrivacy](https://twitter.com/hashtag/PublicHealthVsPrivacy) [#COVID19](https://twitter.com/hashtag/COVID19)
 
 > This is one of my [series of lists](https://github.com/ChristopherA/High-Signal-Low-Noise-Link-Lists) of opinionated, high-signal but low-noise links on topics I care about.
 >
@@ -23,20 +23,15 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 - [General News & Opinion](#general-news---opinion)
   * [COVID-19, Politics & Tyranny](#covid-19--politics---tyranny)
   * [Contact Tracing News](#contact-tracing-news)
-  * [Immunity Credential News](#immunity-credential-news)
 - [Law, Policy & Regulations](#law--policy---regulations)
 - [Implementations & Analysis](#implementations---analysis)
   * [Contact Tracing Technology](#contact-tracing-technology)
     + [Implementations of Contact Tracing](#implementations-of-contact-tracing)
-      - [Analysis of Specific Contact Tracing Implemenations](#analysis-of-specific-contact-tracing-implemenations)
+      - [Analysis of Specific Contact Tracing Implementations](#analysis-of-specific-contact-tracing-implementations)
     + [General Contact Tracing Analysis and Technology](#general-contact-tracing-analysis-and-technology)
     + [General Criticism of Contact Tracing & Location Privacy Technology Solutions](#general-criticism-of-contact-tracing---location-privacy-technology-solutions)
-  * [Immunity Credential Technology](#immunity-credential-technology)
-    + [Implementations of Immunity Credentials](#implementations-of-immunity-credentials)
-      - [W3C Verifiable Claims](#w3c-verifiable-claims)
-    + [General Immunity Credentials Analysis & Technology](#general-immunity-credentials-analysis---technology)
 - [Other Related Privacy Technologies](#other-related-privacy-technologies)
-  * [Pseudoanonymous Ephemeral Locality](#psuedoanonymous-ephemeral-locality)
+  * [Pseudoanonymous Ephemeral Locality](#pseudoanonymous-ephemeral-locality)
 - [Related Events & Meetings](#related-events---meetings)
 - [New & Unsorted](#new---unsorted)
 
@@ -150,21 +145,6 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
 * Thompson, Stuart A.; Warzel, Charlie (2019, December 19). Twelve Million Phones, One Dataset, Zero Privacy [#News #Opinion, New York Times].
   * Retrieved from https://www.nytimes.com/interactive/2019/12/19/opinion/location-tracking-cell-phone.html. 
   > ABSTRACT/KEYQUOTE: The companies that collect all this information on your movements justify their business on the basis of three claims: People consent to be tracked, the data is anonymous and the data is secure. None of those claims hold up, based on the file we’ve obtained and our review of company practices. Yes, the location data contains billions of data points with no identifiable information like names or email addresses. But it’s child’s play to connect real names to the dots that appear on the maps.
-
-## Immunity Credential News
-* Allison, Ian (2020, April 13) COVID-19 Immunity Passport Unites 60 Firms on Self-Sovereign ID Project [#News #Opinion, CoinDesk].
-  * Retrieved https://www.coindesk.com/covid-19-immunity-passport-unites-60-firms-on-self-sovereign-id-project 
-  > KEYQUOTE: These digital certificates would be issued by health care institutions but controlled by the user and shared in a peer-to-peer manner…A common misconception is that self-sovereign means self-attested, which removes the need for governments and other authorities; trust in the issuer of the credential is critical"
-
-* Wighton, Daniel and Chazan, David (2020, March 29). Germany will issue coronavirus antibody certificates to allow quarantined to re-enter society [#News #Opinion, The Telegraph].
-  * Retrieved from https://www.telegraph.co.uk/news/2020/03/29/germany-will-issue-coronavirus-antibody-certificates-allow-quarantined/. 
-  > KEYQUOTE: German researchers plan to introduce coronavirus ‘immunity certificates’ to facilitate a proper transition into post-lockdown life, as Chancellor Angela Merkel’s handling of the crisis has led to a boost in the polls.
-
-**This white paper suggests 20-30 year olds could re-enter the economy. If such a move takes place it's inevitable that this population would need some sort of immunity credential to further participate/support elderly populations still under lockdown:
-
-* Oswald, Andrew; Powdthavee, Nattavudh (2020, April). The Case for Releasing the Young from Lockdown: A Briefing Paper for Policymakers [#Regulations, Whitepaper].
-  * Retrieved from https://www.andrewoswald.com/docs/newFinalCOVIDpaper-on-releasing-the-young-OswaldPowdthavee2020(1).pdf.
-  > KEYQUOTE: The paper argues that a young workforce release of this kind would lead to substantial economic and societal benefits without enormous health costs to the country. In this way, the nation might begin to move forward in the footsteps of the young. The paper’s key concept could in principle be implemented in other countries.
  
 # Law, Policy & Regulations
 *(Most recent first)*
@@ -385,35 +365,6 @@ title: '#LocationPrivacy #ContractTracing #ImmunityCredentials #PublicHealthVsPr
   * Retrieved from https://www.nature.com/articles/s41467-019-10933-3.
   > KEYQUOTE: Moving forward, they question whether current de-identification practices satisfy the anonymization standards of modern data protection laws such as GDPR and CCPA and emphasize the need to move, from a legal and regulatory perspective, beyond the de-identification release-and-forget model.
   
-## Immunity Credential Technology
-  
-### Implementations of Immunity Credentials
-
-** Most of the news has been about governments using cell phones & mobile apps to do #ContractTracing, but another important topic area is how we can create digital #ImmunityCertificates to allow people who have recovered from Covid-19 to leave quarantine, participate in the economic recovery, and to travel for work or family.**
-
-#### W3C Verifiable Claims
-
-**There has some some discussion & collaboration in the #W3C Credentials CG on what a #Covid19 Immunity Credential might look like using the #VerifiableCredentials standard.**
-  * Example Immunity Passport Credential: https://github.com/w3c-ccg/vc-examples/tree/master/docs/covid-19
-  * Thread (long) starts at: https://lists.w3.org/Archives/Public/public-credentials/2020Apr/0052.html
-  * Thread (long) starts at: https://lists.w3.org/Archives/Public/public-credentials/2020Apr/0119.html
-
-### General Immunity Credentials Analysis & Technology
-
-**COVID Credentials Initiative**
-  * Global, cross-sector community of organizations using digital identity as a way to mitigate the spread of COVID-19 and reboot public trust [#Implementation, Covid Credentials].
-    * Retrieved from https://www.covidcreds.com
-    
-**Important laypersons' introduction to Bayesian math and the massive difference between a 5% and a 3% margin of error for serological testing/passporting:**
-* Chivers, Tom (2020, April 7). How far away are ‘immunity passports’? [#News #Opinion, Unherd].
-  * Retrieved from https://unherd.com/2020/04/how-far-away-are-immunity-passports/.
-  > KEYQUOTE: If you issue immunity passports on this basis, barely a third of the people you give them to will actually be immune. “There’s nothing peculiar about this statistically,” Kevin McConway, an emeritus professor of statistics at the Open University, told me. “It’s just Bayes’ theorem.” The likelihood of you having had Covid-19, if you’ve had a positive test, depends not just on the accuracy of the test but on the prevalence in the population you’re looking at.
-  
-**Beyond issues of immunology, Peter Story argues that we need to be design toward "co-immunology":**
-* Story, Henry (2020, March 29) Co-Immunology and the Web For a Healthier World [#Opinion, #Society, #Immunology, Medium].
-  * Retrieved from https://medium.com/@bblfish/co-immunology-and-the-web-43379b46688e
-  > KEYQUOTE: We thus have three levels of immunities: biological, psychological and social. One should perhaps add hyper-social for the relations between states, that have over the last century put in place institutions to reduce the calamities of war. Each of these depends on the other. The body’s immunity is improved by individuals learning to adopt hygienic practices; those are helped by quarantining policies at the local and international level. At each level communication is restricted but cannot be stopped: trade, especially for medical goods and food, must continue, while new processes are put in place further to limit the spread of this microscopically small virus.
-
 # Other Related Privacy Technologies
 
 ## Pseudoanonymous Ephemeral Locality
