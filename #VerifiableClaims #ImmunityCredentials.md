@@ -1,7 +1,7 @@
 ---
 created: 2020-04-13T18:21:00-07:00
 modified: 2020-04-14T00:30:00-07:00
-title: #ImmunityCredentials #VerifiableClaims
+title: '#ImmunityCredentials #VerifiableClaims'
 
 ---
 
