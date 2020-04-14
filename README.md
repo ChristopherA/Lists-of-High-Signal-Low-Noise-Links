@@ -31,7 +31,7 @@ title: README
 | Key Hashtags in List                                         | Version                        |
 | ------------------------------------------------------------ | ------------------------------ |
 | [#LocationPrivacy #ContractTracing #PublicHealthVsPrivacy #COVID19](./%23LocationPrivacy%20%23ContractTracing%20%23PublicHealthVsPrivacy%20%23COVID19.md) | Version 0.1.0 (2020, April 14) |
-| [#Verifiable Claims #Immunity Credentials](./%23VerifiableClaims%20%23ImmunityCredentials.md) | Version 0.0.1 (2020, April 14) |
+| [#Immunity Credentials #Verifiable Claims](./%23ImmunityCredentials%20%23VerifiableClaims.md) | Version 0.0.1 (2020, April 14) |
 
 ## Copyright & License
 
