@@ -22,6 +22,12 @@ title: README
 * [#LocationPrivacy #ContractTracing #PublicHealthVsPrivacy #COVID19](./%23LocationPrivacy%20%23ContractTracing%20%23PublicHealthVsPrivacy%20%23COVID19.md)
 * [#Verifiable Claims #Immunity Credentials](./%23VerifiableClaims%20%23ImmunityCredentials.md)
 
+## Copyright & License
+
+Unless otherwise noted (either in this /README.md or in a file's header comments) the contents of this repository are Copyright ©2020 by Christopher Allen, and are licensed under [spdx:Creative Commons Attribution Share Alike 4.0 International (CC-BY-SA-4.)](https://spdx.org/licenses/CC-BY-SA-4.0.html).
+
+I do not make any claims to the copyright of links or list of links of themselves, only to my expression, organization, and annotations on them. However, if you use these significantly for your own work, I'd appreciate the attribution and link to my original list and that you would share your own annotated list under a similar license.
+
 ## Status & Versioning
 
 These lists are mostly for myself, my professional clients, and my [GitHub Sponsors](https://github.com/sponsors/ChrisotpherA), as I've not found any bookmarking tool that quite does what I want. The content of these lists can change every day, and different sections will get more focus and attention, and thus evolve or even need major refactoring over time.
