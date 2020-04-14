@@ -2,6 +2,7 @@
 created: 2020-04-12T13:44:45-07:00
 modified: 2020-04-14T00:50:28-07:00
 title: README
+
 ---
 
 # @ChristopherA’s High-Signal, Low Noise Links Lists      
@@ -28,8 +29,9 @@ title: README
 
 | Key Hashtags in List                                         | Version                        |
 | ------------------------------------------------------------ | ------------------------------ |
+| [#COVID19](./%23COVID19.md)                                  | Stub                           |
 | [#LocationPrivacy #ContractTracing #PublicHealthVsPrivacy #COVID19](./%23LocationPrivacy%20%23ContractTracing%20%23PublicHealthVsPrivacy%20%23COVID19.md) | Version 0.1.0 (2020, April 14) |
-| [#Immunity Credentials #Verifiable Claims](./%23ImmunityCredentials%20%23VerifiableClaims%20%23COVID19.md) | Version 0.0.1 (2020, April 14) |
+| [#Immunity Credentials #Verifiable Claims #COVID19](./%23ImmunityCredentials%20%23VerifiableClaims%20%23COVID19.md) | Version 0.0.1 (2020, April 14) |
 
 ## Copyright & License
 
@@ -49,5 +51,6 @@ To make it easier to understand the status of any particular list, I use a modif
 | **Minor**        | A significant new edition of this list is complete. A number of new links and annotations added, maybe minor sections reorganized,  and some old links filtered out.  I've likely moved on to ffocusing on a different list. <br />If you see that a list version was set to 0.3.0  few weeks ago, the list is probably pretty current. If that 0.3.0 was a few months or even years ago, I may have added links, but I've not reorganized them or filtered old ones out. | 0.2.0   |
 | **Patch**        | Minor additions to the list. I've added some new links into the approriate section and have annotated them, but I've not reviewed or filtered the list a whole since the last **Minor** revision.<br /> | 0.1.3   |
 | **Raw**          | Here is where I vary from classic [Semantic Versioning](https://semver.org). Before I declare a new list is sufficient organized and annoted to be called 0.1.0, I will capture links and thoughts with little or no review or annotation. I may increment the least significant **Patch** level to let me know that this list may be ready for organization, annotation and filtering. | 0.0.1   |
+| **Stub**         | An empty topic hashtag that points to other topics           | None    |
 
 I only use this versioning approach for the individual lists. I do not use git release tags as they really don't work well for individual files inside a repo — only for a repo as a whole.
