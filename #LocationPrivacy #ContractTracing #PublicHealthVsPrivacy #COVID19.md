@@ -52,7 +52,7 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
 
 # My Personal POV
 
-**This is my most recent presentation on the topic of why I'm involved in the Self-Sovereign Identity movement, as part of a [#Foremembrance](https://twitter.com/hashtag/Foremembrance) this March during an SSI Meetup virtual event. I talk about some important historical context from WWII in the Netherlands, and how it is relevant to the impact and risk of COVID-19 for privacy and identity systems:**
+**This is my most recent presentation explaining why I'm involved in the Self-Sovereign Identity movement, as part of a [#Foremembrance](https://twitter.com/hashtag/Foremembrance) this March during an SSI Meetup virtual event. I talk about some important historical context from WWII in the Netherlands and how it is relevant to the impact and risk of COVID-19 for privacy and identity systems:**
 
 * Allen, Christopher (2020, 27 March). How to avoid another identity tragedy with SSI. [#SSI [#Foremembrance](https://twitter.com/hashtag/Foremembrance) #Opinion #Presentation, SSI Meetup].
   * Presentation retrieved from https://docs.google.com/presentation/d/1lO6vik7UkXQEhAWtVsaF3Bn_KUAUhZsTflTPjeF3aSw
@@ -69,13 +69,13 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
   * Retreived from https://www.theglobeandmail.com/world/article-how-the-coronavirus-pandemic-is-making-strongmen-stronger-from/.
   > KEYQUOTE: With governments around the world adopting extraordinary measures amid the pandemic, ostensibly to protect their citizens – but often in directions that have little or nothing to do with public health – one of the most potent legacies of this era may prove to be a global erosion of democratic freedoms. The power grabs have been dubbed “coronavirus coups” in some countries, and three months into the crisis, with no end in sight, there are concerns that leaders such as Hungary’s Viktor Orban are capitalizing on COVID-19 to seize powers they may never relinquish.
 
-**NSO makes spyware and mass-surveillance tools, why should we trust the privacy of their software?**
+**NSO makes spyware and mass-surveillance tools. Why should we trust the privacy of their software?**
 * Franceschi-Biccierai, Lorenzo (2020, April 2nd). We Saw NSO's Covid-19 Software in Action, and Privacy Experts Are Worried [#News #Opinion, Vice].
   * Retrieved from https://www.vice.com/en_us/article/epg9jm/nso-covid-19-surveillance-tech-software-tracking-infected-privacy-experts-worried.
   > KEYQUOTE: Researchers who have studied and exposed several cases where NSO Group’s customers abused its products to spy on activists and journalists are skeptical that governments should be adopting such an invasive surveillance product, made by a company known to have worked with governments that routinely abuse human rights.
   > On Monday, Israel's Defense Minister Naftali Bennett tweeted that the Israeli government is working on "world-leading" AI system that will give every citizen a grade between 1 and 10 to determine how likely they are to spread the coronavirus and if they need to be tested
 
-**Looks like there's 12 regional apps and one national app. Interestingly, the patchwork of tracking apps across China seems to show that there is actually v little coordination between localities and the central government**
+**Looks like there are twelve regional pandemic-tracking apps in China and one national one. Interestingly, the patchwork of tracking apps across China seems to show that there is actually very little coordination between localities and the central government.**
 
 * Yang, Yuan; Liu, Nian; Wong, Sue-Lin and Liu, Qianer (2020, April 1). China, coronavirus and surveillance: the messy reality of personal data [#News #Opinion, Financial Times; Paywall].
   * Retrieved from https://www.ft.com/content/760142e6-740e-11ea-95fe-fcd274e920ca
@@ -89,7 +89,7 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
 
 ## Contact Tracing News
 
-**Two of the biggest mobile app platforms, Apple & Google, are partnering on contact-tracing technology. Early privacy analysis is positive, but it still has centralization issues (see [Implementations & Analysis](#implementations--analysis) section below for more details).**
+**Two of the biggest mobile app platforms, Apple and Google, are partnering on contact-tracing technology. Early privacy analysis is positive, but it still has centralization issues (see [Implementations & Analysis](#implementations--analysis) section below for more details).**
 
 * Doffman, Zak (2020, April 12). Forget Apple And Google—Here’s The Real Challenge For COVID-19 Contact-Tracing [#News #Opinion, Forbes].
   * Retrieved from https://www.forbes.com/sites/zakdoffman/2020/04/12/forget-apple-and-google-heres-the-real-challenge-for-covid-19-contact-tracing/#5d66bf7f2709
@@ -99,19 +99,19 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
   * Retrieved from https://www.theblockcrypto.com/linked/61556/apple-google-partner-on-covid-19-contact-tracing-tech-initiative.
   > KEYQUOTE: Technology giants Apple and Google are teaming up to develop a technology solution for contact tracing the spread of COVID-19 infections amid a growing global pandemic.
 
-**Fantastic, public domain comic explaining how privacy preserving Bluetooth alerts work:**
+**Fantastic public-domain comic explaining how privacy preserving Bluetooth alerts work:**
 
 * Case, Nicky (2020, April 9). Twitter Thread, 12/12 [#Opinion, Twitter].
   * Retrieved from https://twitter.com/ncasenmare/status/1248271370368114688; https://ncase.me/contact-tracing/. 
   > KEYQUOTE via @mikarv: How exactly can #DP3T privacy-preserving Bluetooth COVID-19 alerts work if identifiable personal data never leaves your device? It's actually not so complicated, and even less so now @ncasenmare has made a fantastic, public domain, comic explaining it.
 
-**Good summary of three approaches/designs for privacy-preserving contact-tracing apps: Bluetooth Contact Tracing, Redacted Location Tracing, Hashing Servers and Mix Nets**
+**Good summary of three approaches/designs for privacy-preserving contact-tracing apps: Bluetooth Contact Tracing, Redacted Location Tracing, and Hashing Servers and Mix Nets**
 
 * Greenberg, Andy (2020, April 8). Clever Cryptography Could Protect Privacy in Covid-19 Contact-Tracing Apps [#News #Opinion, Wired].
   * Retrieved from https://www.wired.com/story/covid-19-contact-tracing-apps-cryptography/.
   > KEYQUOTE: Users may appreciate privacy, but health care workers and governments don't necessarily want to build a system that prevents them from, say, proactively notifying users who have been potentially exposed to Covid-19, or even actively tracking the location of infected or potentially exposed people.  
 
-**A pretty good update on what is happening on the telcom side of [#LocationPrivacy](https://twitter.com/hashtag/LocationPrivacy). It does have me concerned that various efforts for privacy enhanced bluetooth [#ContactTracing](https://twitter.com/hashtag/ContactTracing) and other such approaches are a moot point given what the cell phone already allows to be correlated.**
+**A pretty good update on what is happening on the telcom side of [#LocationPrivacy](https://twitter.com/hashtag/LocationPrivacy). It does have me concerned that work on privacy enhanced bluetooth [#ContactTracing](https://twitter.com/hashtag/ContactTracing) (and other such approaches) is moot given what information a cell phone already allows to be correlated.**
 
 * Espinoza, Javier and Fildes, Nic (2020, April 7). Tracking coronavirus: big data and the challenge to privacy. [#News #Opinion, Financial Times; Free to Read].
   * Retrieved from https://www.ft.com/content/7cfad020-78c4-11ea-9840-1b8019d9a987.
@@ -164,7 +164,7 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
 # Law, Policy & Regulations
 *(Most recent first)*
 
-**Governments today are taking legitimate emergency measures to track & manage public health, in particular in this #COVID19 crisis. We need to balance this public good vs. risks of loss of human rights in the future. We can do this!**
+**Governments today are taking legitimate emergency measures to track and manage public health, in particular in the #COVID19 crisis. We need to balance this public good vs. risks of loss of human rights in the future. We can do this!**
 
 * McDonald, Sean (2020, March 30). The Digital Response to the Outbreak of COVID-19 [#Opinion, Centre for International Governance Innovation].
   * Retrieved from https://www.cigionline.org/articles/digital-response-outbreak-covid-19.
@@ -177,7 +177,7 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
   * Retrieved from https://fpf.org/2020/03/25/a-closer-look-at-location-data-privacy-and-pandemics/.
   > ABSTRACT/KEY QUOTE: Typically, we think of location data as having privacy implications when it is precise enough to single out an individual with reasonable specificity...Measuring precise location depends in part on context, such as population density...Recent legislative proposals have attempted to create strict cut-offs (such as an 1,640 foot radius under the U.S. House and Commerce Discussion Draft, or an 1,850 foot radius under the California Privacy Rights Act ballot initiative of 2020).
   
-**Human Rights, Privacy Law & GDPR expert Elizabeth Renieres ([@hackylawyer](https://twitter.com/hackylawyer) always has great insights on the intersection of privacy technology, the law, and is always one of the first people I go to on these topics:**
+**Human Rights, Privacy Law, and GDPR expert Elizabeth Renieres ([@hackylawyer](https://twitter.com/hackylawyer) regularly has great insights on the intersection of privacy technology and the law, and is always one of the first people I go to on these topics:**
 * Renieris, Elizabeth M. (2020, March 23). When Privacy Meets a Pandemic. [#Opinion, Medium].
   * Retrieved from https://onezero.medium.com/when-privacy-meets-pandemic-fbf9154f80b3.
   > KEYQUOTE: So, where does this leave us as a privacy community and what is our role in the time of Corona? It means that before we debate the particulars of a specific technology or application, before we tweak certain features or functionality to better protect individual privacy, or before we impose certain transparency or accountability measures, we take a step back.
@@ -209,21 +209,21 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
 
 ## Contact Tracing Technology
 
-**[#ContactTracing](https://twitter.com/hashtag/ContactTracing) was among the first Covid-19 tech solutions proposed, basically informing people that they may have been in recent contact with someone with an active infection. There are huge privacy, consent and human rights risks in this area, as [#LocationPrivacy](https://twitter.com/hashtag/LocationPrivacy) is very difficult.**
+**[#ContactTracing](https://twitter.com/hashtag/ContactTracing) was among the first techical solutions proposed for #Covid19, basically informing people that they may have been in recent contact with someone with an active infection. There are huge privacy, consent, and human rights risks in this area, as [#LocationPrivacy](https://twitter.com/hashtag/LocationPrivacy) is very difficult.**
 
-**There are some emerging solutions that are better than other, however, I still am skeptical about both the efficacy of [#ContactTracing](https://twitter.com/hashtag/ContactTracing) (because in many cases it is probably too late, and it only works if there is large adoption) & and issues of [#PrivacyByDesign](https://twitter.com/hashtag/PrivacyByDesign) (many open issues on incentive design, consent & active adversary issues, and all proposed solutions are too centralized) of this first generation of [#ContactTracing](https://twitter.com/hashtag/ContactTracing) apps.**
+**There are some emerging solutions that are better than others. However, I still am skeptical about both the efficacy of [#ContactTracing](https://twitter.com/hashtag/ContactTracing) (because in many cases it is probably too late, and it only works if there is large adoption) and the issues of [#PrivacyByDesign](https://twitter.com/hashtag/PrivacyByDesign) (many open issues on incentive design and consent & active adversary issues, plus all proposed solutions are too centralized) in this first generation of [#ContactTracing](https://twitter.com/hashtag/ContactTracing) apps.**
 
-**That being said, I believe it is worth the effort to learn best practices of this generation of apps and make better choices for the next generation.**
+**That being said, I believe it is worth the effort to learn best practices of this generation of apps and to make better choices for the next generation.**
 
 ### Implementations of Contact Tracing
 
-**This is a comprehensive summary of contact tracing implementations in the US, and 40+ countries around the world, from USC:**
+**This is a comprehensive summary of contact tracing implementations in the US and in 40+ countries around the world, from USC:**
 
 * Tanaka, Nina (Last Updated: 2020, April 11). Background Research on mobile applications focused on COVID-19  [#Implementation #Review, USC Viterbi School of Engineering].
   * Retrieved from https://docs.google.com/document/d/1bgsNjPcvoz8fpOutEYiqCJpu2PWYHnGqPI3pcK9mUio/edit.
   > KEYQUOTE: Based on news stories and other online sources, with a focus on February 2020 to present.
 
-**Some additional notable projects or specific links, not yet in the USC list (listed in alphabetical order):**
+**Here are some additional notable projects or specific links, not yet in the USC list (listed in alphabetical order):**
 
 * Apple/Google Privacy Contact Tracing (2020, April 10)
   * Bluetooth Specification (2020, April 10)
@@ -273,12 +273,12 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
   
 #### Analysis of Specific Contact Tracing Implementations
 
-**Brief "first look" by Signal app's creator Moxie Marlinspike (Twitter: [@moxie](https://twitter.com/moxie)) on the Apple/Google #ContactPrivacy framework**
+**Brief "first look" by Signal app's creator Moxie Marlinspike (Twitter: [@moxie](https://twitter.com/moxie)) at the Apple/Google #ContactPrivacy framework**
 * Marlinspike, Moxie (2020, April 10). Twitter thread. [#Implementation #Analysis, Twitter].
   * Retrieved from https://twitter.com/moxie/status/1248707315626201088
   KEYQUOTE: So first obvious caveat is that this is "private" (or at least not worse than BTLE), *until* the moment you test positive. At that point all of your BTLE mac addrs over the previous period become linkable… Second caveat is that it seems likely location data would have to be combined with what the device framework gives you.…Third caveat is that it seems likely some kind of PII would have to be combined with what the device framework gives you. Keys published by a device have to then be in turn "published" to *all* devices in the world. That's a major DoS vector!…All that aside, these APIs are novel in terms of what becomes possible from the app layer. I'm not super optimistic about opt-in contact tracing becoming a major factor, but I do kind of anticipate that someone will end up using this for some other interesting thing.
   
-**Another "first look" by Zcash cryptography researcher Henry de Valence [@hdevalence](https://twitter.com/hdevalence) on Apple/Google #ContactPrivacy:**
+**Another "first look" at Apple/Google #ContactPrivacy, this one by Zcash cryptography researcher Henry de Valence [@hdevalence](https://twitter.com/hdevalence):**
 * de Valence, Henry (2020, April 10) Twitter thread [#Implementation #Analysis, Twitter].
   * Retrieved from https://twitter.com/hdevalence/status/1248661056622186496
   > KEYQUOTE: Revealing a daily tracing key reveals all of the RPIs derived from that daily tracing key, meaning that a passive adversary can correlate past RPI broadcasts from a user who reports infection.  This is a tradeoff between reporter privacy and bandwidth, also made by TCN and DP-3T. But in the Apple/Google protocol, the tradeoff isn't an adjustable knob, it's hardcoded into the protocol, so there's only one choice. And this choice might not be the optimal one. For instance, if an entire day's RPIs are revealed in one block, they may end up being linkable *across* days, because people have regular patterns of life, and a passive adversary can e.g., notice that two reports appeared at the same place each day. Figuring out the optimal tradeoff here is challenging, but if it's hardcoded into the protocol, it's not possible to change it at all.
@@ -294,12 +294,12 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
 ### General Contact Tracing Analysis and Technology
 (Most recent first)
 
-**A good reply from W3C Credentials CG, where I am co-chair, to de Montjoye questionnaire below:**
+**A good reply from W3C Credentials CG (where I am co-chair) to the de Montjoye questionnaire below:**
 
   * Booth, David (2020, April 02) W3C-CCG Mailing List [#Implementation #Analysis, W3C CCG]: https://lists.w3.org/Archives/Public/public-credentials/2020Apr/0017.html
   > KEYQUOTE: That document raises excellent questions, but I think the range of protocols (designs) for consideration should be broadened even more. All three of the toy protocols that they discuss involved a central authority -- presumably a public health agency -- that would receive information about infected or exposed individuals.  I think it would be good to also consider (list follows
 
-**Excellent questionnaire for people designing or evaluating should ask about #ContactTracing implementations**
+**Excellent questionnaire for people designing or evaluating #ContactTracing implementations**
 
 * de Montjoye, Yves-Alexandre; Houssiau, Florimond; Gadotti, Andrea and Florent Guepin (2020, April 2). Evaluating COVID-19 contact tracing apps? Here are 8 privacy questions we think you should ask. [#Opinion #Implementation, Computational Privacy Group].
   * Retrieved from https://cpg.doc.ic.ac.uk/blog/evaluating-contact-tracing-apps-here-are-8-privacy-questions-we-think-you-should-ask/
@@ -317,7 +317,7 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
   * Retrieved from https://themarkup.org/ask-the-markup/2020/03/24/when-is-anonymous-not-really-anonymous.
   > KEYQUOTE: Differential privacy protects individuals in the data set by intentionally introducing mathematical randomness, also called noise, into the data set. The amount of noise can be shared publicly, just like an error rate, but no one can know which statistics are the noise and which are real people. This solution gives researchers access to the database, but it also protects the privacy of the individuals in the set.
 
-**W3C Credentials CG, where I am co-chair, regularly discusses identity & privacy, and recently #LocationPrivacy:**
+**W3C Credentials CG (where I am co-chair) regularly discusses identity & privacy, and more recently #LocationPrivacy:**
 
 * Andrieu, Joe; Hamilton Duffy, Kim; Allen; Christopher (2020, March 24). Credentials CG Telecon. [#Review #Meeting, W3C Credentials CG].
   * Retrieved from https://w3c-ccg.github.io/meetings/2020-03-24/. 
@@ -333,7 +333,7 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
 ### General Criticism of Contact Tracing & Location Privacy Technology Solutions
 *(Most recent first)*
 
-**A real problems in the current crop of #ContactTracing approaches are not the precisely the technology, but social incentive design and adversarial resistance to attacks**
+**A real problem in the current crop of #ContactTracing approaches is not precisely the technology, but instead social incentive design and adversarial resistance to attacks**
 * Anderson, Ross (2020, April 12). Contact Tracing in the Real World [#Opinion #Analysis, Security Research at the University of Cambridge]
     * Retrieved from https://www.lightbluetouchpaper.org/2020/04/12/contact-tracing-in-the-real-world/.
 >ABSTRACT: Here are some problems with private contact tracing. We should not give policymakers the false hope that they can avoid hard choices
@@ -366,7 +366,7 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
   * Retrieved from https://twitter.com/ChristopherA/status/1244346104054865920.
   > KEYQUOTE: Despite that I agree with those like @SarahJamieLewis that a key problem is that the task of #LocationPrivacy & real anonymity is extremely difficult, I do believe that in the short term we can be pragmatic & not suffer “the perfect is the enemy of the good… An effective Honor System is not the worst short-term outcome. We also need to set the stage to invest in the much more difficult problems of solving these problems long-term.
 
-**Excerpt of one particular email from me to W3C-CCG list, about despite the challenge we must work this privacy tech:** 
+**Excerpt of one particular email from me to W3C-CCG list, about why we must work on this privacy tech despite the challenges:** 
 
 * Allen, Christopher (2020, March 29). AGENDA W3C Credentials CG Call. [#Review, W3C].
   * Retrieved from https://lists.w3.org/Archives/Public/public-credentials/2020Mar/0125.html
@@ -384,7 +384,7 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
 
 ## Pseudoanonymous Ephemeral Locality
 
-**I worked on some #LocationPrivacy approaches after year 1 of the iPhone. The target advocacy was not about health care but personal safety while travelling. Here they are for the record:**
+**I worked on some #LocationPrivacy approaches after year one of the iPhone. The target advocacy was not about health care, but personal safety while travelling. Here they are for the record:**
 
 * Allen, Christopher (circa 2008) Pseudoanonymous Ephemeral Locality Service API
   * Retrieved from https://github.com/ChristopherA/Ephemeral-Locality-API
@@ -398,24 +398,25 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
   
 # Related Events & Meetings
 
-**Human Rights Foundation holds Oslo Freedom Forum, and this year is holding virtual event COVIDcon April 13-14th:**
+**The Human Rights Foundation holds Oslo Freedom Forum, and this year is holding virtual event COVIDcon April 13-14th:**
 
 * COVIDCON https://covidcon.org/
   > ABSTRACT: This two-day event, open to global audiences, will feature presentations and panels about the current pandemic and its relationship to state censorship, disinformation, surveillance, and civil liberties. COVIDCon sessions will showcase the difference in the responses of authoritarian regimes and democratic governments to the outbreak of the novel coronavirus.”
 
+
+**I have been hosting Rebooting the Web of Trust, a twice-a-year design workshop that brings together experts in the decentralized digital identity and privacy community in a collaborative "design workshop" that has published 50+ collaborative white papers. It is where the W3C Decentralized Identifier specification, which is on its way to becoming an international standard, was originally incubated.**
+
+**Unfortunately our last event in Buenos Aires where we planned to discussion #LocationPrivacy and other related Covid-19 privacy topics was cancelled. We are working now on plans for an event in the Fall in the EU, and expect many privacy tech, policy, and regulatory experts coming specifically to work on the next generation of these technologies.**
+
 * Rebooting The Web of Trust https://www.WebOfTrust.info
-
-**I have been hosting this twice a year design workshop that brings together experts in the decentralized digital identity and privacy community in a collaborative "design workshop" that has published 50+ collaborative white papers. It is where the W3C Decentralized Identifier specification was originally incubated, which is on its way to becoming an international standard.
-
-**Unfortunately our last event in Buenos Aires where we planned to discussion #LocationPrivacy and other related Covid-19 privacy topics was cancelled. We are working now on plans for an event in the Fall in the EU, and expect many privacy tech, policy and regulatory experts coming specifically to work on the next generation of these technologies.**
-
-* W3C Credentials Community Group https://w3c-ccg.github.io/
 
 **I am co-chair of this World-Wide-Web Consortium (#W3C) community group, where a number of important credentials and identity specifications were nurtured to the point where they could be formalized into international standards. Most notably, the Verifiable Credentials specification is now a full standard, and the Decentralized Identity specification is well on its way.** 
 
-**We meet online weekly via voice and IRC on Tuesdays at 12noon ET, 9am PT, and 5pm CET. At several recent meetings we have had discussion on COVID-19 related privacy topics, and it looks like some standards around #ImmunityCredentials in particular will become official work items. Our meetings are open to the public, and are announced on our public mailing list.**
+**We meet online weekly via voice and IRC on Tuesdays at 12noon ET, 9am PT, and 5pm CET. At several recent meetings we have had discussion on #COVID19 related privacy topics, and it looks like some standards around #ImmunityCredentials in particular will become official work items. Our meetings are open to the public and are announced on our public mailing list.**
 
 **Both of these standards are key architectures toward privacy design, in particular in the short term for #ImmunityCertificates (see my other High Signal Low Noise list on [#VerifiableClaims #ImmunityCredentials](./%23VerifiableClaims%20%23ImmunityCredentials.md).**
+
+* W3C Credentials Community Group https://w3c-ccg.github.io/
 
 # New & Unsorted
 
