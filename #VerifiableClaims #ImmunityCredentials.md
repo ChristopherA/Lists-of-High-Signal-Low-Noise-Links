@@ -17,7 +17,7 @@
 - [General News & Opinion](#general-news---opinion)
 - [Law, Policy & Regulations](#law--policy---regulations)
 - [Implementations & Analysis](#implementations---analysis)
-- [Other Related Privacy Technologies](#other-related-privacy-technologies)
+- [Other Related Credentials Technologies](#other-related-credentials-technologies)
 - [Related Events & Meetings](#related-events---meetings)
 - [New & Unsorted](#new---unsorted)
 
