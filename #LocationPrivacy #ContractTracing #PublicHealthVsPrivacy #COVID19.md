@@ -1,6 +1,6 @@
 ---
 created: 2020-04-11T08:43:06-07:00
-modified: 2020-04-14T00:39:00-07:00
+modified: 2020-04-14T00:59:00-07:00
 title: '#LocationPrivacy #ContractTracing #PublicHealthVsPrivacy #COVID19'
 
 ---
@@ -40,7 +40,7 @@ title: '#LocationPrivacy #ContractTracing #PublicHealthVsPrivacy #COVID19'
 
 # Status & Copyright
 
-- Version 0.1.0 (2020, April 14) First relatively complete release. Had to move [#VerifiableClaims #ImmunityCredentials](./%23VerifiableClaims%20%23ImmunityCredentials.md) to another list.
+- Version 0.1.0 (2020, April 14) First relatively complete release. Had to move [#VerifiableClaims #ImmunityCredentials #COVID19](./%23ImmunityCredentials%20%23VerifiableClaims%20%23COVID19.md) to another list.
 
 For information on this versioning scheme, see [Status & Versioning](./README.md#status--versioning).
 
@@ -48,7 +48,7 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
 
 # Related Lists
 
-- [#VerifiableClaims #ImmunityCredentials](./%23ImmunityCredentials%20%23VerifiableClaims.md)
+- [#VerifiableClaims #ImmunityCredentials #COVID19](./%23ImmunityCredentials%20%23VerifiableClaims%20%23COVID19.md)
 
 # My Personal POV
 
