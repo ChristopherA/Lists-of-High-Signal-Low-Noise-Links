@@ -1,11 +1,11 @@
 ---
 created: 2020-04-12T13:44:45-07:00
-modified: 2020-04-12T20:44:58-07:00
+modified: 2020-04-13T19:56:29-07:00
 title: README
 ---
 
 # @ChristopherA’s High-Signal, Low Noise Links Lists      
-**A series of lists of opinionated, high-signal but low-noise links on topics I care about.**
+**A series of annotated lists of opinionated, high-signal but low-noise links on topics I care about.**
 
 ## Support my advocacy efforts
 
