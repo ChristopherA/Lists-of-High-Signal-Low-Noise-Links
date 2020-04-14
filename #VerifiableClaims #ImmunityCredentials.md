@@ -1,4 +1,4 @@
-# [#ImmunityCredentials](https://twitter.com/hashtag/ImmunityCredentials)  [#COVID19](https://twitter.com/hashtag/COVID19)
+# [#VerifiableClaims](https://twitter.com/hashtag/VerifiableClaims) [#ImmunityCredentials](https://twitter.com/hashtag/ImmunityCredentials)  [#COVID19](https://twitter.com/hashtag/COVID19)
 
 > This is one of my [series of lists](https://github.com/ChristopherA/High-Signal-Low-Noise-Link-Lists) of opinionated, high-signal but low-noise links on topics I care about.
 >
@@ -12,11 +12,13 @@
 
 # Table of Contents
 
-- [Table of Contents](#table-of-contents)
 - [My Personal POV](#my-personal-pov)
 - [General News & Opinion](#general-news---opinion)
 - [Law, Policy & Regulations](#law--policy---regulations)
 - [Implementations & Analysis](#implementations---analysis)
+  * [Immunity Credential Technology](#immunity-credential-technology)
+    + [Implementations of Immunity Credentials](#implementations-of-immunity-credentials)
+    + [General Immunity Credentials Analysis & Technology](#general-immunity-credentials-analysis---technology)
 - [Other Related Credentials Technologies](#other-related-credentials-technologies)
 - [Related Events & Meetings](#related-events---meetings)
 - [New & Unsorted](#new---unsorted)
@@ -145,11 +147,11 @@ We meet online weekly via voice and IRC on Tuesdays at 12noon ET, 9am PT, and 5p
       
 # Other Related Credentials Technologies
 
-* Duffy, Kim Hamilton; Pongratz, Hans; Schmidt, J. Philipp (2020, February). Building the digital credential infrastructure for the future [Report, Digital Credentials Consortium].
+* Duffy, Kim Hamilton; Pongratz, Hans; Schmidt, J. Philipp (2020, February). Building the digital credential infrastructure for the future [#Implementation, Digital Credentials Consortium].
   * Retrieved from https://digitalcredentials.mit.edu/wp-content/uploads/2020/02/white-paper-building-digital-credential-infrastructure-future.pdf. 
   > KEYQUOTE:  The system we are designing can be used to issue and verify many different types of academic credentials, ranging from university degrees and diplomas, to individual course credits, to alternative credentials (including microcredentials) for online courses or face-toface workshops. Issuers decide the information they must include in the credential. Our system will not change the way universities provide instruction, assess learning, or make decisions about awarding credentials. It simply offers a more powerful and convenient way to share, manage, and verify the credentials.
 
-* Hawk, Sandro, et al. (2020, February 24). Reviewed Credibility Signals [Website, credweb.org].
+* Hawk, Sandro, et al. (2020, February 24). Reviewed Credibility Signals [#Review, credweb.org].
   * Retrieved from https://credweb.org/reviewed-signals-20200224/. 
   > KEYQUOTE: Credibility signals are observations, made by humans or machines, which are used in deciding how much to trust some information. This document specifies some types of these observations which seem particularly useful in online credibility assessments, especially when assisted by machine processing and a network of people and systems making related observations.
 
