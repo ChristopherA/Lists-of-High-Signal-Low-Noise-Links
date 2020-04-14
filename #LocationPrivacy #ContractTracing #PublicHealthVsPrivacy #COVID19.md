@@ -1,6 +1,6 @@
 ---
 created: 2020-04-11T08:43:06-07:00
-modified: 2020-04-12T20:31:00-07:00
+modified: 2020-04-14T00:11:00-07:00
 title: '#LocationPrivacy #ContractTracing #PublicHealthVsPrivacy #COVID19'
 
 ---
@@ -19,7 +19,10 @@ title: '#LocationPrivacy #ContractTracing #PublicHealthVsPrivacy #COVID19'
 
 # Table of Contents
 
-- [My Personal POV & High-Level Concerns](#my-personal-pov---high-level-concerns)
+- [Table of Contents](#table-of-contents)
+- [Status & Copyright](#status---copyright)
+- [Related Lists](#related-lists)
+- [My Personal POV](#my-personal-pov)
 - [General News & Opinion](#general-news---opinion)
   * [COVID-19, Politics & Tyranny](#covid-19--politics---tyranny)
   * [Contact Tracing News](#contact-tracing-news)
@@ -35,7 +38,19 @@ title: '#LocationPrivacy #ContractTracing #PublicHealthVsPrivacy #COVID19'
 - [Related Events & Meetings](#related-events---meetings)
 - [New & Unsorted](#new---unsorted)
 
-# My Personal POV & High-Level Concerns 
+# Status & Copyright
+
+- Version 0.1.0 (2020, April 14) First relatively complete release. Had to move [#VerifiableClaims #ImmunityCredentials](./%23VerifiableClaims%20%23ImmunityCredentials.md) to another list.
+
+For information on this versioning scheme, see [Status & Versioning](./README.md#status--versioning).
+
+Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source license. See this repo's [README.md](./README.md#copyright--license) for more details.
+
+# Related Lists
+
+- [#VerifiableClaims #ImmunityCredentials](./%23VerifiableClaims%20%23ImmunityCredentials.md)
+
+# My Personal POV
 
 **This is my most recent presentation on the topic of why I'm involved in the Self-Sovereign Identity movement, as part of a [#Foremembrance](https://twitter.com/hashtag/Foremembrance) this March during an SSI Meetup virtual event. I talk about some important historical context from WWII in the Netherlands, and how it is relevant to the impact and risk of COVID-19 for privacy and identity systems:**
 
@@ -398,9 +413,9 @@ title: '#LocationPrivacy #ContractTracing #PublicHealthVsPrivacy #COVID19'
 
 **I am co-chair of this World-Wide-Web Consortium (#W3C) community group, where a number of important credentials and identity specifications were nurtured to the point where they could be formalized into international standards. Most notably, the Verifiable Credentials specification is now a full standard, and the Decentralized Identity specification is well on its way.** 
 
-**We meet online weekly via voice and IRC on Tuesdays at 12noon ET, 9am PT, and 5pm CET. At several recent meetings we have had discussion on COVID-19 related privacy topics, and it looks like some standards around #ImmunityCredentials and #LocationPrivacy in particular will become official work items. Our meetings are open to the public, and are announced on our public mailing list.**
+**We meet online weekly via voice and IRC on Tuesdays at 12noon ET, 9am PT, and 5pm CET. At several recent meetings we have had discussion on COVID-19 related privacy topics, and it looks like some standards around #ImmunityCredentials in particular will become official work items. Our meetings are open to the public, and are announced on our public mailing list.**
 
-**Both of these standards are key architectures toward privacy design, in particular in the short term for #ImmunityCertificates (see my other High Signal Low Noise series on [#VerifiableClaims #ImmunityCredentials](https://github.com/ChristopherA/High-Signal-Low-Noise-Link-Lists/blob/master/%23VerifiableClaims%20%23ImmunityCredentials.md).**
+**Both of these standards are key architectures toward privacy design, in particular in the short term for #ImmunityCertificates (see my other High Signal Low Noise list on [#VerifiableClaims #ImmunityCredentials](./%23VerifiableClaims%20%23ImmunityCredentials.md).**
 
 # New & Unsorted
 
