@@ -18,7 +18,7 @@ title: README
 
 Unless otherwise noted (either in this /README.md or in a file's header comments) the contents of this repository are Copyright ©2020 by Christopher Allen, and are shared under [spdx:Creative Commons Attribution Share Alike 4.0 International (CC-BY-SA-4.)](https://spdx.org/licenses/CC-BY-SA-4.0.html) open-source license.
 
-I do not make any claims to the copyright of links or the list of links of themselves, only to my expression, organization, and annotations on them. However, if you use these significantly for your own work, I'd appreciate the attribution and link to my original list and that you would share your own annotated list under a similar license.
+I do not make any claims to the copyright of links or the list of links of themselves, only to my expression, organization, and annotations of them. However, if you use these significantly for your own work, I'd appreciate the attribution and link to my original list and that you would share your own annotated list under a similar license.
 
 ## Status & Versioning
 
