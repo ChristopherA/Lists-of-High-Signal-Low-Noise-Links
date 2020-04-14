@@ -1,6 +1,6 @@
 ---
 created: 2020-04-12T13:44:45-07:00
-modified: 2020-04-13T20:41:00-07:00
+modified: 2020-04-13T21:23:00-07:00
 title: README
 
 ---
@@ -12,12 +12,12 @@ title: README
 ## Table of Contents
 
   * [Table of Contents](#table-of-contents)
-  * [Support my advocacy efforts](#support-my-advocacy-efforts)
+  * [Support My Advocacy Efforts](#support-my-advocacy-efforts)
   * [Lists](#lists)
   * [Copyright & License](#copyright---license)
   * [Status & Versioning](#status---versioning)
 
-## Support my advocacy efforts
+## Support My Advocacy Efforts
 
  > If you like my advocacy, my point-of-view, my writing, my travel, my talks, and my work with organizations such as [Blockchain Commons](https://www.BlockchainCommons.com), [Rebooting the Web of Trust](https://www.WebOfTrust.info) and the [W3C Credentials CG](https://w3c-ccg.github.io), I invite you to sponsor me by becoming a monthly patron on my [GitHub Sponsor Page](https://github.com/sponsors/ChristopherA) for as little as $5 a month, as they are matching the first $5,000!
  >
@@ -48,3 +48,5 @@ To make it easier to understand the status of any particular list, I use a modif
 | **Minor**        | A significant new edition of this list is complete. A number of new links and annotations added, maybe minor sections reorganized,  and some old links filtered out.  I've likely moved on to ffocusing on a different list. <br />If you see that a list version was set to 0.3.0  few weeks ago, the list is probably pretty current. If that 0.3.0 was a few months or even years ago, I may have added links, but I've not reorganized them or filtered old ones out. | 0.2.0   |
 | **Patch**        | Minor additions to the list. I've added some new links into the approriate section and have annotated them, but I've not reviewed or filtered the list a whole since the last **Minor** revision.<br /> | 0.1.3   |
 | **Raw**          | Here is where I vary from classic [Semantic Versioning](https://semver.org). Before I declare a new list is sufficient organized and annoted to be called 0.1.0, I will capture links and thoughts with little or no review or annotation. I may increment the least significant **Patch** level to let me know that this list may be ready for organization, annotation and filtering. | 0.0.1   |
+
+I only use this versioning approach for the individual lists. I do not use git release tags as they really don't work well for individual files inside a repo — only for a repo as a whole.
