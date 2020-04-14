@@ -65,7 +65,7 @@
 
 * Oswald, Andrew; Powdthavee, Nattavudh (2020, April). The Case for Releasing the Young from Lockdown: A Briefing Paper for Policymakers [#Regulations, Whitepaper].
   * Retrieved from https://www.andrewoswald.com/docs/newFinalCOVIDpaper-on-releasing-the-young-OswaldPowdthavee2020(1).pdf.
-  > KEYQUOTE: The paper argues that a youngworkforce release of this kind would lead to substantial economic and societal benefits without enormous health costs to the country. In this way, the nation might begin to move forward in the footsteps of the young. The paper’s key concept could in principle be implemented in other countries.
+  > KEYQUOTE: The paper argues that a young workforce release of this kind would lead to substantial economic and societal benefits without enormous health costs to the country. In this way, the nation might begin to move forward in the footsteps of the young. The paper’s key concept could in principle be implemented in other countries.
 
 * Proctor, Kate; Sample, Ian; Oltermann, Philip (2020, March 30). 'Immunity passports' could speed up return to work after Covid-19 [#News #Opinion, The Guardian].
   * Retrieved from https://www.theguardian.com/world/2020/mar/30/immunity-passports-could-speed-up-return-to-work-after-covid-19
@@ -126,7 +126,7 @@
 
 **I am co-chair of World-Wide-Web Consortium Credentials Community Group ([#W3C CCG](https://w3c-ccg.github.io/)), where a number of important credentials and identity specifications were nurtured to the point where they could be formalized into international standards. Most notably, the Verifiable Credentials specification is now a full "recommended" standard, and the Decentralized Identity specification is well on its way. Both of these standards are key architectures toward privacy design, in particular in the short term for #ImmunityCertificates.**
 
-**The W3C CCG meets online via voice and IRC weekly on Tuesdays at 12noon ET, 9am PT, and 5pm CET. At several recent meetings we have had discussion on COVID-19 related privacy topics, and it looks like some standards around #ImmunityCredentials and #LocationPrivacy in particular will become official work items. Our meetings are open to the public, and are annonced on our public mailing list.**
+**The W3C CCG meets online via voice and IRC weekly on Tuesdays at 12noon ET, 9am PT, and 5pm CET. At several recent meetings we have had discussion on COVID-19 related privacy topics, and it looks like some standards around #ImmunityCredentials and #LocationPrivacy in particular will become official work items. Our meetings are open to the public, and are announced on our public mailing list.**
 
 * W3C (ongoing). W3C Credentials Community Group
   * https://w3c-ccg.github.io/
@@ -138,7 +138,7 @@
 
 **Some specific implementations of Immunity Credentials in response to COVID-19 have begun:**
 
-**The COVID Credentials Initiative is leveraging the #W3C DID and Verifiable Credentials specifications. It appear to be led by members of the Sovrin/Hyperledger Indy architecture and platform for Self-Sovereign Identity.**
+**The COVID Credentials Initiative is leveraging the #W3C DID and Verifiable Credentials specifications. It appears to be led by members of the Sovrin/Hyperledger Indy architecture and platform for Self-Sovereign Identity.**
 
 *COVID Credentials Initiative**
   * Global, cross-sector community of organizations using digital identity as a way to mitigate the spread of COVID-19 and reboot public trust [#Implementation, Covid Credentials].
@@ -200,7 +200,7 @@
 * Rebooting The Web of Trust
   * Retrieved from  https://www.WebOfTrust.info
 
-  > KEY COMMENT: Unfortunately our last event in Buenos Aires where we planned to discussion #LocationPrivacy and other relatied Covid-19 privacy topics was cancelled. We are working now on plans for an event in the Fall in the EU, and expect many privacy tech, policy and regulatory experts coming specifially to work on the next generation of these technologies.**
+  > KEY COMMENT: Unfortunately our last event in Buenos Aires where we planned to discussion #LocationPrivacy and other related Covid-19 privacy topics was cancelled. We are working now on plans for an event in the Fall in the EU, and expect many privacy tech, policy and regulatory experts coming specifically to work on the next generation of these technologies.**
 
 # New & Unsorted
 
