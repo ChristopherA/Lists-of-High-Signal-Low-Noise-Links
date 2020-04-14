@@ -1,6 +1,6 @@
 ---
 created: 2020-04-12T13:44:45-07:00
-modified: 2020-04-13T19:56:29-07:00
+modified: 2020-04-13T20:10:00-07:00
 title: README
 ---
 
@@ -17,4 +17,5 @@ title: README
 
 ## Lists
 
-* [#LocationPrivacy #ContractTracing #PublicHealthVsPrivacy #COVID19](https://github.com/ChristopherA/High-Signal-Low-Noise-Link-Lists/blob/master/%23LocationPrivacy%20%23ContractTracing%20%23PublicHealthVsPrivacy%20%23COVID19.md)
+* [#LocationPrivacy #ContractTracing #PublicHealthVsPrivacy #COVID19](./%23LocationPrivacy%20%23ContractTracing%20%23PublicHealthVsPrivacy%20%23COVID19.md)
+* [#Verifiable Claims #Immunity Credentials](./%23VerifiableClaims%20%23ImmunityCredentials.md)
