@@ -264,7 +264,7 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
 **Papers on DP3T (refer to earlier comic):**
 
 * Troncoso, Carmela; et al (2020, April 10). Decentralized Privacy-Preserving Proximity Tracing: Simplified Overview. [#Review #Implementation, GitHub Whitepaper].
-  * Retrieved from https://github.com/DP-3T/documents/blob/master/DP3T%20White%20Paper.pdf.d
+  * Retrieved from https://github.com/DP-3T/documents/blob/master/DP3T%20White%20Paper.pdf
   > ABSTRACT: This document proposes a system for secure and privacy-preserving proximity tracing (aka contact tracing) at large scale. This system provides a technological foundation to help slow the spread of SARS-CoV-2 virus by simplifying and accelerating the process of notifying people who have been in contact with an infected person. The system design aims to minimise privacy and security risks for individuals and communities and guarantee the highest level of data protection.
 
 * Troncoso, Carmela (2020, April 3). Decentralized Privacy-Preserving Proximity Tracing: Simplified Overview. [#Review #Implementation, GitHub Whitepaper].
@@ -414,7 +414,7 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
 
 **We meet online weekly via voice and IRC on Tuesdays at 12noon ET, 9am PT, and 5pm CET. At several recent meetings we have had discussion on #COVID19 related privacy topics, and it looks like some standards around #ImmunityCredentials in particular will become official work items. Our meetings are open to the public and are announced on our public mailing list.**
 
-**Both of these standards are key architectures toward privacy design, in particular in the short term for #ImmunityCertificates (see my other High Signal Low Noise list on [#VerifiableClaims #ImmunityCredentials](./%23VerifiableClaims%20%23ImmunityCredentials.md).**
+**Both of these standards are key architectures toward privacy design, in particular in the short term for #ImmunityCertificates (see my other High Signal Low Noise list on [#VerifiableClaims #ImmunityCredentials](https://github.com/ChristopherA/Lists-of-High-Signal-Low-Noise-Links/blob/master/%23ImmunityCredentials%20%23VerifiableClaims%20%23COVID19.md).**
 
 * W3C Credentials Community Group https://w3c-ccg.github.io/
 
