@@ -1,0 +1,2 @@
+- name: markdown-link-check
+  uses: gaurav-nelson/github-action-markdown-link-check@1.0.2
