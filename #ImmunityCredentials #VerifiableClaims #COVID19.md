@@ -121,7 +121,7 @@ Copyright :copyright:2020 by Christopher Allen, and is shared under CC-BY-SA ope
 **This is a the best primer on the topic of W3C Verifiable Credentials standard**
 
 * Sporny, Manu (2019, January 23). #RWOT10 Verifiable Claims Primer [#Primer, Github, WebOfTrustInfo].
-  * Retrieved from https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2017/blob/master/draft-documents/vhttps://github.com/WebOfTrustInfo/rwot10-buenosaires/blob/master/topics-and-advance-readings/verifiable-credentials-primer.mderifiable-claims-primer.md.
+  * Retrieved from https://github.com/WebOfTrustInfo/rwot10-buenosaires/blob/master/topics-and-advance-readings/verifiable-credentials-primer.md.
   > ABSTRACT: It is currently difficult to transmit credentials such as driver's licenses, proofs of age, education qualifications, and healthcare data, via the Internet in a way that is verifiable yet protects individual privacy.
   > Starting in 2013, the W3C Credentials Community Group started to work in earnest on solutions in this space followed shortly thereafter by the Rebooting Web of Trust Community and W3C Verifiable Claims Working Group. These groups, composed of 150+ individuals and organizations, are currently focused on the creation, storage, transmission, and verification of digital credentials via the Internet.
   > This document is a primer for those that want to learn about the Verifiable Credentials initiative, the use cases and ecosystem, a basic overview of the technology, and how to get involved.
