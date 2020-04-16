@@ -40,7 +40,7 @@ title: '#LocationPrivacy #ContractTracing #PublicHealthVsPrivacy #COVID19'
 
 # Status & Copyright
 
-- Version 0.1.0 (2020, April 14) First relatively complete release. Had to move [#VerifiableClaims #ImmunityCredentials #COVID19](./ImmunityCredentialsVerifiableClaimsCOVID19.md) to another list.
+- Version 0.1.0 (2020, April 14) First relatively complete release. Had to move [#VerifiableClaims #ImmunityCredentials #COVID19](./ImmunityCredentials-VerifiableClaims-COVID19.md) to another list.
 
 For information on this versioning scheme, see [Status & Versioning](./README.md#status--versioning).
 
@@ -48,7 +48,7 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
 
 # Related Lists
 
-- [#VerifiableClaims #ImmunityCredentials #COVID19](./ImmunityCredentialsVerifiableClaimsCOVID19.md)
+- [#VerifiableClaims #ImmunityCredentials #COVID19](./ImmunityCredentials-VerifiableClaims-COVID19.md)
 
 # My Personal POV
 
@@ -414,7 +414,7 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
 
 **We meet online weekly via voice and IRC on Tuesdays at 12noon ET, 9am PT, and 5pm CET. At several recent meetings we have had discussion on #COVID19 related privacy topics, and it looks like some standards around #ImmunityCredentials in particular will become official work items. Our meetings are open to the public and are announced on our public mailing list.**
 
-**Both of these standards are key architectures toward privacy design, in particular in the short term for #ImmunityCertificates (see my other High Signal Low Noise list on [#VerifiableClaims #ImmunityCredentials](https://github.com/ChristopherA/Lists-of-High-Signal-Low-Noise-Links/blob/master/ImmunityCredentialsVerifiableClaimsCOVID19.md).**
+**Both of these standards are key architectures toward privacy design, in particular in the short term for #ImmunityCertificates (see my other High Signal Low Noise list on [#VerifiableClaims #ImmunityCredentials](https://github.com/ChristopherA/Lists-of-High-Signal-Low-Noise-Links/blob/master/ImmunityCredentials-VerifiableClaims-COVID19.md).**
 
 * W3C Credentials Community Group https://w3c-ccg.github.io/
 
