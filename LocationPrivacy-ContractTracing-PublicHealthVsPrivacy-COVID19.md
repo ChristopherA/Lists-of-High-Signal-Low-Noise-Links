@@ -93,9 +93,31 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
 
 **Two of the biggest mobile app platforms, Apple and Google, are partnering on contact-tracing technology. Early privacy analysis is positive, but it still has centralization issues (see [Implementations & Analysis](#implementations--analysis) section below for more details).**
 
+* Benson, Jeff (2020, April 14). Privacy Safeguards in Apple-Google Platform Could Be Abused, Experts Say [#Review #Opinion #News #Google #Apple, Digital Privacy News].
+  * Retrieved from https://digitalprivacy.news/2020/04/14/privacy-safeguards-in-apple-google-platform-could-be-abused-experts-say/. 
+  > KEYQUOTE: ...the design is ethical so long as it’s based on “consensual interaction.” In other words, “the app only works if you agree to use it,” they said. But they’re concerned that growing acceptance of surveillance tools — “especially the privacy-by-design ones” — will normalize surveillance.
+
+  > “Once people swallow this one, it’s easier for governments to give us other, far more dangerous pills,” they said. “What if the next one lacks a privacy-centric design?”
+
+* Whittaker, Zack; Etherington, Darrell (2020, April 13). Q&A: Apple and Google discuss their coronavirus tracing efforts [#Review #Opinion #News #Google #Apple, TechCrunch].
+  * Retrieved from https://techcrunch.com/2020/04/13/apple-google-coronavirus-tracing/. 
+  > KEYQUOTE: ...use of the API will be restricted only to authorized public health organizations as identified by whatever government is responsible for designating such entities for a given country or region. There could be conflict about what constitutes a legitimate public health agency in some cases, and even disagreements between national and state authorities, conceivably, so this sounds like it could be a place where friction might occur, with Apple and Google on tricky footing as platform operators.
+
 * Doffman, Zak (2020, April 12). Forget Apple And Google—Here’s The Real Challenge For COVID-19 Contact-Tracing [#News #Opinion, Forbes].
   * Retrieved from https://www.forbes.com/sites/zakdoffman/2020/04/12/forget-apple-and-google-heres-the-real-challenge-for-covid-19-contact-tracing/#5d66bf7f2709
   > KEYQUOTE: Unless and until governments can either develop or mandate a system that deploys this across the majority of its population, and then backs it up with the rigorous testing regime that is stitched into the core concept of operation, such apps will be helpful but not game-changing. 
+
+* Hoepman, Jaap-Henk (2020, April 11). Stop the Apple and Google contact tracing platform. (Or be ready to ditch your smartphone.) [#Opinion, XOT.nl].
+  * Retrieved from https://blog.xot.nl/2020/04/11/stop-the-apple-and-google-contact-tracing-platform-or-be-ready-to-ditch-your-smartphone/. 
+  > KEYQUOTE: However any decentralised scheme can be turned into a centralised scheme by forcing the phone to report to the authorities that it was at some point in time close to the phone of an infected person. In other words, certain governments or companies — using the decentralised framework developed by Apple and Google — can create an app that (without users being able to prevent this) report the fact that they have been close to a person of interest in the last few weeks. The platform itself may be decentralised. But the app developed on top of it breaks this protective shield and collects the contact information centrally regardless. This effectively turns our smartphones into a global mass surveillance tool.
+
+* Bay, Jason (2020, April 10). Automated contact tracing is not a coronavirus panacea [#Opinion #News #Google #Apple, Medium].
+  * Retrieved from https://blog.gds-gov.tech/automated-contact-tracing-is-not-a-coronavirus-panacea-57fb3ce61d98. 
+  > KEYQUOTE: An automated algorithm will necessarily generate both false negatives and false positives. A human contact tracer will similarly make mistakes. However, because a human contact tracer would seek to incorporate information beyond just physical proximity, he/she can correct for systematic biases introduced by automated notification system.
+ 
+  > Encounters between individuals can be classified into close, casual and transient contacts for epidemiological purposes, based on proximity and duration of contact. However, these classifications depend on factors such as location/environment. For example, short-duration encounters in enclosed spaces without fresh ventilation often constitute close contact, even if encounter proximity and duration do not meet algorithmic thresholds.
+
+  > Since Bluetooth-based contact tracing solutions do not, by themselves, record location/environment data, this information needs to be obtained through other means — a human-led contact tracing interview.
 
 * McSweeney, Michael (2020, April 10). Apple, Google partner on COVID-19 contact tracing tech initiative. [#News #Opinion, The Block].
   * Retrieved from https://www.theblockcrypto.com/linked/61556/apple-google-partner-on-covid-19-contact-tracing-tech-initiative.
@@ -225,6 +247,12 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
   * Retrieved from https://docs.google.com/document/d/1bgsNjPcvoz8fpOutEYiqCJpu2PWYHnGqPI3pcK9mUio/edit.
   > KEYQUOTE: Based on news stories and other online sources, with a focus on February 2020 to present.
 
+**This is another comprehensive crowdsourced list of projects related to COVID-19 contact tracing**
+
+* Shankari (Ongoing). Covid 19 Tracing Projects [#Implementation, GitHub].
+  * Retrieved from https://github.com/shankari/covid-19-tracing-projects. 
+  > KEYQUOTE: This site is a crowdsourced list of projects related to COVID-19 contact tracing using smartphones. The goal of contact tracing is to identify the contacts of people who have tested positive for COVID-19 and to advise them to self-quarantine. Large scale, highly accurate contact tracing could control the spread of epidemics and reduce the need for societal lockdowns.
+
 **Here are some additional notable projects or specific links, not yet in the USC list (listed in alphabetical order):**
 
 * Apple/Google Privacy Contact Tracing (2020, April 10)
@@ -238,7 +266,11 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
 * Bluetrace (underlying tech used by Singapore):
   * BlueTrace is designed for decentralised proximity logging and supplements centralised contact tracing by public health authorities. Proximity logging using Bluetooth addresses a key limitation of manual contact tracing: that it is dependent on a person’s memory and is therefore limited to contacts that a person is acquainted with and remembers having met. BlueTrace therefore enables contact tracing to be more scalable and less resource-intensive.
     * Link https://bluetrace.io/
-      
+     
+* Coalition
+  * Coalition is a free, privacy-first contact tracing app to help stop the spread of COVID-19. Download the app to help your friends and your family stay safe.
+    * Link https://www.coalitionnetwork.org/. 
+          
 * COVID-Defender:
   * Intelligent contact tracing using a deployment model better suited to the US market proposed by Moses Ma's FutureLab.
     * Link https://www.dropbox.com/s/lg05fp5f2d2qxry/COVID-defender%20OVERVIEW.pdf?dl=0
