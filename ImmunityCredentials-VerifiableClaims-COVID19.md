@@ -38,7 +38,7 @@ Copyright :copyright:2020 by Christopher Allen, and is shared under CC-BY-SA ope
 
 # Related Lists
 
-* [#LocationPrivacy #ContractTracing #PublicHealthVsPrivacy #COVID19](./LocationPrivacyContractTracingPublicHealthVsPrivacyCOVID19.md)
+* [#LocationPrivacy #ContractTracing #PublicHealthVsPrivacy #COVID19](./LocationPrivacy-ContractTracing-PublicHealthVsPrivacy-COVID19.md)
 
 # My Personal POV
 
