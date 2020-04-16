@@ -31,9 +31,9 @@ title: README.md
 
 | Key Hashtags in List                                         | Version                        |
 | ------------------------------------------------------------ | ------------------------------ |
-| [#COVID19](./%23COVID19.md)                                  | Stub                           |
-| [#LocationPrivacy #ContractTracing #PublicHealthVsPrivacy #COVID19](./%23LocationPrivacy%20%23ContractTracing%20%23PublicHealthVsPrivacy%20%23COVID19.md) | Version 0.1.0 (2020, April 14) |
-| [#ImmunityCredentials #Verifiable Claims #COVID19](./%23ImmunityCredentials%20%23VerifiableClaims%20%23COVID19.md) | Version 0.0.1 (2020, April 14) |
+| [#COVID19](./COVID19.md)                                  | Stub                           |
+| [#LocationPrivacy #ContractTracing #PublicHealthVsPrivacy #COVID19](./LocationPrivacyContractTracingPublicHealthVsPrivacyCOVID19.md) | Version 0.1.0 (2020, April 14) |
+| [#ImmunityCredentials #Verifiable Claims #COVID19](./ImmunityCredentialsVerifiableClaimsCOVID19.md) | Version 0.0.1 (2020, April 14) |
 
 ## Copyright & License
 
