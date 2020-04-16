@@ -43,7 +43,7 @@ I do not make any claims to the copyright of links or the list of links of thems
 
 ## Status & Versioning
 
-These lists are mostly for myself, my professional clients, and my [GitHub Sponsors](https://github.com/sponsors/ChrisotpherA), as I've not found any bookmarking tool that quite does what I want. The content of these lists can change every day, and different sections will get more focus and attention, and thus evolve or even need major refactoring over time.
+These lists are mostly for myself, my professional clients, and my [GitHub Sponsors](https://github.com/sponsors/ChristopherA), as I've not found any bookmarking tool that quite does what I want. The content of these lists can change every day, and different sections will get more focus and attention, and thus evolve or even need major refactoring over time.
 
 To make it easier to understand the status of any particular list, I use a modified form of [Semantic Versioning](https://semver.org).
 
