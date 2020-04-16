@@ -13,5 +13,5 @@ This list currently a stub. See Related Lists below.
 
 | Key Hashtags in List                                         | Version                        |
 | ------------------------------------------------------------ | ------------------------------ |
-| [#LocationPrivacy #ContractTracing #PublicHealthVsPrivacy #COVID19](./LocationPrivacyContractTracingPublicHealthVsPrivacyCOVID19.md) | Version 0.1.0 (2020, April 14) |
-| [#Immunity Credentials #Verifiable Claims #COVID19](./ImmunityCredentialsVerifiableClaimsCOVID19.md) | Version 0.0.1 (2020, April 14) |
+| [#LocationPrivacy #ContractTracing #PublicHealthVsPrivacy #COVID19](./LocationPrivacy-ContractTracing-PublicHealthVsPrivacy-COVID19.md) | Version 0.1.0 (2020, April 14) |
+| [#Immunity Credentials #Verifiable Claims #COVID19](./ImmunityCredentials-VerifiableClaims-COVID19.md) | Version 0.0.1 (2020, April 14) |
