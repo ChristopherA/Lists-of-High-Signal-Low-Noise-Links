@@ -16,29 +16,25 @@ jobs:
   build:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
-
-    # Runs Markdown Link Check
     - name: markdown-link-check
-    uses: gaurav-nelson/github-action-markdown-link-check@1.0.2
-    with:
-      # Use yes to enable markdown-link-check quiet mode which only list errors.
-      use-quiet-mode: # default is no
-      # Use yes to enable markdown-link-check verbose mode which lists additional details.
-      use-verbose-mode: # default is no
-      # Specify path to a markdown-link-check JSON configuration file.
-      config-file: # default is mlc_config.json
-      # Specify path to a custom folder where your markdown files are located.
-      folder-path: # default is .
-      # Specify a max-depth of directories you want to search for markdown files.
-      max-depth: # default is -1
-      # Use yes to only check for modified markdown files instead of checking all markdown files.
-      check-modified-files-only: # default is no
-      # Use this to specify the base branch against which the action finds the modififed files.
-      base-branch: # default is master
-      # Use this to specify the file extension of Markdown files.
-      file-extension: # default is .md
+      uses: gaurav-nelson/github-action-markdown-link-check@1.0.2
+      with:
+        # Use yes to enable markdown-link-check quiet mode which only list errors.
+        use-quiet-mode: # default is no
+        # Use yes to enable markdown-link-check verbose mode which lists additional details.
+        use-verbose-mode: # default is no
+        # Specify path to a markdown-link-check JSON configuration file.
+        config-file: # default is mlc_config.json
+        # Specify path to a custom folder where your markdown files are located.
+        folder-path: # default is .
+        # Specify a max-depth of directories you want to search for markdown files.
+        max-depth: # default is -1
+        # Use yes to only check for modified markdown files instead of checking all markdown files.
+        check-modified-files-only: # default is no
+        # Use this to specify the base branch against which the action finds the modififed files.
+        base-branch: # default is master
+        # Use this to specify the file extension of Markdown files.
+        file-extension: # default is .md
