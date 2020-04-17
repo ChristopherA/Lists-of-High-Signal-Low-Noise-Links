@@ -1,4 +1,6 @@
-# #JSONLDProofs #JSONLD
+# #LinkedDataProofs #JSONLD
+
+(Orginal: https://github.com/ChristopherA/Lists-of-High-Signal-Low-Noise-Links/blob/master/JSONLDSignatures.md )
 
 # Status & Copyright
 
