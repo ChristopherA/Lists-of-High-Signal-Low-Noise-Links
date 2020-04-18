@@ -1,11 +1,4 @@
----
-created: 2020-04-12T13:44:45-07:00
-modified: 2020-04-14T04:28:28-07:00
-title: README.md
-
----
-
-# @ChristopherA’s Lists of High-Signal, Low Noise Links      
+# @ChristopherA’s Lists of High-Signal, Low Noise Links
 
 **A series of annotated lists of opinionated, high-signal but low-noise links on topics I care about.**
 
@@ -14,8 +7,11 @@ title: README.md
   * [Table of Contents](#table-of-contents)
   * [Support My Advocacy Efforts](#support-my-advocacy-efforts)
   * [Lists](#lists)
+    + [My Current Lists in Focus](#my-current-lists-in-focus)
+    + [All Lists](#all-lists)
   * [Copyright & License](#copyright---license)
   * [Status & Versioning](#status---versioning)
+  * [ToDo](#todo)
 
 ## Support My Advocacy Efforts
 
@@ -31,9 +27,19 @@ title: README.md
 
 ## Lists
 
+### My Current Lists in Focus
+
 | Key Hashtags in List                                         | Version                        |
 | ------------------------------------------------------------ | ------------------------------ |
-| [#COVID19](./COVID19.md)                                  | Stub                           |
+| [#COVID19](./COVID19.md)                                  | Index Stub                           |
+| [#LocationPrivacy #ContractTracing #PublicHealthVsPrivacy #COVID19](./LocationPrivacy-ContractTracing-PublicHealthVsPrivacy-COVID19.md) | Version 0.2.0 (2020, April 18) |
+| [#ImmunityCredentials #Verifiable Claims #COVID19](./ImmunityCredentials-VerifiableClaims-COVID19.md) | Version 0.0.1 (2020, April 14) |
+
+### All Lists
+
+| Key Hashtags in List                                         | Version                        |
+| ------------------------------------------------------------ | ------------------------------ |
+| [#COVID19](./COVID19.md)                                  | Index Stub                           |
 | [#LocationPrivacy #ContractTracing #PublicHealthVsPrivacy #COVID19](./LocationPrivacy-ContractTracing-PublicHealthVsPrivacy-COVID19.md) | Version 0.1.0 (2020, April 14) |
 | [#ImmunityCredentials #Verifiable Claims #COVID19](./ImmunityCredentials-VerifiableClaims-COVID19.md) | Version 0.0.1 (2020, April 14) |
 
@@ -55,6 +61,16 @@ To make it easier to understand the status of any particular list, I use a modif
 | **Minor**        | A significant new edition of this list is complete. A number of new links and annotations added, maybe minor sections reorganized,  and some old links filtered out.  I've likely moved on to ffocusing on a different list. <br />If you see that a list version was set to 0.3.0  few weeks ago, the list is probably pretty current. If that 0.3.0 was a few months or even years ago, I may have added links, but I've not reorganized them or filtered old ones out. | 0.2.0   |
 | **Patch**        | Minor additions to the list. I've added some new links into the approriate section and have annotated them, but I've not reviewed or filtered the list a whole since the last **Minor** revision.<br /> | 0.1.3   |
 | **Raw**          | Here is where I vary from classic [Semantic Versioning](https://semver.org). Before I declare a new list is sufficient organized and annoted to be called 0.1.0, I will capture links and thoughts with little or no review or annotation. I may increment the least significant **Patch** level to let me know that this list may be ready for organization, annotation and filtering. | 0.0.1   |
-| **Stub**         | An empty topic hashtag that points to other topics           | None    |
+| **Index Stub**         | An empty topic hashtag that points to other topics           | None    |
 
 I only use this versioning approach for the individual lists. I do not use git release tags as they really don't work well for individual files inside a repo — only for a repo as a whole.
+
+
+## ToDo
+
+- [ ] Add to top a short summary of what these lists should be in their ideal, for instance how a final results should lead the reader through a journey.
+- [ ] Add section about methodology, the rubric for each stage.
+- [ ] Needs style guide.
+- [ ] Add section (or #SocialBookmarking list) about the vaours bookmarking tools and techniques that I use.
+- [ ] Add section to list my supporters in the last quarter
+- [ ] Add thanks to people like Vinay and Shannon who contributed effort.
