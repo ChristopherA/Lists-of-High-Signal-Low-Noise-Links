@@ -320,7 +320,6 @@ Copyright :copyright:2020 by Christopher Allen, and is shared under CC-BY-SA ope
   * Retrieved from: https://twitter.com/i/lists/1068260260555579393
 
 
-
 * Vescent, Heather (2020, April 15). Tweet Thread. [#Opinion, Twitter].
   * Retrieved from https://twitter.com/heathervescent/status/1249729223180181506?s=21. 
   > KEYQUOTE: Morning thoughts: Underground Raves will come back, but with blood testing for Covid-19 safety. Take that cyberpunks, see you at the Trash Fence, blood sample required at the door. Don't @ me about immunity credentials. 
@@ -338,5 +337,11 @@ Copyright :copyright:2020 by Christopher Allen, and is shared under CC-BY-SA ope
   > KEYQUOTE: I will not carry an immunity passport to retain my rights as an American citizen.
 
 - [Introduction to Covid-19 Immunity Certificates built on Verifiable Credentials - YouTube](https://www.youtube.com/watch?v=i3HIV-MX6Ag&feature=youtu.be)
+
+- [Hypothetical COVID-19 Credential VC Data Model v2](https://lists.w3.org/Archives/Public/public-credentials/2020Apr/0195.html)
+    > Thanks for the feedback regarding the v1 example covid credentials. Here is a v2 that was made possible thanks to your feedback:
+        * https://w3c-ccg.github.io/vc-examples/covid-19/v2/v2
+
+
 
 
