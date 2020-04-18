@@ -1,6 +1,6 @@
 # #LinkedDataProofs #JSONLD
 
-(Orginal: https://github.com/ChristopherA/Lists-of-High-Signal-Low-Noise-Links/blob/master/JSONLDSignatures.md )
+(Orginal: https://github.com/ChristopherA/Lists-of-High-Signal-Low-Noise-Links/blob/master/LinkedDataSignatures-JSONLD.md )
 
 # Status & Copyright
 
@@ -43,19 +43,22 @@ Copyright ©️2020 by Christopher Allen, and is shared under [CC-BY-SA-4.0](./L
         > Not ready for production use! Use at your own risk! Pull requests welcome.
 
 * Go implementation
-    * [Aries Framework Go](https://github.com/hyperledger/aries-framework-go)
-
+    
+* [Aries Framework Go](https://github.com/hyperledger/aries-framework-go)
+    
 * Rust implementation
-    *     
-
+    
+*     
+    
 * C++ implementation
     * Partial or in-progress
     * JSON-LD Implementation for C++ (Digital Contract Design). Currently in progress, partial as it currently it only supports the expand(), toRdf() and normalize() functions.
         * https://github.com/dcdpr/jsonld-cpp
 
 * Unknown Status, presumed out-of-date
-    * https://github.com/digitalbazaar/rdf-canonize-native
-
+    
+* https://github.com/digitalbazaar/rdf-canonize-native
+    
 * Out-of-Date (possibly uses Linked Data Signatures 1.0) or Deprecated
     * Linked Data Signatures 1.0 Spec: https://w3c-dvcg.github.io/ld-signatures/
     * Linked Data Proofs 1.0 Spec: https://w3c-dvcg.github.io/ld-proofs/
