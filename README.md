@@ -1,5 +1,8 @@
 # @ChristopherA’s Lists of High-Signal, Low Noise Links
 
+* Web View: https://christophera.github.io/Lists-of-High-Signal-Low-Noise-Links/
+* GitHub upstream master: https://github.com/ChristopherA/Lists-of-High-Signal-Low-Noise-Links/blob/master/README.md
+
 **A series of annotated lists of opinionated, high-signal but low-noise links on topics I care about.**
 
 ## Table of Contents
@@ -74,3 +77,14 @@ I only use this versioning approach for the individual lists. I do not use git r
 - [ ] Add section (or #SocialBookmarking list) about the vaours bookmarking tools and techniques that I use.
 - [ ] Add section to list my supporters in the last quarter
 - [ ] Add thanks to people like Vinay and Shannon who contributed effort.
+- [ ] Where do I put related topic `#HowTo:`s? This repo, or another?
+    - [ ] Also where of my gist tips, bio and vanity links, etc. 
+- [ ] Setup GitHub Actions
+    - [ ] Markdown Link Checker
+        - [x] Install gaurav-nelson/github-action-markdown-link-check@v1 
+        - [ ] Investigate alternative markdown link checkers
+        - [ ] Set up link-checker badge on each page
+    - [ ] Markdown TOC Builder
+        - [x] Currently manually using https://ecotrust-canada.github.io/markdown-toc/
+    - [ ] Markdown Lint
+- [ ] 
