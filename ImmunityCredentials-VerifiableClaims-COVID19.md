@@ -5,6 +5,7 @@ title: '#ImmunityCredentials #VerifiableClaims #COVID19'
 ---
 
 # [#ImmunityCredentials](https://twitter.com/hashtag/ImmunityCredentials)  [#VerifiableClaims](https://twitter.com/hashtag/VerifiableClaims) [#COVID19](https://twitter.com/hashtag/COVID19) 
+
 > This is one of my [series of lists](https://github.com/ChristopherA/High-Signal-Low-Noise-Link-Lists) of opinionated, high-signal but low-noise links on topics I care about.
 >
 > If you like my advocacy, my point-of-view, and my writing, as well as my travel to support local communities, my talks for those communities, and my work with organizations such as [Blockchain Commons](https://www.BlockchainCommons.com), [Rebooting the Web of Trust](https://www.WebOfTrust.info), and the [W3C Credentials CG](https://w3c-ccg.github.io), I invite you to sponsor me.
@@ -19,24 +20,14 @@ title: '#ImmunityCredentials #VerifiableClaims #COVID19'
 
 # Table of Contents
 
-- [My Personal POV](#my-personal-pov)
-- [General News & Opinion](#general-news---opinion)
-- [Law, Policy & Regulations](#law--policy---regulations)
-- [Implementations & Analysis](#implementations---analysis)
-  * [Immunity Credential Technology](#immunity-credential-technology)
-    + [Implementations of Immunity Credentials](#implementations-of-immunity-credentials)
-    + [Immunity Credentials Analysis & Technology](#immunity-credentials-analysis---technology)
-- [Other Related Credentials Technologies](#other-related-credentials-technologies)
-- [Related Events & Meetings](#related-events---meetings)
-- [New & Unsorted](#new---unsorted)
-
 # Status & Copyright
 
+- Version 0.0.2 (2020, April 19) New structure, courtesy Vinay Taylor ([Gitub:@VinayTaylor](https://github.com/vinaytaylor) [Twitter:@VinayTaylor](https://twitter.co/VinayTaylor))
 - Version 0.0.1 (2020, April 14) This list is still fairly raw. I'm focused on adding to, recorganizing, and filtering this list down this week.
 
 For information on this versioning scheme, see [Status & Versioning](./README.md#status--versioning).
 
-Copyright :copyright:2020 by Christopher Allen, and is shared under CC-BY-SA open-source license. See this repo's [README.md](./README.md#copyright--license) for more details.
+Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source license. See this repo's [README.md](./README.md#copyright--license) for more details.
 
 # Related Lists
 
@@ -46,12 +37,70 @@ Copyright :copyright:2020 by Christopher Allen, and is shared under CC-BY-SA ope
 
 **Most of the news has been about governments using cell phones & mobile apps to do #ContractTracing, but another important topic area is how we can create digital #ImmunityCertificates to allow people who have recovered from Covid-19 to leave quarantine, participate in the economic recovery, and to travel for work or family.**
 
-# #ImmunityCredential #ImmunityBadge #ImmunityPassport
+**This is one of my recent presentations explaining why I’m involved in the Self-Sovereign Identity movement. I talk about some important historical context from WWII in the Netherlands and how it is relevant to the impact and risk of COVID-19 for privacy and identity systems:**
 
-# General News & Opinion
-*(Most recent first)*
+* Allen, Christopher (2020, 29 January). Christopher Allen - Self-Sovereign Identity [#SSI #Opinion #Presentation, Dutch Blockchain Coalition & TNO].
+  * Presentation retrieved from https://docs.google.com/presentation/u/1/d/1BbkBX-tUgifiS_VKcqCZYRTQAGF5pK-JEYQwmHYbMcI/edit
+  * Video retrieved from https://www.youtube.com/watch?v=WlDSMRb_X-s.
+  > KEYQUOTE: How do we prevent these architectures, which are well intended and have these principles...how do we be sure that we can design them in ways that make it harder for them to be [misused/exploited].  
 
-**There are ongoing debates in terms of whether immunity can be proven/tested for effectively:**
+**I am co-chair of this World-Wide-Web Consortium (#W3C) community group, where a number of important credentials and identity specifications were nurtured to the point where they could be formalized into international standards. Most notably, the Verifiable Credentials specification is now a full standard, and the Decentralized Identity specification is well on its way.** 
+
+**We meet online weekly via voice and IRC on Tuesdays at 12noon ET, 9am PT, and 5pm CET. At several recent meetings we have had discussion on #COVID19 related privacy topics, and it looks like some standards around #ImmunityCredentials in particular will become official work items. Our meetings are open to the public and are announced on our public mailing list.**
+
+**Both of these standards are key architectures toward privacy design, in particular in the short term for #ImmunityCertificates.**
+
+* W3C Credentials Community Group https://w3c-ccg.github.io/
+
+**There has some some discussion & collaboration between different in the #W3C CCG on what a #Covid19 Immunity Credential might look like using the #VerifiableCredentials standard.**
+  * Example Immunity Passport Credential: https://github.com/w3c-ccg/vc-examples/tree/master/docs/covid-19
+  * Thread (long) starts at: https://lists.w3.org/Archives/Public/public-credentials/2020Apr/0052.html
+  * Thread (long) starts at: https://lists.w3.org/Archives/Public/public-credentials/2020Apr/0119.html
+  * Example of a hypothetical COVID-19 VC data model: https://lists.w3.org/Archives/Public/public-credentials/2020Apr/0195.html; https://w3c-ccg.github.io/vc-examples/covid-19/v2/v2
+
+**Some specific implementations of Immunity Credentials in response to COVID-19 have begun [see specific implementations of ICs]**
+
+# Immunity Credentials Primer
+
+Vaccines are a biological preparation that provide active acquired immunity to a particular infectious disease. Some countries^1 require a certificate showing you have been vaccinated before you are allowed entry, known as an International Certificate of Vaccination or Prophylaxis (ICVP). The only disease (currently) designated under ICVP is yellow fever.
+
+[1]: Angola, Burundi, Central African Republic, Chad, Democratic Republic of the Congo, Cote d’Ivoire (Ivory Coast), Democratic Republic of the Congo, French Guiana, Gabon, Ghana, Guinea-Bissau, Liberia, Mali, Niger, Sierra Leone, Togo, Uganda
+
+Estimates vary, but a C19 vaccine is 12-18 months away. In the absence of a COVID19 vaccine, immunity may be acquired through disease infection and recovery.
+
+Immunity Credentials/Passport/Certificates are touted as a solution to the economic devastation of COVID19 lockdowns. If a person was infected and recovered, they may be eligible to reenter society and work.
+
+## Background: Immunoprivilege
+
+**History suggests that we need to be cautious implementing a system of immunity-based privilege:**
+
+* Zhang, Sarah (2020, April 16). The People Who Risked Death for Immunity [#News #Opinion, The Atlantic].
+  * Retrieved from https://www.theatlantic.com/science/archive/2020/04/immunity-divide/610054/.
+  > KEYQUOTE: When yellow fever swept through New Orleans two centuries before our current pandemic, it made immunity a form of privilege—one so valuable, it was worth risking death to obtain. The outbreaks exacerbated existing forms of inequality too. New immigrants to the city disproportionately bore the risks of acclimation to yellow fever, eager as they were to find jobs. (The wealthy, meanwhile, emptied out of the city during summer yellow-fever season.) Enslaved people who were acclimated were worth 25 percent more—their suffering turned into financial benefit for their owners. “Diseases lay bare who belongs in society and who does not,” says Kathryn Olivarius, a Stanford historian who studies yellow fever in the antebellum South.
+
+* Olivarius, Kathryn (2020, April 12). The Dangerous History of Immunoprivilege [#News #Opinion, New York Times].
+  * Retrieved from https://www.nytimes.com/2020/04/12/opinion/coronavirus-immunity-passports.html.
+  > ABSTRACT: Immunity on a case-by-case basis did permit the economy to expand, but it did so unevenly: to the benefit of those already atop the social ladder, and at the expense of everyone else. When a raging virus collided with the forces of capitalism, immunological discrimination became just one more form of bias in a region already premised on racial, ethnic, gender and financial inequality.
+
+## Introduction to Immunity Credentials (ICs)
+
+* Hou, Chia-Yi (2020, April 14). What are 'immunity passports' and could they help us end the coronavirus lockdown? [#News #Opinion, The Hill].
+    * Retrieved from https://thehill.com/changing-america/well-being/prevention-cures/492699-what-are-immunity-passports-and-how-could-they.
+    > KEY QUOTE: The idea for the “immunity passport” or a “back to work” pass is this: If you’ve been infected with SARS-CoV-2, the virus that causes COVID-19, and recover, then you have immunity that will protect you from getting the disease again for some amount of time. What we don’t know for certain with COVID-19 is whether people do have immunity once they’ve recovered and how long that immunity would last.
+
+* Smith-Spark, Laura (2020, April 3). Is an 'immunity certificate' the way to get out of coronavirus lockdown? [#News #Opinion, CNN Health].
+  * Retrieved from https://www.cnn.com/2020/04/03/health/immunity-passport-coronavirus-lockdown-intl/index.html
+  > KEYQUOTE: The idea of immunity certificates is "a really smart one," he said. "But as yet we're not going to bring them in because we don't know yet that the immunity is strong enough and there's still more science that needs to be done about the levels of immunity in people after they've had the disease.
+
+## General concerns about ICs
+
+**COVID-19 is a new disease, and there is very little we know about it, including how the human body responds and develops antibodies to it.**
+
+### Concern 1: Validity
+
+* Aschwanden, Christie (2020, April 16). Sorry, Immunity to Covid-19 Won't Be Like a Superpower [#News #Opinion, Wired].
+  * Retrieved from https://www.wired.com/story/sorry-immunity-to-covid-19-wont-be-like-a-superpower/
+  > KEY QUOTE: Experts say that SARS-CoV-2 likely falls somewhere in the middle, such that people who get exposed are neither sterilized against further illness nor left utterly defenseless. Instead, they enter into a state you might think of as “immunishness,” an intermediate level of protection that dwindles over time. The robustness of this immunish state—whether it prevents all reinfection or merely makes a second round of sickness less intense—and the period of time for which it lasts will depend on multiple factors, such as a patient’s genetics and sex (women tend to have stronger immune reactions than men), the strength of their initial immune response, and the characteristics of the virus itself as it continues to evolve.
 
 * McDonnell, Tim (2020, April 15). Is it too soon for a “CoronaPass” immunity app? [#News #Opinion, Quartz].
   * Retrieved from https://qz.com/1838764/is-it-too-soon-for-immunity-passports/. 
@@ -71,13 +120,36 @@ Copyright :copyright:2020 by Christopher Allen, and is shared under CC-BY-SA ope
   * Retrieved from https://www.technologyreview.com/2020/04/09/998974/immunity-passports-cornavirus-antibody-test-outside/
   > KEYQUOTE: Coronavirus antibody testing needs to get a lot better, and so does our understanding of immunity, before people can start circulating freely.
 
+### Concern 2: Accuracy
+
 **The rush to develop antibody tests means more risk in terms of accuracy:**
 
 * Terhune, Chad; Martell, Allison; Steenhuysen, Julie (2020, March 25). U.S. companies, labs rush to produce blood test for coronavirus immunity [#News #Opinion, Reuters].
   * Retrieved from https://www.reuters.com/article/us-health-coronavirus-immune-test-insigh-idUSKBN21C1KK. 
   > KEYQUOTE: Antibody tests won’t face the same bureaucratic hurdles diagnostic testing initially did. The U.S. Food and Drug Administration relaxed its rules last month, and body-fluid tests can proceed to market without full agency review and approval.
 
-**But that hasn't stopped countries/consortiums from considering implementation of COVID Immunity Certificates, Passports or Credentials:**
+**Important laypersons' introduction to Bayesian math and the massive difference between a 5% and a 3% margin of error for serological testing/passporting:**
+* Chivers, Tom (2020, April 7). How far away are ‘immunity passports’? [#News #Opinion, Unherd].
+  * Retrieved from https://unherd.com/2020/04/how-far-away-are-immunity-passports/.
+  > KEYQUOTE: If you issue immunity passports on this basis, barely a third of the people you give them to will actually be immune. “There’s nothing peculiar about this statistically,” Kevin McConway, an emeritus professor of statistics at the Open University, told me. “It’s just Bayes’ theorem.” The likelihood of you having had Covid-19, if you’ve had a positive test, depends not just on the accuracy of the test but on the prevalence in the population you’re looking at.
+
+### Concern 3: Moral Hazard
+
+* Wheeldon, Tom (2020, April 16). ‘Grave concerns’ about Covid-19 immunity passports [#News #Opinion, France24].
+    * Retrieved from https://www.france24.com/en/20200416-grave-concerns-about-covid-19-immunity-passports.
+    > KEYQUOTE: Trapped between the competing urgencies of saving lives from Covid-19 and avoiding economic calamity, some government officials have mooted “immunity passports” as a way through the impasse. But experts told FRANCE 24 that the necessary antibody testing is not reliable enough – and even if the scheme were feasible, it could create a dangerous incentive for some to acquire the virus in order to qualify for the passport.
+
+### Concern 4: Discrimination
+
+* Joshi, Divji; Kak, Amba (2020, April 18). India’s digital response to COVID-19 risks inefficacy, exclusion and discrimination [#News #Opinion, The Caravan].
+  * Retrieved from https://caravanmagazine.in/health/india-digitial-response-covid-19-risks-inefficacy-exclusion-discrimination
+  > KEY QUOTE: The overlap between the public-health system and the security apparatus, combined with the lack of adequate privacy laws, also engenders distrust from the very people who are expected to volunteer information and cooperate with government efforts to contain the pandemic. Even in the context of epidemics such as HIV/AIDS, human-rights and constitutional courts have recognised that such discriminatory and punitive practices violate the right to privacy, and are counterproductive to public-health efforts. These patterns of “policing” the pandemic are not unique to India. In Canada, multiple new laws have resulted in six-figure fines and prison time for those who dviolate physical-distancing rules. In the United States and the United Kingdom, too, two countries with deep historical legacies of discriminatory and arbitrary policing, there are concerns that police discretion in the enforcement of COVID-19 restrictions will hit communities of colour the hardest.
+
+the technological architecture to make credentials, passports or such certificates work in practice is a reality today.**
+
+# Potential Implementations of ICs
+
+**Though the antibody testing and immunity science is yet to be solved for, along with the legal implications, that hasn't stopped countries/consortiums from considering implementation of COVID Immunity Certificates, Passports or Credentials:**
 
 * Unknown (2020, April 14). 60 strong Self Sovereign Identity group targets COVID-19 immunity passports, credentials [#News #Opinion, Ledger Insights].
   * Retrieved from https://www.ledgerinsights.com/sovereign-identity-covid-19-immunity-passports-credentials/. 
@@ -94,10 +166,16 @@ Copyright :copyright:2020 by Christopher Allen, and is shared under CC-BY-SA ope
   * Retrieved from https://twitter.com/hackylawyer/status/1249742819520102401?s=21. 
   > KEYQUOTE: ...this program [Known Traveler Digital Identity https://papersplease.org/wp/2020/03/30/known-traveler-digital-identity-ktdi/] is extremely concerning @evernym. According to @PapersPlease, the KTDI would even include a "pre-crime predictive 'risk assessment' and profiling score."
 
+## Discussion of ICs implementation
+
+**United Kingdom**
+
 * Roland, Denise; Gauthier-Villars, David (2020, April 12). Coronavirus ‘Immunity Passport’ Stumbles in U.K. [#News #Opinion, Wall Street Journal].
   * Retrieved from https://www.wsj.com/articles/coronavirus-immunity-passport-stumbles-in-u-k-11586705619?mod=e2tw. 
   > KEYQUOTE: These antibody tests are different from the swab tests aimed at determining whether a person carries the virus. They are the same as the ones being rolled out in many countries, including in the U.S., as part of long-term campaigns aimed at determining what proportion of the population has been infected by the new coronavirus, and gauging immunity at a national level.
   > In the U.K., however, officials have proposed using them at an individual level, to provide people assurances that they can leave lockdown without risk of contracting the disease, known as Covid-19.
+
+**United States**
 
 * Forgey, Quint (2020, April 10). Fauci: Coronavirus immunity cards for Americans are ‘being discussed’ [#News #Opinion, Politico].
   * Retrieved from https://www.politico.com/news/2020/04/10/fauci-coronavirus-immunity-cards-for-americans-are-being-discussed-178784. 
@@ -107,20 +185,11 @@ Copyright :copyright:2020 by Christopher Allen, and is shared under CC-BY-SA ope
   * Retrieved from https://futurism.com/neoscope/us-government-considering-covid-19-immunity-cards. 
   > KEYQUOTE: The idea is simple: widespread administering of antibody tests could establish who has had the virus already. Through the use of an identification system, societies could keep track of individuals that are “immune” as a result — and those who aren’t.
 
-**Important laypersons' introduction to Bayesian math and the massive difference between a 5% and a 3% margin of error for serological testing/passporting:**
-* Chivers, Tom (2020, April 7). How far away are ‘immunity passports’? [#News #Opinion, Unherd].
-  * Retrieved from https://unherd.com/2020/04/how-far-away-are-immunity-passports/.
-  > KEYQUOTE: If you issue immunity passports on this basis, barely a third of the people you give them to will actually be immune. “There’s nothing peculiar about this statistically,” Kevin McConway, an emeritus professor of statistics at the Open University, told me. “It’s just Bayes’ theorem.” The likelihood of you having had Covid-19, if you’ve had a positive test, depends not just on the accuracy of the test but on the prevalence in the population you’re looking at.
+**Germany**
 
-* Smith-Spark, Laura (2020, April 3). Is an 'immunity certificate' the way to get out of coronavirus lockdown? [#News #Opinion, CNN Health]
-  * Retrieved from https://www.cnn.com/2020/04/03/health/immunity-passport-coronavirus-lockdown-intl/index.html
-  > KEYQUOTE: The idea of immunity certificates is "a really smart one," he said. "But as yet we're not going to bring them in because we don't know yet that the immunity is strong enough and there's still more science that needs to be done about the levels of immunity in people after they've had the disease.
-
-**This white paper suggests 20-30 year olds could re-enter the economy. If such a move takes place it's inevitable that this population would need some sort of immunity credential to further participate/support elderly populations still under lockdown:**
-
-* Oswald, Andrew; Powdthavee, Nattavudh (2020, April). The Case for Releasing the Young from Lockdown: A Briefing Paper for Policymakers [#Regulations, Whitepaper].
-  * Retrieved from https://www.andrewoswald.com/docs/newFinalCOVIDpaper-on-releasing-the-young-OswaldPowdthavee2020(1).pdf.
-  > KEYQUOTE: The paper argues that a young workforce release of this kind would lead to substantial economic and societal benefits without enormous health costs to the country. In this way, the nation might begin to move forward in the footsteps of the young. The paper’s key concept could in principle be implemented in other countries.
+* Morris, Loveday (2020, April 7). European politicians are making big promises about antibody passports. The science is still catching up [#News #Opinion, Washington Post]. 
+  * Retrieved from https://www.washingtonpost.com/world/european-politicians-are-making-big-promises-about-antibody-passports-the-science-is-still-catching-up/2020/04/07/3c228b20-7887-11ea-a311-adb1344719a9_story.html
+  > KEYQUOTE: In recent days, the IFLb laboratory in Berlin began blood tests that can determine whether someone has had the virus and therefore has immunity against being reinfected. On Tuesday, the lab’s technicians processed 70 tests, in addition to the 500 regular coronavirus tests they complete each day to determine whether someone is infected. “We were very, very fast at getting started,” explained Christina Landwehr, a molecular biologist at the lab. Germany’s first test kit for mass coronavirus antibody screening was certified late last month.
 
 * Proctor, Kate; Sample, Ian; Oltermann, Philip (2020, March 30). 'Immunity passports' could speed up return to work after Covid-19 [#News #Opinion, The Guardian].
   * Retrieved from https://www.theguardian.com/world/2020/mar/30/immunity-passports-could-speed-up-return-to-work-after-covid-19
@@ -129,11 +198,6 @@ Copyright :copyright:2020 by Christopher Allen, and is shared under CC-BY-SA ope
 * Wighton, Daniel and Chazan, David (2020, March 29). Germany will issue coronavirus antibody certificates to allow quarantined to re-enter society [#News #Opinion, The Telegraph].
   * Retrieved from https://www.telegraph.co.uk/news/2020/03/29/germany-will-issue-coronavirus-antibody-certificates-allow-quarantined/. 
   > KEYQUOTE: German researchers plan to introduce coronavirus ‘immunity certificates’ to facilitate a proper transition into post-lockdown life, as Chancellor Angela Merkel’s handling of the crisis has led to a boost in the polls.
-
-**Beyond issues of immunology, Peter Story argues that we need to be design toward "co-immunology":**
-* Story, Henry (2020, March 29) Co-Immunology and the Web For a Healthier World [#Opinion, #Society, #Immunology, Medium].
-  * Retrieved from https://medium.com/@bblfish/co-immunology-and-the-web-43379b46688e
-  > KEYQUOTE: We thus have three levels of immunities: biological, psychological and social. One should perhaps add hyper-social for the relations between states, that have over the last century put in place institutions to reduce the calamities of war. Each of these depends on the other. The body’s immunity is improved by individuals learning to adopt hygienic practices; those are helped by quarantining policies at the local and international level. At each level communication is restricted but cannot be stopped: trade, especially for medical goods and food, must continue, while new processes are put in place further to limit the spread of this microscopically small virus.
 
 **Some proposed implementations are for specific sectors, like tourism and sports:**
 
@@ -149,89 +213,7 @@ Copyright :copyright:2020 by Christopher Allen, and is shared under CC-BY-SA ope
   * Retrieved from https://twitter.com/indykaila/status/1247930229252935680?s=21. 
   > KEYQUOTE: Breaking:  A new app is being pitched to the Premier League which would ensure only fans who have tested negative for Covid-19 or have immunity can go to games. 'Health passport' also being discussed with Government as part of lockdown exit strategy.
 
-# Law, Policy & Regulations
-*(Most recent first)*
-
-**Even if the antibody tests and immunity science are solved for, numerous legal impediments exist for such implementations between haves vs have-nots:**
-
-* Olivarius, Kathryn (2020, April 12). The Dangerous History of Immunoprivilege [#News #Opinion, New York Times].
-  * Retrieved from https://www.nytimes.com/2020/04/12/opinion/coronavirus-immunity-passports.html.
-  > KEYQUOTE: Antebellum New Orleans was a slave society where whites dominated free people of color and enslaved people through legally sanctioned violence. But another invisible hierarchy came to co-mingle with the racial order; white “acclimated citizens” stood atop the social pyramid, followed by white “unacclimated strangers,” followed by everyone else. Surviving yellow fever was locally known as the “baptism of citizenship:” proof that a white person had been chosen by God and had established himself as a legitimate and permanent player in the Cotton Kingdom. 
-
-* Bowles, Samuel; Carlin, Wendy (2020, April 10). The coming battle for the COVID-19 narrative [#Opinion, VOX, CEPR Policy Portal].
-  * Retrieved from https://voxeu.org/article/coming-battle-covid-19-narrative. 
-  > KEYQUOTE: The COVID-19 narrative that emerges in the aftermath of the pandemic will have to embrace three truths. First, there is no way that government – however well organised and professional – can address challenges like this pandemic without a civic-minded citizenry that trusts the public health advice of its government and is committed to the rule of law. Second, people facing extraordinary risks and costs have indeed acted with generosity and trust on a massive scale. And third, the fact that the individualistic and self-interested depiction of people in economics has been shown to be wildly inaccurate may also be a cause for alarm: people may care about others in negative as well as positive ways. The frightening upsurge of xenophobic attacks is a warning. 
-
-* Greely, Henry T. (2020, April 10) Covid-19 ‘immunity certificates’: practical and ethical conundrums [#News #Opinion, StatNews].
-  * Retrieved from https://www.statnews.com/2020/04/10/immunity-certificates-covid-19-practical-ethical-conundrums/. 
-  > KEYQUOTE: The legal issues aren’t clear. The Americans with Disabilities Act (ADA) may be the most relevant federal statute, but it is triggered only by a disability. Having a Covid-19 infection can be a disability, but can having a normal immune system, one without evidence of a prior infection, count as a disability? If so, how would the act’s “direct threat” exception apply? The Equal Employment Opportunity Commission has issued some guidance for employers, saying that Covid-19 qualifies for the “direct threat” exception, but that deals with people who are infected or symptomatic, not those who might become infected.
- 
-  > Other federal and state statutory and constitutional rights might also be invoked, such as the Federal Rehabilitation Act, state statutes similar to the ADA or broad state anti-discrimination legislation, and federal and state due process, equal protection, and possibly right to travel guarantees.
-
-**Some sources suggest governments privately have given up on containment, like the UK:**
-
-* Ahmed, Nafeez (2020, April 9). LEAKED HOME OFFICE CALL Reveals Government Wants Economy to ‘Continue Running’ As ‘We Will All Get’ COVID-19 Anyway [#News #Opinion, Byline Times].
-  * Retrieved from https://bylinetimes.com/2020/04/09/leaked-home-office-call-reveals-uk-government-wants-economy-to-continue-running-as-we-will-all-get-covid-19-anyway/. 
-  > KEYQUOTE: UK Government strategy, he confirmed, is not attempting to contain the spread of the virus, but simply to slow down “the rate at which we get this virus [which] has direct impact on the NHS. It’s vitally important that we don’t get it at the same time. But that does not mean we won’t still get it at some point… We’ve got to keep functioning our lives, go out for food and medication, and go out for work”.
-
-**Other commentary suggests a new CoronaCorps, in the spirit of AmeriCorps, to bring the economy back to life:**
-
-* Partensky, Peretz (2020, April 5). To Beat the Coronavirus, Raise an Army of the Recovered [#News #Opinion, Wired].
-  * Retrieved from https://www.wired.com/story/to-beat-the-coronavirus-raise-an-army-of-the-recovered/. 
-  > KEYQUOTE: Those who receive their immune certification should be encouraged to volunteer for the CoronaCorps, a standing army of individuals committed to helping us heal together. You don’t need to have been infected to be of help. The CoronaCorps needs all kinds. The advantage of the immune-certified is that they can pass among and between the quarantined, providing goods and services with reduced personal risk of infection. (Of course, they will need basic training in decontamination protocols to protect others.)
-
-  > The intake process for CoronaCorps, as well as training and job-matching, should be handled at the city and county government level, with help from the private sector for identifying needs. Don’t reinvent the wheel: Reuse existing job boards, engage professional recruiters, and make it easy for those who are participating in essential services to ask for help.
-
-* David, Benjamin P.; Catlin, Jonathan (2020, March 30). Theses for Theory in a Time of Crisis [#Opinion, Public Seminar].
-  * Retrieved from https://publicseminar.org/essays/theses-for-theory-in-a-time-of-crisis/. 
-  > KEYQUOTE: Resist the “shock doctrine.” Emergencies have been declared before and will be again. This is a time to make demands on, more than to rely on, governments. Reliance is passive. Demand is active.
-
-**Though the antibody testing and immunity science is yet to be solved for, along with the legal implications, the technological architecture to make credentials, passports or such certificates work in practice is a reality today.**
-
-# Implementations & Analysis
-
-## Immunity Credential Technology
-
-**Though Immunity Credentials could be implemented with legacy identity and digital credential technology, there are some real advantages to using the new self-sovereign identity architectures of W3C Verifiable Credentials standard and the emerging Decentralized Identifier (DID) specification. I am co-inventor and architect of this architecture, so I am biased*
-
-**This is a the best primer on the topic of W3C Verifiable Credentials standard**
-
-* Sporny, Manu (2019, January 23). #RWOT10 Verifiable Claims Primer [#Primer, Github, WebOfTrustInfo].
-  * Retrieved from https://github.com/WebOfTrustInfo/rwot10-buenosaires/blob/master/topics-and-advance-readings/verifiable-credentials-primer.md.
-  > ABSTRACT: It is currently difficult to transmit credentials such as driver's licenses, proofs of age, education qualifications, and healthcare data, via the Internet in a way that is verifiable yet protects individual privacy.
-  > Starting in 2013, the W3C Credentials Community Group started to work in earnest on solutions in this space followed shortly thereafter by the Rebooting Web of Trust Community and W3C Verifiable Claims Working Group. These groups, composed of 150+ individuals and organizations, are currently focused on the creation, storage, transmission, and verification of digital credentials via the Internet.
-  > This document is a primer for those that want to learn about the Verifiable Credentials initiative, the use cases and ecosystem, a basic overview of the technology, and how to get involved.
-
-**The specification created by the W3C CCG was approved as a "W3C Recommendation" so now is a full international standard. Maintenance, additions, changes, etc. are now back at the W3C-CCG for building consensus on updates to the spec.**
-
-**This is the technical standard:**
-
-* Sporny, Manu; Noble, Grant; Longley, Dave; Burnett, Daniel C.; Zundel, Brent (2019, November 19). Verifiable Credentials Data Model 1.0 [#Implementation, W3C CCG].
-  * Retrieved from https://www.w3.org/TR/vc-data-model/. 
-  > ABSTRACT: Credentials are a part of our daily lives; driver's licenses are used to assert that we are capable of operating a motor vehicle, university degrees can be used to assert our level of education, and government-issued passports enable us to travel between countries. This specification provides a mechanism to express these sorts of credentials on the Web in a way that is cryptographically secure, privacy respecting, and machine-verifiable.
-
-**This note shares the official use-cases used in the creation of Verifiable Credentials:**
-
-* McCarron, Shane; Andrieu, Joe; Stone, Matt; Siegman, Tzviya; Kellogg, Gregg; Thibodeau, Ted (2019, September 24). Verifiable Credentials Data Model 1.0 [#Implementation, W3C CCG].
-  * Retrieved from https://www.w3.org/TR/vc-use-cases/. 
-  > ABSTRACT: A verifiable claim is a qualification, achievement, quality, or piece of information about an entity's background such as a name, government ID, payment provider, home address, or university degree. Such a claim describes a quality or qualities, property or properties of an entity which establish its existence and uniqueness. The use cases outlined here are provided in order to make progress toward possible future standardization and interoperability of both low- and high-stakes claims with the goals of storing, transmitting, and receiving digitally verifiable proof of attributes such as qualifications and achievements. The use cases in this document focus on concrete scenarios that the technology defined by the group should address.
- 
- 
-### Implementations of Immunity Credentials
-
-**I am co-chair of World-Wide-Web Consortium Credentials Community Group ([#W3C CCG](https://w3c-ccg.github.io/)), where a number of important credentials and identity specifications were nurtured to the point where they could be formalized into international standards. Most notably, the Verifiable Credentials specification is now a full "recommended" standard, and the Decentralized Identity specification is well on its way. Both of these standards are key architectures toward privacy design, in particular in the short term for #ImmunityCertificates.**
-
-**The W3C CCG meets online via voice and IRC weekly on Tuesdays at 12noon ET, 9am PT, and 5pm CET. At several recent meetings we have had discussion on COVID-19 related privacy topics, and it looks like some standards around #ImmunityCredentials and #LocationPrivacy in particular will become official work items. Our meetings are open to the public, and are announced on our public mailing list.**
-
-* W3C (ongoing). W3C Credentials Community Group
-  * https://w3c-ccg.github.io/
-
-**There has some some discussion & collaboration between different in the #W3C CCG on what a #Covid19 Immunity Credential might look like using the #VerifiableCredentials standard.**
-  * Example Immunity Passport Credential: https://github.com/w3c-ccg/vc-examples/tree/master/docs/covid-19
-  * Thread (long) starts at: https://lists.w3.org/Archives/Public/public-credentials/2020Apr/0052.html
-  * Thread (long) starts at: https://lists.w3.org/Archives/Public/public-credentials/2020Apr/0119.html
-
-**Some specific implementations of Immunity Credentials in response to COVID-19 have begun:**
+## Commentary on specific ICs projects
 
 **The COVID Credentials Initiative is leveraging the #W3C DID and Verifiable Credentials specifications. It appears to be led by members of the Sovrin/Hyperledger Indy architecture and platform for Self-Sovereign Identity.**
 
@@ -252,6 +234,8 @@ Copyright :copyright:2020 by Christopher Allen, and is shared under CC-BY-SA ope
 * CoronaPass™ is a new solution for Governments, Healthcare Organizations, Pharmaceutical Companies or Corporate Businesses. [#Implementation, CoronaPass].
     * Retrieved from https://www.coronapass.org
     > By providing evidence of authenticated anti-body test results, CoronaPass can enable people and organizations to return to important economic and social activity, while protecting the most vulnerable members of society. 
+
+## Unsorted list of specific ICs projects
 
 **I'm less clear on the status of Bloom's implementation. I sounds like they may be using the W3C Verifiable Credentials standard, but they have not been active in the #W3C CCG community so I don't know.**
 
@@ -276,49 +260,104 @@ Copyright :copyright:2020 by Christopher Allen, and is shared under CC-BY-SA ope
   * Horowitz, Jason (2020, April 4). In Italy, Going Back to Work May Depend on Having the Right Antibodies [New York Times]
     * Retreived from https://www.nytimes.com/2020/04/04/world/europe/italy-coronavirus-antibodies.html
     > That glimmer of hope has turned the conversation to the daunting challenge of when and how to reopen without setting off another cataclysmic wave of contagion. To do so, Italian health officials and some politicians have focused on an idea that might once have been relegated to the realm of dystopian novels and science fiction films. Having the right antibodies to the virus in one’s blood — a potential marker of immunity — may soon determine who gets to work and who does not, who is locked down and who is free.
- 
-### Immunity Credentials Analysis & Technology
 
-**At this point there has yet to be any analysis of any of the Immunity Credentials implementations, but I do point you to the *Privacy Considerations* section of the Verifiable Claims standard as a start on the issues in general.*
+# ICs Recommendations
+
+## Guidelines for Technologists
+
+**Though Immunity Credentials could be implemented with legacy identity and digital credential technology, there are some real advantages to using the new self-sovereign identity architectures of W3C Verifiable Credentials standard and the emerging Decentralized Identifier (DID) specification. I am co-inventor and architect of this architecture, so I am biased*
+
+**This is a the best primer on the topic of W3C Verifiable Credentials standard**
+
+* Sporny, Manu (2019, January 23). #RWOT10 Verifiable Claims Primer [#Primer, Github, WebOfTrustInfo].
+  * Retrieved from https://github.com/WebOfTrustInfo/rwot10-buenosaires/blob/master/topics-and-advance-readings/verifiable-credentials-primer.md.
+  > ABSTRACT: It is currently difficult to transmit credentials such as driver's licenses, proofs of age, education qualifications, and healthcare data, via the Internet in a way that is verifiable yet protects individual privacy.
+  > Starting in 2013, the W3C Credentials Community Group started to work in earnest on solutions in this space followed shortly thereafter by the Rebooting Web of Trust Community and W3C Verifiable Claims Working Group. These groups, composed of 150+ individuals and organizations, are currently focused on the creation, storage, transmission, and verification of digital credentials via the Internet.
+  > This document is a primer for those that want to learn about the Verifiable Credentials initiative, the use cases and ecosystem, a basic overview of the technology, and how to get involved.
+
+**The specification created by the W3C CCG was approved as a "W3C Recommendation" so now is a full international standard. Maintenance, additions, changes, etc. are now back at the W3C-CCG for building consensus on updates to the spec.**
+
+**This is the technical standard:**
+
+* Sporny, Manu; Noble, Grant; Longley, Dave; Burnett, Daniel C.; Zundel, Brent (2019, November 19). Verifiable Credentials Data Model 1.0 [#Implementation, W3C CCG].
+  * Retrieved from https://www.w3.org/TR/vc-data-model/. 
+  > ABSTRACT: Credentials are a part of our daily lives; driver's licenses are used to assert that we are capable of operating a motor vehicle, university degrees can be used to assert our level of education, and government-issued passports enable us to travel between countries. This specification provides a mechanism to express these sorts of credentials on the Web in a way that is cryptographically secure, privacy respecting, and machine-verifiable.
+
+**This note shares the official use-cases used in the creation of Verifiable Credentials:**
+
+* McCarron, Shane; Andrieu, Joe; Stone, Matt; Siegman, Tzviya; Kellogg, Gregg; Thibodeau, Ted (2019, September 24). Verifiable Credentials Data Model 1.0 [#Implementation, W3C CCG].
+  * Retrieved from https://www.w3.org/TR/vc-use-cases/. 
+  > ABSTRACT: A verifiable claim is a qualification, achievement, quality, or piece of information about an entity's background such as a name, government ID, payment provider, home address, or university degree. Such a claim describes a quality or qualities, property or properties of an entity which establish its existence and uniqueness. The use cases outlined here are provided in order to make progress toward possible future standardization and interoperability of both low- and high-stakes claims with the goals of storing, transmitting, and receiving digitally verifiable proof of attributes such as qualifications and achievements. The use cases in this document focus on concrete scenarios that the technology defined by the group should address.
+
+**At this point there has yet to be any analysis of any of the Immunity Credentials implementations, however this shows how it could work in the UK context:"
+
+* Chadwick, David (2020, April 13). Introduction to Covid-19 Immunity Certificates built on Verifiable Credentials [#Implementation #Video, YouTube].
+  * Retrieved from https://www.youtube.com/watch?v=i3HIV-MX6Ag&feature=youtu.be)
+  > ABSTRACT: This is the first of 3 videos that demonstrate our Verifiable Credential infrastructure. This is the introductory video. The next two describe the Registration Process and Transaction Process respectively in more detail. 
+
+**I also do want to point you to the *Privacy Considerations* section of the Verifiable Claims standard as a start on the issues in general.*
 
 * Sporny, Manu; Noble, Grant; Longley, Dave; Burnett, Daniel C.; Zundel, Brent (2019, November 19). Privacy Considerations of Verifiable Credentials Data Model 1.0 [#Implementation, #PrivacyConsideration, W3C WG].
   * Retrieved from: https://www.w3.org/TR/vc-data-model/#privacy-considerations
-      
-# Other Related Credentials Technologies
 
-* Chadwick, David W., Laborde, Romain, Oglaza, Arnaud, Venant, Remi, Wazan, Ahmad Samer, Nijjar, Manreet (2019, Month DD). Improved Identity Management with Verifiable Credentials and FIDO [#Implemention #Opinion, University of Kent - Academic Repository].
-  * Retrieved from https://kar.kent.ac.uk/80304/. 
-  > ABSTRACT: We describe how FIDO and W3C VCs can overcome the problems of existing identity management systems. We describe our conceptual prescription drugs. Our initial user trials with 10 U.K. NHS patients found the system to be easy to use, and fingerprints to be preferable to using usernames and passwords for authentication
+## Policy Considerations for Governments
 
-* Duffy, Kim Hamilton; Pongratz, Hans; Schmidt, J. Philipp (2020, February). Building the digital credential infrastructure for the future [#Implementation, Digital Credentials Consortium].
-  * Retrieved from https://digitalcredentials.mit.edu/wp-content/uploads/2020/02/white-paper-building-digital-credential-infrastructure-future.pdf. 
-  > KEYQUOTE:  The system we are designing can be used to issue and verify many different types of academic credentials, ranging from university degrees and diplomas, to individual course credits, to alternative credentials (including microcredentials) for online courses or face-toface workshops. Issuers decide the information they must include in the credential. Our system will not change the way universities provide instruction, assess learning, or make decisions about awarding credentials. It simply offers a more powerful and convenient way to share, manage, and verify the credentials.
+**This white paper suggests 20-30 year olds could re-enter the economy. If such a move takes place it's inevitable that this population would need some sort of immunity credential to further participate/support elderly populations still under lockdown:**
 
-* Hawk, Sandro, et al. (2020, February 24). Reviewed Credibility Signals [#Implementation, credweb.org].
-  * Retrieved from https://credweb.org/reviewed-signals-20200224/. 
-  > KEYQUOTE: Credibility signals are observations, made by humans or machines, which are used in deciding how much to trust some information. This document specifies some types of these observations which seem particularly useful in online credibility assessments, especially when assisted by machine processing and a network of people and systems making related observations.
+* Oswald, Andrew; Powdthavee, Nattavudh (2020, April). The Case for Releasing the Young from Lockdown: A Briefing Paper for Policymakers [#Regulations, Whitepaper].
+  * Retrieved from https://www.andrewoswald.com/docs/newFinalCOVIDpaper-on-releasing-the-young-OswaldPowdthavee2020(1).pdf.
+  > KEYQUOTE: The paper argues that a young workforce release of this kind would lead to substantial economic and societal benefits without enormous health costs to the country. In this way, the nation might begin to move forward in the footsteps of the young. The paper’s key concept could in principle be implemented in other countries.
 
-# Related Events & Meetings
+**Beyond issues of immunology, Peter Story argues that we need to be design toward "co-immunology":**
+* Story, Henry (2020, March 29) Co-Immunology and the Web For a Healthier World [#Opinion, #Society, #Immunology, Medium].
+  * Retrieved from https://medium.com/@bblfish/co-immunology-and-the-web-43379b46688e
+  > KEYQUOTE: We thus have three levels of immunities: biological, psychological and social. One should perhaps add hyper-social for the relations between states, that have over the last century put in place institutions to reduce the calamities of war. Each of these depends on the other. The body’s immunity is improved by individuals learning to adopt hygienic practices; those are helped by quarantining policies at the local and international level. At each level communication is restricted but cannot be stopped: trade, especially for medical goods and food, must continue, while new processes are put in place further to limit the spread of this microscopically small virus.
+ 
+* Bowles, Samuel; Carlin, Wendy (2020, April 10). The coming battle for the COVID-19 narrative [#Opinion, VOX, CEPR Policy Portal].
+  * Retrieved from https://voxeu.org/article/coming-battle-covid-19-narrative. 
+  > KEYQUOTE: The COVID-19 narrative that emerges in the aftermath of the pandemic will have to embrace three truths. First, there is no way that government – however well organised and professional – can address challenges like this pandemic without a civic-minded citizenry that trusts the public health advice of its government and is committed to the rule of law. Second, people facing extraordinary risks and costs have indeed acted with generosity and trust on a massive scale. And third, the fact that the individualistic and self-interested depiction of people in economics has been shown to be wildly inaccurate may also be a cause for alarm: people may care about others in negative as well as positive ways. The frightening upsurge of xenophobic attacks is a warning. 
 
-**Human Rights Foundation holds Oslo Freedom Forum, and this year is holding virtual event COVIDcon April 13-14th:**
+* Greely, Henry T. (2020, April 10) Covid-19 ‘immunity certificates’: practical and ethical conundrums [#News #Opinion, StatNews].
+  * Retrieved from https://www.statnews.com/2020/04/10/immunity-certificates-covid-19-practical-ethical-conundrums/. 
+  > KEYQUOTE: The legal issues aren’t clear. The Americans with Disabilities Act (ADA) may be the most relevant federal statute, but it is triggered only by a disability. Having a Covid-19 infection can be a disability, but can having a normal immune system, one without evidence of a prior infection, count as a disability? If so, how would the act’s “direct threat” exception apply? The Equal Employment Opportunity Commission has issued some guidance for employers, saying that Covid-19 qualifies for the “direct threat” exception, but that deals with people who are infected or symptomatic, not those who might become infected.
+ 
+  > Other federal and state statutory and constitutional rights might also be invoked, such as the Federal Rehabilitation Act, state statutes similar to the ADA or broad state anti-discrimination legislation, and federal and state due process, equal protection, and possibly right to travel guarantees.
 
-* COVIDcon 
-  * Retrieved from https://covidcon.org/.
-  > ABSTRACT: This two-day event, open to global audiences, will feature presentations and panels about the current pandemic and its relationship to state censorship, disinformation, surveillance, and civil liberties. COVIDCon sessions will showcase the difference in the responses of authoritarian regimes and democratic governments to the outbreak of the novel coronavirus.”
+**Some sources suggest governments privately have given up on containment, like the UK:**
 
-**I have been hosting this twice a year design workshop that brings together experts in the decentralized digital identity and privacy community in a collaborative "design workshop" that has published 50+ collaborative white papers. It is where the W3C Decentralized Identifier specification was originally incubated, which is on its way to becoming an international standard.**
+* Ahmed, Nafeez (2020, April 9). LEAKED HOME OFFICE CALL Reveals Government Wants Economy to ‘Continue Running’ As ‘We Will All Get’ COVID-19 Anyway [#News #Opinion, Byline Times].
+  * Retrieved from https://bylinetimes.com/2020/04/09/leaked-home-office-call-reveals-uk-government-wants-economy-to-continue-running-as-we-will-all-get-covid-19-anyway/. 
+  > KEYQUOTE: UK Government strategy, he confirmed, is not attempting to contain the spread of the virus, but simply to slow down “the rate at which we get this virus [which] has direct impact on the NHS. It’s vitally important that we don’t get it at the same time. But that does not mean we won’t still get it at some point… We’ve got to keep functioning our lives, go out for food and medication, and go out for work”.
 
-* Rebooting The Web of Trust
-  * Retrieved from  https://www.WebOfTrust.info
+**Other commentary suggests a new CoronaCorps, in the spirit of AmeriCorps, to bring the economy back to life and mitigate systemic disrimination:**
 
-  > KEY COMMENT: Unfortunately our last event in Buenos Aires where we planned to discussion #LocationPrivacy and other related Covid-19 privacy topics was cancelled. We are working now on plans for an event in the Fall in the EU, and expect many privacy tech, policy and regulatory experts coming specifically to work on the next generation of these technologies.**
+* Partensky, Peretz (2020, April 5). To Beat the Coronavirus, Raise an Army of the Recovered [#News #Opinion, Wired].
+  * Retrieved from https://www.wired.com/story/to-beat-the-coronavirus-raise-an-army-of-the-recovered/. 
+  > KEYQUOTE: Those who receive their immune certification should be encouraged to volunteer for the CoronaCorps, a standing army of individuals committed to helping us heal together. You don’t need to have been infected to be of help. The CoronaCorps needs all kinds. The advantage of the immune-certified is that they can pass among and between the quarantined, providing goods and services with reduced personal risk of infection. (Of course, they will need basic training in decontamination protocols to protect others.)
 
-# New & Unsorted
+  > The intake process for CoronaCorps, as well as training and job-matching, should be handled at the city and county government level, with help from the private sector for identifying needs. Don’t reinvent the wheel: Reuse existing job boards, engage professional recruiters, and make it easy for those who are participating in essential services to ask for help.
+
+* David, Benjamin P.; Catlin, Jonathan (2020, March 30). Theses for Theory in a Time of Crisis [#Opinion, Public Seminar].
+  * Retrieved from https://publicseminar.org/essays/theses-for-theory-in-a-time-of-crisis/. 
+  > KEYQUOTE: Resist the “shock doctrine.” Emergencies have been declared before and will be again. This is a time to make demands on, more than to rely on, governments. Reliance is passive. Demand is active.
+
+# Recent ICs News
+
+# Unsorted ICs News
+
+https://twitter.com/ChristopherA/status/1250810284505042945
+https://www.ft.com/content/e00120a2-74cd-11ea-ad98-044200cb277f
+https://ftalphaville.ft.com/2020/04/15/1586943153000/Why-are-we-really-in-lockdown--/
+
+# Related Materials
+
+## Twitter Lists
 
 **My Twitter list of technologists, advocates, policymakers, lawyers, regulators, etc. w/ a particular focus on privacy.**
 * Allen, Christopher (2002-2020) Twitter "Privacy Tech & Advocacy" List [#SocialMedia #Influencers]
   * Retrieved from: https://twitter.com/i/lists/1068260260555579393
 
+## Notable Tweets
 
 * Vescent, Heather (2020, April 15). Tweet Thread. [#Opinion, Twitter].
   * Retrieved from https://twitter.com/heathervescent/status/1249729223180181506?s=21. 
@@ -336,12 +375,47 @@ Copyright :copyright:2020 by Christopher Allen, and is shared under CC-BY-SA ope
   * Retrieved from https://twitter.com/rooshv/status/1248620738963107842?s=21. 
   > KEYQUOTE: I will not carry an immunity passport to retain my rights as an American citizen.
 
-- [Introduction to Covid-19 Immunity Certificates built on Verifiable Credentials - YouTube](https://www.youtube.com/watch?v=i3HIV-MX6Ag&feature=youtu.be)
+## Other Related Credentials Technologies
 
-- [Hypothetical COVID-19 Credential VC Data Model v2](https://lists.w3.org/Archives/Public/public-credentials/2020Apr/0195.html)
-    > Thanks for the feedback regarding the v1 example covid credentials. Here is a v2 that was made possible thanks to your feedback:
-        * https://w3c-ccg.github.io/vc-examples/covid-19/v2/v2
+* Chadwick, David W., Laborde, Romain, Oglaza, Arnaud, Venant, Remi, Wazan, Ahmad Samer, Nijjar, Manreet (2019, Month DD). Improved Identity Management with Verifiable Credentials and FIDO [#Implemention #Opinion, University of Kent - Academic Repository].
+  * Retrieved from https://kar.kent.ac.uk/80304/. 
+  > ABSTRACT: We describe how FIDO and W3C VCs can overcome the problems of existing identity management systems. We describe our conceptual prescription drugs. Our initial user trials with 10 U.K. NHS patients found the system to be easy to use, and fingerprints to be preferable to using usernames and passwords for authentication
 
+* Duffy, Kim Hamilton; Pongratz, Hans; Schmidt, J. Philipp (2020, February). Building the digital credential infrastructure for the future [#Implementation, Digital Credentials Consortium].
+  * Retrieved from https://digitalcredentials.mit.edu/wp-content/uploads/2020/02/white-paper-building-digital-credential-infrastructure-future.pdf. 
+  > KEYQUOTE:  The system we are designing can be used to issue and verify many different types of academic credentials, ranging from university degrees and diplomas, to individual course credits, to alternative credentials (including microcredentials) for online courses or face-toface workshops. Issuers decide the information they must include in the credential. Our system will not change the way universities provide instruction, assess learning, or make decisions about awarding credentials. It simply offers a more powerful and convenient way to share, manage, and verify the credentials.
 
+* Hawk, Sandro, et al. (2020, February 24). Reviewed Credibility Signals [#Implementation, credweb.org].
+  * Retrieved from https://credweb.org/reviewed-signals-20200224/. 
+  > KEYQUOTE: Credibility signals are observations, made by humans or machines, which are used in deciding how much to trust some information. This document specifies some types of these observations which seem particularly useful in online credibility assessments, especially when assisted by machine processing and a network of people and systems making related observations.
 
+## Events & Meetings
 
+### W3C CCG
+
+**W3C Credentials CG (where I am co-chair) regularly discusses identity & privacy, and more recently #ImmunityCredentials:**
+
+* Andrieu, Joe; Hamilton Duffy, Kim; Allen; Christopher (2020, March 24). Credentials CG Telecon. [#Review #Meeting, W3C Credentials CG].
+  * Retrieved from https://w3c-ccg.github.io/meetings/2020-03-24/. 
+
+* Replies in the CCG worth reading:
+  https://lists.w3.org/Archives/Public/public-credentials/2020Mar/0094.html
+  https://lists.w3.org/Archives/Public/public-credentials/2020Mar/0108.html
+  https://lists.w3.org/Archives/Public/public-credentials/2020Mar/0112.html
+  https://lists.w3.org/Archives/Public/public-credentials/2020Mar/0113.html
+  https://lists.w3.org/Archives/Public/public-credentials/2020Mar/0120.html
+  https://lists.w3.org/Archives/Public/public-credentials/2020Mar/0124.html
+
+### Rebooting the Web of Trust
+
+I have been hosting Rebooting the Web of Trust, a twice-a-year design workshop that brings together experts in the decentralized digital identity and privacy community in a collaborative "design workshop" that has published 50+ collaborative white papers. It is where the W3C Decentralized Identifier specification, which is on its way to becoming an international standard, was originally incubated.**
+
+**Unfortunately our last event in Buenos Aires where we planned to discussion #LocationPrivacy and other related Covid-19 privacy topics was cancelled. We are working now on plans for an event in the Fall in the EU, and expect many privacy tech, policy, and regulatory experts coming specifically to work on the next generation of these technologies.
+
+* Rebooting The Web of Trust https://www.WebOfTrust.info
+
+## Sponsorship
+
+> Reminder: You can become a monthly patron on my [GitHub Sponsor Page](https://github.com/sponsors/ChristopherA) for as little as $5 a month; and your contributions will be multipled, as GitHub is matching the first $5,000! Alternatively, you can support my efforts by sponsoring [Blockchain Commons](https://www.BlockchainCommons.com) and our vision of the open web via a monthly [GitHub Sponsorship](https://github.com/sponsors/BlockchainCommons) or with Bitcoin via our BTCPay contribution page, [Bitcoin contribution](https://btcpay.blockchaincommons.com).
+>
+> -- Christopher Allen <ChristopherA@LifeWithAlacrity.com\>, Github: [@ChristopherA](https://github.com/ChristopherA), Twitter: [@ChristopherA](https://twitter.com/ChristopherA)
