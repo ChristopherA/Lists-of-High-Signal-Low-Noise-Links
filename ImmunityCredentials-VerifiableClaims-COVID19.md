@@ -20,6 +20,35 @@ title: '#ImmunityCredentials #VerifiableClaims #COVID19'
 
 # Table of Contents
 
+- [Status & Copyright](#status---copyright)
+- [Related Lists](#related-lists)
+- [My Personal POV](#my-personal-pov)
+- [Immunity Credentials Primer](#immunity-credentials-primer)
+  * [Background: Immunoprivilege](#background--immunoprivilege)
+  * [Introduction to Immunity Credentials (ICs)](#introduction-to-immunity-credentials--ics-)
+  * [General concerns about ICs](#general-concerns-about-ics)
+    + [Concern 1: Validity](#concern-1--validity)
+    + [Concern 2: Accuracy](#concern-2--accuracy)
+    + [Concern 3: Moral Hazard](#concern-3--moral-hazard)
+    + [Concern 4: Discrimination](#concern-4--discrimination)
+- [Potential Implementations of ICs](#potential-implementations-of-ics)
+  * [Discussion of ICs implementation](#discussion-of-ics-implementation)
+  * [Commentary on specific ICs projects](#commentary-on-specific-ics-projects)
+  * [Unsorted list of specific ICs projects](#unsorted-list-of-specific-ics-projects)
+- [ICs Recommendations](#ics-recommendations)
+  * [Guidelines for Technologists](#guidelines-for-technologists)
+  * [Policy Considerations for Governments](#policy-considerations-for-governments)
+- [Recent ICs News](#recent-ics-news)
+- [Unsorted ICs News](#unsorted-ics-news)
+- [Related Materials](#related-materials)
+  * [Twitter Lists](#twitter-lists)
+  * [Notable Tweets](#notable-tweets)
+  * [Other Related Credentials Technologies](#other-related-credentials-technologies)
+  * [Events & Meetings](#events---meetings)
+    + [W3C CCG](#w3c-ccg)
+    + [Rebooting the Web of Trust](#rebooting-the-web-of-trust)
+  * [Sponsorship](#sponsorship)
+
 # Status & Copyright
 
 - Version 0.0.2 (2020, April 19) New structure, courtesy Vinay Taylor ([Gitub:@VinayTaylor](https://github.com/vinaytaylor) [Twitter:@VinayTaylor](https://twitter.co/VinayTaylor))
@@ -42,7 +71,7 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
 * Allen, Christopher (2020, 29 January). Christopher Allen - Self-Sovereign Identity [#SSI #Opinion #Presentation, Dutch Blockchain Coalition & TNO].
   * Presentation retrieved from https://docs.google.com/presentation/u/1/d/1BbkBX-tUgifiS_VKcqCZYRTQAGF5pK-JEYQwmHYbMcI/edit
   * Video retrieved from https://www.youtube.com/watch?v=WlDSMRb_X-s.
-  > KEYQUOTE: How do we prevent these architectures, which are well intended and have these principles...how do we be sure that we can design them in ways that make it harder for them to be [misused/exploited].  
+  > KEYQUOTE: How do we prevent these architectures, which are well intended and have these principles...how do we be sure that we can design them in ways that make it harder for them to be [misused or exploited].  
 
 **I am co-chair of this World-Wide-Web Consortium (#W3C) community group, where a number of important credentials and identity specifications were nurtured to the point where they could be formalized into international standards. Most notably, the Verifiable Credentials specification is now a full standard, and the Decentralized Identity specification is well on its way.** 
 
