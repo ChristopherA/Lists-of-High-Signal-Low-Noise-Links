@@ -27,8 +27,8 @@ title: '#ImmunityCredentials #VerifiableClaims #COVID19'
   * [Background: Immunoprivilege](#background--immunoprivilege)
   * [Introduction to Immunity Credentials (ICs)](#introduction-to-immunity-credentials--ics-)
   * [General concerns about ICs](#general-concerns-about-ics)
-    + [Concern 1: Validity](#concern-1--validity)
-    + [Concern 2: Accuracy](#concern-2--accuracy)
+    + [Concern 1: Immunity Validity](#concern-1--immunity-validity)
+    + [Concern 2: Testing Accuracy](#concern-2--testing-accuracy)
     + [Concern 3: Moral Hazard](#concern-3--moral-hazard)
     + [Concern 4: Discrimination](#concern-4--discrimination)
 - [Potential Implementations of ICs](#potential-implementations-of-ics)
@@ -87,7 +87,7 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
   * Thread (long) starts at: https://lists.w3.org/Archives/Public/public-credentials/2020Apr/0119.html
   * Example of a hypothetical COVID-19 VC data model: https://lists.w3.org/Archives/Public/public-credentials/2020Apr/0195.html; https://w3c-ccg.github.io/vc-examples/covid-19/v2/v2
 
-**Some specific implementations of Immunity Credentials in response to COVID-19 have begun [see specific implementations of ICs]**
+**Some specific implementations of Immunity Credentials in response to COVID-19 have begun, refer to [Commentary on specific ICs projects](#commentary-on-specific-ics-projects)**
 
 # Immunity Credentials Primer
 
@@ -97,11 +97,23 @@ Vaccines are a biological preparation that provide active acquired immunity to a
 
 Estimates vary, but a C19 vaccine is 12-18 months away. In the absence of a COVID19 vaccine, immunity may be acquired through disease infection and recovery.
 
-Immunity Credentials/Passport/Certificates are touted as a solution to the economic devastation of COVID19 lockdowns. If a person was infected and recovered, they may be eligible to reenter society and work.
+**Immunity Credentials/Passport/Certificates are touted as a solution to the economic devastation of COVID19 lockdowns. If a person was infected and recovered, they may be eligible to reenter society and work.**
 
 ## Background: Immunoprivilege
 
+In previous epidemics, like the Yellow Fever, having a passport meant you could work, earn money, get promoted during a healthy labor shortage. It meant that you had access to better food, living conditions, and wealthier courting options.
+
+So people would try to get the credential by getting sick on purpose and hoping to survive the illness. Others went to the grey market, to bribe a doctor or public health official for legit papers, or buy counterfeit passes, or steal legit ones.
+
 **History suggests that we need to be cautious implementing a system of immunity-based privilege:**
+
+* Mosley, Tonya (2020, April 17). In Antebellum New Orleans, Immunity From Yellow Fever Was A Form Of Privilege. Could That Happen With COVID-19? [#News #Opinion, wbur].
+  * Retrieved from https://www.wbur.org/hereandnow/2020/04/17/coronavirus-immunity-privilege-yellow-fever.
+  > KEYQUOTE: To fully understand just how valuable being acclimated was, Olivarius says, look no further than the auction block. There, being immune to yellow fever would drive up the price of an enslaved person by 25-50%.
+
+  > Fast forward to today and the parallels are hard to miss, Olivarius says. Early data shows black Americans are dying at higher rates from COVID-19, and many immigrants who pick our food have transformed into “essential” laborers overnight. Meanwhile, the elites retreat to the safety of their homes, and even second homes where they can practice social distancing.
+
+  > Olivarius says that while she hopes immunity from COVID-19 becomes a productive, positive part of our recovery — with immune individuals taking care of the elderly or helping to do more tests, for example — she’s also afraid immunity could exacerbate the inequalities already present in our society, just as it did in New Orleans more than a century ago. 
 
 * Zhang, Sarah (2020, April 16). The People Who Risked Death for Immunity [#News #Opinion, The Atlantic].
   * Retrieved from https://www.theatlantic.com/science/archive/2020/04/immunity-divide/610054/.
@@ -111,7 +123,11 @@ Immunity Credentials/Passport/Certificates are touted as a solution to the econo
   * Retrieved from https://www.nytimes.com/2020/04/12/opinion/coronavirus-immunity-passports.html.
   > ABSTRACT: Immunity on a case-by-case basis did permit the economy to expand, but it did so unevenly: to the benefit of those already atop the social ladder, and at the expense of everyone else. When a raging virus collided with the forces of capitalism, immunological discrimination became just one more form of bias in a region already premised on racial, ethnic, gender and financial inequality.
 
+* Link to original paper cited in above 3 articles https://academic.oup.com/ahr/article/124/2/425/5426380
+
 ## Introduction to Immunity Credentials (ICs)
+
+**The point of any credential like this is to divide people into haves and have nots. A barrier to some rights, like a subway turnstile.**
 
 * Hou, Chia-Yi (2020, April 14). What are 'immunity passports' and could they help us end the coronavirus lockdown? [#News #Opinion, The Hill].
     * Retrieved from https://thehill.com/changing-america/well-being/prevention-cures/492699-what-are-immunity-passports-and-how-could-they.
@@ -125,7 +141,9 @@ Immunity Credentials/Passport/Certificates are touted as a solution to the econo
 
 **COVID-19 is a new disease, and there is very little we know about it, including how the human body responds and develops antibodies to it.**
 
-### Concern 1: Validity
+**How do we assure ourselves the design is not inherently unjust? Turnstiles blocked people in wheelchairs as a side effect of making it harder to cheat, for example. I'm concerned that choice in passport design and implementation will amplify existing social injustices, inequities, and bad behavior.**
+
+### Concern 1: Immunity Validity
 
 * Aschwanden, Christie (2020, April 16). Sorry, Immunity to Covid-19 Won't Be Like a Superpower [#News #Opinion, Wired].
   * Retrieved from https://www.wired.com/story/sorry-immunity-to-covid-19-wont-be-like-a-superpower/
@@ -149,7 +167,7 @@ Immunity Credentials/Passport/Certificates are touted as a solution to the econo
   * Retrieved from https://www.technologyreview.com/2020/04/09/998974/immunity-passports-cornavirus-antibody-test-outside/
   > KEYQUOTE: Coronavirus antibody testing needs to get a lot better, and so does our understanding of immunity, before people can start circulating freely.
 
-### Concern 2: Accuracy
+### Concern 2: Testing Accuracy
 
 **The rush to develop antibody tests means more risk in terms of accuracy:**
 
@@ -174,11 +192,11 @@ Immunity Credentials/Passport/Certificates are touted as a solution to the econo
   * Retrieved from https://caravanmagazine.in/health/india-digitial-response-covid-19-risks-inefficacy-exclusion-discrimination
   > KEY QUOTE: The overlap between the public-health system and the security apparatus, combined with the lack of adequate privacy laws, also engenders distrust from the very people who are expected to volunteer information and cooperate with government efforts to contain the pandemic. Even in the context of epidemics such as HIV/AIDS, human-rights and constitutional courts have recognised that such discriminatory and punitive practices violate the right to privacy, and are counterproductive to public-health efforts. These patterns of “policing” the pandemic are not unique to India. In Canada, multiple new laws have resulted in six-figure fines and prison time for those who dviolate physical-distancing rules. In the United States and the United Kingdom, too, two countries with deep historical legacies of discriminatory and arbitrary policing, there are concerns that police discretion in the enforcement of COVID-19 restrictions will hit communities of colour the hardest.
 
-the technological architecture to make credentials, passports or such certificates work in practice is a reality today.**
-
 # Potential Implementations of ICs
 
-**Though the antibody testing and immunity science is yet to be solved for, along with the legal implications, that hasn't stopped countries/consortiums from considering implementation of COVID Immunity Certificates, Passports or Credentials:**
+**Though the antibody testing and immunity science is yet to be solved for, along with the legal implications, that hasn't stopped countries/consortiums from considering implementation of COVID Immunity Certificates, Passports or Credentials.**
+
+**The technological architecture to make credentials, passports or such certificates work in practice is a reality today:**
 
 * Unknown (2020, April 14). 60 strong Self Sovereign Identity group targets COVID-19 immunity passports, credentials [#News #Opinion, Ledger Insights].
   * Retrieved from https://www.ledgerinsights.com/sovereign-identity-covid-19-immunity-passports-credentials/. 
@@ -193,7 +211,7 @@ the technological architecture to make credentials, passports or such certificat
 
 * Renieris, Elizabeth M. (2020, April 13). Tweet Thread. [#Opinion, Twitter].
   * Retrieved from https://twitter.com/hackylawyer/status/1249742819520102401?s=21. 
-  > KEYQUOTE: ...this program [Known Traveler Digital Identity https://papersplease.org/wp/2020/03/30/known-traveler-digital-identity-ktdi/] is extremely concerning @evernym. According to @PapersPlease, the KTDI would even include a "pre-crime predictive 'risk assessment' and profiling score."
+  > KEYQUOTE: ...this program [ Known Traveler Digital Identity https://papersplease.org/wp/2020/03/30/known-traveler-digital-identity-ktdi/ ] is extremely concerning @evernym. According to @PapersPlease, the KTDI would even include a "pre-crime predictive 'risk assessment' and profiling score."
 
 ## Discussion of ICs implementation
 
@@ -203,6 +221,10 @@ the technological architecture to make credentials, passports or such certificat
   * Retrieved from https://www.wsj.com/articles/coronavirus-immunity-passport-stumbles-in-u-k-11586705619?mod=e2tw. 
   > KEYQUOTE: These antibody tests are different from the swab tests aimed at determining whether a person carries the virus. They are the same as the ones being rolled out in many countries, including in the U.S., as part of long-term campaigns aimed at determining what proportion of the population has been infected by the new coronavirus, and gauging immunity at a national level.
   > In the U.K., however, officials have proposed using them at an individual level, to provide people assurances that they can leave lockdown without risk of contracting the disease, known as Covid-19.
+
+* Jones, Amy (2020 April 2) Government is 'looking at' introducing immunity passports, Matt Hancock confirms [The Telegraph]
+    * Retrieved from https://www.telegraph.co.uk/politics/2020/04/02/government-looking-introducing-immunity-passports-matt-hancock/
+    > KEYQUOTE The Government is considering introducing immunity passports, so those who have had coronavirus can get back to work. Matt Hancock said he had a “very strong interest” in bringing in such a policy, after returning to work yesterday (Thursday) following his own spell of self-isolation with Covid-19. However, the Health Secretary said that it was “too early in the science of immunity” to be able to bring in a comprehensive scheme. He said: “We are looking at an immunity certificate - how people who have had the disease, have got the antibodies and therefore have immunity can... get back as much as possible to normal life.
 
 **United States**
 
@@ -224,9 +246,19 @@ the technological architecture to make credentials, passports or such certificat
   * Retrieved from https://www.theguardian.com/world/2020/mar/30/immunity-passports-could-speed-up-return-to-work-after-covid-19
   > KEYQUOTE: Researchers in Germany are currently preparing a mass study into how many people are already immune to the Covid-19 virus, allowing authorities to eventually issue passes to exclude workers from restrictive measures currently in place.
 
+* Smith, Lydia (2020, March 30). Germany To Introduce Coronavirus 'Immunity Certificates' For Recovered Public [Newsweek]
+    * Retrieved from https://www.newsweek.com/germany-antibodies-tests-general-public-immunity-certificates-1494934
+  > KEY QUOTE: The documents are part of a research project being conducted at the Helmholtz Centre for Infection Research in Braunschweig, which will conduct blood tests among the general public for antibodies produced against the virus. The antibodies will show which of the participants have had the virus and have recovered, according to a report by the German magazine Der Spiegel. Around 100,000 people will be tested at a time, and certificates issued to those found positive. The testing could start in April if researchers are given the green light.
+
 * Wighton, Daniel and Chazan, David (2020, March 29). Germany will issue coronavirus antibody certificates to allow quarantined to re-enter society [#News #Opinion, The Telegraph].
   * Retrieved from https://www.telegraph.co.uk/news/2020/03/29/germany-will-issue-coronavirus-antibody-certificates-allow-quarantined/. 
   > KEYQUOTE: German researchers plan to introduce coronavirus ‘immunity certificates’ to facilitate a proper transition into post-lockdown life, as Chancellor Angela Merkel’s handling of the crisis has led to a boost in the polls.
+
+**Italy**
+
+* Horowitz, Jason (2020, April 4). In Italy, Going Back to Work May Depend on Having the Right Antibodies [New York Times]
+    * Retrieved from https://www.nytimes.com/2020/04/04/world/europe/italy-coronavirus-antibodies.html
+    > That glimmer of hope has turned the conversation to the daunting challenge of when and how to reopen without setting off another cataclysmic wave of contagion. To do so, Italian health officials and some politicians have focused on an idea that might once have been relegated to the realm of dystopian novels and science fiction films. Having the right antibodies to the virus in one’s blood — a potential marker of immunity — may soon determine who gets to work and who does not, who is locked down and who is free.
 
 **Some proposed implementations are for specific sectors, like tourism and sports:**
 
@@ -274,22 +306,6 @@ the technological architecture to make credentials, passports or such certificat
     * GitHub source https://github.com/hellobloom/vc/blob/vc-network-update/dev/packages/vc-data/src/data/medical.ts
     > KEYQUOTE: Issuing Verified Immunity Credentials (VIC) to those who are immune would also help people quickly find new jobs by being able to digitally show proof of immunity to employers.
     
-** These implementations I know very little about.**
-
-* Britain, Immunity Passports
-  * Jones, Amy (2020 April 2) Government is 'looking at' introducing immunity passports, Matt Hancock confirms [The Telegraph]
-    * Retrieved from https://www.telegraph.co.uk/politics/2020/04/02/government-looking-introducing-immunity-passports-matt-hancock/
-    > KEYQUOTE The Government is considering introducing immunity passports, so those who have had coronavirus can get back to work. Matt Hancock said he had a “very strong interest” in bringing in such a policy, after returning to work yesterday (Thursday) following his own spell of self-isolation with Covid-19. However, the Health Secretary said that it was “too early in the science of immunity” to be able to bring in a comprehensive scheme. He said: “We are looking at an immunity certificate - how people who have had the disease, have got the antibodies and therefore have immunity can... get back as much as possible to normal life.
-
-* Germany (Helmholtz Centre for Infection Research)
-  * Smith, Lydia (2020, March 30). Germany To Introduce Coronavirus 'Immunity Certificates' For Recovered Public [Newsweek]
-    * Retreived from https://www.newsweek.com/germany-antibodies-tests-general-public-immunity-certificates-1494934
-    
-* Italy, Veneto Region, Covid Pass
-  * Horowitz, Jason (2020, April 4). In Italy, Going Back to Work May Depend on Having the Right Antibodies [New York Times]
-    * Retreived from https://www.nytimes.com/2020/04/04/world/europe/italy-coronavirus-antibodies.html
-    > That glimmer of hope has turned the conversation to the daunting challenge of when and how to reopen without setting off another cataclysmic wave of contagion. To do so, Italian health officials and some politicians have focused on an idea that might once have been relegated to the realm of dystopian novels and science fiction films. Having the right antibodies to the virus in one’s blood — a potential marker of immunity — may soon determine who gets to work and who does not, who is locked down and who is free.
-
 # ICs Recommendations
 
 ## Guidelines for Technologists
@@ -318,13 +334,13 @@ the technological architecture to make credentials, passports or such certificat
   * Retrieved from https://www.w3.org/TR/vc-use-cases/. 
   > ABSTRACT: A verifiable claim is a qualification, achievement, quality, or piece of information about an entity's background such as a name, government ID, payment provider, home address, or university degree. Such a claim describes a quality or qualities, property or properties of an entity which establish its existence and uniqueness. The use cases outlined here are provided in order to make progress toward possible future standardization and interoperability of both low- and high-stakes claims with the goals of storing, transmitting, and receiving digitally verifiable proof of attributes such as qualifications and achievements. The use cases in this document focus on concrete scenarios that the technology defined by the group should address.
 
-**At this point there has yet to be any analysis of any of the Immunity Credentials implementations, however this shows how it could work in the UK context:"
+**At this point there has yet to be any analysis of any of the Immunity Credentials implementations, however this shows how it could work in the UK context:**
 
 * Chadwick, David (2020, April 13). Introduction to Covid-19 Immunity Certificates built on Verifiable Credentials [#Implementation #Video, YouTube].
   * Retrieved from https://www.youtube.com/watch?v=i3HIV-MX6Ag&feature=youtu.be)
   > ABSTRACT: This is the first of 3 videos that demonstrate our Verifiable Credential infrastructure. This is the introductory video. The next two describe the Registration Process and Transaction Process respectively in more detail. 
 
-**I also do want to point you to the *Privacy Considerations* section of the Verifiable Claims standard as a start on the issues in general.*
+**I also would point you to the *Privacy Considerations* section of the Verifiable Claims standard as a start on the issues in general.**
 
 * Sporny, Manu; Noble, Grant; Longley, Dave; Burnett, Daniel C.; Zundel, Brent (2019, November 19). Privacy Considerations of Verifiable Credentials Data Model 1.0 [#Implementation, #PrivacyConsideration, W3C WG].
   * Retrieved from: https://www.w3.org/TR/vc-data-model/#privacy-considerations
