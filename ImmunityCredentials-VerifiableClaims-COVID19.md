@@ -89,6 +89,19 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
 
 **Some specific implementations of Immunity Credentials in response to COVID-19 have begun, refer to [Commentary on specific ICs projects](#commentary-on-specific-ics-projects)**
 
+**I like this quote for Orie Steele "We should be careful to support systems that citizens, corporations and governments are using today, and establish parity, before pushing the boundaries of space time with blockchains and verifiable credentials" [insert source, or twitter/GitHub]**
+
+**We need to remain vigilant**
+* Rachman, Gideon (2020, April 20). How strongman leaders will exploit the coronavirus crisis [#News #Opinion, Financial Times, Paywall].
+  * Retrieved from https://www.ft.com/content/4cb87988-82df-11ea-b555-37a289098206
+  > KEY QUOTE: There are also alarming historical precedents in which governments have used an emergency to claim dictatorial powers, which are then left unrepealed. A classic case was Hitler’s use of the Reichstag fire in 1933 to establish the power to rule by decree...An expansion of state-surveillance, once rolled out, could be hard to reverse and will be a potent tool for would-be dictators.
+
+**Harvard published a white paper on April 20, further highlighting the need for any technological intervention to be ethical, balanced, and privacy preserving**
+
+* Gruener, Dakota (2020, April 20). Immunity Certificates: If We Must Have Them, We Must Do It Right [#Opinion, #WhitePaper, Harvard].
+    * Retrieved from https://ethics.harvard.edu/files/center-for-ethics/files/safracenterforethicswhitepaper8_01.pdf
+    . KEY QUOTE: Proactive adaptation of existing, purpose-built, privacy-preserving technology, grounded in respect for equity and human rights, offers a means to protect society from a resurgence of the disease, while safeguarding individual privacy and civil liberties. To protect individuals from surveillance, discrimination, fraud, or exclusion, we must ensure that systems developed to serve these purposes are private, secure, and accessible—and are developed using open-source technology and open standards for interoperability and universal access. 
+
 # Immunity Credentials Primer
 
 Vaccines are a biological preparation that provide active acquired immunity to a particular infectious disease. Some countries^1 require a certificate showing you have been vaccinated before you are allowed entry, known as an International Certificate of Vaccination or Prophylaxis (ICVP). The only disease (currently) designated under ICVP is yellow fever.
@@ -124,6 +137,10 @@ So people would try to get the credential by getting sick on purpose and hoping 
   > ABSTRACT: Immunity on a case-by-case basis did permit the economy to expand, but it did so unevenly: to the benefit of those already atop the social ladder, and at the expense of everyone else. When a raging virus collided with the forces of capitalism, immunological discrimination became just one more form of bias in a region already premised on racial, ethnic, gender and financial inequality.
 
 * Link to original paper cited in above 3 articles https://academic.oup.com/ahr/article/124/2/425/5426380
+
+* Jones, David (2020, March 12). History in a Crisis — Lessons for Covid-19 [#Opinion, New England Journal of Medicine].
+  * Retrieved from https://www.nejm.org/doi/full/10.1056/NEJMp2004361
+  > ABSTRACT: One dramatic aspect of epidemic response is the desire to assign responsibility. From Jews in medieval Europe to meat mongers in Chinese markets, someone is always blamed. This discourse of blame exploits existing social divisions of religion, race, ethnicity, class, or gender identity. Governments then respond by deploying their authority, with quarantine or compulsory vaccination, for instance. This step generally involves people with power and privilege imposing interventions on people without power or privilege, a dynamic that fuels social conflict.
 
 ## Introduction to Immunity Credentials (ICs)
 
@@ -304,8 +321,14 @@ So people would try to get the credential by getting sick on purpose and hoping 
   * Hays, Connor (2020, April 2). Helping Fight COVID-19 with Verifiable Immunity Credentials [#Opinion #Implementation, Bloom.co].
     * Retrieved from https://bloom.co/blog/helping-fight-covid-19-with-verifiable-immunity-credentials
     * GitHub source https://github.com/hellobloom/vc/blob/vc-network-update/dev/packages/vc-data/src/data/medical.ts
-    > KEYQUOTE: Issuing Verified Immunity Credentials (VIC) to those who are immune would also help people quickly find new jobs by being able to digitally show proof of immunity to employers.
-    
+  > KEYQUOTE: Issuing Verified Immunity Credentials (VIC) to those who are immune would also help people quickly find new jobs by being able to digitally show proof of immunity to employers.
+
+* HIE of One created the Trustee Immunity Passport
+  * Gropper, Adrian (2020, April). Trustee Immunity Passport [#Implementation, HIE of One]
+    * Google doc retrieved from https://docs.google.com/document/d/1F9yUn1kYaSiSlLGyijmGDkZdl3hWh5Zs0Z9JBKpYH7s/edit
+    * Presentation https://docs.google.com/presentation/d/1_yYc-DfvYs8B65XINLAG0YagcUN56baC1u679SKaKVE/edit#slide=id.g734c357190_2_36
+  > KEY QUOTE: Trustee Immunity Passport is a novel solution based on self-sovereign technology and decentralized governance. Each individual’s Trustee permits access to signed clinical information. Individuals can grant or rescind access to their immunity status, immediately and at any time, to provide expertly interpreted serologic information to employers, schools, businesses, public services, disease-focused communities, or others, using a smartphone. 
+
 # ICs Recommendations
 
 ## Guidelines for Technologists
@@ -393,6 +416,8 @@ So people would try to get the credential by getting sick on purpose and hoping 
 https://twitter.com/ChristopherA/status/1250810284505042945
 https://www.ft.com/content/e00120a2-74cd-11ea-ad98-044200cb277f
 https://ftalphaville.ft.com/2020/04/15/1586943153000/Why-are-we-really-in-lockdown--/
+https://www.bloomberg.com/news/articles/2020-04-19/nigerian-union-ends-threat-to-halt-oil-exports-as-staff-released (not IC specific, but example of misuse of emergency powers)
+Pre-COVID19 requirements for "medical authorization to travel" https://www.airnewzealand.com/special-assistance-flying-with-medical-conditions
 
 # Related Materials
 
@@ -435,6 +460,12 @@ https://ftalphaville.ft.com/2020/04/15/1586943153000/Why-are-we-really-in-lockdo
   > KEYQUOTE: Credibility signals are observations, made by humans or machines, which are used in deciding how much to trust some information. This document specifies some types of these observations which seem particularly useful in online credibility assessments, especially when assisted by machine processing and a network of people and systems making related observations.
 
 ## Events & Meetings
+
+### MYDATA AND COVID-19
+
+** Weekly updates on the developments of human-centric data-based apps to fight COVID-19. Calls take place every Wednesday at 15-16 CEST in Jitsi. For details, join mydata.org/slack #coronadata channel.
+
+* https://mydata.org/covid-19/
 
 ### W3C CCG
 
