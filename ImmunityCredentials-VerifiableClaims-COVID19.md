@@ -89,7 +89,7 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
 
 **Some specific implementations of Immunity Credentials in response to COVID-19 have begun, refer to [Commentary on specific ICs projects](#commentary-on-specific-ics-projects)**
 
-**I like this quote for Orie Steele "We should be careful to support systems that citizens, corporations and governments are using today, and establish parity, before pushing the boundaries of space time with blockchains and verifiable credentials" [insert source, or twitter/GitHub]**
+**I like this quote for Orie Steele "We should be careful to support systems that citizens, corporations and governments are using today, and establish parity, before pushing the boundaries of space time with blockchains and verifiable credentials" Twitter [@OR13b](https://twitter.com/OR13b)**
 
 **We need to remain vigilant**
 * Rachman, Gideon (2020, April 20). How strongman leaders will exploit the coronavirus crisis [#News #Opinion, Financial Times, Paywall].
