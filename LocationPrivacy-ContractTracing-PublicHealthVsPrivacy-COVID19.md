@@ -82,6 +82,14 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
   > We also need to set the stage so that in the long term we can invest in the much more difficult problems of solving these problems more idealistically correctly. We need to fund things like deep requirements engineering, great user centric design including nudge/incentive/mechanism/ approaches, as well implementing the latest secure code practices, privacy protocols, zk-proofs and other modern cryptographic security approaches, etc.
   > For if we do not be somewhat pragmatic now, and set a stage to be able to invest in a more ideal future, we risk that everything we are currently doing on the privacy front now will fail because in the end, everyone will being tracked at another layer."
 
+**Harvard white-paper supporting this thinking on April 3**
+
+* Vi, Hart; et al (2020, April 3). Outpacing the Virus: Digital Response to Containing the Spread of COVID-19 while Mitigating Privacy Risks [#Opinion, #Paper, Edmond J. Safra Center for Ethics - Harvard].
+    * Retrieved from https://ethics.harvard.edu/outpacing-virus
+    > KEY QUOTE: xyz
+
+https://ethics.harvard.edu/outpacing-virus
+
 # Contact Tracing Primer
 ## Background: Contact Tracing
 
@@ -404,7 +412,7 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
   * Retrieved from https://www.lawfareblog.com/covid-19-contact-tracing-we-can-live-roadmap-and-recommendations
   > KEY QUOTE Notably, it is not clear that such legislation could be enacted at the federal level, as a constitutional matter. It likely would generate a Sebelius-style challenge, with litigants contending that it amounts to the mandatory use of a product akin to the mandatory purchase of health insurance under the Affordable Care Act. The Supreme Court held in Sebelius that Congress cannot rely on its Interstate Commerce authority to command individuals to engage in a commercial purchase when they would otherwise do no such thing, and even rejected the idea that such an authority can be derived from the Necessary and Proper Clause due to the critical role such purchases played in support of the larger, otherwise-constitutional insurance rules established by the statute. Might the same be true here? True, the requirement to download and use an app for public-health data-collection purposes is not in itself necessarily best viewed as a commercial activity. But then again neither was the must-eat-broccoli hypothetical that Chief Justice John Roberts used to illustrate the dangers of empowering Congress to make us take affirmative actions. Sebelius might best be read as a broad rule against federal legislative authority to compel affirmative activity, not just one barring statutory obligations to buy things.
 
-**Specific Senate Committee hearing on 
+**Specific Senate Committee hearing on big data and COVID-19** 
 
 * Calo, Prof Ryan (2020, April 9). Enlisting Big Data in the Fight Against Coronavirus [#Opinion, Senate	Committee on Commerce, Science, and Transportation].
     * Retrieved from https://www.commerce.senate.gov/services/files/D069F0C0-2B67-4999-AC75-5BC41D14D00C
@@ -431,6 +439,12 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
 * Johnston, Anna (2020, March 31). Privacy in a pandemic: Keep calm, and remember first principles [#News #Opinion, Salinger Privacy].
   * Retrieved from https://www.salingerprivacy.com.au/2020/03/31/privacy-in-a-pandemic/.
   > KEYQUOTE: Indeed a national committee of all the Australian privacy regulators has been formed to respond to COVID-related proposals with national implications (such as development of a contact tracing tool), and they have reiterated the value of conducting short-form Privacy Impact Assessments on proposed solutions to public health and economic problems, to make sure privacy is considered in the design process.  
+
+**And pandemic responses for the Western world may not be suitable for developing nations, here are some useful general guidelines for policymakers with a focus on India as an example:**
+
+* Rajagopalan, Shruti; Tabarrok, Alexander (April 9, 2020). Pandemic Policy in Developing Countries: Recommendations for India [#Opinion, #Policy]
+  * Retrieved from https://www.mercatus.org/publications/covid-19-policy-brief-series/pandemic-policy-developing-countries-recommendations-india
+   > KEY QUOTE: India needs to find local solutions suited to its unique context to effectively deal with the pandemic. We have collated 10 recommendations for the Indian context, many of which will also apply to other developing countries.
 
 # Recent CTT News
 *(Most recent first)*
@@ -519,6 +533,8 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
 
 # Unsorted CTT News
 
+- First look at Australia's contact tracing app https://twitter.com/VTeagueAus/status/1252768937357438977
+- Machine learning could check if you’re social distancing properly at work https://www.technologyreview.com/2020/04/17/1000092/ai-machine-learning-watches-social-distancing-at-work/
 - Revealed: The UK’s “Three Stage” Exit Strategy To Ease The Coronavirus Lockdown https://www.buzzfeed.com/alexwickham/coronavirus-uk-lockdown-three-stage-exit-plan
 - The UK’s Information Commissioner’s Office announced on Wednesday it would go easier on companies found negligent on data security breaches, including reducing the level of fines and giving them longer to correct their failings in the current climate. https://ico.org.uk/media/about-the-ico/policies-and-procedures/2617613/ico-regulatory-approach-during-coronavirus.pdf
 - Coronavirus: An EU approach for efficient contact tracing apps to support gradual lifting of confinement measures https://ec.europa.eu/commission/presscorner/detail/en/IP_20_670
@@ -587,9 +603,9 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
 
 ## Events & Meetings
 
-### ImPACT 2020 (April 16, 2020 11 a.m. - 2 p.m. ET/US)
+### ImPACT 2020 (2020, April 16. Recording available)
 
-**Three-hour mini-conference (the first in a series of mini-conferences to foster a public dialogue on private automated contact tracing technology) to provide technologists, privacy experts, and public health officials with a forum to discuss how contact tracing can be used to slow the spread of COVID-19, and how privacy-preserving automated contact tracing can augment manual contact tracing.
+**Three-hour mini-conference (the first in a series of mini-conferences to foster a public dialogue on private automated contact tracing technology) to provide technologists, privacy experts, and public health officials with a forum to discuss how contact tracing can be used to slow the spread of COVID-19, and how privacy-preserving automated contact tracing can augment manual contact tracing.**
 
   * Retrieved from https://pact.mit.edu/impact-2020/
 
@@ -610,9 +626,9 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
 
 ### Rebooting the Web of Trust
 
-I have been hosting Rebooting the Web of Trust, a twice-a-year design workshop that brings together experts in the decentralized digital identity and privacy community in a collaborative "design workshop" that has published 50+ collaborative white papers. It is where the W3C Decentralized Identifier specification, which is on its way to becoming an international standard, was originally incubated.**
+**I have been hosting Rebooting the Web of Trust, a twice-a-year design workshop that brings together experts in the decentralized digital identity and privacy community in a collaborative "design workshop" that has published 50+ collaborative white papers. It is where the W3C Decentralized Identifier specification, which is on its way to becoming an international standard, was originally incubated.**
 
-**Unfortunately our last event in Buenos Aires where we planned to discussion #LocationPrivacy and other related Covid-19 privacy topics was cancelled. We are working now on plans for an event in the Fall in the EU, and expect many privacy tech, policy, and regulatory experts coming specifically to work on the next generation of these technologies.
+**Unfortunately our last event in Buenos Aires where we planned to discussion #LocationPrivacy and other related Covid-19 privacy topics was cancelled. We are working now on plans for an event in the Fall in the EU, and expect many privacy tech, policy, and regulatory experts coming specifically to work on the next generation of these technologies.**
 
 * Rebooting The Web of Trust https://www.WebOfTrust.info
 
