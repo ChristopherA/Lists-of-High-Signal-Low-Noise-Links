@@ -463,7 +463,7 @@ Pre-COVID19 requirements for "medical authorization to travel" https://www.airne
 
 ### MYDATA AND COVID-19
 
-** Weekly updates on the developments of human-centric data-based apps to fight COVID-19. Calls take place every Wednesday at 15-16 CEST in Jitsi. For details, join mydata.org/slack #coronadata channel.
+**Weekly updates on the developments of human-centric data-based apps to fight COVID-19. Calls take place every Wednesday at 15-16 CEST in Jitsi. For details, join mydata.org/slack #coronadata channel.**
 
 * https://mydata.org/covid-19/
 
@@ -484,9 +484,9 @@ Pre-COVID19 requirements for "medical authorization to travel" https://www.airne
 
 ### Rebooting the Web of Trust
 
-I have been hosting Rebooting the Web of Trust, a twice-a-year design workshop that brings together experts in the decentralized digital identity and privacy community in a collaborative "design workshop" that has published 50+ collaborative white papers. It is where the W3C Decentralized Identifier specification, which is on its way to becoming an international standard, was originally incubated.**
+**I have been hosting Rebooting the Web of Trust, a twice-a-year design workshop that brings together experts in the decentralized digital identity and privacy community in a collaborative "design workshop" that has published 50+ collaborative white papers. It is where the W3C Decentralized Identifier specification, which is on its way to becoming an international standard, was originally incubated.**
 
-**Unfortunately our last event in Buenos Aires where we planned to discussion #LocationPrivacy and other related Covid-19 privacy topics was cancelled. We are working now on plans for an event in the Fall in the EU, and expect many privacy tech, policy, and regulatory experts coming specifically to work on the next generation of these technologies.
+**Unfortunately our last event in Buenos Aires where we planned to discussion #LocationPrivacy and other related Covid-19 privacy topics was cancelled. We are working now on plans for an event in the Fall in the EU, and expect many privacy tech, policy, and regulatory experts coming specifically to work on the next generation of these technologies.**
 
 * Rebooting The Web of Trust https://www.WebOfTrust.info
 
