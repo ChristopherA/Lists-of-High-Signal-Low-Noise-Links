@@ -229,6 +229,16 @@ https://ethics.harvard.edu/outpacing-virus
   * Retrieved from https://twitter.com/ChristopherA/status/1244346104054865920.
   > KEYQUOTE: Despite that I agree with those like @SarahJamieLewis that a key problem is that the task of #LocationPrivacy & real anonymity is extremely difficult, I do believe that in the short term we can be pragmatic & not suffer “the perfect is the enemy of the good… An effective Honor System is not the worst short-term outcome. We also need to set the stage to invest in the much more difficult problems of solving these problems long-term.
 
+**Despite good practices by others, governments (in this case France, and maybe the UK's NHS) will demand more than what is safe, to meet their own political desires or for efficiency of connection to their existing legacy systems. This means often they don’t look at the big picture. France/UK should be moving slower, not faster, especially given questions about efficacy of current approaches.**
+
+* Fouquet, Helene (2020, April 21). France Says Apple Bluetooth Policy Is Blocking Virus Tracker [#News, Bloomberg].
+  * Retrieved from https://www.bloomberg.com/news/articles/2020-04-20/france-says-apple-s-bluetooth-policy-is-blocking-virus-tracker 
+  > KEY QUOTE: The Google-Apple system relies on smartphones’ Bluetooth connections and will allow users to keep their data on their handsets. However, France and the European Union want to feed the data to a central server, managed by state health services, which would alert users if they come into contact with a person infected by Covid-19. Any system that sends data to a centralized location is inherently less secure and is vulnerable to “mission creep,” enabling a form of surveillance on users, according to a letter on Monday from 300 academics in more than two dozen countries, which endorsed Google and Apple’s approach.
+
+* Hern, Alex (2020, April 16). NHS in standoff with Apple and Google over coronavirus tracing [#News, The Guardian]
+  * Retrieved from https://www.theguardian.com/technology/2020/apr/16/nhs-in-standoff-with-apple-and-google-over-coronavirus-tracing
+  > KEY QUOTE: Apple and Google are encouraging health services worldwide to build contact-tracing apps that operate in a decentralised way, allowing individuals to know when they’ve been in contact with an infected person but preventing governments from using that data to build a picture of population movements in aggregate. But the policies, unveiled last week, apply only to apps that don’t result in the creation of a centralised database of contacts. That means that if the NHS goes ahead with its original plans, its app would face severe limitations on its operation.
+
 # Current Implementations of CTT
 
 **Despite these reservations, governments and private sector players across the world have started developing or deploying a dizzying array of contact tracing apps; with limited/no interoperability.**
@@ -309,6 +319,12 @@ https://ethics.harvard.edu/outpacing-virus
   > …it's not totally clear to me that this actually ensures unlinkability of RPIs and MAC addresses, because the RPIs are dependent only on the time interval (also hardcoded into the protocol), rather than having a "next RPI" ratchet (as in the TCN design).
   > The other big problem with the protocol is that because there's no information attached to reports, just an implicit "tested positive" bit, the protocol assumes the existence of a single, centralized entity who can determine whether a COVID19 test happened. But this isn't the way that testing actually works! It's a huge patchwork of different agencies doing different tests, and it's already even a challenge just to collect statistics, let alone authenticate tests.
 
+**First look at Australia's approach**
+
+* Teague, Vanessa (2020, April 21). Tweet Thread [#Review, Twitter].
+  * Retrieved from https://twitter.com/VTeagueAus/status/1252768937357438977
+  > KEY QUOTE: The answer to, "Does the commonwealth government learn your contacts when you test positive?" would be, "it depends whether Google decides to tell them."
+
 **Two early reviews of Singapore's Trace Together app and the BlueTrace protocol**
 * L, Frank (2020, March 23). Trace Together Under the Hood [#Implementation #Analysis, Medium].
   * Retrieved from https://medium.com/@frankvolkel/tracetogether-under-the-hood-7d5e509aeb5d. 
@@ -373,6 +389,12 @@ https://ethics.harvard.edu/outpacing-virus
   * Retrieved from https://cpg.doc.ic.ac.uk/blog/evaluating-contact-tracing-apps-here-are-8-privacy-questions-we-think-you-should-ask/
   > KEYQUOTE: In-depth formal analysis of the protocol is necessary before deployment and should be published. Protecting privacy should rely on mathematical proofs of correctness, with mitigation strategies considered only when necessary. Our questions focus on privacy aspects, but ensuring security is similarly crucial. This means, for example, supervising the integrity and authenticity of the crowdsourced data, evaluating how mobile malware could affect the app’s behavior, or assessing the resilience of the authority’s servers against intrusions.
   > Building a contact tracing app that allows all of us to participate in the fight against COVID19 is possible, but it will require us to go beyond shallow reassurances that privacy is protected.
+
+**Guidelines from the Electronic Frontier Foundation**
+
+* Crocker, Andrew; Hoffman-Andrews, Jacob (2020, April 6). How to Protect Privacy When Aggregating Location Data to Fight COVID-19 [#Opinion, Electronic Frontier Foundation].
+  * Retrieved from https://www.eff.org/deeplinks/2020/04/how-protect-privacy-when-aggregating-location-data-fight-covid-19
+  > KEY QUOTE: In general, our advice to organizations that consider sharing aggregate location data: Get consent from the users who supply the data. Be cautious about the details. Aggregate on the highest level of generality that will be useful. Share your plans with the public before you release the data. And avoid sharing “deidentified” or “anonymized” location data that is not aggregated—it doesn’t work.
 
 **Two technologist's first take on how to securely approach #ContactPrivacy**
   
@@ -451,6 +473,18 @@ https://ethics.harvard.edu/outpacing-virus
 
 **In this section, I try to highlight some key articles I found interesting on the topics of #LocationPrivacy #ContactTracing #PublicHealthvsPrivacy #COVID19. There's a lot of material published daily, so on a rolling basis I will limit this list to 20-25 relevant articles:**
 
+* Campbell, Kwan (2020, April 21). COVID-19 contact tracing: The tricky balance between privacy and relief efforts [#Opinon, Tech Republic].
+  * Retrieved from https://www.techrepublic.com/article/covid-19-contact-tracing-the-tricky-balance-between-privacy-and-relief-efforts/#ftag=RSS56d97e7
+  KEY QUOTE: Australia's upcoming contact tracing app would put data into an encrypted national store that is only accessible by the states and territories' "health detectives. The Commonwealth can't access the data. No government agency at the Commonwealth level, not the tax office, not government services, not Centrelink, not Home Affairs, not Department of Education, not childcare -- the Commonwealth will have no access to that data," Morrison said.
+
+* Mehta, Ivan (2020, April 21). India wants to build an ultra-intrusive ‘wristband’ to track coronavirus patients’ every move [#News #Opinion, The Next Web]
+  * Retrieved from https://thenextweb.com/in/2020/04/22/india-wants-to-build-an-ultra-intrusive-wristband-to-track-coronavirus-patients-every-move/.
+  > KEY QUOTE A technical document by the Broadcast Engineering Consultant India Limited (BECIL) described the band as an “Intelligence investigation platform & tactical tool to detect, prevent and investigate threats to national security using CDR, IPDR, Tower, Mobile Phone Forensics Data.” The idea is to pair this hardware solution with the Aarogya Setu app, and get information about patients and people under quarantine including their location data and people they’re in contact with.
+
+* Warrell, Helen (2020, April 17). Majority in UK support use of mobile phones for coronavirus contact tracing [#News #Opinion, Financial Times, Paywall].
+  * Retrieved from https://www.ft.com/content/1752affb-24dc-4ad9-8503-78f9ce1adca9
+  > KEY QUOTE: The survey, commissioned by the Financial Times, suggests that concern over public health is trumping privacy worries as ministers look to technology as a way of managing the outbreak and easing lockdown restrictions. When asked, 65 per cent of people said they agreed with using smartphones to identify people who had been diagnosed with the virus and establish who they had come into close contact with. Support for the idea rose to 73 per cent among 55 to 75-year-olds and fell to 59 per cent in those aged 18 to 34.
+
 * Urerti, David (2020, April 17). Coronavirus Surveillance Highlights Need for Federal Privacy Law [#News #Opinion, Wall Street Journal].
   * Retrieved from https://www.wsj.com/articles/coronavirus-surveillance-highlights-need-for-federal-privacy-law-11587115801
   > KEY QUOTE: New federal protections could also improve public trust in apps and devices that require users to opt in to share data with health authorities, said Graham Dufault, senior director for public policy at ACT | The App Association, a trade group. “The absence of a federal privacy framework has left us less prepared to respond to the crisis with a coordinated, data-driven, and trusted effort,” Mr. Dufault wrote.
@@ -458,6 +492,10 @@ https://ethics.harvard.edu/outpacing-virus
 * Smith-Spark, Laura (2020, April 16). These countries are reopening after coronavirus -- here's how they're doing it [#News #Opinion, CNN Health].
   * Retrieved from https://edition.cnn.com/2020/04/11/health/european-countries-reopening-coronavirus-intl/index.html
   > KEY QUOTE the countries preparing to ease restrictions had something in common: they were among the first in Europe to implement lockdowns or severe social distancing measures and had rapidly scaled up coronavirus testing. "They had these things in place and as a result they are already past the peak of infections there," he said. The numbers of coronavirus-related deaths in these nations are in the tens or hundreds, rather than the thousands, he said, and "they are in a much better place because of proactive action."
+
+* Selinger, Evan (2020, April 15). The Lasting Privacy and Civil Liberties Impacts of Responses to COVID-19 [#Opinion, OECD Forum]. 
+  * Retrieved from https://www.oecd-forum.org/users/386048-evan-selinger/posts/65529-the-lasting-privacy-and-civil-liberties-impacts-of-responses-to-covid-19
+  > KEY QUOTE: By emphasising efficacy as a first-order concern for determining whether to run a new surveillance programme or use new surveillance features during the crisis, we’re making the case that evidence-based considerations are fundamental. These considerations include the fact that transaction costs and opportunity costs matter: the easier it is to surveil, the more tempting it becomes; and, investing resources in expanding and accessing surveillance infrastructure weakens the prospects for dismantling it. Also, surveillance and mission creep go hand-in-hand: over time, the mandate for using data or a data-collecting instrument for a specific purpose can change and become more expansive. And the more accustomed people become to using a technology, the harder it can be to break them of the habit.
 
 **San Francisco is implementing contact tracing, with a focus on technology, but a reliance on actual contact tracing workers:**
 
@@ -531,16 +569,11 @@ https://ethics.harvard.edu/outpacing-virus
   * Retrieved from https://www.nbcnews.com/tech/tech-news/u-s-wants-smartphone-location-data-fight-coronavirus-privacy-advocates-n1162821.
   > ABSTRACT/KEYQUOTE: Federal health officials say they could use anonymous, aggregated user data collected by the tech companies to map the spread of the virus — a practice known as ["syndromic surveillance"](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC353021/) — and prevent further infections. They could also use the data to see whether people were practicing "social distancing."
 
-# Unsorted CTT News
+# Unsorted CTT Links
 
-- First look at Australia's contact tracing app https://twitter.com/VTeagueAus/status/1252768937357438977
-- Machine learning could check if you’re social distancing properly at work https://www.technologyreview.com/2020/04/17/1000092/ai-machine-learning-watches-social-distancing-at-work/
-- Revealed: The UK’s “Three Stage” Exit Strategy To Ease The Coronavirus Lockdown https://www.buzzfeed.com/alexwickham/coronavirus-uk-lockdown-three-stage-exit-plan
-- The UK’s Information Commissioner’s Office announced on Wednesday it would go easier on companies found negligent on data security breaches, including reducing the level of fines and giving them longer to correct their failings in the current climate. https://ico.org.uk/media/about-the-ico/policies-and-procedures/2617613/ico-regulatory-approach-during-coronavirus.pdf
-- Coronavirus: An EU approach for efficient contact tracing apps to support gradual lifting of confinement measures https://ec.europa.eu/commission/presscorner/detail/en/IP_20_670
-- Majority in UK support use of mobile phones for coronavirus contact tracing https://www.ft.com/content/1752affb-24dc-4ad9-8503-78f9ce1adca9
+- [Covid score proposal](https://gist.github.com/18dew/b6d45de8f30dc70e3d8d69e522a37b40)
+- [Coronavirus: An EU approach for efficient contact tracing apps to support gradual lifting of confinement measures](https://ec.europa.eu/commission/presscorner/detail/en/IP_20_670)
 - [Coronavirus lockdowns could end in months if Australians are willing to have their movements monitored - Politics - ABC News (Australian Broadcasting Corporation)](https://www.abc.net.au/news/2020-04-14/coronavirus-app-government-wants-australians-to-download/12148210)
-- [How to Protect Privacy When Aggregating Location Data to Fight COVID-19 | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2020/04/how-protect-privacy-when-aggregating-location-data-fight-covid-19)
 - [Guarantee Limits and Protections on Covid App or it will Fail - Digital Rights Watch](https://digitalrightswatch.org.au/2020/04/15/guarantee-limits-protections-covid-app-or-will-fail/)
 - [Big Tech surveillance and our privacy – Daily News](https://www.dailynews.com/2020/04/08/big-tech-surveillance-and-our-privacy/)
 - [The Lasting Privacy and Civil Liberties Impacts of Responses to COVID-19 | The OECD Forum Network](https://www.oecd-forum.org/users/386048-evan-selinger/posts/65529-the-lasting-privacy-and-civil-liberties-impacts-of-responses-to-covid-19)
@@ -548,9 +581,8 @@ https://ethics.harvard.edu/outpacing-virus
 - [Would you give up health or location data to return to work?](https://apnews.com/7f420983dfca013baf0914714c95272a)
 - [Commission COVID-19 data sharing aims to be operational ‘as soon as possible’  – EURACTIV.com](https://www.euractiv.com/section/digital/news/commission-covid-19-data-sharing-aims-to-be-operational-as-soon-as-possible/)
 - [Location data brokers say they can help contain COVID-19. Here's why that's a problem - CNET](https://www.cnet.com/news/location-data-brokers-say-they-can-help-contain-covid-19-heres-why-thats-a-problem/)
-- "This is not the time for #technology optimism or pessimism. It’s the time for technology realism, with the full understanding that technology’s promise is as only good as those who control it" https://washingtonpost.com/opinions/2020/04/16/be-very-wary-trumps-health-surveillance-plans/
-- Worried about location tracking apps "after" the pandemic? Or the normalisation of public surveillance? What will civil liberties look like later, based on the choices we're making today? https://www.oecd-forum.org/users/386048-evan-selinger/posts/65529-the-lasting-privacy-and-civil-liberties-impacts-of-responses-to-covid-19
-- https://appleinsider.com/articles/20/04/16/apple-google-reportedly-at-odds-with-uk-nhs-over-centralized-contact-tracing
+- [This is not the time for #technology optimism or pessimism. It’s the time for technology realism, with the full understanding that technology’s promise is as only good as those who control it](https://washingtonpost.com/opinions/2020/04/16/be-very-wary-trumps-health-surveillance-plans/)
+- [Worried about location tracking apps "after" the pandemic? Or the normalisation of public surveillance? What will civil liberties look like later, based on the choices we're making today?](https://www.oecd-forum.org/users/386048-evan-selinger/posts/65529-the-lasting-privacy-and-civil-liberties-impacts-of-responses-to-covid-19)
 
 # Related Materials
 
