@@ -46,7 +46,7 @@
 
 # Status & Copyright
 
-- Version 0.2.0 (2020, April 18) New structure, courtesy Vinay Taylor ([Gitub:@VinayTaylor](https://github.com/vinaytaylor) [Twitter:@VinayTaylor](https://twitter.co/VinayTaylor))
+- Version 0.2.0 (2020, April 18) New structure, courtesy Vinay Taylor ([Github:@VinayTaylor](https://github.com/vinaytaylor) [Twitter:@VinayTaylor](https://twitter.co/VinayTaylor))
 - Version 0.1.0 (2020, April 14) First relatively complete release. Had to move [#VerifiableClaims #ImmunityCredentials #COVID19](./ImmunityCredentials-VerifiableClaims-COVID19.md) to another list.
 
 For information on this versioning scheme, see [Status & Versioning](./README.md#status--versioning).
