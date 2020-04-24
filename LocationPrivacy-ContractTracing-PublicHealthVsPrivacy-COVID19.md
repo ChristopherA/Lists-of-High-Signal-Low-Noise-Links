@@ -86,9 +86,7 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
 
 * Vi, Hart; et al (2020, April 3). Outpacing the Virus: Digital Response to Containing the Spread of COVID-19 while Mitigating Privacy Risks [#Opinion, #Paper, Edmond J. Safra Center for Ethics - Harvard].
     * Retrieved from https://ethics.harvard.edu/outpacing-virus
-    > KEY QUOTE: xyz
-
-https://ethics.harvard.edu/outpacing-virus
+    > ABSTRACT: There is a growing consensus that we must use a combined strategy of medical and technological tools to provide us with response at a scale that can outpace the speed and proliferation of the SARS-CoV-2 virus. A process of identifying exposed individuals who have come into contact with diagnosed individuals, called “contact tracing,” has been shown to effectively enable suppression of new cases of SARS-CoV-2 (COVID-19). Important concerns around protecting patient’s confidentiality and civil liberties, and lack of familiarity with available privacy-protecting technologies, have both led to suboptimal privacy implementations and hindered adoption. This paper reviews the trade-offs of these methods, their techniques, the necessary rate of adoption, and critical security and privacy controls and concerns for an information system that can accelerate medical response. Proactive use of intentionally designed technology can support voluntary participation from the public toward the goals of smart testing, effective resource allocation, and relaxing some of physical distancing measures, but only when it guarantees and assures an individual’s complete control over disclosure, and use of data in the way that protects individual rights.
 
 # Contact Tracing Primer
 ## Background: Contact Tracing
@@ -132,6 +130,14 @@ https://ethics.harvard.edu/outpacing-virus
   > KEYQUOTE via @mikarv: How exactly can #DP3T privacy-preserving Bluetooth COVID-19 alerts work if identifiable personal data never leaves your device? It's actually not so complicated, and even less so now @ncasenmare has made a fantastic, public domain, comic explaining it.
 
 ## General criticisms of CTT
+
+**I’m pleased that the Netherlands government had their attorney general take a serious look at several contact tracing proposals.**
+
+* Cluskey, Peter (2020, April 23). Netherlands abandons initial plan to develop Covid-19 tracing app [#News, The Irish Times].
+  * Retrieved from https://www.irishtimes.com/news/world/europe/netherlands-abandons-initial-plan-to-develop-covid-19-tracing-app-1.4236355
+  > KEY QUOTE: The government’s problems became even more acute last weekend when attorney general Reimer Veldhuis was asked to assess the final seven contenders for compliance with privacy laws – and found all seven lacking.
+
+**This explains some of the technical flaws with respect to privacy**
 
 * Buchanan OBE, Prof Bill (2020, April 14). The Flawed World of Contact Tracing: Where's Carol The Tester? [#Opinion, Medium].
   * Retrieved from https://medium.com/asecuritysite-when-bob-met-alice/the-flawed-world-of-contact-tracing-wheres-carol-the-tester-3939ac92488a.
@@ -261,7 +267,7 @@ https://ethics.harvard.edu/outpacing-virus
    * Retrieved from https://www.euractiv.com/section/digital/news/eu-data-watchdog-pitches-pan-european-covid-19-app
    > KEYQUOTE: Apps taking advantage of ‘bluetooth handshakes’ registered between two smartphone users when coming into close proximity with one another have received publicity recently following the establishment of a European project dubbed Pan-European Privacy-Preserving Proximity Tracing (PEPP-PT)…The technology borrows from various initiatives worldwide, including Singapore’s TraceTogether application, which has influenced other national projects in the West seeking to clamp down on the spread of the virus.
 
-**Two of the biggest mobile app platforms, Apple and Google, are partnering on contact-tracing technology.** 
+**Two of the biggest mobile app platforms, Apple and Google, are partnering on contact-tracing technology.**
 
 * Greenberg, Andy (2020, April 10). How Apple and Google Are Enabling Covid-19 Contact-Tracing [#News, #Opinion, Wired].
   * Retrieved from https://www.wired.com/story/apple-google-bluetooth-contact-tracing-covid-19/
@@ -375,8 +381,22 @@ https://ethics.harvard.edu/outpacing-virus
   * The Czech Republic will start testing the new “smart quarantine system” to track the movements of infected citizens in South Moravia (Prague region).
     * Link https://www.praguemorning.cz/czech-republic-smart-quarantine/
 
+ * Antidote
+   * Antidote uses anonymous proximity information to help curb the spread of infectious diseases. Antidote was built by Asgard Analytics, Inc. pro-bono.
+     * Link https://asgardanalytics.com/antidote/
+
+ * Nexttrace
+   * Nexttrace is a system for survey-based contact tracing at scale that can be deployed by public health officials around the United States. The approach does not require advanced location-based tracking, though could incorporate data from such systems as they become available.
+     * https://nexttrace.org/  
+
 # CTT Recommendations
 ## Guidelines for Technologists
+
+**This states a few compelling pros and cons to consider when balancing privacy and public health**
+
+* Newman, Daniel (2020, April 22). Privacy Pros And Cons As Apple And Google Look Into Using Data To Trace COVID-19 [#News #Opinion, Forbes]
+  * Retrieved from https://www.forbes.com/sites/danielnewman/2020/04/22/privacy-pros-and-cons-as-apple-and-google-look-into-using-data-to-trace-covid-19/#35bd94b51fa7
+  > KEY QUOTE: ...the ultimate decision to track and unleash information regarding COVID-19 will not be made by us, the people. It will be made by government authorities who may or may not understand the full implications of the precedent they are setting in using surveillance in the name of public health. In this case, the cat is already out of the bag. But that happened long before any global health crisis began. The priority now should be for us as a society to understand what data is being captured, how it is being used and what, if anything will change when the health crisis is over.
 
 **A good reply from W3C Credentials CG (where I am co-chair) to the de Montjoye questionnaire below:**
 
@@ -472,6 +492,16 @@ https://ethics.harvard.edu/outpacing-virus
 *(Most recent first)*
 
 **In this section, I try to highlight some key articles I found interesting on the topics of #LocationPrivacy #ContactTracing #PublicHealthvsPrivacy #COVID19. There's a lot of material published daily, so on a rolling basis I will limit this list to 20-25 relevant articles:**
+
+Bloomberg Commits $10M for Contact Tracing as New Model Projects More Total Deaths for NY
+
+* Stiffler, Lisa (2020, April 22). UW and Microsoft release contact-tracing app, aiming to battle COVID-19 while preserving privacy [#News, Geekwire]
+  * Retrieved from https://www.geekwire.com/2020/uw-microsoft-release-contact-tracing-app-aiming-battle-covid-19-preserving-privacy/amp/
+  KEY QUOTE: CovidSafe, released today as a “demonstration app,” is designed to help with both manual tracing, where a public health official interviews someone who has coronavirus to determine with whom they’ve been in contact; and automated tracking, which uses devices like smartphones to follow who’s been in close proximity with whom, and notify people of an exposure. When a person tests positive for coronavirus, health officials will ask them to recall where they’ve been and whom they’ve been near over the previous two weeks. But it can be difficult to remember that information, particularly given how days blur in the absence of normal routines for work and school. The app will help users access the GPS-based location data that our phones are already gathering, and share that with health workers.
+
+* Giglio, Mike (2020, April 22). Would You Sacrifice Your Privacy to Get Out of Quarantine? [#Opinion, The Atlantic].
+  * Retrieved from https://www.theatlantic.com/politics/archive/2020/04/coronavirus-pandemic-privacy-civil-liberties-911/609172/
+  > KEY QUOTE: Since 9/11, for example, information acquired via surveillance on national-security grounds has been used to prosecute drug crimes, food-stamp and mortgage fraud, and lying on bank statements. Conversations recorded by an Amazon Echo and heart-rate data tracked by a Fitbit have been used in criminal investigations. “There really is such a thing as surveillance creep, and surveillance programs do tend to increase beyond their initial scope,” Rozenshtein said. “Pandemics, like other emergencies, have often been these catalyst moments for the permanent expansion of the government. And the government does not tend to shrink after the moment has passed.”
 
 * Campbell, Kwan (2020, April 21). COVID-19 contact tracing: The tricky balance between privacy and relief efforts [#Opinon, Tech Republic].
   * Retrieved from https://www.techrepublic.com/article/covid-19-contact-tracing-the-tricky-balance-between-privacy-and-relief-efforts/#ftag=RSS56d97e7
