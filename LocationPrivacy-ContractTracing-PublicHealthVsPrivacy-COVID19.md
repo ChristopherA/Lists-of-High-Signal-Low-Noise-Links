@@ -67,7 +67,6 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
   > KEYQUOTE: Some of these things we've been fighting for a long time...in this crisis there is the opportunity to identify some best practices that are do-able now, and put some appropriate energy into better solutions that we can implement for maybe not this crisis, but for the next one.
 
 **I am co-chair of this World-Wide-Web Consortium (#W3C) community group, where a number of important credentials and identity specifications were nurtured to the point where they could be formalized into international standards. Most notably, the Verifiable Credentials specification is now a full standard, and the Decentralized Identity specification is well on its way.** 
-
 **We meet online weekly via voice and IRC on Tuesdays at 12noon ET, 9am PT, and 5pm CET. At several recent meetings we have had discussion on #COVID19 related privacy topics, and it looks like some standards around #ImmunityCredentials in particular will become official work items. Our meetings are open to the public and are announced on our public mailing list.**
 
 **Both of these standards are key architectures toward privacy design, in particular in the short term for #ImmunityCertificates (see my other High Signal Low Noise list on [#VerifiableClaims #ImmunityCredentials](https://github.com/ChristopherA/Lists-of-High-Signal-Low-Noise-Links/blob/master/ImmunityCredentials-VerifiableClaims-COVID19.md).**
@@ -100,6 +99,12 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
 * Simmons-Duffin, Selena (2020, April 14). How Contact Tracing Works And How It Can Help Reopen The Country [#News, #Opinion, NPR].
   * Retrieved from https://www.npr.org/sections/health-shots/2020/04/14/833726999/how-contact-tracing-can-help-fight-coronavirus
   >KEYQUOTE: ...public health leaders are calling for communities around the country to ramp up capacity and get ready for a massive contact tracing effort to control the coronavirus.
+
+**One of the best things I've read recently on the topic of #COVID19 #ContactTracing is this article that argues that we should call it "Exposure Alerting" and that many of our design problems come from naming it incorrectly.**
+
+* Karlton, Phil (2020, April 22). Digital Contact Tracing and Alerting vs Exposure Alerting [#Opinion, Blog by Harper Reed]
+  * Retrieved from https://harper.blog/2020/04/22/digital-contact-tracing-and-alerting-vs-exposure-alerting/.
+  > KEY QUOTE: Digital contact tracing should be called Exposure Alerting. That is what it does. It doesn’t “trace contacts” from an epidemiological perspective. Exposure Alerting could tie in with contact tracing, but we should not conflate these separate technologies. Manual Contact Tracing is essential and is very different than Exposure Alerting Exposure Alerting should be decentralized. Manual contact tracing is centralized. Exposure Alerting has very specific privacy concerns that are very different than Manual Contact Tracing.
 
 ## Introduction to Contact Tracing Technology (CTT)
 
@@ -339,6 +344,12 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
 
 ## Unsorted list of specific CTT projects
 
+**This solution proposed in New Zealand feels quite implausible to me. I’ve looked at credit card sized Bluetooth before, and the battery tech isn’t quite there for always on devices.**
+
+* Daalder, Marc (2020, April 17). NZ considering $100m contact tracing ‘CovidCard’ [#News, Newsroom NZ].
+  * Retrieved from https://www.newsroom.co.nz/2020/04/17/1132682/nz-considering-100m-contact-tracing-covidcard
+  > KEY QUOTE: For those who do own a smartphone and do download apps, there will be "too much friction" preventing people from doing so. Users may be afraid of Google having their data, of the Government knowing what they are up to. They may forget their password or turn off the app because it interferes with their Bluetooth headphones. With some back-of-the-napkin math, the presentation estimates just 20 percent uptake in New Zealand - meaning just 4 percent of contacts would be traced. That's where CovidCard comes in. Built using the same underlying technology as Tile Bluetooth trackers, the tool would be the size of a credit card and distributed to every New Zealander.
+
 **Here are some additional notable projects or specific links, not yet in the USC list (listed in alphabetical order):**
 
 * Apple/Google Privacy Contact Tracing (2020, April 10)
@@ -400,8 +411,9 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
 
 **A good reply from W3C Credentials CG (where I am co-chair) to the de Montjoye questionnaire below:**
 
-  * Booth, David (2020, April 02) W3C-CCG Mailing List [#Implementation #Analysis, W3C CCG]: https://lists.w3.org/Archives/Public/public-credentials/2020Apr/0017.html
-  > KEYQUOTE: That document raises excellent questions, but I think the range of protocols (designs) for consideration should be broadened even more. All three of the toy protocols that they discuss involved a central authority -- presumably a public health agency -- that would receive information about infected or exposed individuals.  I think it would be good to also consider (list follows
+  * Booth, David (2020, April 02) W3C-CCG Mailing List [#Implementation #Analysis, W3C CCG].
+    * Retrieved from https://lists.w3.org/Archives/Public/public-credentials/2020Apr/0017.html
+    > KEYQUOTE: That document raises excellent questions, but I think the range of protocols (designs) for consideration should be broadened even more. All three of the toy protocols that they discuss involved a central authority -- presumably a public health agency -- that would receive information about infected or exposed individuals.  I think it would be good to also consider (list follows
 
 **Excellent questionnaire for people designing or evaluating #ContactTracing implementations**
 
@@ -492,8 +504,6 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
 *(Most recent first)*
 
 **In this section, I try to highlight some key articles I found interesting on the topics of #LocationPrivacy #ContactTracing #PublicHealthvsPrivacy #COVID19. There's a lot of material published daily, so on a rolling basis I will limit this list to 20-25 relevant articles:**
-
-Bloomberg Commits $10M for Contact Tracing as New Model Projects More Total Deaths for NY
 
 * Stiffler, Lisa (2020, April 22). UW and Microsoft release contact-tracing app, aiming to battle COVID-19 while preserving privacy [#News, Geekwire]
   * Retrieved from https://www.geekwire.com/2020/uw-microsoft-release-contact-tracing-app-aiming-battle-covid-19-preserving-privacy/amp/
