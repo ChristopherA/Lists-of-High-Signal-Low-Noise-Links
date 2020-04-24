@@ -45,6 +45,7 @@ title: '#ImmunityCredentials #VerifiableClaims #COVID19'
   * [Notable Tweets](#notable-tweets)
   * [Other Related Credentials Technologies](#other-related-credentials-technologies)
   * [Events & Meetings](#events---meetings)
+    + [MYDATA AND COVID-19](#mydata-and-covid-19)
     + [W3C CCG](#w3c-ccg)
     + [Rebooting the Web of Trust](#rebooting-the-web-of-trust)
   * [Sponsorship](#sponsorship)
@@ -87,7 +88,7 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
   * Thread (long) starts at: https://lists.w3.org/Archives/Public/public-credentials/2020Apr/0119.html
   * Example of a hypothetical COVID-19 VC data model: https://lists.w3.org/Archives/Public/public-credentials/2020Apr/0195.html; https://w3c-ccg.github.io/vc-examples/covid-19/v2/v2
 
-**Some specific implementations of Immunity Credentials in response to COVID-19 have begun, refer to [Commentary on specific ICs projects](#commentary-on-specific-ics-projects)**
+**Some specific implementations of Immunity Credentials in response to COVID-19 are being discussed, refer to [Potential Implementations of ICs](#potential-implementations-of-ics)**
 
 **I like this quote for Orie Steele "We should be careful to support systems that citizens, corporations and governments are using today, and establish parity, before pushing the boundaries of space time with blockchains and verifiable credentials" Twitter [@OR13b](https://twitter.com/OR13b)**
 
@@ -162,6 +163,10 @@ So people would try to get the credential by getting sick on purpose and hoping 
 
 ### Concern 1: Immunity Validity
 
+* Unknown (2020, April 24). "Immunity passports" in the context of COVID-19 [#Whitepaper, World Health Organization].
+  * Retrieved from https://www.who.int/news-room/commentaries/detail/immunity-passports-in-the-context-of-covid-19
+  > KEY QUOTE: Some governments have suggested that the detection of antibodies to the SARS-CoV-2, the virus that causes COVID-19, could serve as the basis for an “immunity passport” or “risk-free certificate” that would enable individuals to travel or to return to work assuming that they are protected against re-infection. There is currently no evidence that people who have recovered from COVID-19 and have antibodies are protected from a second infection. 
+
 * Aschwanden, Christie (2020, April 16). Sorry, Immunity to Covid-19 Won't Be Like a Superpower [#News #Opinion, Wired].
   * Retrieved from https://www.wired.com/story/sorry-immunity-to-covid-19-wont-be-like-a-superpower/
   > KEY QUOTE: Experts say that SARS-CoV-2 likely falls somewhere in the middle, such that people who get exposed are neither sterilized against further illness nor left utterly defenseless. Instead, they enter into a state you might think of as “immunishness,” an intermediate level of protection that dwindles over time. The robustness of this immunish state—whether it prevents all reinfection or merely makes a second round of sickness less intense—and the period of time for which it lasts will depend on multiple factors, such as a patient’s genetics and sex (women tend to have stronger immune reactions than men), the strength of their initial immune response, and the characteristics of the virus itself as it continues to evolve.
@@ -186,6 +191,10 @@ So people would try to get the credential by getting sick on purpose and hoping 
 
 ### Concern 2: Testing Accuracy
 
+* Cookson, Clive; Kuchler, Hannah; Jack, Andrew (2020, April 22). Quest for accurate antibody tests in fight against Covid-19 [#News #Opinion, Financial Times, Paywall].
+  * Retrieved from ft.com/content/a93e6b28-3778-4089-8d80-4e6775996aea
+  > KEY QUOTE: Scientists assess the accuracy of diagnostic tests in two ways. One is “specificity”, only recognising real cases and avoiding false positives. The other is “sensitivity”, identifying all real cases and avoiding false negatives. The Oxford evaluation shows that commercial point-of-care tests do very well on specificity, picking up samples only from people who were really infected with Sars-CoV-2. Their weakness is sensitivity, failing to detect antibodies in about one-third of people who actually had them. “This means if your test is positive, you can be confident that you have been infected and have antibodies,” explained Eleanor Riley, professor of immunology and infectious diseases at the University of Edinburgh. “But if your test is negative, you can’t rule out that you might have been infected.”
+
 **The rush to develop antibody tests means more risk in terms of accuracy:**
 
 * Terhune, Chad; Martell, Allison; Steenhuysen, Julie (2020, March 25). U.S. companies, labs rush to produce blood test for coronavirus immunity [#News #Opinion, Reuters].
@@ -203,7 +212,19 @@ So people would try to get the credential by getting sick on purpose and hoping 
     * Retrieved from https://www.france24.com/en/20200416-grave-concerns-about-covid-19-immunity-passports.
     > KEYQUOTE: Trapped between the competing urgencies of saving lives from Covid-19 and avoiding economic calamity, some government officials have mooted “immunity passports” as a way through the impasse. But experts told FRANCE 24 that the necessary antibody testing is not reliable enough – and even if the scheme were feasible, it could create a dangerous incentive for some to acquire the virus in order to qualify for the passport.
 
+* Baker, Stephanie; Larson, Erik (2020, April 9). The Problem With Immunity Certificates [#Opinion, Bloomberg Businessweek].
+  * Retrieved from https://www.bloomberg.com/news/articles/2020-04-09/there-s-a-big-problem-with-coronavirus-immunity-certificates
+  > KEY QUOTE: Wearing a bracelet or waving a piece of paper to show your immune status might sound like the plot of a dystopian novel, and scientists and public-policy experts are warning the prospect of “immunity passports” could make the current crisis worse. For one, they worry it could create a two-tiered workforce and perverse incentives for people to try to contract the virus, particularly millennials who might feel their chances of surviving it are high.
+
 ### Concern 4: Discrimination
+
+**In the US, not having a disease is not sufficient for disability under ADA, but if people are unable to do their work or travel, should that be a disability? What happens if you can't work, or freely assemble?**
+
+* Mullin, Emily (2020, April 23). ‘Immunity Passports’ Could Create a New Category of Privilege [#Opinion, OneZero - Medium].
+  * Retrieved from https://onezero.medium.com/immunity-passports-could-create-a-new-category-of-privilege-2f70ce1b905.
+  > KEY QUOTE: In a near future with immunity passports, employers could make decisions about hiring and who can come back to work based on immunity — and it might be legal. The Americans with Disabilities Act, which became law in 1990, requires employers to make reasonable accommodations for people with disabilities. But Mohapatra says there’s a legal question of whether not having immunity would be considered a disability. “Those people might not be protected,” she says. The Genetic Information Nondiscrimination Act of 2008 is another law that offers protection against employer discrimination, but it wouldn’t apply in the case of Covid-19 since it’s an infectious disease, not a genetic condition.
+
+**Elsewhere, like India, the issue is more stark**
 
 * Joshi, Divji; Kak, Amba (2020, April 18). India’s digital response to COVID-19 risks inefficacy, exclusion and discrimination [#News #Opinion, The Caravan].
   * Retrieved from https://caravanmagazine.in/health/india-digitial-response-covid-19-risks-inefficacy-exclusion-discrimination
@@ -277,6 +298,12 @@ So people would try to get the credential by getting sick on purpose and hoping 
     * Retrieved from https://www.nytimes.com/2020/04/04/world/europe/italy-coronavirus-antibodies.html
     > That glimmer of hope has turned the conversation to the daunting challenge of when and how to reopen without setting off another cataclysmic wave of contagion. To do so, Italian health officials and some politicians have focused on an idea that might once have been relegated to the realm of dystopian novels and science fiction films. Having the right antibodies to the virus in one’s blood — a potential marker of immunity — may soon determine who gets to work and who does not, who is locked down and who is free.
 
+**Chile may be the first in the world to formally introduce ICs**
+
+* Bartlett, John (2020, April 20). Chile’s ‘immunity passport’ will allow recovered coronavirus patients to break free from lockdown, get back to work [#News, The Washington Post].
+    * Retrieved from https://www.washingtonpost.com/world/the_americas/chile-coronavirus-immunity-passport-antibody-testing-card/2020/04/20/8daef326-826d-11ea-81a3-9690c9881111_story.html
+    > KEY QUOTE: Government officials said Monday they would move ahead with plans to issue the world's first "immunity passports," cards that would allow people who have recovered from the novel coronavirus to return to work, over the concerns of physicians who warned that much about covid-19 immunity remains unknown.
+
 **Some proposed implementations are for specific sectors, like tourism and sports:**
 
 * Rainsy, Sam (2020, April 12). Immunity Passports: A proposal to revive tourism, international trade and transport [#News #Opinion, Brussels Times].
@@ -333,7 +360,7 @@ So people would try to get the credential by getting sick on purpose and hoping 
 
 ## Guidelines for Technologists
 
-**Though Immunity Credentials could be implemented with legacy identity and digital credential technology, there are some real advantages to using the new self-sovereign identity architectures of W3C Verifiable Credentials standard and the emerging Decentralized Identifier (DID) specification. I am co-inventor and architect of this architecture, so I am biased*
+**Though Immunity Credentials could be implemented with legacy identity and digital credential technology, there are some real advantages to using the new self-sovereign identity architectures of W3C Verifiable Credentials standard and the emerging Decentralized Identifier (DID) specification. I am co-inventor and architect of this architecture, so I am biased.**
 
 **This is a the best primer on the topic of W3C Verifiable Credentials standard**
 
@@ -411,13 +438,32 @@ So people would try to get the credential by getting sick on purpose and hoping 
 
 # Recent ICs News
 
+* Iwai, Junya; Abe, Daishi (2020, April 25). Infection undercount sparks fear, but raises hope of herd immunity [#News #Opinion, Nikkei Asian Review].
+  * Retrieved from https://asia.nikkei.com/Spotlight/Coronavirus/Infection-undercount-sparks-fear-but-raises-hope-of-herd-immunity
+  > KEY QUOTE: The U.S. Centers for Disease Control and Prevention will collect and test 50,000 samples in September and December of this year, and in November 2021. The nationwide survey will determine the extent of the epidemic and assist in the development of vaccines. Some anticipate partial reopening of economies if antibody carriers are identified.
+
+* Carpani, Jessica; Jones, Amy (2020, April 24). Workplaces may have to be segregated between vulnerable and healthy [#News #Opinion, The Telegraph, Paywall].
+  * Retrieved from https://www.telegraph.co.uk/news/2020/04/24/workplaces-may-have-segregated-vulnerable-healthy/
+  > KEY QUOTE: Dr Rifat Atun has said that it will not be “socially acceptable” for a country such as Britain to allow those who have recovered from the virus to work, while individuals classed as high risk are forced to remain in isolation unable to earn.
+
+* Smith, Chris (2020, April 23). Coronavirus survivors keep retesting positive, and we don’t know why Retrieved from [#News #Opinion, BGR]. 
+  * Retrieved from https://bgr.com/2020/04/23/coronavirus-treatment-and-immunity-some-patients-retest-positive/
+  > KEY QUOTE: It turns out that some people can carry the virus for months after being declared cured, according to a new report. Authorities are scrambling to understand whether a patient who keeps testing positive after recovery is infectious to others, and some are considering new discharge protocols as a result.
+
+* Zhang, Sarah (2020, April 21). Listen: Immunity Passports [#Opinion, The Atlantic, AUDIO].
+  * Retrieved from https://www.theatlantic.com/health/archive/2020/04/immunity-passports/610327/
+  > KEY QUOTE: There is maybe a little caution ahead as we jump into this new world of “immunity passports.” We don’t know how immunity works with this virus, and we don’t know how long it will last. Also, antibody tests can pick up false negatives and false positives. You may be sending people out there who think that they’re immune, but they’re not.
+
+* Baker, Sinead (2020, April 21). The WHO said only 2% to 3% of people tested have COVID-19 antibodies, suggesting that 'immunity passports' may not be an effective policy [#News #Opinion, Business Insider].
+  * Retrieved from https://www.businessinsider.com/coronavirus-who-warns-2-3-percent-population-have-antibodies-2020-4
+  > KEY QUOTE: The head of the World Health Organization on Monday said that likely no more than 2% to 3% of the global population have developed antibodies for COVID-19. That is a problem for countries hoping to issue "immunity passports" as a way to get back to normal, even before a coronavirus vaccine has been developed. A second WHO expert said the data does not yet support such a strategy, not least because it is not clear whether those who recover from COVID-19 are in fact immune.
+
 # Unsorted ICs News
 
-https://twitter.com/ChristopherA/status/1250810284505042945
-https://www.ft.com/content/e00120a2-74cd-11ea-ad98-044200cb277f
-https://ftalphaville.ft.com/2020/04/15/1586943153000/Why-are-we-really-in-lockdown--/
 https://www.bloomberg.com/news/articles/2020-04-19/nigerian-union-ends-threat-to-halt-oil-exports-as-staff-released (not IC specific, but example of misuse of emergency powers)
-Pre-COVID19 requirements for "medical authorization to travel" https://www.airnewzealand.com/special-assistance-flying-with-medical-conditions
+Pre-COVID19 requirements for "medical authorization to travel" 
+
+https://www.airnewzealand.com/special-assistance-flying-with-medical-conditions (example of pre COVID rules on flight boarding, what comes next?)
 
 # Related Materials
 
@@ -428,6 +474,14 @@ Pre-COVID19 requirements for "medical authorization to travel" https://www.airne
   * Retrieved from: https://twitter.com/i/lists/1068260260555579393
 
 ## Notable Tweets
+
+* States, David (2020, April 21). Tweet Thread [#Opinion, Twitter].
+  * Retrieved from https://twitter.com/statesdj/status/1252698777296797698
+  > KEY QUOTE: If you’re hoping a vaccine is going to be a knight in shining armor saving the day, you may be in for a disappointment. SARSCOV2 is a highly contagious virus. A vaccine will need to induce durable high level immunity, but coronaviruses often don’t  induce that kind of immunity.
+
+* Allen, Christopher (2020, April 16). Tweet [#Opinion #News, Twitter].
+  * Retrieved from https://twitter.com/ChristopherA/status/1250810284505042945
+  > KEY QUOTE: A worrisome precedent towards #ImmunityCredentials #ImmunityPassport. Remember—we don’t even know the efficacy of these test are yet. “Dubai-based airline Emirates has begun carrying out Covid-19 blood tests on passengers at the airport prior to flights.”
 
 * Vescent, Heather (2020, April 15). Tweet Thread. [#Opinion, Twitter].
   * Retrieved from https://twitter.com/heathervescent/status/1249729223180181506?s=21. 
