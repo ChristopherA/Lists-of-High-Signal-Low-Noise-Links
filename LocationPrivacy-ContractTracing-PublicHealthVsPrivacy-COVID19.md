@@ -92,6 +92,12 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
     * Retrieved from https://ethics.harvard.edu/outpacing-virus
     > ABSTRACT: There is a growing consensus that we must use a combined strategy of medical and technological tools to provide us with response at a scale that can outpace the speed and proliferation of the SARS-CoV-2 virus. A process of identifying exposed individuals who have come into contact with diagnosed individuals, called “contact tracing,” has been shown to effectively enable suppression of new cases of SARS-CoV-2 (COVID-19). Important concerns around protecting patient’s confidentiality and civil liberties, and lack of familiarity with available privacy-protecting technologies, have both led to suboptimal privacy implementations and hindered adoption. This paper reviews the trade-offs of these methods, their techniques, the necessary rate of adoption, and critical security and privacy controls and concerns for an information system that can accelerate medical response. Proactive use of intentionally designed technology can support voluntary participation from the public toward the goals of smart testing, effective resource allocation, and relaxing some of physical distancing measures, but only when it guarantees and assures an individual’s complete control over disclosure, and use of data in the way that protects individual rights.
 
+**The NYT Editorial Board makes a key argument that any technology measures implemented today need to end once the threat passes:**
+
+* Editorial Board (2020, May 1). We the People, in Order to Defeat the Coronavirus [#Opinion, New York Times].
+  * Retrieved from https://www.nytimes.com/2020/05/01/opinion/coronavirus-civil-liberties.html
+  > KEY QUOTE: In a large self-governing society, civil liberties exist as part of a delicate balance. That balance is being sorely tested right now, and there is often no good solution that does not infringe on at least some liberty. At the same time, the coronavirus provides Americans with an opportunity to reimagine the scope and nature of our civil liberties and our social contract. Yes, Americans are entitled to freedom from government intrusion. But they also have an obligation not to unnecessarily expose their fellow citizens to a deadly pathogen. Protecting Americans from the pandemic while also preserving our economy and our civil liberties is not easy. But it’s essential.
+
 # Contact Tracing Primer
 ## Background: Contact Tracing
 
@@ -351,6 +357,18 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
   > KEYQUOTE: In-depth formal analysis of the protocol is necessary before deployment and should be published. Protecting privacy should rely on mathematical proofs of correctness, with mitigation strategies considered only when necessary. Our questions focus on privacy aspects, but ensuring security is similarly crucial. This means, for example, supervising the integrity and authenticity of the crowdsourced data, evaluating how mobile malware could affect the app’s behavior, or assessing the resilience of the authority’s servers against intrusions.
   > Building a contact tracing app that allows all of us to participate in the fight against COVID19 is possible, but it will require us to go beyond shallow reassurances that privacy is protected.
 
+**This highlights the importance of community support for any technological response to COVID-19:**
+
+* Gropper, Adrian (2020, April 30). Reducing Privacy Impacts of Surveillance During COVID-19 [#Recommendations].
+  * Retrieved from https://thedeductible.com/2020/04/30/reducing-the-privacy-impacts-of-surveillance-during-covid-19/
+  > KEY QUOTE: There are hundreds of groups around the world developing contact tracing, symptom reporting and immunity status apps. They range from state actors to hobbyists to private finance. Many of them introduce new privacy technology based on cryptography, blockchain-based decentralized identifiers, and digital credentials. Apple and Google are planning to update their mobile phone operating systems to launch a decentralized contact tracing platform, an attempt to improve privacy that all the while gives them surveillance power that will impact society long after the pandemic is over. A shift in power from the state to private multinational corporations in the name of privacy seems unwarranted. Can we do better?
+
+**Specific to Decentralised Privacy-Preserving Proximity Tracing (DP-3T), with a helpful focus on risks and mitigations:**
+
+* Bugnion, Prof. Edouard (2020, May 1). DATA PROTECTION IMPACT ASSESSMENT REPORT [#Recommendations].
+  * Retrieved from https://github.com/DP-3T/documents/blob/master/data_protection/DP-3T%20Model%20DPIA.pdf
+  > KEY QUOTE: The DP-3T system is designed for national (or regional) deployments, but its protocol is scalable internationally. The requirement for a data protection impact assessment (“DPIA”) will therefore have to be analysed on a country-by-country (or regional) basis. DP^3T is currently intended to be deployed in Switzerland. Pursuant to the Swiss Federal Data Protection Act (“FDPA”)33, there is no mandatory obligation to carry out a DPIA. This DPIA is therefore carried out on a voluntary basis, following best practices. In case of deployment in countries that are subject to the GDPR, the need of a DPIA must be assessed in accordance with Articles 35 and 36 GDPR, which require that a DPIA be carried out before the implementation in case the processing is likely to result in a high risk to the rights and freedoms of natural persons. 
+
 ## Policy Considerations for Governments
 
 **Governments today are taking legitimate emergency measures to track and manage public health, in particular in the #COVID19 crisis. We need to balance this public good vs. risks of loss of human rights in the future. We can do this!**
@@ -367,11 +385,15 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
   * Retrieved from https://www.americanprogress.org/issues/technology-policy/news/2020/04/22/483521/digital-contact-tracing-contain-coronavirus/
   > KEY QUOTE: Digital contact tracing recommendations for state leaders: In coordination with mass testing, manual contact tracing, significant investments in public health and health care infrastructure, and sufficient social and financial support for all Americans, voluntary and privacy-protected digital contact tracing may play a role in helping state authorities prevent new outbreaks and more safely reopen society. [1] Embrace distributed technology by default. [2] Voluntary systems are more ethical, useful, and likely to be downloaded. [3] Minimize data for secure and trustworthy systems. [4] Build trust by limiting scope creep. [5] Lead and partner with transparency. [6] Design with public health workers and residents to provide clear benefits for both. [7] States should appoint an independent privacy and civil rights advisory board. [8] Governors must be at the helm. [9] Pursue regional collaboration and national standards.
 
-**Again US-centric, the need for a Federal Privacy Law:**
+**Again US-centric, the need for a Federal Privacy Law, some senators have started with a proposal:**
 
 * Urerti, David (2020, April 17). Coronavirus Surveillance Highlights Need for Federal Privacy Law [#News #Opinion, Wall Street Journal].
   * Retrieved from https://www.wsj.com/articles/coronavirus-surveillance-highlights-need-for-federal-privacy-law-11587115801
   > KEY QUOTE: New federal protections could also improve public trust in apps and devices that require users to opt in to share data with health authorities, said Graham Dufault, senior director for public policy at ACT | The App Association, a trade group. “The absence of a federal privacy framework has left us less prepared to respond to the crisis with a coordinated, data-driven, and trusted effort,” Mr. Dufault wrote.
+
+* Unknown (2020, April 30). Wicker, Thune, Moran, Blackburn Announce Plans to Introduce Data Privacy Bill [#Legislation].
+  * Retrieved from https://www.commerce.senate.gov/2020/4/wicker-thune-moran-blackburn-announce-plans-to-introduce-data-privacy-bill
+  > KEY QUOTE: U.S. Sens. Roger Wicker, R-Miss., chairman of the Senate Committee on Commerce, Science, and Transportation, John Thune, R-S.D, chairman of the Subcommittee on Communications, Technology, Innovation, and the Internet, Jerry Moran, R-Kan., chairman of the Subcommittee on Consumer Protection, Product Safety, Insurance and Data Security, and Marsha Blackburn, R-Tenn., today announced plans to introduce the COVID-19 Consumer Data Protection Act. The legislation would provide all Americans with more transparency, choice, and control over the collection and use of their personal health, geolocation, and proximity data. The bill would also hold businesses accountable to consumers if they use personal data to fight the COVID-19 pandemic.
 
 **Canada's Privacy Impact Assessment recommendations are a helpful framework for governments:**
 
@@ -429,6 +451,14 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
   > KEY QUOTE While the rest of India, along with countries such as the UK and the US, wouldn’t take stringent steps to limit movement for another two months, Shailaja had ordered Kerala’s four international airports to start screening passengers in January. All those with symptoms were taken to a government facility, where they were tested and isolated; their samples were flown to the National Institute of Virology 700 miles away. By February, she had a 24-member state response team coordinating with the police and public officials across Kerala.
 
 # Unsorted CTT Links
+
+* Schneier, Bruce (2020, May 1). Me on COVID-19 Contact Tracing Apps [#Opinion, Schneier on Security Blog].
+  * Retrieved from https://www.schneier.com/blog/archives/2020/05/me_on_covad-19_.html
+  > KEY QUOTE: The idea that contact tracing can be done with an app, and not human health professionals, is just plain dumb.
+
+* Landau, Susan et al (2020, May 1). The Importance of Equity in Contact Tracing [#Opinion, Law Fare Blog].
+  * Retrieved from https://www.lawfareblog.com/importance-equity-contact-tracing
+  > KEY QUOTE: As policymakers coalesce around contact tracing as a means to stabilize the coronavirus outbreak while loosening harsh movement restrictions, the main worry has been about privacy qua privacy. But privacy is not the only, or even primary, concern. We must first think carefully about whether a contact-tracing app can be effective in the United States. And if such a technology is to be developed, it must be built on a foundation of fairness. We cannot ethically accept any solution that will systematically work less well for, or disproportionately harm, some communities—especially the groups that are already the hardest hit by this pandemic.
 
 https://translate.google.com/translate?depth=1&nv=1&pto=aue&rurl=translate.google.com&sl=auto&sp=nmt4&tl=en&u=https://www.cnil.fr/fr/publication-de-lavis-de-la-cnil-sur-le-projet-dapplication-mobile-stopcovid
 
