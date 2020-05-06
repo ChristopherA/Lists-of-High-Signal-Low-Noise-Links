@@ -55,3 +55,9 @@ Copyright ©️2020 by Christopher Allen, and is shared under [CC-BY-SA-4.0](./L
 - [Wayfarer Recommended Products](https://wayfarervans.com/recommended-products/)
 - [ContraVans](https://www.contravans.com/cargo-van-accessories)
 
+## Van Conversion Shops
+- [GlamperVan, San Francisco, ](https://www.glampervan.us)
+- [Personalized Vans & Trucks, San Jose 408-436 8244](https://www.personalizedvans.com)
+- [Happy Vans, San Jose 408-453-7525](http://www.happyvans.com)
+- [West Coast Adventure Vehicles, Oroville]https://www.westcoastadventurevehicles.com
+
