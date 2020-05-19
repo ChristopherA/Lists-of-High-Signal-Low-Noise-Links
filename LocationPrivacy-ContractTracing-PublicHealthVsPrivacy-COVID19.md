@@ -68,6 +68,12 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
   * Video retrieved from https://www.youtube.com/watch?v=isanNSDoSnE.
   > KEYQUOTE: Some of these things we've been fighting for a long time...in this crisis there is the opportunity to identify some best practices that are do-able now, and put some appropriate energy into better solutions that we can implement for maybe not this crisis, but for the next one.
 
+**I share my concerns specifically with respect to COVID-19 response technology, and digital identity here:**
+
+* Amery, Paul (2020, May 7). Coronavirus jumpstarts race for digital ID [#SSI, New Money Review].
+  * Retrieved from https://newmoneyreview.com/index.php/2020/05/07/coronavirus-jumpstarts-race-for-digital-id/ 
+  >KEY QUOTE: ...well-intentioned national identity system can be abused if the political winds shift
+
 **I am co-chair of this World-Wide-Web Consortium (#W3C) community group, where a number of important credentials and identity specifications were nurtured to the point where they could be formalized into international standards. Most notably, the Verifiable Credentials specification is now a full standard, and the Decentralized Identity specification is well on its way.**
 
 **We meet online weekly via voice and IRC on Tuesdays at 12noon ET, 9am PT, and 5pm CET. At several recent meetings we have had discussion on #COVID19 related privacy topics, and it looks like some standards around #ImmunityCredentials in particular will become official work items. Our meetings are open to the public and are announced on our public mailing list.**
@@ -245,6 +251,13 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
 
 ## Commentary on specific CTT projects
 
+**This is the best technical overview of the Apple/Google protocol:**
+
+* Fleishman, Glenn (2020, April 10). Apple and Google Partner for Privacy-Preserving COVID-19 Contact Tracing and Notification [#Opinion]
+    * Retrieved from https://tidbits.com/2020/04/10/apple-and-google-partner-for-privacy-preserving-covid-19-contact-tracing-and-notification/
+    > KEY QUOTE: In the first stage, Apple and Google will make private APIs (application programming interfaces) available in mid-May 2020 strictly limited to health agencies. These APIs will work identically across both iOS and Android and let public-health authorities modify existing apps or build new ones that leverage the tracing features. The companies will also build simple model apps that governments could either put their own logos on or substantially modify. 
+    > A second stage will appear “in the coming months,” and will build the tracing approach into Android and iOS at the operating system level. Enabling tracing and receiving a basic notification can happen without even installing an app, company representatives said in the briefing. An app will be required for someone to register a diagnosis of COVID-19.
+
 **Early privacy analysis of Apple and Google's partnership is positive, but it still has potential centralization issues (see [Implementations & Analysis](#implementations--analysis) section below for more details).**
 
 * Hoepman, Jaap-Henk (2020, April 11). Stop the Apple and Google contact tracing platform. (Or be ready to ditch your smartphone.) [#Opinion, XOT.nl].
@@ -411,6 +424,14 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
 *(Most recent first)*
 
 **In this section, I try to highlight some key articles I found interesting on the topics of #LocationPrivacy #ContactTracing #PublicHealthvsPrivacy #COVID19. There's a lot of material published daily, so on a rolling basis this will update:**
+
+* McCarthy, Kieran (2020, May 5). UK finds itself almost alone with centralized virus contact-tracing app that probably won't work well, asks for your location, may be illegal [#Opinion #News].
+    * Retrieved from https://www.theregister.co.uk/2020/05/05/uk_coronavirus_app/
+    > KEY QUOTE: A de-centralised smartphone contact tracing system – the type contemplated ... by governments across Europe and also Apple and Google – would be likely to comply with both human rights and data protection laws. In contrast, a centralised smartphone system – which is the current UK Government proposal – is a greater interference with fundamental rights and would require significantly greater justification to be lawful. That justification has not yet been forthcoming.
+
+* Oswald, Marion (2020, May 4). Towards a Trustworthy Coronavirus Contact Tracing App [#Opinion].
+    * Retrieved from https://rusi.org/commentary/towards-trustworthy-coronavirus-contact-tracing-app
+    > KEY QUOTE: The use of a coronavirus contact tracing app has not yet been demonstrated to be trustworthy, in terms of its purpose, reliability, effectiveness or potential harmfulness. Furthermore, the binary nature of its output must be addressed if trustworthiness is to be achieved.
 
 * Banerjee, Prasid (2020, April 29). Govt's Aarogya Setu app to be installed on smartphones by default soon [#News, LiveMint].
   * Retrieved from https://www.livemint.com/technology/apps/govt-s-aarogya-setu-app-to-be-installed-on-smartphones-by-default-soon-11588170539557.html
