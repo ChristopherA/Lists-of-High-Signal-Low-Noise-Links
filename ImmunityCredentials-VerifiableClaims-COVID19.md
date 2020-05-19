@@ -74,6 +74,12 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
   * Video retrieved from https://www.youtube.com/watch?v=WlDSMRb_X-s.
   > KEYQUOTE: How do we prevent these architectures, which are well intended and have these principles...how do we be sure that we can design them in ways that make it harder for them to be [misused or exploited].  
 
+**I share my concerns specifically with respect to COVID-19 response technology, and digital identity here:**
+
+* Amery, Paul (2020, May 7). Coronavirus jumpstarts race for digital ID [#SSI, New Money Review].
+  * Retrieved from https://newmoneyreview.com/index.php/2020/05/07/coronavirus-jumpstarts-race-for-digital-id/ 
+  >KEY QUOTE: ...well-intentioned national identity system can be abused if the political winds shift
+
 **I am co-chair of this World-Wide-Web Consortium (#W3C) community group, where a number of important credentials and identity specifications were nurtured to the point where they could be formalized into international standards. Most notably, the Verifiable Credentials specification is now a full standard, and the Decentralized Identity specification is well on its way.** 
 
 **We meet online weekly via voice and IRC on Tuesdays at 12noon ET, 9am PT, and 5pm CET. At several recent meetings we have had discussion on #COVID19 related privacy topics, and it looks like some standards around #ImmunityCredentials in particular will become official work items. Our meetings are open to the public and are announced on our public mailing list.**
@@ -101,7 +107,13 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
 
 * Gruener, Dakota (2020, April 20). Immunity Certificates: If We Must Have Them, We Must Do It Right [#Opinion, #WhitePaper, Harvard].
     * Retrieved from https://ethics.harvard.edu/files/center-for-ethics/files/safracenterforethicswhitepaper8_01.pdf
-    . KEY QUOTE: Proactive adaptation of existing, purpose-built, privacy-preserving technology, grounded in respect for equity and human rights, offers a means to protect society from a resurgence of the disease, while safeguarding individual privacy and civil liberties. To protect individuals from surveillance, discrimination, fraud, or exclusion, we must ensure that systems developed to serve these purposes are private, secure, and accessible—and are developed using open-source technology and open standards for interoperability and universal access. 
+    > KEY QUOTE: Proactive adaptation of existing, purpose-built, privacy-preserving technology, grounded in respect for equity and human rights, offers a means to protect society from a resurgence of the disease, while safeguarding individual privacy and civil liberties. To protect individuals from surveillance, discrimination, fraud, or exclusion, we must ensure that systems developed to serve these purposes are private, secure, and accessible—and are developed using open-source technology and open standards for interoperability and universal access. 
+
+**This is one of the best analysis so far on Immunity Credentials**
+
+* Renieres, Elizabeth M. (2020, May 18). The Dangers of Blockchain-Enabled “Immunity Passports” for COVID-19 [#Opinion, Medium].
+    * Retrieved from https://medium.com/berkman-klein-center/the-dangers-of-blockchain-enabled-immunity-passports-for-covid-19-5ff84cacb290
+    > KEY QUOTE: The prospect of severely curtailing the fundamental rights and freedoms of individuals through ill-thought-out plans for “immunity passports” or similar certificates, particularly ones that would leverage premature standards and a highly experimental and potentially rights-infringing technology like blockchain, is beyond dystopian. We urge law and policymakers to think twice before entertaining such industry-driven, technology-first solutions to complex public health and humanitarian crises. 
 
 # Immunity Credentials Primer
 
@@ -207,6 +219,10 @@ So people would try to get the credential by getting sick on purpose and hoping 
   > KEYQUOTE: If you issue immunity passports on this basis, barely a third of the people you give them to will actually be immune. “There’s nothing peculiar about this statistically,” Kevin McConway, an emeritus professor of statistics at the Open University, told me. “It’s just Bayes’ theorem.” The likelihood of you having had Covid-19, if you’ve had a positive test, depends not just on the accuracy of the test but on the prevalence in the population you’re looking at.
 
 ### Concern 3: Moral Hazard
+
+* Baker, Mike (2020, May 6). ‘Covid-19 Parties’ Probably Didn’t Involve Intentional Spread [#News, New York Times].
+  * Retrieved from https://www.nytimes.com/2020/05/06/us/coronavirus-covid-parties.html
+  > KEYQUOTE: The county had said in a news release on Monday that the authorities were “receiving reports of Covid-19 parties occurring in our community, where non-infected people mingle with an infected person in an effort to catch the virus.” Officials later elaborated on those reports in interviews, saying the parties were discovered after tracing the paths of people who were found to be infected after the gatherings.
 
 * Wheeldon, Tom (2020, April 16). ‘Grave concerns’ about Covid-19 immunity passports [#News #Opinion, France24].
     * Retrieved from https://www.france24.com/en/20200416-grave-concerns-about-covid-19-immunity-passports.
@@ -460,10 +476,35 @@ So people would try to get the credential by getting sick on purpose and hoping 
 
 # Unsorted ICs News
 
+https://www.nytimes.com/2020/04/24/health/coronavirus-antibody-tests.html
+
+https://quillette.com/2020/04/23/covid-19-superspreader-events-in-28-countries-critical-patterns-and-lessons/
+
+Parts of this piece disturb me, but I also appreciate the out-of-the box thinking here, including if liability insurance should play an role in #ImmunityCredentials.
+http://www.overcomingbias.com/2020/04/vouch-for-pandemic-passports.html
+
+https://ounews.co/science-mct/computing-communications/ou-develops-worlds-first-covid-19-digital-immunity-passport/
+
+https://www.bloomberg.com/news/articles/2020-04-09/there-s-a-big-problem-with-coronavirus-immunity-certificates
+
+Government of Canada says: ”Privacy protection isn’t just a set of technical rules and regulations, but rather represents a continuing imperative to preserve fundamental human rights and democratic values, even in exceptional circumstances.“
+https://www.priv.gc.ca/en/privacy-topics/health-genetic-and-other-body-information/health-emergencies/fw_covid/
+
+France COVID trace (translated)
+https://translate.google.com/translate?depth=1&nv=1&pto=aue&rurl=translate.google.com&sl=auto&sp=nmt4&tl=en&u=https://www.cnil.fr/fr/publication-de-lavis-de-la-cnil-sur-le-projet-dapplication-mobile-stopcovid
+
+https://www.brookings.edu/blog/techtank/2020/04/21/managing-health-privacy-and-bias-in-covid-19-public-surveillance/
+
+Parts of this piece disturb me but I also appreciate the out-of-the box thinking here, including if liability insurance should play an role in #ImmunityCredentials. But we need to be careful as liability law & courts are slow & expensive, and lives as wergild are often unjust.
+https://www.economist.com/europe/2020/04/23/privacy-in-a-pandemic
+** The economist clearly has not heard my #Foremenbrance WWII story to know why Northern Europe has a privacy “religion”. After 75 years the editorial memory has forgotten.
+
 https://www.bloomberg.com/news/articles/2020-04-19/nigerian-union-ends-threat-to-halt-oil-exports-as-staff-released (not IC specific, but example of misuse of emergency powers)
 Pre-COVID19 requirements for "medical authorization to travel" 
 
 https://www.airnewzealand.com/special-assistance-flying-with-medical-conditions (example of pre COVID rules on flight boarding, what comes next?)
+
+https://www.brookings.edu/blog/techtank/2020/04/21/managing-health-privacy-and-bias-in-covid-19-public-surveillance/
 
 # Related Materials
 
