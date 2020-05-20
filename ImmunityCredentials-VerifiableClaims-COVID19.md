@@ -115,6 +115,13 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
     * Retrieved from https://medium.com/berkman-klein-center/the-dangers-of-blockchain-enabled-immunity-passports-for-covid-19-5ff84cacb290
     > KEY QUOTE: The prospect of severely curtailing the fundamental rights and freedoms of individuals through ill-thought-out plans for “immunity passports” or similar certificates, particularly ones that would leverage premature standards and a highly experimental and potentially rights-infringing technology like blockchain, is beyond dystopian. We urge law and policymakers to think twice before entertaining such industry-driven, technology-first solutions to complex public health and humanitarian crises. 
 
+**Some interesting risk modeling approaches to COVID-19 response technology, specifically apps:**
+
+* Ernst, Johannes (2020, May 7). Trust through Transparency for Apps [#Opinion #Risk].
+    * Retrieved from https://reb00ted.org/tech/20200507-trust-through-transparency-for-apps/
+    > KEY QUOTE: What do you need to know so you can confidently trust a piece of technology, such as an app supposedly helping fight COVID-19?
+    > That question is at the heart of Project App Assay. It applies to all technology, but is particularly important for the COVID-19 apps, because many of them collect so much information about our health, our friends, our locations and activities around the clock.
+
 # Immunity Credentials Primer
 
 Vaccines are a biological preparation that provide active acquired immunity to a particular infectious disease. Some countries^1 require a certificate showing you have been vaccinated before you are allowed entry, known as an International Certificate of Vaccination or Prophylaxis (ICVP). The only disease (currently) designated under ICVP is yellow fever.
