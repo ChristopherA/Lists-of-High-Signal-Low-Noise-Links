@@ -104,6 +104,13 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
   * Retrieved from https://www.nytimes.com/2020/05/01/opinion/coronavirus-civil-liberties.html
   > KEY QUOTE: In a large self-governing society, civil liberties exist as part of a delicate balance. That balance is being sorely tested right now, and there is often no good solution that does not infringe on at least some liberty. At the same time, the coronavirus provides Americans with an opportunity to reimagine the scope and nature of our civil liberties and our social contract. Yes, Americans are entitled to freedom from government intrusion. But they also have an obligation not to unnecessarily expose their fellow citizens to a deadly pathogen. Protecting Americans from the pandemic while also preserving our economy and our civil liberties is not easy. But it’s essential.
 
+**Some interesting risk modeling approaches to COVID-19 response technology, specifically apps:**
+
+* Ernst, Johannes (2020, May 7). Trust through Transparency for Apps [#Opinion #Risk].
+    * Retrieved from https://reb00ted.org/tech/20200507-trust-through-transparency-for-apps/
+    > KEY QUOTE: What do you need to know so you can confidently trust a piece of technology, such as an app supposedly helping fight COVID-19?
+    > That question is at the heart of Project App Assay. It applies to all technology, but is particularly important for the COVID-19 apps, because many of them collect so much information about our health, our friends, our locations and activities around the clock.
+
 # Contact Tracing Primer
 ## Background: Contact Tracing
 
