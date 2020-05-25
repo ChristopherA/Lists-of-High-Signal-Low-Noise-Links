@@ -389,6 +389,12 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
   * Retrieved from https://github.com/DP-3T/documents/blob/master/data_protection/DP-3T%20Model%20DPIA.pdf
   > KEY QUOTE: The DP-3T system is designed for national (or regional) deployments, but its protocol is scalable internationally. The requirement for a data protection impact assessment (“DPIA”) will therefore have to be analysed on a country-by-country (or regional) basis. DP^3T is currently intended to be deployed in Switzerland. Pursuant to the Swiss Federal Data Protection Act (“FDPA”)33, there is no mandatory obligation to carry out a DPIA. This DPIA is therefore carried out on a voluntary basis, following best practices. In case of deployment in countries that are subject to the GDPR, the need of a DPIA must be assessed in accordance with Articles 35 and 36 GDPR, which require that a DPIA be carried out before the implementation in case the processing is likely to result in a high risk to the rights and freedoms of natural persons. 
 
+**Superb analysis of Bluetooth-related bugs in #CovidSafeApp (Australia, but relevant for all BLE implementations) that, if fixed, will substantially improve both privacy and effectiveness**
+
+* Mussared, Jim (2020, May 15). Privacy issues discovered in the BLE implementation of the COVIDSafe Android app [#Recommendations #Review].
+  * Retrieved from Google Doc: https://docs.google.com/document/d/1u5a5ersKBH6eG362atALrzuXo3zuZ70qrGomWVEC27U
+  > ABSTRACT: The COVIDSafe app has a number of issues which may allow a malicious person to track any user for an indefinite period of time. Some of these are unintentional implementation errors, some are deviations from the specification, and some are issues with the specification.
+
 ## Policy Considerations for Governments
 
 **Governments today are taking legitimate emergency measures to track and manage public health, in particular in the #COVID19 crisis. We need to balance this public good vs. risks of loss of human rights in the future. We can do this!**
@@ -432,9 +438,21 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
 
 **In this section, I try to highlight some key articles I found interesting on the topics of #LocationPrivacy #ContactTracing #PublicHealthvsPrivacy #COVID19. There's a lot of material published daily, so on a rolling basis this will update:**
 
+* Dixit, Pranav (2020, May 12). India's Contact Tracing App Is All But Mandatory. So This Programmer Hacked It So That He Always Appears Safe. [#News #India].
+  * Retrieved from https://www.buzzfeednews.com/article/pranavdixit/india-aarogya-setu-hacked
+  > KEY QUOTE: “I’m rebelling against the mandatory nature of this app,” he said. “I don’t want to share my location 24/7 with the government.” He said the Indian app fared poorly against what Google and Apple were helping to build, plans that do not store personal information on centralized servers. “If I was coding this app, I would have chosen to keep data points to a minimum,” he said. “If I have your location information for a month, I can gauge a lot of things about your life.”
+
+* Vogelstein, Fred (2020, May 8). Health Officials Say 'No Thanks' to Contact-Tracing Tech [#Opinion].
+  * Retrieved from https://www.wired.com/story/health-officials-no-thanks-contact-tracing-tech/
+  > KEY QUOTE: In the short run, the most technologically aggressive government plans will only offer software to extract location data from a patient’s smartphone, making it easier to reconstruct timelines. Most smartphones automatically record where they’ve been, unless a user disables the feature. Some states are considering apps that would make it easy to access this data, examine it, and potentially send it to a contact tracer. Knowing where we’ve been can help us remember whom we've been with.
+
 * McCarthy, Kieran (2020, May 5). UK finds itself almost alone with centralized virus contact-tracing app that probably won't work well, asks for your location, may be illegal [#Opinion #News].
     * Retrieved from https://www.theregister.co.uk/2020/05/05/uk_coronavirus_app/
     > KEY QUOTE: A de-centralised smartphone contact tracing system – the type contemplated ... by governments across Europe and also Apple and Google – would be likely to comply with both human rights and data protection laws. In contrast, a centralised smartphone system – which is the current UK Government proposal – is a greater interference with fundamental rights and would require significantly greater justification to be lawful. That justification has not yet been forthcoming.
+
+* Unknown (2020, May 4). Provisos for a Contact Tracing App (UK) [#News].
+    * Retrieved from https://www.adalovelaceinstitute.org/our-work/covid-19/provisos-for-a-contact-tracing-app-4-may-2020/
+    > KEY QUOTE: Provisos for a Contact Tracing App argues that – while NHSX is right to undertake research and testing to consider whether this technology could be a valid part of any measures to transition from lockdown – if the Government launches an ineffective app or untrustworthy app, it will not be adopted, is unlikely to be effective and could even be actively harmful to people’s health and trust.
 
 * Oswald, Marion (2020, May 4). Towards a Trustworthy Coronavirus Contact Tracing App [#Opinion].
     * Retrieved from https://rusi.org/commentary/towards-trustworthy-coronavirus-contact-tracing-app
@@ -500,6 +518,8 @@ https://translate.google.com/translate?depth=1&nv=1&pto=aue&rurl=translate.googl
 
 ## Notable Tweets
 
+- Nidhi Razdan on Twitter: "Here goes: What is NOT allowed across India, irrespective of Zone: travel by air, rail, metro, inter-State movt by road; schools, colleges, hotels and restaurants; cinema halls, malls, gyms, sports complexes etc; social, political,cultural and other gatherings; religious places" #THREAD https://twitter.com/Nidhi/status/1256215330583654401 / Twitter]
+- Covered Dish People on Twitter: "The apps that we call "contact tracing" apps don't do contact tracing - they do "exposure notification." Exposure notification is a useful adjunct to the labor-intensive work of contact tracing, but it is no substitute for it." #THREAD https://twitter.com/doctorow/status/1256593592115531776 / Twitter]
 - [(1) John Scott-Railton on Twitter: "Lots of contact tracing apps make assertions of unique, private identifiers. This doesn't mean that they are resistant to linkage attacks that leverage beacons to de-anonymize users. Here's a theoretical attack example from @ashk4n... https://t.co/WflNB0C3nv" / Twitter](https://twitter.com/jsrailton/status/1250088001042034689)
 - [(1) ashkan soltani on Twitter: "Here's an example linkage attack you could deploy to identify people that report positive for #COVID19 via apps that rely on @Apple / @Google’s "Privacy-Preserving Contact Tracing" API (applies to any contact tracing app that utilize publicly broadcast identifiers) #THREAD:" / Twitter](https://twitter.com/ashk4n/status/1250071326372638736)
 - [Andrew Exum on Twitter: "Interesting note from @TexasStandard today: Contact tracing is harder when people don’t answer their phones, and people don’t answer their phones because spammers have conditioned them to not do so when they don’t have the number saved in their contacts." / Twitter](https://twitter.com/exumam/status/1250476647138177027?s=21)
