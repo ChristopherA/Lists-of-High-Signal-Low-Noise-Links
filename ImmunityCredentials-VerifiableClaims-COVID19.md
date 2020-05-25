@@ -109,11 +109,15 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
     * Retrieved from https://ethics.harvard.edu/files/center-for-ethics/files/safracenterforethicswhitepaper8_01.pdf
     > KEY QUOTE: Proactive adaptation of existing, purpose-built, privacy-preserving technology, grounded in respect for equity and human rights, offers a means to protect society from a resurgence of the disease, while safeguarding individual privacy and civil liberties. To protect individuals from surveillance, discrimination, fraud, or exclusion, we must ensure that systems developed to serve these purposes are private, secure, and accessible—and are developed using open-source technology and open standards for interoperability and universal access. 
 
-**This is one of the best analysis so far on Immunity Credentials**
+**This is one of the best analysis so far on Immunity Credentials, and the following article an important follow-up**
 
 * Renieres, Elizabeth M. (2020, May 18). The Dangers of Blockchain-Enabled “Immunity Passports” for COVID-19 [#Opinion, Medium].
     * Retrieved from https://medium.com/berkman-klein-center/the-dangers-of-blockchain-enabled-immunity-passports-for-covid-19-5ff84cacb290
     > KEY QUOTE: The prospect of severely curtailing the fundamental rights and freedoms of individuals through ill-thought-out plans for “immunity passports” or similar certificates, particularly ones that would leverage premature standards and a highly experimental and potentially rights-infringing technology like blockchain, is beyond dystopian. We urge law and policymakers to think twice before entertaining such industry-driven, technology-first solutions to complex public health and humanitarian crises. 
+
+* Huges, Riley (2020, May 20). “Immunity Passports” and Verifiable Credentials: a Response to Critiques [#Opinion, Medium]
+    * Retrieved from https://medium.com/@rileyparkerhughes/immunity-passports-and-verifiable-credentials-a-response-to-critiques-142499fba4fb
+    > KEY QUOTE: It is clearly premature to deploy immunity passports. But that doesn’t mean we should stop trying to determine whether/how they will be useful.
 
 **Some interesting risk modeling approaches to COVID-19 response technology, specifically apps:**
 
