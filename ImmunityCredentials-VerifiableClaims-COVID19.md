@@ -485,11 +485,25 @@ So people would try to get the credential by getting sick on purpose and hoping 
   * Retrieved from https://publicseminar.org/essays/theses-for-theory-in-a-time-of-crisis/. 
   > KEYQUOTE: Resist the “shock doctrine.” Emergencies have been declared before and will be again. This is a time to make demands on, more than to rely on, governments. Reliance is passive. Demand is active.
 
+**I like this reasoned approach from the Canadian government.**
+
+* Unknown (2020, April). A Framework for the Government of Canada to Assess Privacy-Impactful Initiatives in Response to COVID-19 [#Framework #Guidelines].
+  * Retrieved from https://www.priv.gc.ca/en/privacy-topics/health-genetic-and-other-body-information/health-emergencies/fw_covid/
+  > KEY QUOTE: Privacy protection isn’t just a set of technical rules and regulations, but rather represents a continuing imperative to preserve fundamental human rights and democratic values, even in exceptional circumstances.
+
 # Recent ICs News
 
 * Iwai, Junya; Abe, Daishi (2020, April 25). Infection undercount sparks fear, but raises hope of herd immunity [#News #Opinion, Nikkei Asian Review].
   * Retrieved from https://asia.nikkei.com/Spotlight/Coronavirus/Infection-undercount-sparks-fear-but-raises-hope-of-herd-immunity
   > KEY QUOTE: The U.S. Centers for Disease Control and Prevention will collect and test 50,000 samples in September and December of this year, and in November 2021. The nationwide survey will determine the extent of the epidemic and assist in the development of vaccines. Some anticipate partial reopening of economies if antibody carriers are identified.
+
+* Mandavilli, Apoorva (2020, April 24). Coronavirus Antibody Tests: Can You Trust the Results? [#News].
+  * Retrieved from https://www.nytimes.com/2020/04/24/health/coronavirus-antibody-tests.html
+  > KEY QUOTE: A team of scientists worked around the clock to evaluate 14 antibody tests. A few worked as advertised. Most did not.
+
+* Honegan, Bridgette (2020, April 24). OU develops world’s first COVID-19 digital immunity passport [#News].
+  * Retrieved from https://ounews.co/science-mct/computing-communications/ou-develops-worlds-first-covid-19-digital-immunity-passport/
+  > KEY QUOTE: Tech experts from The Open University (OU) have developed the world’s first digital application to certify COVID-19 immunity test results. Researchers from the OU’s Knowledge Media Institute have created a prototype mobile phone app that enables instant verification of tamper-proof coronavirus test results and vaccination certificates.
 
 * Carpani, Jessica; Jones, Amy (2020, April 24). Workplaces may have to be segregated between vulnerable and healthy [#News #Opinion, The Telegraph, Paywall].
   * Retrieved from https://www.telegraph.co.uk/news/2020/04/24/workplaces-may-have-segregated-vulnerable-healthy/
@@ -507,31 +521,19 @@ So people would try to get the credential by getting sick on purpose and hoping 
   * Retrieved from https://www.businessinsider.com/coronavirus-who-warns-2-3-percent-population-have-antibodies-2020-4
   > KEY QUOTE: The head of the World Health Organization on Monday said that likely no more than 2% to 3% of the global population have developed antibodies for COVID-19. That is a problem for countries hoping to issue "immunity passports" as a way to get back to normal, even before a coronavirus vaccine has been developed. A second WHO expert said the data does not yet support such a strategy, not least because it is not clear whether those who recover from COVID-19 are in fact immune.
 
+**Not IC specific but an example of the misuse of emergency powers**
+
+* Onu, Emele (2020, April 19). Nigerian Union Ends Threat to Halt Oil Exports as Staff Released [#News]
+  * Retrieved from  https://www.bloomberg.com/news/articles/2020-04-19/nigerian-union-ends-threat-to-halt-oil-exports-as-staff-released
+  > KEY QUOTE: The Petroleum and Natural Gas Senior Staff Association of Nigeria suspended the strike hours before it was to have started at midnight on Sunday. The union, known as Pengassan, had planned to halt operations at all crude-exporting facilities to protest the detention of 21 Exxon Mobil Corp. employees by authorities in Rivers State, it said in an emailed statement. Authorities initially accused the employees of violating restrictions on their movement, the union said. However, the workers were released on Sunday, and Pengassan backed down from its threat, a union official said by phone later in the day.
+ 
 # Unsorted ICs News
-
-https://www.nytimes.com/2020/04/24/health/coronavirus-antibody-tests.html
-
-https://ounews.co/science-mct/computing-communications/ou-develops-worlds-first-covid-19-digital-immunity-passport/
-
-https://www.bloomberg.com/news/articles/2020-04-09/there-s-a-big-problem-with-coronavirus-immunity-certificates
-
-Government of Canada says: ”Privacy protection isn’t just a set of technical rules and regulations, but rather represents a continuing imperative to preserve fundamental human rights and democratic values, even in exceptional circumstances.“
-https://www.priv.gc.ca/en/privacy-topics/health-genetic-and-other-body-information/health-emergencies/fw_covid/
 
 France COVID trace (translated)
 https://translate.google.com/translate?depth=1&nv=1&pto=aue&rurl=translate.google.com&sl=auto&sp=nmt4&tl=en&u=https://www.cnil.fr/fr/publication-de-lavis-de-la-cnil-sur-le-projet-dapplication-mobile-stopcovid
 
-https://www.brookings.edu/blog/techtank/2020/04/21/managing-health-privacy-and-bias-in-covid-19-public-surveillance/
-
-The economist clearly has not heard my #Foremenbrance WWII story to know why Northern Europe has a privacy “religion”. After 75 years the editorial memory has forgotten.
-https://www.economist.com/europe/2020/04/23/privacy-in-a-pandemic
-
-https://www.bloomberg.com/news/articles/2020-04-19/nigerian-union-ends-threat-to-halt-oil-exports-as-staff-released (not IC specific, but example of misuse of emergency powers)
-Pre-COVID19 requirements for "medical authorization to travel" 
-
-https://www.airnewzealand.com/special-assistance-flying-with-medical-conditions (example of pre COVID rules on flight boarding, what comes next?)
-
-https://www.brookings.edu/blog/techtank/2020/04/21/managing-health-privacy-and-bias-in-covid-19-public-surveillance/
+Example of pre COVID rules on flight boarding, what comes next?
+https://www.airnewzealand.com/special-assistance-flying-with-medical-conditions
 
 # Related Materials
 
