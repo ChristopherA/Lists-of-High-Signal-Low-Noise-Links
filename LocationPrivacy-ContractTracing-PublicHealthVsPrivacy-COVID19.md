@@ -17,6 +17,7 @@
 - [Status & Copyright](#status---copyright)
 - [Related Lists](#related-lists)
 - [My Personal POV](#my-personal-pov)
+  * [My High Priority Curated Reading List (section updated frequently)](#my-high-priority-curated-reading-list--section-updated-frequently-)
 - [Contact Tracing Primer](#contact-tracing-primer)
   * [Background: Contact Tracing](#background--contact-tracing)
   * [Introduction to Contact Tracing Technology (CTT)](#introduction-to-contact-tracing-technology--ctt-)
@@ -68,12 +69,6 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
   * Video retrieved from https://www.youtube.com/watch?v=isanNSDoSnE.
   > KEYQUOTE: Some of these things we've been fighting for a long time...in this crisis there is the opportunity to identify some best practices that are do-able now, and put some appropriate energy into better solutions that we can implement for maybe not this crisis, but for the next one.
 
-**I share my concerns specifically with respect to COVID-19 response technology, and digital identity here:**
-
-* Amery, Paul (2020, May 7). Coronavirus jumpstarts race for digital ID [#SSI, New Money Review].
-  * Retrieved from https://newmoneyreview.com/index.php/2020/05/07/coronavirus-jumpstarts-race-for-digital-id/ 
-  >KEY QUOTE: ...well-intentioned national identity system can be abused if the political winds shift
-
 **I am co-chair of this World-Wide-Web Consortium (#W3C) community group, where a number of important credentials and identity specifications were nurtured to the point where they could be formalized into international standards. Most notably, the Verifiable Credentials specification is now a full standard, and the Decentralized Identity specification is well on its way.**
 
 **We meet online weekly via voice and IRC on Tuesdays at 12noon ET, 9am PT, and 5pm CET. At several recent meetings we have had discussion on #COVID19 related privacy topics, and it looks like some standards around #ImmunityCredentials in particular will become official work items. Our meetings are open to the public and are announced on our public mailing list.**
@@ -92,24 +87,71 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
 
   > For if we do not be somewhat pragmatic now, and set a stage to be able to invest in a more ideal future, we risk that everything we are currently doing on the privacy front now will fail because in the end, everyone will being tracked at another layer."
 
-**This Harvard white-paper also expands on these concerns about #PublicHealthVsPrivacy on April 3rd 2020:**
+## My High Priority Curated Reading List (section updated frequently)
 
-* Vi, Hart; et al (2020, April 3). Outpacing the Virus: Digital Response to Containing the Spread of COVID-19 while Mitigating Privacy Risks [#Opinion, #Paper, Edmond J. Safra Center for Ethics - Harvard].
-    * Retrieved from https://ethics.harvard.edu/outpacing-virus
-    > ABSTRACT: There is a growing consensus that we must use a combined strategy of medical and technological tools to provide us with response at a scale that can outpace the speed and proliferation of the SARS-CoV-2 virus. A process of identifying exposed individuals who have come into contact with diagnosed individuals, called “contact tracing,” has been shown to effectively enable suppression of new cases of SARS-CoV-2 (COVID-19). Important concerns around protecting patient’s confidentiality and civil liberties, and lack of familiarity with available privacy-protecting technologies, have both led to suboptimal privacy implementations and hindered adoption. This paper reviews the trade-offs of these methods, their techniques, the necessary rate of adoption, and critical security and privacy controls and concerns for an information system that can accelerate medical response. Proactive use of intentionally designed technology can support voluntary participation from the public toward the goals of smart testing, effective resource allocation, and relaxing some of physical distancing measures, but only when it guarantees and assures an individual’s complete control over disclosure, and use of data in the way that protects individual rights.
+**The #LocationPrivacy #ContactTracing #PublicHealthVsPrivacy #COVID19 topics are substantial, and rapidly evolving. In this section I intend to highlight the most interesting content and regularly update it**
 
-**The NYT Editorial Board makes a key argument that any technology measures implemented today need to end once the threat passes:**
+**1/10: Some governments will, and have already begun to, exploit the crisis. History suggests this is the precursor to something more dangerous for individuals and society.**
 
-* Editorial Board (2020, May 1). We the People, in Order to Defeat the Coronavirus [#Opinion, New York Times].
-  * Retrieved from https://www.nytimes.com/2020/05/01/opinion/coronavirus-civil-liberties.html
-  > KEY QUOTE: In a large self-governing society, civil liberties exist as part of a delicate balance. That balance is being sorely tested right now, and there is often no good solution that does not infringe on at least some liberty. At the same time, the coronavirus provides Americans with an opportunity to reimagine the scope and nature of our civil liberties and our social contract. Yes, Americans are entitled to freedom from government intrusion. But they also have an obligation not to unnecessarily expose their fellow citizens to a deadly pathogen. Protecting Americans from the pandemic while also preserving our economy and our civil liberties is not easy. But it’s essential.
+* Rachman, Gideon (2020, April 20). How strongman leaders will exploit the coronavirus crisis [#News #Opinion, Financial Times, Paywall].
+  * Retrieved from https://www.ft.com/content/4cb87988-82df-11ea-b555-37a289098206
+  > KEY QUOTE: There are also alarming historical precedents in which governments have used an emergency to claim dictatorial powers, which are then left unrepealed. A classic case was Hitler’s use of the Reichstag fire in 1933 to establish the power to rule by decree...An expansion of state-surveillance, once rolled out, could be hard to reverse and will be a potent tool for would-be dictators.
 
-**Some interesting risk modeling approaches to COVID-19 response technology, specifically apps:**
+**2/10: I am quoted here sharing my concerns specifically with respect to COVID-19 response technology, and digital identity.**
+
+* Amery, Paul (2020, May 7). Coronavirus jumpstarts race for digital ID [#SSI, New Money Review].
+  * Retrieved from https://newmoneyreview.com/index.php/2020/05/07/coronavirus-jumpstarts-race-for-digital-id/ 
+  >KEY QUOTE: ...well-intentioned national identity system can be abused if the political winds shift.
+
+**3/10: Contact Tracing Technology aims to accelerate the manual, laborious process of Contact Tracing. One of the best things I've read recently on the topic is this article that argues that we should call it "Exposure Alerting" and that many of our design problems come from naming it incorrectly:**
+
+* Karlton, Phil (2020, April 22). Digital Contact Tracing and Alerting vs Exposure Alerting [#Opinion, Blog by Harper Reed]
+  * Retrieved from https://harper.blog/2020/04/22/digital-contact-tracing-and-alerting-vs-exposure-alerting/.
+  > KEY QUOTE: Digital contact tracing should be called Exposure Alerting. That is what it does. It doesn’t “trace contacts” from an epidemiological perspective. Exposure Alerting could tie in with contact tracing, but we should not conflate these separate technologies. Manual Contact Tracing is essential and is very different than Exposure Alerting Exposure Alerting should be decentralized. Manual contact tracing is centralized. Exposure Alerting has very specific privacy concerns that are very different than Manual Contact Tracing.
+
+**4/10: This is the best technical overview of the Apple/Google protocol, which is likely the dominant implementation of #ContactTracing technology:**
+
+* Fleishman, Glenn (2020, April 10). Apple and Google Partner for Privacy-Preserving COVID-19 Contact Tracing and Notification [#Opinion]
+    * Retrieved from https://tidbits.com/2020/04/10/apple-and-google-partner-for-privacy-preserving-covid-19-contact-tracing-and-notification/
+    > KEY QUOTE: In the first stage, Apple and Google will make private APIs (application programming interfaces) available in mid-May 2020 strictly limited to health agencies. These APIs will work identically across both iOS and Android and let public-health authorities modify existing apps or build new ones that leverage the tracing features. The companies will also build simple model apps that governments could either put their own logos on or substantially modify. 
+    > A second stage will appear “in the coming months,” and will build the tracing approach into Android and iOS at the operating system level. Enabling tracing and receiving a basic notification can happen without even installing an app, company representatives said in the briefing. An app will be required for someone to register a diagnosis of COVID-19.
+
+**5/10: This is a comprehensive summary of #ContactTracing implementations in the US and in 40+ countries around the world, from USC:**
+
+* Tanaka, Nina (Last Updated: 2020, May 15). Background Research on mobile applications focused on COVID-19  [#Implementation #Review, USC Viterbi School of Engineering].
+  * Retrieved from https://docs.google.com/document/d/1bgsNjPcvoz8fpOutEYiqCJpu2PWYHnGqPI3pcK9mUio/edit.
+  > KEYQUOTE: Based on news stories and other online sources, with a focus on February 2020 to present.
+
+**6/10: Excellent questionnaire for people designing or evaluating #ContactTracing implementations.**
+
+* de Montjoye, Yves-Alexandre; Houssiau, Florimond; Gadotti, Andrea and Florent Guepin (2020, April 2). Evaluating COVID-19 contact tracing apps? Here are 8 privacy questions we think you should ask. [#Opinion #Implementation, Computational Privacy Group].
+  * Retrieved from https://cpg.doc.ic.ac.uk/blog/evaluating-contact-tracing-apps-here-are-8-privacy-questions-we-think-you-should-ask/
+  > KEYQUOTE: In-depth formal analysis of the protocol is necessary before deployment and should be published. Protecting privacy should rely on mathematical proofs of correctness, with mitigation strategies considered only when necessary. Our questions focus on privacy aspects, but ensuring security is similarly crucial. This means, for example, supervising the integrity and authenticity of the crowdsourced data, evaluating how mobile malware could affect the app’s behavior, or assessing the resilience of the authority’s servers against intrusions.
+  > Building a contact tracing app that allows all of us to participate in the fight against COVID19 is possible, but it will require us to go beyond shallow reassurances that privacy is protected.
+
+**7/10: A good reply from W3C Credentials CG (where I am co-chair) to the de Montjoye questionnaire in 6/10:**
+
+  * Booth, David (2020, April 02) W3C-CCG Mailing List [#Implementation #Analysis, W3C CCG].
+    * Retrieved from https://lists.w3.org/Archives/Public/public-credentials/2020Apr/0017.html
+    > KEYQUOTE: That document raises excellent questions, but I think the range of protocols (designs) for consideration should be broadened even more. All three of the toy protocols that they discuss involved a central authority -- presumably a public health agency -- that would receive information about infected or exposed individuals.  I think it would be good to also consider (list follows)
+
+**8/10: Important consideration of equity in #ContactTracing implementations.**
+
+* Landau, Susan et al (2020, May 1). The Importance of Equity in Contact Tracing [#Opinion, Law Fare Blog].
+  * Retrieved from https://www.lawfareblog.com/importance-equity-contact-tracing
+  > KEY QUOTE: As policymakers coalesce around contact tracing as a means to stabilize the coronavirus outbreak while loosening harsh movement restrictions, the main worry has been about privacy qua privacy. But privacy is not the only, or even primary, concern. We must first think carefully about whether a contact-tracing app can be effective in the United States. And if such a technology is to be developed, it must be built on a foundation of fairness. We cannot ethically accept any solution that will systematically work less well for, or disproportionately harm, some communities—especially the groups that are already the hardest hit by this pandemic.
+
+**9/10: Some interesting risk modeling approaches to COVID-19 response technology, specifically apps:**
 
 * Ernst, Johannes (2020, May 7). Trust through Transparency for Apps [#Opinion #Risk].
     * Retrieved from https://reb00ted.org/tech/20200507-trust-through-transparency-for-apps/
     > KEY QUOTE: What do you need to know so you can confidently trust a piece of technology, such as an app supposedly helping fight COVID-19?
     > That question is at the heart of Project App Assay. It applies to all technology, but is particularly important for the COVID-19 apps, because many of them collect so much information about our health, our friends, our locations and activities around the clock.
+
+**10/10: Lastly, this highlights some important data on large COVID-19 infection clusters—or “superspreading events” (SSEs), as they are sometimes referred to in the scientific literature. If we know how it spreads, we know what to control for.**
+* Kay Jonathan (2020, April 23). COVID-19 Superspreader Events in 28 Countries: Critical Patterns and Lessons [#Opinion]
+  * Retrieved from: https://quillette.com/2020/04/23/covid-19-superspreader-events-in-28-countries-critical-patterns-and-lessons/
+  > KEY QUOTE: When do COVID-19 SSEs happen? Based on the list I’ve assembled, the short answer is: Wherever and whenever people are up in each other’s faces, laughing, shouting, cheering, sobbing, singing, greeting, and praying. You don’t have to be a 19th-century German bacteriologist or MIT expert in mucosalivary ballistics to understand what this tells us about the most likely mode of transmission.
 
 # Contact Tracing Primer
 ## Background: Contact Tracing
@@ -121,12 +163,6 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
   > KEYQUOTE: Contact tracing has been used for decades to control the spread of infectious diseases. The basic idea is simple: track down infected people, then find everyone who has been near them and encourage those people to stay home until it is clear they are not sick.
 
 ## Introduction to Contact Tracing Technology (CTT)
-
-**Contact Tracing Technology aims to accelerate the manual, laborious process of Contact Tracing. One of the best things I've read recently on the topic is this article that argues that we should call it "Exposure Alerting" and that many of our design problems come from naming it incorrectly:**
-
-* Karlton, Phil (2020, April 22). Digital Contact Tracing and Alerting vs Exposure Alerting [#Opinion, Blog by Harper Reed]
-  * Retrieved from https://harper.blog/2020/04/22/digital-contact-tracing-and-alerting-vs-exposure-alerting/.
-  > KEY QUOTE: Digital contact tracing should be called Exposure Alerting. That is what it does. It doesn’t “trace contacts” from an epidemiological perspective. Exposure Alerting could tie in with contact tracing, but we should not conflate these separate technologies. Manual Contact Tracing is essential and is very different than Exposure Alerting Exposure Alerting should be decentralized. Manual contact tracing is centralized. Exposure Alerting has very specific privacy concerns that are very different than Manual Contact Tracing.
 
 **When we talk about CTT, there are actually 3 approaches/designs. This is a good summary of each: Bluetooth Contact Tracing, Redacted Location Tracing, and Hashing Servers and Mix Nets:**
 
@@ -159,6 +195,12 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
   * Retrieved from https://www.brookings.edu/techstream/inaccurate-and-insecure-why-contact-tracing-apps-could-be-a-disaster/
   > KEY QUOTE: And finally, the issue of malicious use is paramount—particularly given this current climate of disinformation, astroturfing, and political manipulation. Imagine an unscrupulous political operative who wanted to dampen voting participation in a given district, or a desperate business owner who wanted to stifle competition. Either could falsely report incidences of coronavirus without much fear of repercussion. Trolls could sow chaos for the malicious pleasure of it. Protesters could trigger panic as a form of civil disobedience. A foreign intelligence operation could shut down an entire city by falsely reporting COVID-19 infections in every neighborhood. There are a great many vulnerabilities underlying this platform that have still yet to be explored.
 
+**This Harvard white-paper also expands on these concerns about #PublicHealthVsPrivacy:**
+
+* Vi, Hart; et al (2020, April 3). Outpacing the Virus: Digital Response to Containing the Spread of COVID-19 while Mitigating Privacy Risks [#Opinion, #Paper, Edmond J. Safra Center for Ethics - Harvard].
+  * Retrieved from https://ethics.harvard.edu/outpacing-virus
+  > ABSTRACT: There is a growing consensus that we must use a combined strategy of medical and technological tools to provide us with response at a scale that can outpace the speed and proliferation of the SARS-CoV-2 virus. A process of identifying exposed individuals who have come into contact with diagnosed individuals, called “contact tracing,” has been shown to effectively enable suppression of new cases of SARS-CoV-2 (COVID-19). Important concerns around protecting patient’s confidentiality and civil liberties, and lack of familiarity with available privacy-protecting technologies, have both led to suboptimal privacy implementations and hindered adoption. This paper reviews the trade-offs of these methods, their techniques, the necessary rate of adoption, and critical security and privacy controls and concerns for an information system that can accelerate medical response. Proactive use of intentionally designed technology can support voluntary participation from the public toward the goals of smart testing, effective resource allocation, and relaxing some of physical distancing measures, but only when it guarantees and assures an individual’s complete control over disclosure, and use of data in the way that protects individual rights.
+
 ### Criticism 1: Effectiveness
 
 **A key concern of #ContactTracing apps is the huge adoption required for them to be effective. Other than coercive use in China, Singapore has the largest % acceptance of these apps (16-17% maybe), but many question the efficacy:**
@@ -178,7 +220,7 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
 
 ### Criticism 2: Potential for Exploitation
 
-**Criticism isn't always about the implementation of these technologies, but also the concerns about the parties doing the implementations:**
+**Criticism isn't always about the implementation of these technologies, but also the concerns about the parties doing the implementations and the persistence of the implementations:**
 
 * Funakoshi, Minami et al (2020, April 28). Tracing COVID-19 [#News, Reuters]
   * Retrieved from https://graphics.reuters.com/HEALTH-CORONAVIRUS/SPY/qzjvqkkxovx/index.html
@@ -191,6 +233,12 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
 * Rachman, Gideon (2020, April 20). How strongman leaders will exploit the coronavirus crisis [#Opinion, Financial Times, Paywall].
   * Retrieved from https://www.ft.com/content/4cb87988-82df-11ea-b555-37a289098206.
   > KEYQUOTE: But, as events wear on, strongman leaders might find that the new environment is even more hospitable to their style of politics. Economic despair and desperation are often the enemies of calm debate and a friend to the conspiracy theories that help populism to flourish. An expansion of state-surveillance, once rolled out, could be hard to reverse and will be a potent tool for would-be dictators.
+
+**The NYT Editorial Board makes a key argument that any technology measures implemented today need to end once the threat passes:**
+
+* Editorial Board (2020, May 1). We the People, in Order to Defeat the Coronavirus [#Opinion, New York Times].
+  * Retrieved from https://www.nytimes.com/2020/05/01/opinion/coronavirus-civil-liberties.html
+  > KEY QUOTE: In a large self-governing society, civil liberties exist as part of a delicate balance. That balance is being sorely tested right now, and there is often no good solution that does not infringe on at least some liberty. At the same time, the coronavirus provides Americans with an opportunity to reimagine the scope and nature of our civil liberties and our social contract. Yes, Americans are entitled to freedom from government intrusion. But they also have an obligation not to unnecessarily expose their fellow citizens to a deadly pathogen. Protecting Americans from the pandemic while also preserving our economy and our civil liberties is not easy. But it’s essential.
 
 ### Criticism 3: Privacy Erosion (Location, Other)
 
@@ -242,13 +290,7 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
   * Retrieved from https://onezero.medium.com/the-pandemic-is-a-trojan-horse-for-surveillance-programs-around-the-world-887fa6f12ec9
   > KEYQUOTE: In an attempt to stem the tide of the coronavirus pandemic, at least 30 governments around the world have instituted temporary or indefinite efforts to single out infected individuals or maintain quarantines. Many of these efforts, in turn, undermine personal privacy.
 
-**This is a comprehensive summary of CTT implementations in the US and in 40+ countries around the world, from USC:**
-
-* Tanaka, Nina (Last Updated: 2020, April 11). Background Research on mobile applications focused on COVID-19  [#Implementation #Review, USC Viterbi School of Engineering].
-  * Retrieved from https://docs.google.com/document/d/1bgsNjPcvoz8fpOutEYiqCJpu2PWYHnGqPI3pcK9mUio/edit.
-  > KEYQUOTE: Based on news stories and other online sources, with a focus on February 2020 to present.
-
-**This is another comprehensive crowdsourced list of projects related to COVID-19 contact tracing:**
+**This is a comprehensive crowdsourced list of projects related to COVID-19 contact tracing:**
 
 * Shankari (Ongoing). Covid 19 Tracing Projects [#Implementation, GitHub].
   * Retrieved from https://github.com/shankari/covid-19-tracing-projects. 
@@ -257,13 +299,6 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
 **Europe's data watchdog also pitched a pan-Europe app, but many European countries are all pursuing their own projects or relying on Apple-Google technology (see below).**
 
 ## Commentary on specific CTT projects
-
-**This is the best technical overview of the Apple/Google protocol:**
-
-* Fleishman, Glenn (2020, April 10). Apple and Google Partner for Privacy-Preserving COVID-19 Contact Tracing and Notification [#Opinion]
-    * Retrieved from https://tidbits.com/2020/04/10/apple-and-google-partner-for-privacy-preserving-covid-19-contact-tracing-and-notification/
-    > KEY QUOTE: In the first stage, Apple and Google will make private APIs (application programming interfaces) available in mid-May 2020 strictly limited to health agencies. These APIs will work identically across both iOS and Android and let public-health authorities modify existing apps or build new ones that leverage the tracing features. The companies will also build simple model apps that governments could either put their own logos on or substantially modify. 
-    > A second stage will appear “in the coming months,” and will build the tracing approach into Android and iOS at the operating system level. Enabling tracing and receiving a basic notification can happen without even installing an app, company representatives said in the briefing. An app will be required for someone to register a diagnosis of COVID-19.
 
 **Early privacy analysis of Apple and Google's partnership is positive, but it still has potential centralization issues (see [Implementations & Analysis](#implementations--analysis) section below for more details).**
 
@@ -363,19 +398,6 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
 * Crocker, Andrew; Hoffman-Andrews, Jacob (2020, April 6). How to Protect Privacy When Aggregating Location Data to Fight COVID-19 [#Recommendations, Electronic Frontier Foundation].
   * Retrieved from https://www.eff.org/deeplinks/2020/04/how-protect-privacy-when-aggregating-location-data-fight-covid-19
   > KEY QUOTE: In general, our advice to organizations that consider sharing aggregate location data: Get consent from the users who supply the data. Be cautious about the details. Aggregate on the highest level of generality that will be useful. Share your plans with the public before you release the data. And avoid sharing “deidentified” or “anonymized” location data that is not aggregated—it doesn’t work.
-
-**A good reply from W3C Credentials CG (where I am co-chair) to the de Montjoye questionnaire below:**
-
-  * Booth, David (2020, April 02) W3C-CCG Mailing List [#Implementation #Analysis, W3C CCG].
-    * Retrieved from https://lists.w3.org/Archives/Public/public-credentials/2020Apr/0017.html
-    > KEYQUOTE: That document raises excellent questions, but I think the range of protocols (designs) for consideration should be broadened even more. All three of the toy protocols that they discuss involved a central authority -- presumably a public health agency -- that would receive information about infected or exposed individuals.  I think it would be good to also consider (list follows
-
-**Excellent questionnaire for people designing or evaluating #ContactTracing implementations**
-
-* de Montjoye, Yves-Alexandre; Houssiau, Florimond; Gadotti, Andrea and Florent Guepin (2020, April 2). Evaluating COVID-19 contact tracing apps? Here are 8 privacy questions we think you should ask. [#Opinion #Implementation, Computational Privacy Group].
-  * Retrieved from https://cpg.doc.ic.ac.uk/blog/evaluating-contact-tracing-apps-here-are-8-privacy-questions-we-think-you-should-ask/
-  > KEYQUOTE: In-depth formal analysis of the protocol is necessary before deployment and should be published. Protecting privacy should rely on mathematical proofs of correctness, with mitigation strategies considered only when necessary. Our questions focus on privacy aspects, but ensuring security is similarly crucial. This means, for example, supervising the integrity and authenticity of the crowdsourced data, evaluating how mobile malware could affect the app’s behavior, or assessing the resilience of the authority’s servers against intrusions.
-  > Building a contact tracing app that allows all of us to participate in the fight against COVID19 is possible, but it will require us to go beyond shallow reassurances that privacy is protected.
 
 **This highlights the importance of community support for any technological response to COVID-19:**
 
@@ -501,10 +523,6 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
 * Schneier, Bruce (2020, May 1). Me on COVID-19 Contact Tracing Apps [#Opinion, Schneier on Security Blog].
   * Retrieved from https://www.schneier.com/blog/archives/2020/05/me_on_covad-19_.html
   > KEY QUOTE: The idea that contact tracing can be done with an app, and not human health professionals, is just plain dumb.
-
-* Landau, Susan et al (2020, May 1). The Importance of Equity in Contact Tracing [#Opinion, Law Fare Blog].
-  * Retrieved from https://www.lawfareblog.com/importance-equity-contact-tracing
-  > KEY QUOTE: As policymakers coalesce around contact tracing as a means to stabilize the coronavirus outbreak while loosening harsh movement restrictions, the main worry has been about privacy qua privacy. But privacy is not the only, or even primary, concern. We must first think carefully about whether a contact-tracing app can be effective in the United States. And if such a technology is to be developed, it must be built on a foundation of fairness. We cannot ethically accept any solution that will systematically work less well for, or disproportionately harm, some communities—especially the groups that are already the hardest hit by this pandemic.
 
 https://translate.google.com/translate?depth=1&nv=1&pto=aue&rurl=translate.google.com&sl=auto&sp=nmt4&tl=en&u=https://www.cnil.fr/fr/publication-de-lavis-de-la-cnil-sur-le-projet-dapplication-mobile-stopcovid
 
