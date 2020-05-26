@@ -23,6 +23,7 @@ title: '#ImmunityCredentials #VerifiableClaims #COVID19'
 - [Status & Copyright](#status---copyright)
 - [Related Lists](#related-lists)
 - [My Personal POV](#my-personal-pov)
+  * [My High Priority Curated Reading List (section updated frequently)](#my-high-priority-curated-reading-list--section-updated-frequently-)
 - [Immunity Credentials Primer](#immunity-credentials-primer)
   * [Background: Immunoprivilege](#background--immunoprivilege)
   * [Introduction to Immunity Credentials (ICs)](#introduction-to-immunity-credentials--ics-)
@@ -74,12 +75,6 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
   * Video retrieved from https://www.youtube.com/watch?v=WlDSMRb_X-s.
   > KEYQUOTE: How do we prevent these architectures, which are well intended and have these principles...how do we be sure that we can design them in ways that make it harder for them to be [misused or exploited].  
 
-**I share my concerns specifically with respect to COVID-19 response technology, and digital identity here:**
-
-* Amery, Paul (2020, May 7). Coronavirus jumpstarts race for digital ID [#SSI, New Money Review].
-  * Retrieved from https://newmoneyreview.com/index.php/2020/05/07/coronavirus-jumpstarts-race-for-digital-id/ 
-  >KEY QUOTE: ...well-intentioned national identity system can be abused if the political winds shift
-
 **I am co-chair of this World-Wide-Web Consortium (#W3C) community group, where a number of important credentials and identity specifications were nurtured to the point where they could be formalized into international standards. Most notably, the Verifiable Credentials specification is now a full standard, and the Decentralized Identity specification is well on its way.** 
 
 **We meet online weekly via voice and IRC on Tuesdays at 12noon ET, 9am PT, and 5pm CET. At several recent meetings we have had discussion on #COVID19 related privacy topics, and it looks like some standards around #ImmunityCredentials in particular will become official work items. Our meetings are open to the public and are announced on our public mailing list.**
@@ -98,33 +93,73 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
 
 **I like this quote for Orie Steele "We should be careful to support systems that citizens, corporations and governments are using today, and establish parity, before pushing the boundaries of space time with blockchains and verifiable credentials" Twitter [@OR13b](https://twitter.com/OR13b)**
 
-**We need to remain vigilant**
+## My High Priority Curated Reading List (section updated frequently)
+
+**The #ImmunityCredentials #VerifiableClaims #COVID19 topics are substantial, and rapidly evolving. In this section I intend to highlight the most interesting content and regularly update it**
+
+**1/10: Some governments will, and have already begun to, exploit the crisis. History suggests this is the precursor to something more dangerous for individuals and society.**
+
 * Rachman, Gideon (2020, April 20). How strongman leaders will exploit the coronavirus crisis [#News #Opinion, Financial Times, Paywall].
   * Retrieved from https://www.ft.com/content/4cb87988-82df-11ea-b555-37a289098206
   > KEY QUOTE: There are also alarming historical precedents in which governments have used an emergency to claim dictatorial powers, which are then left unrepealed. A classic case was Hitler’s use of the Reichstag fire in 1933 to establish the power to rule by decree...An expansion of state-surveillance, once rolled out, could be hard to reverse and will be a potent tool for would-be dictators.
 
-**Harvard published a white paper on April 20, further highlighting the need for any technological intervention to be ethical, balanced, and privacy preserving**
+**2/10: I am quoted here sharing my concerns specifically with respect to COVID-19 response technology, and digital identity.**
+
+* Amery, Paul (2020, May 7). Coronavirus jumpstarts race for digital ID [#SSI, New Money Review].
+  * Retrieved from https://newmoneyreview.com/index.php/2020/05/07/coronavirus-jumpstarts-race-for-digital-id/ 
+  >KEY QUOTE: ...well-intentioned national identity system can be abused if the political winds shift
+
+**3/10: Harvard published a white paper on April 20, highlighting the need for any technological intervention to COVID-19 to be ethical, balanced, and privacy preserving.**
 
 * Gruener, Dakota (2020, April 20). Immunity Certificates: If We Must Have Them, We Must Do It Right [#Opinion, #WhitePaper, Harvard].
     * Retrieved from https://ethics.harvard.edu/files/center-for-ethics/files/safracenterforethicswhitepaper8_01.pdf
-    > KEY QUOTE: Proactive adaptation of existing, purpose-built, privacy-preserving technology, grounded in respect for equity and human rights, offers a means to protect society from a resurgence of the disease, while safeguarding individual privacy and civil liberties. To protect individuals from surveillance, discrimination, fraud, or exclusion, we must ensure that systems developed to serve these purposes are private, secure, and accessible—and are developed using open-source technology and open standards for interoperability and universal access. 
+    > KEY QUOTE: Proactive adaptation of existing, purpose-built, privacy-preserving technology, grounded in respect for equity and human rights, offers a means to protect society from a resurgence of the disease, while safeguarding individual privacy and civil liberties. To protect individuals from surveillance, discrimination, fraud, or exclusion, we must ensure that systems developed to serve these purposes are private, secure, and accessible—and are developed using open-source technology and open standards for interoperability and universal access.
 
-**This is one of the best analysis so far on Immunity Credentials, and the following article an important follow-up**
+**4/10: This is one of the best analysis so far on Immunity Credentials.**
 
 * Renieres, Elizabeth M. (2020, May 18). The Dangers of Blockchain-Enabled “Immunity Passports” for COVID-19 [#Opinion, Medium].
     * Retrieved from https://medium.com/berkman-klein-center/the-dangers-of-blockchain-enabled-immunity-passports-for-covid-19-5ff84cacb290
-    > KEY QUOTE: The prospect of severely curtailing the fundamental rights and freedoms of individuals through ill-thought-out plans for “immunity passports” or similar certificates, particularly ones that would leverage premature standards and a highly experimental and potentially rights-infringing technology like blockchain, is beyond dystopian. We urge law and policymakers to think twice before entertaining such industry-driven, technology-first solutions to complex public health and humanitarian crises. 
+    > KEY QUOTE: The prospect of severely curtailing the fundamental rights and freedoms of individuals through ill-thought-out plans for “immunity passports” or similar certificates, particularly ones that would leverage premature standards and a highly experimental and potentially rights-infringing technology like blockchain, is beyond dystopian. We urge law and policymakers to think twice before entertaining such industry-driven, technology-first solutions to complex public health and humanitarian crises.
+
+**5/10: In response to 4/10 this article clarifies a few important points about Verifiable Credentials, and strikes a more optimistic note.**
 
 * Huges, Riley (2020, May 20). “Immunity Passports” and Verifiable Credentials: a Response to Critiques [#Opinion, Medium]
     * Retrieved from https://medium.com/@rileyparkerhughes/immunity-passports-and-verifiable-credentials-a-response-to-critiques-142499fba4fb
     > KEY QUOTE: It is clearly premature to deploy immunity passports. But that doesn’t mean we should stop trying to determine whether/how they will be useful.
 
-**Some interesting risk modeling approaches to COVID-19 response technology, specifically apps:**
+**6/10: This history of immunoprivilege is an important reference for anyone designing solutions today.**
+
+* Mosley, Tonya (2020, April 17). In Antebellum New Orleans, Immunity From Yellow Fever Was A Form Of Privilege. Could That Happen With COVID-19? [#News #Opinion, wbur].
+  * Retrieved from https://www.wbur.org/hereandnow/2020/04/17/coronavirus-immunity-privilege-yellow-fever.
+  > KEYQUOTE: To fully understand just how valuable being acclimated was, Olivarius says, look no further than the auction block. There, being immune to yellow fever would drive up the price of an enslaved person by 25-50%.
+
+  > Fast forward to today and the parallels are hard to miss, Olivarius says. Early data shows black Americans are dying at higher rates from COVID-19, and many immigrants who pick our food have transformed into “essential” laborers overnight. Meanwhile, the elites retreat to the safety of their homes, and even second homes where they can practice social distancing.
+
+  > Olivarius says that while she hopes immunity from COVID-19 becomes a productive, positive part of our recovery — with immune individuals taking care of the elderly or helping to do more tests, for example — she’s also afraid immunity could exacerbate the inequalities already present in our society, just as it did in New Orleans more than a century ago.
+
+**7/10: Some interesting risk modeling approaches to COVID-19 response technology, specifically apps:**
 
 * Ernst, Johannes (2020, May 7). Trust through Transparency for Apps [#Opinion #Risk].
     * Retrieved from https://reb00ted.org/tech/20200507-trust-through-transparency-for-apps/
     > KEY QUOTE: What do you need to know so you can confidently trust a piece of technology, such as an app supposedly helping fight COVID-19?
     > That question is at the heart of Project App Assay. It applies to all technology, but is particularly important for the COVID-19 apps, because many of them collect so much information about our health, our friends, our locations and activities around the clock.
+
+**8/10: I also would point you to the *Privacy Considerations* section of the Verifiable Claims standard as a start on the issues in general.**
+
+* Sporny, Manu; Noble, Grant; Longley, Dave; Burnett, Daniel C.; Zundel, Brent (2019, November 19). Privacy Considerations of Verifiable Credentials Data Model 1.0 [#Implementation, #PrivacyConsideration, W3C WG].
+  * Retrieved from: https://www.w3.org/TR/vc-data-model/#privacy-considerations
+  > KEY QUOTE: The Verifiable Credentials Data Model strives to support the full privacy spectrum and does not take philosophical positions on the correct level of anonymity for any specific transaction. The following sections provide guidance for implementers who want to avoid specific scenarios that are hostile to privacy.
+
+**9/10: Parts of this piece disturb me but I also appreciate the out-of-the box thinking here, including if liability insurance should play an role in #ImmunityCredentials. But we need to be careful as liability law & courts are slow & expensive, and lives as wergild are often unjust.**
+
+* Hanson, Robin (2020, April 24). Vouch For Pandemic Passports [#Opinion].
+  * Retrieved from http://www.overcomingbias.com/2020/04/vouch-for-pandemic-passports.html
+  > KEY QUOTE: Of course, for the purpose of protecting ourselves from getting infected by others, we already have substantial incentives to attend to such factors. The problem is that simple regulations don’t give us good incentives to attend to these factors for the purpose of preventing us from infecting others. With regulations, we have incentives to follow the letter of the law, but not its spirit. So we don’t do enough in some ways, and yet do too much in others. But if liability could make us care about infecting others as well as ourselves, then it might simultaneously reduce both infections and the economic and social disruptions caused by lockdowns. With strong and clear enough liability incentives, we wouldn’t need regulations; we could just let people choose when and how to work, shop, travel, etc.
+
+**10/10: Lastly, this highlights some important data on large COVID-19 infection clusters—or “superspreading events” (SSEs), as they are sometimes referred to in the scientific literature. If we know how it spreads, we know what to control for.**
+* Kay Jonathan (2020, April 23). COVID-19 Superspreader Events in 28 Countries: Critical Patterns and Lessons [#Opinion]
+  * Retrieved from: https://quillette.com/2020/04/23/covid-19-superspreader-events-in-28-countries-critical-patterns-and-lessons/
+  > KEY QUOTE: When do COVID-19 SSEs happen? Based on the list I’ve assembled, the short answer is: Wherever and whenever people are up in each other’s faces, laughing, shouting, cheering, sobbing, singing, greeting, and praying. You don’t have to be a 19th-century German bacteriologist or MIT expert in mucosalivary ballistics to understand what this tells us about the most likely mode of transmission.
 
 # Immunity Credentials Primer
 
@@ -144,14 +179,6 @@ So people would try to get the credential by getting sick on purpose and hoping 
 
 **History suggests that we need to be cautious implementing a system of immunity-based privilege:**
 
-* Mosley, Tonya (2020, April 17). In Antebellum New Orleans, Immunity From Yellow Fever Was A Form Of Privilege. Could That Happen With COVID-19? [#News #Opinion, wbur].
-  * Retrieved from https://www.wbur.org/hereandnow/2020/04/17/coronavirus-immunity-privilege-yellow-fever.
-  > KEYQUOTE: To fully understand just how valuable being acclimated was, Olivarius says, look no further than the auction block. There, being immune to yellow fever would drive up the price of an enslaved person by 25-50%.
-
-  > Fast forward to today and the parallels are hard to miss, Olivarius says. Early data shows black Americans are dying at higher rates from COVID-19, and many immigrants who pick our food have transformed into “essential” laborers overnight. Meanwhile, the elites retreat to the safety of their homes, and even second homes where they can practice social distancing.
-
-  > Olivarius says that while she hopes immunity from COVID-19 becomes a productive, positive part of our recovery — with immune individuals taking care of the elderly or helping to do more tests, for example — she’s also afraid immunity could exacerbate the inequalities already present in our society, just as it did in New Orleans more than a century ago. 
-
 * Zhang, Sarah (2020, April 16). The People Who Risked Death for Immunity [#News #Opinion, The Atlantic].
   * Retrieved from https://www.theatlantic.com/science/archive/2020/04/immunity-divide/610054/.
   > KEYQUOTE: When yellow fever swept through New Orleans two centuries before our current pandemic, it made immunity a form of privilege—one so valuable, it was worth risking death to obtain. The outbreaks exacerbated existing forms of inequality too. New immigrants to the city disproportionately bore the risks of acclimation to yellow fever, eager as they were to find jobs. (The wealthy, meanwhile, emptied out of the city during summer yellow-fever season.) Enslaved people who were acclimated were worth 25 percent more—their suffering turned into financial benefit for their owners. “Diseases lay bare who belongs in society and who does not,” says Kathryn Olivarius, a Stanford historian who studies yellow fever in the antebellum South.
@@ -160,7 +187,7 @@ So people would try to get the credential by getting sick on purpose and hoping 
   * Retrieved from https://www.nytimes.com/2020/04/12/opinion/coronavirus-immunity-passports.html.
   > ABSTRACT: Immunity on a case-by-case basis did permit the economy to expand, but it did so unevenly: to the benefit of those already atop the social ladder, and at the expense of everyone else. When a raging virus collided with the forces of capitalism, immunological discrimination became just one more form of bias in a region already premised on racial, ethnic, gender and financial inequality.
 
-* Link to original paper cited in above 3 articles https://academic.oup.com/ahr/article/124/2/425/5426380
+* Link to original paper cited in above 2 articles https://academic.oup.com/ahr/article/124/2/425/5426380
 
 * Jones, David (2020, March 12). History in a Crisis — Lessons for Covid-19 [#Opinion, New England Journal of Medicine].
   * Retrieved from https://www.nejm.org/doi/full/10.1056/NEJMp2004361
@@ -417,11 +444,6 @@ So people would try to get the credential by getting sick on purpose and hoping 
   * Retrieved from https://www.youtube.com/watch?v=i3HIV-MX6Ag&feature=youtu.be)
   > ABSTRACT: This is the first of 3 videos that demonstrate our Verifiable Credential infrastructure. This is the introductory video. The next two describe the Registration Process and Transaction Process respectively in more detail. 
 
-**I also would point you to the *Privacy Considerations* section of the Verifiable Claims standard as a start on the issues in general.**
-
-* Sporny, Manu; Noble, Grant; Longley, Dave; Burnett, Daniel C.; Zundel, Brent (2019, November 19). Privacy Considerations of Verifiable Credentials Data Model 1.0 [#Implementation, #PrivacyConsideration, W3C WG].
-  * Retrieved from: https://www.w3.org/TR/vc-data-model/#privacy-considerations
-
 ## Policy Considerations for Governments
 
 **This white paper suggests 20-30 year olds could re-enter the economy. If such a move takes place it's inevitable that this population would need some sort of immunity credential to further participate/support elderly populations still under lockdown:**
@@ -489,11 +511,6 @@ So people would try to get the credential by getting sick on purpose and hoping 
 
 https://www.nytimes.com/2020/04/24/health/coronavirus-antibody-tests.html
 
-https://quillette.com/2020/04/23/covid-19-superspreader-events-in-28-countries-critical-patterns-and-lessons/
-
-Parts of this piece disturb me, but I also appreciate the out-of-the box thinking here, including if liability insurance should play an role in #ImmunityCredentials.
-http://www.overcomingbias.com/2020/04/vouch-for-pandemic-passports.html
-
 https://ounews.co/science-mct/computing-communications/ou-develops-worlds-first-covid-19-digital-immunity-passport/
 
 https://www.bloomberg.com/news/articles/2020-04-09/there-s-a-big-problem-with-coronavirus-immunity-certificates
@@ -506,9 +523,8 @@ https://translate.google.com/translate?depth=1&nv=1&pto=aue&rurl=translate.googl
 
 https://www.brookings.edu/blog/techtank/2020/04/21/managing-health-privacy-and-bias-in-covid-19-public-surveillance/
 
-Parts of this piece disturb me but I also appreciate the out-of-the box thinking here, including if liability insurance should play an role in #ImmunityCredentials. But we need to be careful as liability law & courts are slow & expensive, and lives as wergild are often unjust.
+The economist clearly has not heard my #Foremenbrance WWII story to know why Northern Europe has a privacy “religion”. After 75 years the editorial memory has forgotten.
 https://www.economist.com/europe/2020/04/23/privacy-in-a-pandemic
-** The economist clearly has not heard my #Foremenbrance WWII story to know why Northern Europe has a privacy “religion”. After 75 years the editorial memory has forgotten.
 
 https://www.bloomberg.com/news/articles/2020-04-19/nigerian-union-ends-threat-to-halt-oil-exports-as-staff-released (not IC specific, but example of misuse of emergency powers)
 Pre-COVID19 requirements for "medical authorization to travel" 
