@@ -328,7 +328,11 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
   * Retrieved from https://www.newsroom.co.nz/2020/04/17/1132682/nz-considering-100m-contact-tracing-covidcard
   > KEY QUOTE: For those who do own a smartphone and do download apps, there will be "too much friction" preventing people from doing so. Users may be afraid of Google having their data, of the Government knowing what they are up to. They may forget their password or turn off the app because it interferes with their Bluetooth headphones. With some back-of-the-napkin math, the presentation estimates just 20 percent uptake in New Zealand - meaning just 4 percent of contacts would be traced. That's where CovidCard comes in. Built using the same underlying technology as Tile Bluetooth trackers, the tool would be the size of a credit card and distributed to every New Zealander.
 
-**Some commentary on Australia, again with centralization but with very specific protections:**
+**Some commentary on Australia, where high expectations early on have become more muted:**
+
+* Taylor, Josh (2020, May 23). How did the Covidsafe app go from being vital to almost irrelevant? [#News]
+  * Retrieved from 
+  > KEY QUOTE: Yet nearly a month since launch, the contact tracing app has barely been used – just one person has been reported to have been identified using data from it. And the language from public officials has been toned down. No longer is it the key to freedoms, but an add-on to existing contact tracing methods, to work in concert with social distancing rules and continued testing to keep a lid on outbreaks.
 
 * Whitley, Angus; Withers, Tracy (2020, April 26). Two Million Australians Download Coronavirus Contact-Tracing App [#News, Bloomberg].
   * Retrieved from https://www.bloomberg.com/news/articles/2020-04-27/australia-launches-contact-tracing-app-as-states-ease-lockdown
