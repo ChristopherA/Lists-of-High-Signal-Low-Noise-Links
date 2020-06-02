@@ -331,7 +331,7 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
 **Some commentary on Australia, where high expectations early on have become more muted:**
 
 * Taylor, Josh (2020, May 23). How did the Covidsafe app go from being vital to almost irrelevant? [#News]
-  * Retrieved from 
+  * Retrieved from https://www.theguardian.com/world/2020/may/24/how-did-the-covidsafe-app-go-from-being-vital-to-almost-irrelevant
   > KEY QUOTE: Yet nearly a month since launch, the contact tracing app has barely been used – just one person has been reported to have been identified using data from it. And the language from public officials has been toned down. No longer is it the key to freedoms, but an add-on to existing contact tracing methods, to work in concert with social distancing rules and continued testing to keep a lid on outbreaks.
 
 * Whitley, Angus; Withers, Tracy (2020, April 26). Two Million Australians Download Coronavirus Contact-Tracing App [#News, Bloomberg].
@@ -528,7 +528,14 @@ Copyright ©2020 by Christopher Allen, and is shared under CC-BY-SA open-source 
   * Retrieved from https://www.schneier.com/blog/archives/2020/05/me_on_covad-19_.html
   > KEY QUOTE: The idea that contact tracing can be done with an app, and not human health professionals, is just plain dumb.
 
+* Unknown (2020, April 14). Is Aarogya Setu privacy-first? Nope, but it could be-- If the government wanted. #SaveOurPrivacy [#Opinion].
+  * Retrieved from https://internetfreedom.in/is-aarogya-setu-privacy-first-nope-but-it-could-be-if-the-government-wanted/
+  > KEY QUOTE: With the creation of such systems, come new risks of institutionalisation of mass surveillance.
+
+https://howtosavetheworld.ca/2020/05/01/how-many-dead-whos-social-distancing/
+
 https://translate.google.com/translate?depth=1&nv=1&pto=aue&rurl=translate.google.com&sl=auto&sp=nmt4&tl=en&u=https://www.cnil.fr/fr/publication-de-lavis-de-la-cnil-sur-le-projet-dapplication-mobile-stopcovid
+
 
 # Related Materials
 
@@ -566,6 +573,12 @@ https://translate.google.com/translate?depth=1&nv=1&pto=aue&rurl=translate.googl
   * Retrieved from https://pinboard.in/search/u:ChristopherA?query=hilbert
 
 ## Events & Meetings
+
+### CONTACT TRACING AND TECHNOLOGY (2020, June 3)
+
+**A Deep Dive Brought to You by the COVID Tech Task Force, Harvard’s Berkman Klein Center, NYU’s Alliance for Public Interest Technology, TechCrunch, Betaworks Studios, and Hangar.**
+
+* Retrieved from https://digitalsolutionstocovid19.splashthat.com/
 
 ### ImPACT 2020 (2020, April 16. Recording available)
 
