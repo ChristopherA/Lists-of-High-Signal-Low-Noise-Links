@@ -5,6 +5,8 @@
 
 **A series of annotated lists of opinionated, high-signal but low-noise links on topics I care about.**
 
+I also have a number of [gists](https://gist.github.com/ChristopherA) where I save raw lists of links, rough drafts and slightly annotated versions. I move them here when they have some level of maturity.
+
 ## Table of Contents
 
   * [Table of Contents](#table-of-contents)
@@ -33,8 +35,6 @@
 ### My Current Lists in Focus
 
 * None
-
-See my [gists](https://gist.github.com/ChristopherA) for raw drafts and slightly annotated versions.
 
 ### All Lists
 
