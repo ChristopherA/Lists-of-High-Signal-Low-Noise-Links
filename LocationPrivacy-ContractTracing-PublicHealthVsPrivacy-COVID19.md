@@ -50,7 +50,9 @@
 
 - Version 0.3.0 (2020, April 30) Updated content, courtesy Vinay Taylor ([Github:@VinayTaylor](https://github.com/vinaytaylor) [Twitter:@VinayTaylor](https://twitter.co/VinayTaylor))
 - Version 0.2.0 (2020, April 18) New structure, courtesy Vinay Taylor ([Github:@VinayTaylor](https://github.com/vinaytaylor) [Twitter:@VinayTaylor](https://twitter.co/VinayTaylor))
-- Version 0.1.0 (2020, April 14) First relatively complete release. Had to move [#VerifiableClaims #ImmunityCredentials #COVID19](./ImmunityCredentials-VerifiableClaims-COVID19.md) to another list.
+- Version 1.0.0 (2020, April 14) First relatively complete release. Had to move [#VerifiableClaims #ImmunityCredentials #COVID19](./ImmunityCredentials-VerifiableClaims-COVID19.md) to another list.
+- Version 1.0.0 (2020, June 2) Major release, and stopped focus on this list, calling it 1.0.0.
+
 
 For information on this versioning scheme, see [Status & Versioning](./README.md#status--versioning).
 
