@@ -55,6 +55,7 @@ title: '#ImmunityCredentials #VerifiableClaims #COVID19'
 
 - Version 0.0.2 (2020, April 19) New structure, courtesy Vinay Taylor ([Gitub:@VinayTaylor](https://github.com/vinaytaylor) [Twitter:@VinayTaylor](https://twitter.co/VinayTaylor))
 - Version 0.0.1 (2020, April 14) This list is still fairly raw. I'm focused on adding to, recorganizing, and filtering this list down this week.
+- Version 1.0.0 (2020, May 27) Major release, and stopped focus on this list, calling it 1.0.0.
 
 For information on this versioning scheme, see [Status & Versioning](./README.md#status--versioning).
 
