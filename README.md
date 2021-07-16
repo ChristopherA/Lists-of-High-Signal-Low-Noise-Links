@@ -42,7 +42,7 @@ See my [gists](https://gist.github.com/ChristopherA) for raw drafts and slightly
 | ------------------------------------------------------------ | ------------------------------ |
 | [#COVID19](./COVID19.md)                                  | Index Stub                           |
 | [#LocationPrivacy #ContractTracing #PublicHealthVsPrivacy #COVID19](./LocationPrivacy-ContractTracing-PublicHealthVsPrivacy-COVID19.md) | Version 1.0.0 (2020, April 14) |
-| [#ImmunityCredentials #Verifiable Claims #COVID19](./ImmunityCredentials-VerifiableClaims-COVID19.md) | Version 1.0.0 (2020, April 14) |
+| [#ImmunityCredentials #Verifiable Claims #COVID19](./ImmunityCredentials-VerifiableClaims-COVID19.md) | Version 1.0.0 (2020, May 27) |
 
 ## Copyright & License
 
