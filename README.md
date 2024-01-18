@@ -34,7 +34,11 @@ I also have a number of [gists](https://gist.github.com/ChristopherA) where I sa
 
 ### My Current Lists in Focus
 
-* None
+| Key Hashtags in List                                         | Version                        |
+| ------------------------------------------------------------ | ------------------------------ |
+| [#SSH #Signing #BestPractices](https://gist.github.com/ChristopherA/a7732cdd01c99b8bd1859708dc5ef9a1) | Gist Minor Release 0.1.0 [2024-01-17] |
+| [#Passkeys #WebAuthN](https://gist.github.com/ChristopherA/c28b4f1c1c5a6f23f4b040e9e13c218d) | Gist Minor Release 0.1.0 [2024-01-16] |
+
 
 ### All Lists
 
@@ -43,6 +47,9 @@ I also have a number of [gists](https://gist.github.com/ChristopherA) where I sa
 | [#COVID19](./COVID19.md)                                  | Index Stub                           |
 | [#LocationPrivacy #ContractTracing #PublicHealthVsPrivacy #COVID19](./LocationPrivacy-ContractTracing-PublicHealthVsPrivacy-COVID19.md) | Version 1.0.0 (2020, April 14) |
 | [#ImmunityCredentials #Verifiable Claims #COVID19](./ImmunityCredentials-VerifiableClaims-COVID19.md) | Version 1.0.0 (2020, May 27) |
+| [#Passkeys #WebAuthN](https://gist.github.com/ChristopherA/c28b4f1c1c5a6f23f4b040e9e13c218d) | Gist Minor Release 0.1.0 [2024-01-16] | 
+| [#SSH #Signing #BestPractices](https://gist.github.com/ChristopherA/a7732cdd01c99b8bd1859708dc5ef9a1) | Gist Minor Release 0.1.0 [2024-01-17] |
+
 
 ## Copyright & License
 
