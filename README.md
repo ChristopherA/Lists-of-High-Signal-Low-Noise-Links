@@ -36,8 +36,10 @@ I also have a number of [gists](https://gist.github.com/ChristopherA) where I sa
 
 | Key Hashtags in List                                         | Version                        |
 | ------------------------------------------------------------ | ------------------------------ |
+| [Gordian Envelope Links](https://gist.github.com/ChristopherA/d8f3e55119d34af7ce25485ba9f23132) | Gist Minor Release 0.0.2 [2024-01-21] |
 | [#SSH #Signing #BestPractices](https://gist.github.com/ChristopherA/a7732cdd01c99b8bd1859708dc5ef9a1) | Gist Minor Release 0.1.0 [2024-01-17] |
 | [#Passkeys #WebAuthN](https://gist.github.com/ChristopherA/c28b4f1c1c5a6f23f4b040e9e13c218d) | Gist Minor Release 0.1.0 [2024-01-16] |
+
 
 
 ### All Lists
@@ -45,6 +47,7 @@ I also have a number of [gists](https://gist.github.com/ChristopherA) where I sa
 | Key Hashtags in List                                         | Version                        |
 | ------------------------------------------------------------ | ------------------------------ |
 | [#COVID19](./COVID19.md)                                  | Index Stub                           |
+| [Gordian Envelope Links](https://gist.github.com/ChristopherA/d8f3e55119d34af7ce25485ba9f23132) | Gist Minor Release 0.0.2 [2024-01-21] |
 | [#LocationPrivacy #ContractTracing #PublicHealthVsPrivacy #COVID19](./LocationPrivacy-ContractTracing-PublicHealthVsPrivacy-COVID19.md) | Version 1.0.0 (2020, April 14) |
 | [#ImmunityCredentials #Verifiable Claims #COVID19](./ImmunityCredentials-VerifiableClaims-COVID19.md) | Version 1.0.0 (2020, May 27) |
 | [#Passkeys #WebAuthN](https://gist.github.com/ChristopherA/c28b4f1c1c5a6f23f4b040e9e13c218d) | Gist Minor Release 0.1.0 [2024-01-16] | 
